@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Женский Networking - 13 июля</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .flyer {
+            width: 1080px;
+            height: 1080px;
+            background: #ffffff;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Верхняя секция - компактная */
+        .top-section {
+            background: linear-gradient(135deg, #0e4f87 0%, #0178d3 100%);
+            padding: 30px 40px 25px;
+            text-align: center;
+            color: white;
+            position: relative;
+            z-index: 10;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0 0 15px 0;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.1;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            margin-bottom: 20px;
+            opacity: 0.95;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .speaker-info {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 20px 35px;
+            margin: 0 auto;
+            max-width: 800px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .speaker-name {
+            font-size: 28px;
+            color: #0e4f87;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .credentials {
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        .credentials li {
+            margin-bottom: 6px;
+            padding-left: 22px;
+            position: relative;
+        }
+
+        .credentials li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #0178d3;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Центральное фото - увеличенное */
+        .photo-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .photo-container {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Нижняя секция - компактная */
+        .bottom-section {
+            background: linear-gradient(135deg, #0178d3 0%, #6ca9ec 100%);
+            padding: 25px 40px 30px;
+            color: white;
+            position: relative;
+            z-index: 10;
+        }
+
+        .event-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .event-info {
+            flex: 1;
+        }
+
+        .event-title {
+            font-size: 26px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .detail-item {
+            font-size: 20px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        .detail-item span {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+
+        .qr-section {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .qr-container {
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        #qrcode {
+            margin-bottom: 8px;
+        }
+
+        .qr-label {
+            font-size: 13px;
+            color: #0e4f87;
+            font-weight: bold;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-container {
+            height: 55px;
+            background: #0e4f87;  /* Темно-синий фон для контраста с белым логотипом */
+            padding: 10px 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-container img {
+            height: 100%;
+            width: auto;
+            max-width: 150px;
+        }
+
+        .website {
+            font-size: 22px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        /* Декоративные элементы */
+        .decoration {
+            position: absolute;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+        }
+
+        .decoration1 {
+            width: 150px;
+            height: 150px;
+            top: -75px;
+            right: -75px;
+        }
+
+        .decoration2 {
+            width: 120px;
+            height: 120px;
+            bottom: -60px;
+            left: -60px;
+        }
+
+        @media (max-width: 1100px) {
+            .flyer {
+                transform: scale(0.8);
+                transform-origin: top center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .flyer {
+                transform: scale(0.6);
+                transform-origin: top center;
+            }
+            
+            .event-details {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+            
+            .qr-section {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                width: 100%;
+            }
+            
+            .qr-container {
+                order: 1;
+            }
+            
+            .logo-section {
+                order: 2;
+            }
+            
+            .event-info {
+                order: 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .flyer {
+                transform: scale(0.5);
+                transform-origin: top center;
+            }
+            
+            .top-section {
+                padding: 20px 25px 20px;
+            }
+            
+            .header h1 {
+                font-size: 28px;
+                line-height: 1.2;
+            }
+            
+            .subtitle {
+                font-size: 18px;
+            }
+            
+            .speaker-name {
+                font-size: 24px;
+            }
+            
+            .credentials {
+                font-size: 14px;
+            }
+            
+            .bottom-section {
+                padding: 20px 25px 25px;
+            }
+            
+            .event-title {
+                font-size: 22px;
+                margin-bottom: 12px;
+            }
+            
+            .detail-item {
+                font-size: 16px;
+                margin-bottom: 6px;
+            }
+            
+            .qr-container {
+                padding: 12px;
+            }
+            
+            #qrcode {
+                transform: scale(0.8);
+            }
+            
+            .website {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flyer">
+        <!-- Верхняя секция - компактная -->
+        <div class="top-section">
+            <div class="decoration decoration1"></div>
+            <div class="header">
+                <h1>ХОЗЯЙКА СВОЕЙ СУДЬБЫ<br>ИЛИ ЖЕРТВА ОБСТОЯТЕЛЬСТВ?</h1>
+                <div class="subtitle">💼 Что должна знать КАЖДАЯ женщина о финансовой защите в США</div>
+            </div>
+            
+            <div class="speaker-info">
+                <div class="speaker-name">👩‍💼 Юлия Баринова, MBA</div>
+                <ul class="credentials">
+                    <li>Независимый консультант по страхованию с 25-летним опытом</li>
+                    <li>Эксперт по страхованию жизни, критических болезней и инвалидности</li>
+                    <li>Регулярный гость канала "Бюро" на тему страхования</li>
+                    <li>Автор YouTube-канала: Do You Speak Insurance?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Центральная секция с фото - увеличенная -->
+        <div class="photo-section">
+            <div class="photo-container">
+                <img src="main_photo.jpg" alt="Юлия Баринова">
+            </div>
+        </div>
+
+        <!-- Нижняя секция - компактная -->
+        <div class="bottom-section">
+            <div class="decoration decoration2"></div>
+            <div class="event-details">
+                <div class="event-info">
+                    <div class="event-title">✨ Женский networking:<br>"Наполнение и Путь к Успеху"</div>
+                    <div class="detail-item"><span>📅</span> 13 июля | 12:30–16:30 PM</div>
+                    <div class="detail-item"><span>📍</span> Trend Restaurant, 2011 Emmons Ave</div>
+                    <div class="detail-item"><span>👠</span> Host: Elana Events @elana_eventplanning</div>
+                </div>
+                
+                <div class="qr-section">
+                    <div class="qr-container">
+                        <div id="qrcode"></div>
+                        <div class="qr-label">Сканируйте<br>для контакта</div>
+                    </div>
+                    
+                    <div class="logo-section">
+                        <div class="logo-container">
+                            <img src="https://img1.wsimg.com/isteam/ip/d85b0f1c-2b07-48cc-a47a-4fca2fa0144a/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20%D0%94%D0%B6%D1%83%D0%BB%D0%B8%D0%B8%20%D0%91%D0%B0%D1%80%D0%B8%D0%BD%D0%BE%D0%B2%D0%BE%D0%B8%CC%86.webp/:/rs=w:384,h:269,cg:true,m/cr=w:384,h:269/qt=q:100/ll" alt="Логотип">
+                        </div>
+                        <div class="website">Juliabarinova.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Генерация QR-кода
+        new QRCode(document.getElementById("qrcode"), {
+            text: "https://hihello.me/hi/jbarinova",
+            width: 120,
+            height: 120,
+            colorDark : "#0e4f87",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+        });
+    </script>
+</body>
+</html>
