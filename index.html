@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affordable Dental Insurance - Julia Barinova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-rubik: "Rubik", "Rubik Fallback", sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: #f8f9fa;
+        }
+
+        /* Container */
+        .landing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Content sections */
+        .content-section {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+
+        /* Typography */
+        .content-section h1 {
+            font-family: var(--font-rubik);
+            font-size: 32px;
+            color: #0e4f87;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        .content-section h2 {
+            font-family: var(--font-rubik);
+            font-size: 20px;
+            color: #0178d3;
+            margin: 25px 0 15px 0;
+            font-weight: 600;
+        }
+
+        .content-section h3 {
+            font-family: var(--font-rubik);
+            font-size: 18px;
+            color: #0e4f87;
+            margin: 20px 0 10px 0;
+            font-weight: 600;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .content-section ul,
+        .content-section ol {
+            margin: 10px 0 15px 20px;
+            color: #333;
+        }
+
+        .content-section li {
+            margin-bottom: 8px;
+        }
+
+        /* Remove bullet points only for the shared advantages list */
+        ul[data-translate="sharedList"] {
+            list-style: none;
+        }
+
+        /* Layout sections */
+        .hero-section {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            overflow: hidden;
+            padding: 0;
+        }
+
+        .hero-image {
+            flex: 1.3;
+            max-width: 650px;
+        }
+
+        .hero-image img {
+            width: 110%;
+            height: auto;
+            display: block;
+        }
+
+        .hero-content {
+            flex: 1;
+            padding: 40px;
+        }
+
+        .full-width-content {
+            padding: 40px;
+        }
+
+        /* Images */
+        .advisor-photo {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .advisor-photo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #0178d3;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Content boxes */
+        .highlight-box {
+            background: #e3f2fd;
+            border-left: 4px solid #0178d3;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .price-box {
+            background: #e3f2fd;
+            /* border: 2px solid #4caf50; */
+            /* border: 2px solid; */
+            border-left: 4px solid #0178d3;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .contact-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .contact-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .contact-left,
+        .contact-right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-center {
+            flex: 1.5;
+            text-align: center;
+        }
+
+        /* QR and Logo components */
+        .qr-container {
+            background: rgba(255,255,255,0.98);
+            border-radius: 20px;
+            padding: 5px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+            border: 6px solid #8e0303;
+            text-align: center;
+        }
+
+        .qr-container img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 8px;
+        }
+
+        .qr-label {
+            font-size: 14px;
+            color: #0e4f87;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-container {
+            height: 180px;
+            background: #0e4f87;
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-container img {
+            height: 100%;
+            width: auto;
+            max-width: 380px;
+        }
+
+        .website {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0e4f87;
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            max-width: 1200px;
+            margin: 0 auto 40px auto;
+            padding: 40px;
+        }
+
+        .testimonials-title {
+            font-family: var(--font-rubik);
+            text-align: left;
+            font-size: 28px;
+            font-weight: 600;
+            color: #0e4f87;
+            margin-bottom: 30px;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 3px solid #3b5998;
+        }
+
+        .testimonial-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            gap: 10px;
+        }
+
+        .testimonial-name {
+            font-family: var(--font-rubik);
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .stars-container {
+            display: flex;
+            gap: 2px;
+        }
+
+        .star-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        .testimonial-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .review-source {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .google-icon {
+            width: 16px;
+            height: 16px;
+        }
+
+        .testimonial-text {
+            color: #333;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .testimonial-more {
+            text-align: right;
+        }
+
+        .testimonial-more a {
+            color: #0178d3;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .testimonial-more a:hover {
+            text-decoration: underline;
+        }
+
+        .read-more-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #0178d3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin: 30px auto 0;
+            transition: background-color 0.3s;
+        }
+
+        .read-more-button:hover {
+            background: #0159a8;
+        }
+
+        .center-button {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Disclaimer */
+        .disclaimer-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .disclaimer-text {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        /* Links */
+        .contact-box a {
+            color: #0e4f87;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* Website link styling */
+        .website a {
+            color: #0e4f87;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .website a:hover {
+            text-decoration: underline;
+        }
+
+        /* Enrollment link styling */
+        strong a {
+            color: #0e4f87;
+            text-decoration: none;
+        }
+
+        strong a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .landing-container {
+                padding: 20px 15px;
+            }
+
+            .hero-section {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .hero-image {
+                order: 1;
+                max-width: 100%;
+            }
+
+            .hero-image img {
+                width: 100%;
+                border-radius: 15px 15px 0 0;
+            }
+
+            .hero-content {
+                order: 2;
+                padding: 25px 20px;
+            }
+
+            .full-width-content {
+                padding: 25px 20px;
+            }
+
+            .content-section h1 {
+                font-size: 24px;
+                line-height: 1.3;
+                margin-bottom: 15px;
+            }
+
+            .content-section h2 {
+                font-size: 20px;
+                margin: 20px 0 12px 0;
+            }
+
+            .content-section h3 {
+                font-size: 18px;
+                margin: 15px 0 8px 0;
+            }
+
+            .content-section p {
+                font-size: 16px;
+                line-height: 1.5;
+                margin-bottom: 12px;
+            }
+
+            .content-section li {
+                font-size: 15px;
+                line-height: 1.4;
+                margin-bottom: 6px;
+            }
+
+            .advisor-photo img {
+                width: 140px;
+                height: 140px;
+            }
+
+            .highlight-box,
+            .price-box {
+                padding: 15px;
+                margin: 15px 0;
+            }
+
+            .contact-content {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .contact-left,
+            .contact-center,
+            .contact-right {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .qr-container {
+                padding: 8px;
+                border-width: 4px;
+            }
+
+            .qr-container img {
+                width: 160px;
+                height: 160px;
+            }
+
+            .qr-label {
+                font-size: 12px;
+            }
+
+            .logo-container {
+                height: 80px;
+                padding: 15px 20px;
+            }
+
+            .website {
+                font-size: 16px;
+            }
+
+            /* Testimonials responsive */
+            .testimonials-section {
+                padding: 25px 20px;
+            }
+
+            .testimonials-title {
+                font-size: 22px;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .testimonial-card {
+                padding: 15px;
+            }
+
+            .testimonial-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            .testimonial-name {
+                font-size: 16px;
+            }
+
+            .stars-container {
+                align-self: flex-end;
+            }
+
+            .star-icon {
+                width: 18px;
+                height: 18px;
+            }
+
+            .testimonial-text {
+                font-size: 14px;
+                -webkit-line-clamp: 4;
+            }
+
+            .read-more-button {
+                padding: 12px 24px;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+
+            /* Contact section mobile optimization */
+            .contact-box {
+                padding: 20px 15px;
+                margin: 15px 0;
+            }
+
+            .contact-center p {
+                font-size: 14px;
+                line-height: 1.4;
+                margin-bottom: 8px;
+            }
+
+            .contact-center a {
+                font-size: 16px;
+                word-break: break-all;
+            }
+
+            /* Disclaimer responsive */
+            .disclaimer-section {
+                padding: 15px 20px;
+            }
+
+            .disclaimer-text {
+                font-size: 11px;
+                line-height: 1.3;
+            }
+
+            /* Language switcher mobile */
+            .language-switcher {
+                /* top: 15px; */
+                /* right: 15px; */
+                padding: 4px;
+            }
+
+            .lang-btn {
+                padding: 8px 14px;
+                font-size: 13px;
+            }
+
+            /* List improvements for mobile */
+            .content-section ul,
+            .content-section ol {
+                margin: 8px 0 12px 16px;
+                padding-right: 5px;
+            }
+
+            /* Touch targets */
+            a {
+                min-height: 44px;
+                display: inline-flex;
+                align-items: center;
+                padding: 2px 0;
+            }
+
+            /* Better spacing for mobile */
+            .content-section {
+                margin-bottom: 30px;
+            }
+        }
+
+        /* Tablet landscape and small desktop optimization */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .landing-container {
+                padding: 30px 25px;
+            }
+
+            .hero-content,
+            .full-width-content {
+                padding: 35px 30px;
+            }
+
+            .content-section h1 {
+                font-size: 28px;
+            }
+
+            .content-section h2 {
+                font-size: 22px;
+            }
+
+            .advisor-photo img {
+                width: 160px;
+                height: 160px;
+            }
+
+            .testimonials-grid {
+                gap: 18px;
+            }
+
+            .qr-container img {
+                width: 180px;
+                height: 180px;
+            }
+        }
+
+        /* Small phones optimization */
+        @media (max-width: 480px) {
+            .landing-container {
+                padding: 15px 10px;
+            }
+
+            .hero-content,
+            .full-width-content {
+                padding: 20px 15px;
+            }
+
+            .content-section h1 {
+                font-size: 22px;
+            }
+
+            .content-section h2 {
+                font-size: 18px;
+            }
+
+            .content-section h3 {
+                font-size: 16px;
+            }
+
+            .content-section p,
+            .content-section li {
+                font-size: 14px;
+            }
+
+            .advisor-photo img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .qr-container img {
+                width: 140px;
+                height: 140px;
+            }
+
+            .logo-container {
+                height: 70px;
+                padding: 10px 15px;
+            }
+
+            .contact-box {
+                padding: 15px 10px;
+            }
+
+            .testimonial-card {
+                padding: 12px;
+            }
+
+            .testimonial-name {
+                font-size: 15px;
+            }
+
+            .testimonial-text {
+                font-size: 13px;
+            }
+
+            .read-more-button {
+                padding: 10px 20px;
+                font-size: 13px;
+            }
+
+            .language-switcher {
+                padding: 3px;
+            }
+
+            .lang-btn {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+        }
+
+        /* Very small screens (narrow phones) */
+        @media (max-width: 360px) {
+            .landing-container {
+                padding: 10px 8px;
+            }
+
+            .hero-content,
+            .full-width-content {
+                padding: 15px 12px;
+            }
+
+            .content-section h1 {
+                font-size: 20px;
+            }
+
+            .content-section p,
+            .content-section li {
+                font-size: 13px;
+            }
+
+            .qr-container img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .contact-center a {
+                font-size: 14px;
+            }
+        }
+
+        /* Language Switcher */
+        .language-switcher {
+            /* position: fixed; */
+            /* top: 20px; */
+            /* right: 20px; */
+            /* z-index: 1000; */
+            position: relative;
+            margin: 0 auto 30px;
+            width: fit-content;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 5px;
+            display: flex;
+            border: 2px solid #0178d3;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .language-switcher:hover {
+            box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+            transform: translateY(-1px);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #0178d3;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lang-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .lang-btn:hover::before {
+            left: 100%;
+        }
+
+        .lang-btn.active {
+            background: #0178d3;
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 2px 8px rgba(1, 120, 211, 0.3);
+        }
+
+        .lang-btn:hover {
+            background: #e3f2fd;
+            transform: translateY(-1px) scale(1.02);
+        }
+
+        .lang-btn.active:hover {
+            background: #0159a8;
+            transform: translateY(-1px) scale(1.05);
+            box-shadow: 0 4px 12px rgba(1, 89, 168, 0.4);
+        }
+
+        .lang-btn:active {
+            transform: translateY(0) scale(0.98);
+            transition: all 0.15s ease;
+        }
+
+
+
+        @media (max-width: 768px) {
+            .language-switcher {
+                /* top: 10px; */
+                /* right: 10px; */
+                padding: 3px;
+            }
+
+            .lang-btn {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+        }
+
+        /* Additional mobile enhancements */
+        @media (max-width: 768px) {
+            /* Better touch targets for all interactive elements */
+            .lang-btn,
+            .read-more-button,
+            .testimonial-more a {
+                min-height: 44px;
+                min-width: 44px;
+            }
+
+            /* Improve readability of long URLs */
+            .contact-center a[href*="calendly"],
+            .contact-center a[href*="juliabarinova"] {
+                word-break: break-word;
+                overflow-wrap: break-word;
+            }
+
+            /* Better spacing for content sections */
+            .content-section {
+                box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            }
+
+            /* Improve list readability */
+            .highlight-box ul,
+            .price-box ul {
+                padding-left: 20px;
+            }
+
+            /* Better button positioning */
+            .center-button {
+                margin: 25px 0 15px 0;
+            }
+
+            /* Optimize hero section stacking */
+            .hero-section {
+                overflow: visible;
+            }
+
+            /* Ensure testimonial cards are not too narrow */
+            .testimonial-card {
+                min-height: 200px;
+            }
+
+            /* Better visual hierarchy on mobile */
+            .testimonials-title {
+                border-bottom: 3px solid #0178d3;
+                padding-bottom: 10px;
+                margin-bottom: 25px;
+            }
+        }
+
+        /* Mobile landscape specific adjustments */
+        @media (max-width: 768px) and (orientation: landscape) {
+            .hero-section {
+                flex-direction: row;
+            }
+
+            .hero-image {
+                flex: 0 0 40%;
+                order: 1;
+            }
+
+            .hero-content {
+                flex: 1;
+                order: 2;
+                padding: 20px;
+            }
+
+            .hero-content h1 {
+                font-size: 20px;
+            }
+
+            .advisor-photo img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        /* High DPI displays optimization */
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .qr-container,
+            .logo-container {
+                border-radius: 12px;
+            }
+            
+            .advisor-photo img {
+                border-width: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-container">
+        <!-- Language Switcher -->
+        <div class="language-switcher">
+            <button class="lang-btn active" onclick="switchLanguage('en')">EN</button>
+            <button class="lang-btn" onclick="switchLanguage('ru')">RU</button>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-section content-section">
+            <div class="hero-image">
+                <img src="promo.png" alt="Dental Insurance Promotion">
+            </div>
+            
+            <div class="hero-content">
+                <h1 data-translate="heroTitle"></h1>
+                
+                <div class="advisor-photo">
+                    <img src="main_photo.jpg" alt="Julia Barinova">
+                </div>
+                <p><strong data-translate="advisorName"></strong></p>
+                
+                <h3 data-translate="meetJulia"></h3>
+                <p data-translate="juliaIntro"></p>
+                
+                <p data-translate="juliaPassion"></p>
+                
+                <p><strong data-translate="clientStats"></strong></p>
+            </div>
+        </div>
+
+        <!-- Full Width Content Section -->
+        <div class="full-width-content content-section">
+            <h2 data-translate="plansTitle"></h2>
+            <p><strong data-translate="plansIntro"></strong></p>
+            
+            <div class="highlight-box">
+                <h3 data-translate="sharedAdvantages"></h3>
+                <ul data-translate="sharedList"></ul>
+            </div>
+
+            <h2 data-translate="metlifeTitle"></h2>
+            <p><em data-translate="metlifeNotAvailable"></em></p>
+            
+            <p><strong data-translate="whyClientsLove"></strong></p>
+            <ul data-translate="metlifeFeatures"></ul>
+            
+            <h3 data-translate="coverage"></h3>
+            <ul data-translate="metlifeCoverage"></ul>
+            
+            <div class="price-box">
+                <h3 data-translate="monthlyPremiums"></h3>
+                <ul data-translate="metlifePricing"></ul>
+            </div>
+            
+            <p><strong data-translate="juliaRecommendationMetlife"></strong></p>
+
+            <h2 data-translate="deltaTitle"></h2>
+            
+            <p><strong data-translate="whyClientsLove"></strong></p>
+            <ul data-translate="deltaFeatures"></ul>
+            
+            <h3 data-translate="coverage"></h3>
+            <ul data-translate="deltaCoverage"></ul>
+            
+            <div class="price-box">
+                <h3 data-translate="monthlyPremiums"></h3>
+                <ul data-translate="deltaPricing"></ul>
+            </div>
+            
+            <p><strong data-translate="juliaRecommendationDelta"></strong></p>
+
+            <h2 data-translate="coverageWorksTitle"></h2>
+            <div id="coverageExplanation"></div>
+
+            <h2 data-translate="enrollmentTitle"></h2>
+            <ol>
+                <li>Visit <strong><a href="https://go.juliabarinova.com/smile" target="_blank">go.juliabarinova.com/smile</a></strong> <span data-translate-partial="enrollmentSteps.0"></span></li>
+                <li data-translate-partial="enrollmentSteps.1"></li>
+                <li data-translate-partial="enrollmentSteps.2"></li>
+                <li data-translate-partial="enrollmentSteps.3"></li>
+                <li data-translate-partial="enrollmentSteps.4"></li>
+                <li data-translate-partial="enrollmentSteps.5"></li>
+            </ol>
+            
+            <h3 data-translate="youllNeedTitle"></h3>
+            <ul data-translate="youllNeedList"></ul>
+
+            <h2 data-translate="paymentTitle"></h2>
+            <ul data-translate="paymentDetails"></ul>
+
+            <h2 data-translate="afterEnrollmentTitle"></h2>
+            <ul data-translate="afterEnrollmentDetails"></ul>
+            
+            <h3 data-translate="trackBenefitsTitle"></h3>
+            <ul data-translate="trackBenefitsList"></ul>
+
+            <p><strong data-translate="additionalBenefits"></strong></p>
+            
+            <p data-translate="ewaDescription"></p>
+            
+            <ul data-translate="ewaBenefits"></ul>
+            
+            <p>Browse your options following the same <strong><a href="https://go.juliabarinova.com/smile" target="_blank">go.juliabarinova.com/smile</a></strong> link. <span data-translate="browseOptions"></span></p>
+        </div>
+
+        <!-- Testimonials Section -->
+        <div class="testimonials-section content-section">
+            <h2 class="testimonials-title" data-translate="testimonialsTitle"></h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">David T.</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>3 months ago</div>
+                    </div>
+                    <p class="testimonial-text">I met Julia through my Dentist. She assisted me with getting dental insurance which had no waiting period. It covered everything I needed to get done. She's excellent in what she does. I am extremely happy with her service. She is very knowledgeable, professional and gets the job done. I recommend her very highly.</p>
+                    <div class="testimonial-more">
+                        <a href="https://maps.app.goo.gl/qJqvzqQYgE2ZdpcTA" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Thomas Vizirov</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>4 months ago</div>
+                    </div>
+                    <p class="testimonial-text">I was recommended by my dentist to Julia Barinova to help me with dental insurance for 4 implants. She helped me save so much on them by explaining and providing the correct insurance plan that would help save money. I saved over $3000 with her help. And the best thing of all, there was no waiting period and the insurance always paid out. I 100% recommend her to anyone I know who needs this kind of help. Thank you so much Julia.</p>
+                    <div class="testimonial-more">
+                        <a href="https://g.co/kgs/wBYQbQf" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Andrei Rykhlevskii</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>7 months ago</div>
+                    </div>
+                    <p class="testimonial-text">Julia is an exceptional insurance broker who went above and beyond to help me secure the perfect life insurance policy. She found me a 30-year term policy with excellent living benefits at the most competitive price available. What truly sets her apart is her transparent approach - she took the time to explain everything thoroughly without any pressure or overselling. Her deep knowledge of insurance products and patient guidance made me feel confident in my decision. I especially appreciated her focus on finding the right coverage for my needs rather than pushing unnecessary additions. If you're looking for an honest, knowledgeable, and professional insurance broker, Julia is the person to work with!</p>
+                    <div class="testimonial-more">
+                        <a href="https://g.co/kgs/Dj2eRMj" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Yulia Shteyman</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>about 2 years ago</div>
+                    </div>
+                    <p class="testimonial-text">I Contacted Julia Barinova as I was referred by another member of a Facebook group dedicated to finance. Discussed all issues of concern with Julia and my husband, especially planning for long-term care at retirement age. Was presented with a detailed analysis of available options and we decided which ones we will pursue, all with very strong insurance companies. Julia helped us apply to 3 companies, supervised the underwriting, guided us, and we got approved relatively quickly and got strong and comprehensive life and Long-Term Care policies. Life insurance has great living benefits. We are quite insurance-minded and feel very comfortable with this newly found degree of protection for various life circumstances. Julia is a professional. Knowledgeable, responsive, and courteous, she answers all questions and takes time to speak to the clients and explain. We highly recommend Julia as the insurance broker!</p>
+                    <div class="testimonial-more">
+                        <a href="https://g.co/kgs/xVtmNZv" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Ann Shimiliuk</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>5 months ago</div>
+                    </div>
+                    <p class="testimonial-text">I had a great experience working with Julia Barinova as my insurance broker. She is professional, knowledgeable, and efficient in finding the best insurance options. Julia provided clear explanations and helped me select a suitable plan. She is responsive and handles inquiries promptly. Based on my experience, I can recommend her services.</p>
+                    <div class="testimonial-more">
+                        <a href="https://g.co/kgs/5rYzSQr" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Alesia Meyer</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>about 1 year ago</div>
+                    </div>
+                    <p class="testimonial-text">Julia helped us with obtaining life insurance with Living Benefits. She found a solution that fit our needs and budget, explained very well how the policy works, the process of getting the policy was quick and seamless. Very professional and caring. We felt we were in good hands. I highly recommend Julia as insurance Advisor</p>
+                    <div class="testimonial-more">
+                        <a href="https://g.co/kgs/HUyCWYR" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-button">
+                <a href="https://www.google.com/search?sca_esv=b3743c3edb8cdec9&hl=en-US&sxsrf=AHTn8zpof2GDYgWj4rmo2A9cUjZGQpOA4g:1745534365594&q=Julia+Barinova+-+Insurance+Broker&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzY0Au0PnszKWvAGeodOlpe8dMUaBSkUncfrPdagGe6v5SlmjrBAX4MTlW6Cnz2zAqAQpLfo%3D&uds=ABqPDvypaJwpuwyEbkAFvTKOY5Iw99u1iLnqkguduvEXZ7LuJ0p3Gn8dmgORYoMZHLt59dYeQY3rBAa0LFdN4RStOc0yVNqbbgUiV_duAqy-bSjLqX9b3JEZyy7XEZu37ATKb49CjJBo&sa=X&ved=2ahUKEwj5y7ee3vGMAxX_ORAIHVyFE7gQ3PALegQIGRAE&biw=1440&bih=731&dpr=2" target="_blank" class="read-more-button">Read More</a>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="full-width-content content-section">
+            <h3 data-translate="contactTitle"></h3>
+            
+            <p data-translate="contactIntro"></p>
+            
+            <p><strong data-translate="thankYou"></strong></p>
+
+            <div class="contact-box">
+                <div class="contact-content">
+                    <div class="contact-left">
+                        <div class="qr-container">
+                            <img src="qr_code.png" alt="QR Code">
+                            <!-- <div class="qr-label">Сканируйте<br>для контакта</div> -->
+                        </div>
+                    </div>
+                    
+                    <div class="contact-center" id="contactInfo">
+                        <!-- Contact info will be populated by JavaScript -->
+                    </div>
+                    
+                    <div class="contact-right">
+                        <div class="logo-section">
+                            <div class="logo-container">
+                                <img src="https://img1.wsimg.com/isteam/ip/d85b0f1c-2b07-48cc-a47a-4fca2fa0144a/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20%D0%94%D0%B6%D1%83%D0%BB%D0%B8%D0%B8%20%D0%91%D0%B0%D1%80%D0%B8%D0%BD%D0%BE%D0%B2%D0%BE%D0%B8%CC%86.webp/:/rs=w:384,h:269,cg:true,m/cr=w:384,h:269/qt=q:100/ll" alt="Логотип">
+                            </div>
+                            <div class="website"><a href="https://www.juliabarinova.com" target="_blank">Juliabarinova.com</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Disclaimer Section -->
+        <div class="disclaimer-section">
+            <p class="disclaimer-text" data-translate="disclaimer"></p>
+        </div>
+    </div>
+
+    <script>
+        // Translation data
+        const translations = {
+            en: {
+                // Hero section
+                heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
+                advisorName: "Brought to you by Julia Barinova, MBA – Licensed Insurance Advisor and Broker",
+                meetJulia: "👋 Meet Julia",
+                juliaIntro: "Greetings! I'm Julia Barinova, an independent Insurance Advisor based in New York City, with over 20 years of experience in financial and insurance services. I help individuals and families across the U.S. protect themselves from financial hardships related to major illnesses, disabilities, incapacitation, and death.",
+                juliaPassion: "My passion is educating clients on the matters of financial protection through custom insurance planning and providing smart, need-based insurance solutions that help save money on essential services — like dental care.",
+                clientStats: "💡 In the past 2.5 years, over 1,000 happy clients have enrolled in these plans — many saving thousands of dollars on implants, crowns, root canals, and more — with no waiting periods and access to top-rated local dentists. (No need for unreliable dental tourism!)",
+                
+                // Plans section
+                plansTitle: "🌟 The Two Plans I Recommend",
+                plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 — accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
+                sharedAdvantages: "🔹 Shared Advantages of Both Plans",
+                sharedList: [
+                    "✔️ Accepted by most dentists nationwide",
+                    "✔️ NO WAITING PERIOD — even for implants and crowns",
+                    "✔️ NO MISSING TOOTH clause: covers already absent tooth",
+                    "✔️ Coverage starts on the 1st of next month (if enrolled by the 20th of the current month)",
+                    "✔️ Annual benefits reset on Jan 1 (you may be able to double your savings if planned strategically)",
+                    "✔️ Minimal out-of-pocket surprises (receive an estimate of coverage from the Insurance company prior to beginning of a serious dental project!)"
+                ],
+                
+                // MetLife section
+                metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
+                metlifeNotAvailable: "🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+                whyClientsLove: "Why Clients Love It:",
+                metlifeFeatures: [
+                    "Generous Annual Maximum Benefit: $3,000/year",
+                    "Low Annual deductible: $25/person, $75 family based on ZIP code",
+                    "NO Waiting Period, even on implants or crowns",
+                    "NO Missing Teeth Clause",
+                    "Widely accepted (search MetLife PPO Dental Providers – PDP Network)",
+                    "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
+                ],
+                coverage: "Coverage:",
+                metlifeCoverage: [
+                    "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
+                    "✅ 80% – Fillings, extractions, gum treatment",
+                    "✅ 50% – Implants, crowns, root canals, bridges, dentures, oral surgery"
+                ],
+                monthlyPremiums: "💰 Monthly Premiums for an Individual (sample rates based on ZIP code, includes $5 association membership*):",
+                metlifePricing: [
+                    "$96 – Pennsylvania, Ohio",
+                    "$110 – New Jersey, Staten Island",
+                    "$123 – New York, Chicago, Miami",
+                    "$133 – San Francisco"
+                ],
+                juliaRecommendationMetlife: "JULIA'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money)",
+                
+                // Delta Dental section
+                deltaTitle: "🦷 Delta Dental PPO 1500",
+                deltaFeatures: [
+                    "Annual benefit: $1,500/ calendar year",
+                    "Carryover Benefit – roll over part of the unused benefit onto the next year",
+                    "NO Waiting Period",
+                    "Covers Missing Teeth",
+                    "Large national network (available in all 50 states – search Delta Dental PPO Providers)"
+                ],
+                deltaCoverage: [
+                    "✅ 100% – Preventive",
+                    "✅ 80% – Fillings, extractions, root canals",
+                    "✅ 50% – Implants, crowns, bridges, surgery, dentures"
+                ],
+                deltaPricing: [
+                    "$55 – Individual",
+                    "$100 – Adult + Children",
+                    "$112 – Adult + Spouse",
+                    "$156 – Full Family"
+                ],
+                juliaRecommendationDelta: "JULIA'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost.",
+                
+                // How coverage works
+                coverageWorksTitle: "💡 How Coverage Percentages Work",
+                coverageExplanation: [
+                    "📌 The 100%, 80%, and 50% coverage is calculated based on the in-network negotiated rate for each dental procedure.",
+                    "👩‍⚕️ In-network dentists must follow pre-set rates between them and the insurer— and your share is based on those reduced rates.",
+                    "❗ Going out-of-network? You may expect somewhat higher bills and more out-of-pocket expenses. Out-of-Network option is great to have if your favorite dentist is not in-network. Usually, you will still save quite a bit of money compared to paying cash!",
+                    "👉 When choosing a new dentist, try to confirm with your dentist that they're in-network with your plan to avoid surprise bills."
+                ],
+                
+                // Enrollment
+                enrollmentTitle: "📝 How to Enroll",
+                enrollmentSteps: [
+                    "Visit go.juliabarinova.com/smile by the 20th of the month",
+                    "Enter ZIP code and date of birth",
+                    "Choose participant type: Individual / Adult + Kids / Couple / Family",
+                    "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
+                    "Add EWA Membership ($5/month-see explanation below) to access group pricing",
+                    "Click Enroll — receive instant confirmation"
+                ],
+                youllNeedTitle: "You'll Need:",
+                youllNeedList: [
+                    "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
+                    "Address, email, phone number",
+                    "Bank account information (routing + account number)",
+                    "❌ Credit/debit cards are NOT accepted"
+                ],
+                
+                // Payment & Billing
+                paymentTitle: "💳 Payment & Billing Details",
+                paymentDetails: [
+                    "Your bank account will be charged automatically around the 28th of each month by NuEra",
+                    "Payments continue monthly until you cancel through your broker",
+                    "Please ensure sufficient funds are available to avoid a $30 return/bounce/reinstatement fee"
+                ],
+                
+                // After Enrollment
+                afterEnrollmentTitle: "🗓️ After Enrollment",
+                afterEnrollmentDetails: [
+                    "Usually, you will appear in the insurer's system between the 8th–15th of the first month",
+                    "MetLife Member ID = your SSN",
+                    "Delta Dental will mail your card and provide an online ID"
+                ],
+                trackBenefitsTitle: "Track & Manage Your Benefits:",
+                trackBenefitsList: [
+                    "🔹 metlife.com (you will be able to access it by mid-month after the start of your plan)",
+                    "🔹 deltadentalct.com",
+                    "🔹 corenroll.com or via the Corenroll app"
+                ],
+                
+                additionalBenefits: "Explore additional benefits through *Elevate Wellness Association ($5/month membership fee is included in the above premium estimates):",
+                ewaDescription: "*Elevate Wellness Association (EWA) is a national membership organization founded in 1993 that empowers small and mid-sized companies, self-employed individuals, individuals and families across the U.S. to access group-level health and wellness benefits typically reserved for larger employers. You can chose among the following important benefits:",
+                ewaBenefits: [
+                    "Vision, Medical, Life, Accident",
+                    "Hospital Indemnity & Critical Illness",
+                    "Telemedicine & Wellness programs"
+                ],
+                browseOptions: "Browse your options following the same go.juliabarinova.com/smile link. Pick the ones you need!",
+                
+                // Testimonials
+                testimonialsTitle: "Grateful Messages from Grateful Clients",
+                
+                // Contact
+                contactTitle: "📇 Contact Julia Barinova, MBA",
+                contactIntro: "📢 I invite you to connect with me and schedule a free consultation to discuss your insurance planning — including protecting yourselves and your loved ones with life insurance with living benefits, disability coverage, long-term care, and any other questions you may have. Having lived and worked in the U.S. for nearly 30 years, I'm happy to support new immigrants with valuable information and resources to help them build a better life.",
+                thankYou: "Thank you for your interest and your business.",
+                contactInfo: {
+                    name: "Julia Barinova, MBA",
+                    title: "Licensed Insurance Broker",
+                    license: "NYS Insurance License LA-937924",
+                    phone: "347-922-8037",
+                    website: "www.juliabarinova.com",
+                    email: "julia@juliabarinova.com",
+                    calendar: "calendly.com/jbarinova",
+                    reviewsText: "Check our Google reviews, including dental:",
+                    reviewsLink: "All reviews"
+                },
+                
+                // Disclaimer
+                disclaimer: "⚠️ Disclaimer: This overview is created for informational purposes only to assist you with understanding available options and does not guarantee coverage for any specific treatment. For full plan documents and benefit details, please contact us. All reimbursements are made directly between patient, provider, and insurance companies."
+            },
+            ru: {
+                // Hero section
+                heroTitle: "🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Все-включено стоматологическое страхование!",
+                advisorName: "Предлагает Юлия Баринова, MBA – Лицензированный страховой консультант и брокер",
+                meetJulia: "👋 Знакомьтесь с Юлией",
+                juliaIntro: "Здравствуйте! Я Юлия Баринова, независимый страховой консультант, базирующийся в Нью-Йорке, с более чем 20-летним опытом работы в сфере финансов и страхования. Я помогаю людям и семьям по всей территории США защищаться от финансовых трудностей, связанных с серьёзными заболеваниями, инвалидностью, потерей трудоспособности и смертью.",
+                juliaPassion: "Моя страсть — обучать клиентов вопросам финансовой защиты через индивидуальное страховое планирование и предлагать умные решения на основе потребностей, которые помогают экономить на важных услугах, таких как стоматология.",
+                clientStats: "💡 За последние 2,5 года более 1,000 довольных клиентов подключились к этим планам — многие сэкономили тысячи долларов на имплантах, коронках, лечении каналов и многом другом — без периодов ожидания и с доступом к высокорейтинговым местным стоматологам. (Больше не нужно летать за рубеж!)",
+                
+                // Plans section
+                plansTitle: "🌟 Два плана, которые я рекомендую",
+                plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 — принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
+                sharedAdvantages: "🔹 Общие преимущества обоих планов",
+                sharedList: [
+                    "✔️ Принимаются большинством стоматологов по всей стране",
+                    "✔️ НЕТ ПЕРИОДА ОЖИДАНИЯ — даже на импланты и коронки",
+                    "✔️ Покрытие уже отсутствующих зубов (без исключения)",
+                    "✔️ Начало действия — с 1 числа следующего месяца (если зарегистрироваться до 20 числа текущего)",
+                    "✔️ Лимит обновляется 1 января (можно удвоить выгоду, если правильно спланировать)",
+                    "✔️ Минимум сюрпризов — можно заранее запросить оценку покрытия"
+                ],
+                
+                // MetLife section
+                metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
+                metlifeNotAvailable: "🚫 Недоступен в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+                whyClientsLove: "Почему клиенты выбирают этот план:",
+                metlifeFeatures: [
+                    "Максимальное покрытие: $3,000 в год",
+                    "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
+                    "Без периода ожидания, даже для имплантов и коронок",
+                    "Покрытие отсутствующих зубов",
+                    "Принимается широкой сетью (MetLife PPO Dental – PDP Network)",
+                    "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
+                ],
+                coverage: "Покрытие:",
+                metlifeCoverage: [
+                    "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
+                    "✅ 80% – Пломбы, удаление, лечение дёсен",
+                    "✅ 50% – Импланты, коронки, каналы, мосты, протезы, хирургия"
+                ],
+                monthlyPremiums: "💰 Примерные ежемесячные стоимости, в зависимости от ZIP-кода (включая $5 членский взнос):",
+                metlifePricing: [
+                    "$96 – Пенсильвания, Огайо",
+                    "$110 – Нью-Джерси, Стейтен-Айленд",
+                    "$123 – Нью-Йорк, Чикаго, Майами",
+                    "$133 – Сан-Франциско"
+                ],
+                juliaRecommendationMetlife: "РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife.",
+                
+                // Delta Dental section
+                deltaTitle: "🦷 Delta Dental PPO 1500",
+                deltaFeatures: [
+                    "Годовой лимит: $1,500",
+                    "Перенос неиспользованного лимита на следующий год",
+                    "Без периода ожидания",
+                    "Покрытие отсутствующих зубов",
+                    "Крупнейшая сеть по всей стране (во всех 50 штатах)"
+                ],
+                deltaCoverage: [
+                    "✅ 100% – Профилактика",
+                    "✅ 80% – Пломбы, удаление, лечение каналов",
+                    "✅ 50% – Импланты, коронки, мосты, хирургия, протезы"
+                ],
+                deltaPricing: [
+                    "$55 – Индивидуально",
+                    "$100 – Взрослый + дети",
+                    "$112 – Взрослый + супруг(а)",
+                    "$156 – Полная семья"
+                ],
+                juliaRecommendationDelta: "РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене.",
+                
+                // How coverage works
+                coverageWorksTitle: "💡 Как работают проценты покрытия",
+                coverageExplanation: [
+                    "📌 100%, 80%, 50% рассчитываются от фиксированных тарифов in-network",
+                    "👩‍⚕️ Стоматологи обязаны следовать предварительно согласованным расценкам",
+                    "❗ Вне сети — возможно, придётся доплатить больше, но это всё равно дешевле, чем платить наличными",
+                    "👉 Всегда проверяйте, входит ли ваш врач в сеть"
+                ],
+                
+                // Enrollment
+                enrollmentTitle: "📝 Как зарегистрироваться",
+                enrollmentSteps: [
+                    "Перейдите на go.juliabarinova.com/smile до 20 числа месяца",
+                    "Введите ZIP-код и дату рождения",
+                    "Выберите тип участия: индивидуально / взрослый + дети / пара / семья",
+                    "Выберите план: MetLife PPO Platinum или Delta Dental PPO 1500",
+                    "Добавьте членство EWA ($5/мес)",
+                    "Нажмите Enroll — получите мгновенное подтверждение"
+                ],
+                youllNeedTitle: "Понадобится:",
+                youllNeedList: [
+                    "ФИО, дата рождения, номер SSN (обязательно)",
+                    "Адрес, email, телефон",
+                    "Данные банковского счёта (routing + account number)",
+                    "❌ Кредитные/дебетовые карты не принимаются"
+                ],
+                
+                // Payment & Billing
+                paymentTitle: "💳 Оплата",
+                paymentDetails: [
+                    "Списание около 28 числа каждого месяца от NuEra",
+                    "Автоматически, пока не отмените через брокера",
+                    "При недостатке средств — штраф $30"
+                ],
+                
+                // After Enrollment
+                afterEnrollmentTitle: "🗓️ После регистрации",
+                afterEnrollmentDetails: [
+                    "В базу страховщика вы попадёте между 8 и 15 числом",
+                    "MetLife ID = ваш SSN",
+                    "Delta Dental пришлёт карту и выдаст онлайн ID"
+                ],
+                trackBenefitsTitle: "📲 Управление планом:",
+                trackBenefitsList: [
+                    "🔹 metlife.com",
+                    "🔹 deltadentalct.com",
+                    "🔹 corenroll.com или приложение"
+                ],
+                
+                additionalBenefits: "🎁 Дополнительные выгоды через Elevate Wellness Association ($5/мес):",
+                ewaDescription: "*Elevate Wellness Association (EWA) — национальная организация, основанная в 1993 году, которая помогает малым и средним компаниям, самозанятым, семьям получить доступ к групповым медицинским и wellness-преимуществам. Доступны важные льготы:",
+                ewaBenefits: [
+                    "Зрение, медицина, страхование жизни, несчастные случаи",
+                    "Критические болезни, телемедицина, wellness-программы"
+                ],
+                browseOptions: "Просмотрите опции по той же ссылке go.juliabarinova.com/smile. Выберите что нужно!",
+                
+                // Testimonials
+                testimonialsTitle: "Благодарные отзывы клиентов",
+                
+                // Contact
+                contactTitle: "📇 Контакты: Юлия Баринова, MBA",
+                contactIntro: "📢 Приглашаю вас на бесплатную консультацию для обсуждения страхового планирования: страхование жизни с живыми бенефитами, инвалидность, уход, и любые другие вопросы. Живя в США почти 30 лет, я с радостью поддержу новых иммигрантов полезной информацией и ресурсами для успешной адаптации.",
+                thankYou: "Спасибо за интерес и доверие!",
+                contactInfo: {
+                    name: "Юлия Баринова, MBA",
+                    title: "Лицензированный страховой брокер",
+                    license: "Лицензия штата NY: LA-937924",
+                    phone: "347-922-8037",
+                    website: "www.juliabarinova.com",
+                    email: "julia@juliabarinova.com",
+                    calendar: "calendly.com/jbarinova",
+                    reviewsText: "Отзывы Google:",
+                    reviewsLink: "Julia Barinova – Insurance Broker"
+                },
+                
+                // Disclaimer
+                disclaimer: "⚠️ Отказ от ответственности: Этот обзор создан в информационных целях и не гарантирует покрытие конкретного лечения. Полные документы доступны по запросу. Все расчёты и выплаты происходят между пациентом, врачом и страховой."
+            }
+        };
+
+        // Current language
+        let currentLanguage = 'en';
+
+        // Translation function
+        function translate(key) {
+            const keys = key.split('.');
+            let value = translations[currentLanguage];
+            
+            for (const k of keys) {
+                if (value && typeof value === 'object' && k in value) {
+                    value = value[k];
+                } else {
+                    console.warn(`Translation key not found: ${key}`);
+                    return key;
+                }
+            }
+            
+            return value;
+        }
+
+        // Apply translations to the page
+        function applyTranslations() {
+            // Update all elements with data-translate attribute
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                const translation = translate(key);
+                
+                if (Array.isArray(translation)) {
+                    // Handle lists
+                    if (element.tagName === 'UL' || element.tagName === 'OL') {
+                        element.innerHTML = translation.map(item => `<li>${item}</li>`).join('');
+                    }
+                } else {
+                    element.textContent = translation;
+                }
+            });
+
+            // Handle special coverage explanation
+            const coverageDiv = document.getElementById('coverageExplanation');
+            if (coverageDiv) {
+                const explanations = translate('coverageExplanation');
+                if (Array.isArray(explanations)) {
+                    coverageDiv.innerHTML = explanations.map(text => `<p>${text}</p>`).join('');
+                }
+            }
+
+            // Handle contact information
+            const contactDiv = document.getElementById('contactInfo');
+            if (contactDiv) {
+                const info = translate('contactInfo');
+                const phoneLabel = currentLanguage === 'en' ? 'Phone:' : 'Тел:';
+                const websiteLabel = currentLanguage === 'en' ? 'Website:' : 'Сайт:';
+                const emailLabel = 'Email:';
+                const calendarLabel = currentLanguage === 'en' ? 'Book a Call:' : 'Запись:';
+                
+                contactDiv.innerHTML = `
+                    <p><strong>${info.name}<br>
+                    ${info.title}<br>
+                    ${info.license}</strong></p>
+                    
+                    <p><strong>📞 ${phoneLabel}</strong> <a href="tel:+13479228037">${info.phone}</a><br>
+                    <strong>🌐 ${websiteLabel}</strong> <a href="https://www.juliabarinova.com" target="_blank">${info.website}</a><br>
+                    <strong>📧 ${emailLabel}</strong> <a href="mailto:julia@juliabarinova.com">${info.email}</a><br>
+                    <strong>📅 ${calendarLabel}</strong> <a href="https://calendly.com/jbarinova" target="_blank">${info.calendar}</a></p>
+                    
+                    <p><strong>${info.reviewsText}</strong><br>
+                    <a href="https://share.google/gyCCk8gsCUzwaWodn" target="_blank">${info.reviewsLink}</a></p>
+                `;
+            }
+
+            // Handle partial translations for enrollment steps
+            document.querySelectorAll('[data-translate-partial]').forEach(element => {
+                const key = element.getAttribute('data-translate-partial');
+                const translation = translate(key);
+                
+                if (element.tagName === 'SPAN') {
+                    element.textContent = translation;
+                } else {
+                    element.textContent = translation;
+                }
+            });
+
+            // Update elements with data-translate-html for HTML content
+            document.querySelectorAll('[data-translate-html]').forEach(element => {
+                const key = element.getAttribute('data-translate-html');
+                const translation = translate(key);
+                element.innerHTML = translation;
+            });
+        }
+
+        function switchLanguage(lang) {
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Update current language
+            currentLanguage = lang;
+
+            // Apply translations
+            applyTranslations();
+
+            // Store language preference
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        // Load saved language preference
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+            currentLanguage = savedLang;
+            
+            // Update button state
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[onclick="switchLanguage('${savedLang}')"]`).classList.add('active');
+            
+            // Apply initial translations
+            applyTranslations();
+        });
+    </script>
+
+</body>
+</html>
