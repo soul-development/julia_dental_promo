@@ -44,7 +44,7 @@
                     "Low Annual deductible: $25/person, $75 family based on ZIP code",
                     "NO Waiting Period, even on implants or crowns",
                     "NO Missing Teeth Clause",
-                    "Widely accepted (search MetLife PPO Dental Providers – PDP Network)",
+                    "Widely accepted (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>search MetLife PPO Dental Providers – PDP Network</a>)",
                     "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
                 ],
                 coverage: "Coverage:",
@@ -69,7 +69,7 @@
                     "Carryover Benefit – roll over part of the unused benefit onto the next year",
                     "NO Waiting Period",
                     "Covers Missing Teeth",
-                    "Large national network (available in all 50 states – search Delta Dental PPO Providers)"
+                    "Large national network (available in all 50 states – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>search Delta Dental PPO Providers</a>)"
                 ],
                 deltaCoverage: [
                     "✅ 100% – Preventive",
@@ -170,7 +170,7 @@
             },
             ru: {
                 // Hero section
-                heroTitle: "🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Все-включено стоматологическое страхование!",
+                heroTitle: '🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Бюджетное стоматологическое страхование - "Все-включено"!',
                 advisorName: "Предлагает Юлия Баринова, MBA – Лицензированный страховой консультант и брокер",
                 meetJulia: "💬 «Моя страсть — это защита».",
                 juliaIntro: "Я помогаю людям избегать разрушительных финансовых рисков — от серьёзных заболеваний до потери дохода, от необходимости долгосрочного ухода до утраты близкого человека — создавая умные, персонализированные страховые стратегии.",
@@ -211,7 +211,7 @@
                     "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
                     "Без периода ожидания, даже для имплантов и коронок",
                     "Покрытие отсутствующих зубов",
-                    "Принимается широкой сетью (MetLife PPO Dental – PDP Network)",
+                    "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
                     "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
                 ],
                 coverage: "Покрытие:",
@@ -236,7 +236,7 @@
                     "Перенос неиспользованного лимита на следующий год",
                     "Без периода ожидания",
                     "Покрытие отсутствующих зубов",
-                    "Крупнейшая сеть по всей стране (во всех 50 штатах)"
+                    "Крупнейшая сеть по всей стране (во всех 50 штатах - <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>найдите своего специалиста</a>)"
                 ],
                 deltaCoverage: [
                     "✅ 100% – Профилактика",
@@ -378,7 +378,7 @@
                     "Низька річна франшиза: $25/особа, $75 сім'я в залежності від ZIP-коду",
                     "НЕМАЄ періоду очікування, навіть для імплантів чи коронок",
                     "НЕМАЄ застереження про відсутні зуби",
-                    "Широко приймається (пошук MetLife PPO Dental Providers – PDP Network)",
+                    "Широко приймається (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>пошук MetLife PPO Dental Providers – PDP Network</a>)",
                     "Дитяча ортодонтія включена (до $2,000 за життя, до 19 років на батьківському плані)"
                 ],
                 coverage: "Покриття:",
@@ -403,7 +403,7 @@
                     "Перенесення пільги – перенесення частини невикористаної пільги на наступний рік",
                     "НЕМАЄ періоду очікування",
                     "Покриває відсутні зуби",
-                    "Велика національна мережа (доступна у всіх 50 штатах – пошук Delta Dental PPO Providers)"
+                    "Велика національна мережа (доступна у всіх 50 штатах – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>пошук Delta Dental PPO Providers</a>)"
                 ],
                 deltaCoverage: [
                     "✅ 100% – Профілактика",
@@ -633,11 +633,12 @@
         // Partners Section Logic
         const partnersData = {
             "New York": [
+                { name: "Dr. Boris Zats, Dr Dmitry Tokar, Sheepsheadbay Oral Surgery, Forest Hills Oral Surgery",city: "New York City", link: "https://share.google/O7ZBgf7rdE5hY2oX2"},
                 { name: "Sheepshead Bay Oral Surgery PLLC - MY ORAL SURGEON",city: "New York City", link: "https://share.google/AXFZCzTV6frl7MzW8"},
                 { name: "Royzman & Poznyansky, DDS (DENTAL CENTER OF BROOKLYN)",city: "New York City", link: "https://share.google/2260Jitf3tj7fnNFL"},
                 { name: "Family Smile Dental",city: "New York City", link: "https://share.google/MyapQ9y2glGcX7Afs"},
                 { name: "Dr. Mikhail Ruvinsky",city: "New York City", link: "https://share.google/z4oXraxYRLC7EVgNM"},
-                {name: "Dr. David Poiman, Yekaterina (Katya) Ryumina ☺️",city: "New York City", link: "https://share.google/aAwz0Rxr7adJ15nzJ"},
+                {name: "Dr. David Poiman, DDS,  Yekaterina (Katya) Ryumina, Dental Hygienist ☺️",city: "New York City", link: "https://share.google/aAwz0Rxr7adJ15nzJ"},
                 { name: "Alfa Dental", city: "New York City", link: "https://share.google/DgDz1bGgVqfbZbtjV" },
                 { name: "Leona Kotlyar, DDS - Pristine Pediatric Dentistry", city: "New York City", link: "https://share.google/b86pT6BGa773OLruL" },
                 { name: "Vadim Firdman Luxury Dental, PC", city: "New York City", link: "https://share.google/MAOOt0VPal0MGjnOi" }

@@ -695,6 +695,59 @@ strong a:hover {
     .content-section {
         margin-bottom: 30px;
     }
+
+    .center-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Instagram stories mobile optimization */
+    .instagram-stories .contact-section {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .instagram-stories .services-text {
+        font-size: 14px;
+    }
+
+    .instagram-stories .price-text {
+        font-size: 20px;
+    }
+
+    .instagram-stories .contact-info {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .instagram-stories .qr-code {
+        width: 140px;
+        height: 140px;
+    }
+
+    .instagram-stories .contact-details {
+        text-align: center;
+    }
+
+    .instagram-stories .phone {
+        font-size: 16px;
+    }
+
+    .instagram-stories .broker {
+        font-size: 18px;
+    }
+
+    .instagram-stories .website-link {
+        padding: 0;
+    }
+
+    .instagram-stories .website-link a {
+        font-size: 16px;
+    }
 }
 
 /* Tablet landscape and small desktop optimization */
@@ -805,34 +858,38 @@ strong a:hover {
     }
 
     .instagram-stories .contact-section {
-        padding: 10px;
-        gap: 5px;
+        padding: 15px 10px;
+        gap: 10px;
     }
 
     .instagram-stories .services-text {
-        font-size: 11px;
-    }
-
-    .instagram-stories .price-text {
-        font-size: 16px;
-    }
-
-    .instagram-stories .contact-info {
-        gap: 10px;
-        padding: 8px;
-    }
-
-    .instagram-stories .qr-code {
-        width: 50px;
-        height: 50px;
-    }
-
-    .instagram-stories .phone {
         font-size: 12px;
     }
 
+    .instagram-stories .price-text {
+        font-size: 18px;
+    }
+
+    .instagram-stories .contact-info {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .instagram-stories .qr-code {
+        width: 100px;
+        height: 100px;
+    }
+
+    .instagram-stories .phone {
+        font-size: 14px;
+    }
+
+    .instagram-stories .broker {
+        font-size: 16px;
+    }
+
     .instagram-stories .website-link a {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -940,8 +997,6 @@ strong a:hover {
     transform: translateY(0) scale(0.98);
     transition: all 0.15s ease;
 }
-
-
 
 @media (max-width: 768px) {
     .language-switcher {
