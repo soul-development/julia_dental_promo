@@ -947,6 +947,99 @@
                 border-width: 3px;
             }
         }
+
+        /* Partners Section */
+        #partners-section {
+            padding: 40px;
+        }
+
+        .partners-title {
+            font-family: var(--font-rubik);
+            text-align: left;
+            font-size: 28px;
+            font-weight: 600;
+            color: #0e4f87;
+            margin-bottom: 30px;
+        }
+
+        .partners-pagination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+
+        .partner-page-btn {
+            background: transparent;
+            border: 2px solid #0178d3;
+            color: #0178d3;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .partner-page-btn.active,
+        .partner-page-btn:hover {
+            background: #0178d3;
+            color: white;
+        }
+
+        .partners-content .partner-list {
+            display: none;
+        }
+
+        .partners-content .partner-list.active {
+            display: block;
+        }
+
+        .partner-list h3 {
+            font-family: var(--font-rubik);
+            font-size: 22px;
+            color: #0e4f87;
+            margin-bottom: 20px;
+        }
+
+        .partner-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .partner-item::before {
+            content: '🔹';
+            position: absolute;
+            left: 0;
+            color: #0178d3;
+        }
+
+        .partner-item a {
+            color: #0e4f87;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline;
+            min-height: auto;
+            padding: 0;
+        }
+
+        .partner-item a:hover {
+            color: #0178d3;
+        }
+
+        @media (max-width: 768px) {
+            .partners-title {
+                font-size: 22px;
+                text-align: center;
+            }
+            .partner-page-btn {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1087,10 +1180,36 @@
                 </div>
             </div>
         </div>
+
+        
         <!-- Testimonials Section -->
         <div class="testimonials-section content-section">
             <h2 class="testimonials-title" data-translate="testimonialsTitle"></h2>
             <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Alla Shtilvasser</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>2 years ago</div>
+                    </div>
+                    <p class="testimonial-text">I am a manager of a General Dental office in San Francisco, CA. Julia and I discussed her offering of individual dental plans, MetLife Dental PPO and Delta Dental PPO for our patients and we decided to suggest purchasing such insurance to them to reduce their cost of treatments. We have good experience with both companies so far collecting payments, and patients are obviously happy to save money. It is very convenient for us and the client that there is no waiting period for crowns and implants. Julia treats people very well, explains everything in detail regarding coverages, suggest the right one for each patient. She is easy to work with. I highly recommend her as a broker for dental insurance.</p>
+                    <div class="testimonial-more">
+                        <a href="https://maps.app.goo.gl/s1HZ9ikK3U9BE2DD7" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+                
                 <div class="testimonial-card">
                     <div class="testimonial-header">
                         <h3 class="testimonial-name">David T.</h3>
@@ -1111,10 +1230,10 @@
                     </div>
                     <p class="testimonial-text">I met Julia through my Dentist. She assisted me with getting dental insurance which had no waiting period. It covered everything I needed to get done. She's excellent in what she does. I am extremely happy with her service. She is very knowledgeable, professional and gets the job done. I recommend her very highly.</p>
                     <div class="testimonial-more">
-                        <a href="https://maps.app.goo.gl/qJqvzqQYgE2ZdpcTA" target="_blank" rel="noopener noreferrer">More</a>
+                        <a href="https://maps.app.goo.gl/jHBqB9QhLZQnA6gY8" target="_blank" rel="noopener noreferrer">More</a>
                     </div>
                 </div>
-
+                
                 <div class="testimonial-card">
                     <div class="testimonial-header">
                         <h3 class="testimonial-name">Thomas Vizirov</h3>
@@ -1131,17 +1250,65 @@
                             <div>Review from</div>
                             <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
                         </div>
-                        <div>4 months ago</div>
+                        <div>3 months ago</div>
                     </div>
                     <p class="testimonial-text">I was recommended by my dentist to Julia Barinova to help me with dental insurance for 4 implants. She helped me save so much on them by explaining and providing the correct insurance plan that would help save money. I saved over $3000 with her help. And the best thing of all, there was no waiting period and the insurance always paid out. I 100% recommend her to anyone I know who needs this kind of help. Thank you so much Julia.</p>
                     <div class="testimonial-more">
-                        <a href="https://g.co/kgs/wBYQbQf" target="_blank" rel="noopener noreferrer">More</a>
+                        <a href="https://maps.app.goo.gl/S8sCsnmZ9AT9hDih9" target="_blank" rel="noopener noreferrer">More</a>
                     </div>
                 </div>
-
+                
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <h3 class="testimonial-name">Andrei Rykhlevskii</h3>
+                        <h3 class="testimonial-name">chessrookie77</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>3 months ago</div>
+                    </div>
+                    <p class="testimonial-text">Julia took my case personally and very professionally, and helped me with a good insurance plan that covered about 50-60% payments over three years with 2 teeth implantations (extraction and crown included), 2 root channel teeth (including crowns). Highly recommended!</p>
+                    <div class="testimonial-more">
+                        <a href="https://share.google/kqg4JH1BejyeCiYpX" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Kate</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>6 months ago</div>
+                    </div>
+                    <p class="testimonial-text">Yulia helped me choose dental insurance, which turned out to be very beneficial for me. She explained everything in detail and how the insurance would work. And that's exactly how it turned out. I'm satisfied with the insurance.</p>
+                    <div class="testimonial-more">
+                        <a href="https://maps.app.goo.gl/tjdCkhBBR7WaoLoa8" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Viktoria Dubinevych</h3>
                         <div class="stars-container">
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
@@ -1157,15 +1324,15 @@
                         </div>
                         <div>7 months ago</div>
                     </div>
-                    <p class="testimonial-text">Julia is an exceptional insurance broker who went above and beyond to help me secure the perfect life insurance policy. She found me a 30-year term policy with excellent living benefits at the most competitive price available. What truly sets her apart is her transparent approach - she took the time to explain everything thoroughly without any pressure or overselling. Her deep knowledge of insurance products and patient guidance made me feel confident in my decision. I especially appreciated her focus on finding the right coverage for my needs rather than pushing unnecessary additions. If you're looking for an honest, knowledgeable, and professional insurance broker, Julia is the person to work with!</p>
+                    <p class="testimonial-text">Julia provided an exceptional experience from start to finish with Insurance for implants. She was professional, knowledgeable, and truly attentive to my needs. They took the time to explain my options clearly, ensuring I understood the coverage I was getting. Their recommendations were tailored and cost-effective, saving me both time and money. Communication was seamless, and they were always available to answer questions. I highly recommend her</p>
                     <div class="testimonial-more">
-                        <a href="https://g.co/kgs/Dj2eRMj" target="_blank" rel="noopener noreferrer">More</a>
+                        <a href="https://maps.app.goo.gl/tjdCkhBBR7WaoLoa8" target="_blank" rel="noopener noreferrer">More</a>
                     </div>
                 </div>
-
+                
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <h3 class="testimonial-name">Yulia Shteyman</h3>
+                        <h3 class="testimonial-name">Olga Olga</h3>
                         <div class="stars-container">
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
@@ -1179,17 +1346,16 @@
                             <div>Review from</div>
                             <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
                         </div>
-                        <div>about 2 years ago</div>
+                        <div>7 month ago</div>
                     </div>
-                    <p class="testimonial-text">I Contacted Julia Barinova as I was referred by another member of a Facebook group dedicated to finance. Discussed all issues of concern with Julia and my husband, especially planning for long-term care at retirement age. Was presented with a detailed analysis of available options and we decided which ones we will pursue, all with very strong insurance companies. Julia helped us apply to 3 companies, supervised the underwriting, guided us, and we got approved relatively quickly and got strong and comprehensive life and Long-Term Care policies. Life insurance has great living benefits. We are quite insurance-minded and feel very comfortable with this newly found degree of protection for various life circumstances. Julia is a professional. Knowledgeable, responsive, and courteous, she answers all questions and takes time to speak to the clients and explain. We highly recommend Julia as the insurance broker!</p>
+                    <p class="testimonial-text">ЗДРАВСТВУЙТЕ! ХОЧУ ВАМ ПОРЕКОМЕНДОВАТЬ Прекраснейшего брокера по стоматологическому страхованию Мед.Лайф- Джулию Баринову. Она достойна лучших похвал, как профессионал своего дела, высококвалифици рованный специалист в этой области.  ОНА ОФОРМИЛА МНЕ ГОД НАЗАД ЭТУ СТРАХОВКУ И Я ОЧЕНЬ ДОВОЛЬНАЯ ЕЕ РАБОТОЙ. ОНА СПОКОЙНАЯ,  ТЕРПЕЛИ ВАЯ, ОТВЕТИЛА НА ВСЕ МОИ ВОПРОСЫ..И Я ХОЧУ С НЕЙ ПРОДОЛЖИТЬ СОТРУДНИЧЕСТВО В СЛЕДУЮЩЕМ ГОДУ. ТАК КАК ЭТА ФАНТАСТИ ЧЕСКАЯ  ЖЕНЩИНА  ОТКРЫЛА МНЕ ВОЗМОЖНОСТИ ДЛЯ ЛЕЧЕНИЯ МОИХ ЗУБОВ..Я БЕЗУМНО СЧАСТЛИ ВА..ВЕДЬ ЗДОРОВЬЕ ЗУБОВ И ЛУЧЕЗАРНАЯ УЛЫБКА- ЗАЛОГ ЗДОРОВЬЯ ВСЕГО ОРГАНИЗМА. БЛАГОДАРЮ Вас!</p>
                     <div class="testimonial-more">
-                        <a href="https://g.co/kgs/xVtmNZv" target="_blank" rel="noopener noreferrer">More</a>
+                        <a href="https://maps.app.goo.gl/7tHfNYnEFvYSWiB27" target="_blank" rel="noopener noreferrer">More</a>
                     </div>
                 </div>
-
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <h3 class="testimonial-name">Ann Shimiliuk</h3>
+                        <h3 class="testimonial-name">Andrei Herasimovich</h3>
                         <div class="stars-container">
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
@@ -1203,17 +1369,16 @@
                             <div>Review from</div>
                             <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
                         </div>
-                        <div>5 months ago</div>
+                        <div>a year ago</div>
                     </div>
-                    <p class="testimonial-text">I had a great experience working with Julia Barinova as my insurance broker. She is professional, knowledgeable, and efficient in finding the best insurance options. Julia provided clear explanations and helped me select a suitable plan. She is responsive and handles inquiries promptly. Based on my experience, I can recommend her services.</p>
+                    <p class="testimonial-text">I had to do two implants and Julia helped me to buy the right dental insurance which saved me ton of money. Julia is very helpful and knowledgeable. I highly recommend her.</p>
                     <div class="testimonial-more">
-                        <a href="https://g.co/kgs/5rYzSQr" target="_blank" rel="noopener noreferrer">More</a>
+                        <a href="https://maps.app.goo.gl/2SADJCfZZXMmPhn59" target="_blank" rel="noopener noreferrer">More</a>
                     </div>
                 </div>
-
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <h3 class="testimonial-name">Alesia Meyer</h3>
+                        <h3 class="testimonial-name">Marina Peseleva</h3>
                         <div class="stars-container">
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
                             <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
@@ -1227,19 +1392,63 @@
                             <div>Review from</div>
                             <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
                         </div>
-                        <div>about 1 year ago</div>
+                        <div>a year ago</div>
                     </div>
-                    <p class="testimonial-text">Julia helped us with obtaining life insurance with Living Benefits. She found a solution that fit our needs and budget, explained very well how the policy works, the process of getting the policy was quick and seamless. Very professional and caring. We felt we were in good hands. I highly recommend Julia as insurance Advisor</p>
+                    <p class="testimonial-text">Thanks Julia, she helped me to buy this insurance and I was able to treat my gums. It was expensive treat $3000 for 3 teeth and I can't afford to pay from pocket. I save my teeth. Very happy 😊. Recommend Julia to everyone.</p>
                     <div class="testimonial-more">
-                        <a href="https://g.co/kgs/HUyCWYR" target="_blank" rel="noopener noreferrer">More</a>
+                        <a href="https://share.google/pJdEiJZzlljHbgMY4" target="_blank" rel="noopener noreferrer">More</a>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <h3 class="testimonial-name">Анна Фомина</h3>
+                        <div class="stars-container">
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg class="star-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFD700" stroke="#FFD700" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="testimonial-meta">
+                        <div class="review-source">
+                            <div>Review from</div>
+                            <svg class="google-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_35214_83354)"><path d="M5.31891 14.5034L4.4835 17.6221L1.43011 17.6867C0.517594 15.9942 0 14.0577 0 11.9999C0 10.01 0.483938 8.1335 1.34175 6.4812H1.34241L4.06078 6.97958L5.25159 9.68164C5.00236 10.4082 4.86652 11.1882 4.86652 11.9999C4.86661 12.8808 5.02617 13.7247 5.31891 14.5034Z" fill="#FBBB00"></path><path d="M23.7904 9.7583C23.9282 10.4842 24.0001 11.2339 24.0001 12.0001C24.0001 12.8592 23.9098 13.6972 23.7377 14.5056C23.1535 17.2563 21.6272 19.6583 19.5127 21.3581L19.512 21.3574L16.0881 21.1827L15.6035 18.1576C17.0065 17.3348 18.103 16.0471 18.6806 14.5056H12.2639V9.7583H23.7904Z" fill="#518EF8"></path><path d="M19.5119 21.3575L19.5126 21.3581C17.4561 23.0111 14.8438 24.0001 12.0001 24.0001C7.43018 24.0001 3.457 21.4458 1.43018 17.6869L5.31897 14.5037C6.33236 17.2083 8.94138 19.1336 12.0001 19.1336C13.3148 19.1336 14.5465 18.7781 15.6033 18.1577L19.5119 21.3575Z" fill="#28B446"></path><path d="M19.6596 2.76262L15.7721 5.94525C14.6783 5.26153 13.3853 4.86656 12 4.86656C8.87213 4.86656 6.21431 6.88017 5.25169 9.68175L1.34245 6.48131H1.3418C3.33895 2.63077 7.36223 0 12 0C14.9117 0 17.5814 1.03716 19.6596 2.76262Z" fill="#F14336"></path></g><defs><clipPath id="clip0_35214_83354"><rect width="24" height="24" fill="white"></rect></clipPath></defs></svg>
+                        </div>
+                        <div>2 years ago</div>
+                    </div>
+                    <p class="testimonial-text">Best broker! Julia helped us to find life insurance and dental insurance, she has deep knowledge in insurance sphere!!!</p>
+                    <div class="testimonial-more">
+                        <a href="https://maps.app.goo.gl/HhH5DUPBVEvij1Eq8" target="_blank" rel="noopener noreferrer">More</a>
                     </div>
                 </div>
             </div>
             <div class="center-button">
-                <a href="https://www.google.com/search?sca_esv=b3743c3edb8cdec9&hl=en-US&sxsrf=AHTn8zpof2GDYgWj4rmo2A9cUjZGQpOA4g:1745534365594&q=Julia+Barinova+-+Insurance+Broker&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzY0Au0PnszKWvAGeodOlpe8dMUaBSkUncfrPdagGe6v5SlmjrBAX4MTlW6Cnz2zAqAQpLfo%3D&uds=ABqPDvypaJwpuwyEbkAFvTKOY5Iw99u1iLnqkguduvEXZ7LuJ0p3Gn8dmgORYoMZHLt59dYeQY3rBAa0LFdN4RStOc0yVNqbbgUiV_duAqy-bSjLqX9b3JEZyy7XEZu37ATKb49CjJBo&sa=X&ved=2ahUKEwj5y7ee3vGMAxX_ORAIHVyFE7gQ3PALegQIGRAE&biw=1440&bih=731&dpr=2" target="_blank" class="read-more-button">Read More</a>
+                <a href="https://www.google.com/maps/place/Julia+Barinova+Inc-+Insurance+Broker/@40.5859085,-73.9563699,17z/data=!4m8!3m7!1s0x89c245821ebff037:0x722241e3b5a94078!8m2!3d40.5859085!4d-73.9537896!9m1!1b1!16s%2Fg%2F11rj6dkhnp?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="read-more-button">Read More</a>
+            </div>
+        </div>
+        
+        <!-- Partners Section -->
+        <div id="partners-section" class="content-section full-width-content">
+            <h2 class="partners-title" data-translate="partnersTitle"></h2>
+            <div class="partners-pagination">
+                <!-- Pagination buttons will be generated by JS -->
+            </div>
+            <div class="partners-content">
+                <!-- Partner lists will be generated by JS -->
             </div>
         </div>
 
+        <!-- Dental Resources Section -->
+        <div id="dental-resources-section" class="content-section full-width-content">
+            <h2 class="partners-title">Dental Resources</h2>
+            <div class="partners-content">
+                <div class="partner-list active">
+                    <div class="partner-item"><a href="https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife" target="_blank" rel="noopener noreferrer">Metlife (Chose PDP Network)</a></div>
+                    <div class="partner-item"><a href="https://www.deltadental.com/us/en/member/find-a-dentist.html" target="_blank" rel="noopener noreferrer">Delta Dental PPO</a></div>
+                </div>
+            </div>
+        </div>
 
         <!-- Disclaimer Section -->
         <div class="disclaimer-section">
@@ -1399,7 +1608,10 @@
                 },
                 
                 // Disclaimer
-                disclaimer: "⚠️ Disclaimer: This overview is created for informational purposes only to assist you with understanding available options and does not guarantee coverage for any specific treatment. For full plan documents and benefit details, please contact us. All reimbursements are made directly between patient, provider, and insurance companies."
+                disclaimer: "⚠️ Disclaimer: This overview is created for informational purposes only to assist you with understanding available options and does not guarantee coverage for any specific treatment. For full plan documents and benefit details, please contact us. All reimbursements are made directly between patient, provider, and insurance companies.",
+
+                // Partners section
+                partnersTitle: "Our Trusted Strategical Partners",
             },
             ru: {
                 // Hero section
@@ -1522,7 +1734,7 @@
                 ],
                 
                 additionalBenefits: "🎁 Дополнительные выгоды через Elevate Wellness Association ($5/мес):",
-                ewaDescription: "*Elevate Wellness Association (EWA) — национальная организация, основанная в 1993 году, которая помогает малым и средним компаниям, самозанятым, семьям получить доступ к групповым медицинским и wellness-преимуществам. Доступны важные льготы:",
+                ewaDescription: "*Elevate Wellness Association (EWA) — национальная организация, основанная в 1993 году, которая помогает малым и средним компаниям, самозайнятим особам, окремым особам та сім'ям по всій Америці отримати доступ до групових медичних та велнес-пільг, які зазвичай зарезервовані для більших роботодавців. Ви можете обрати серед наступних важливих пільг:",
                 ewaBenefits: [
                     "Зрение, медицина, страхование жизни, несчастные случаи",
                     "Критические болезни, телемедицина, wellness-программы"
@@ -1549,7 +1761,10 @@
                 },
                 
                 // Disclaimer
-                disclaimer: "⚠️ Отказ от ответственности: Этот обзор создан в информационных целях и не гарантирует покрытие конкретного лечения. Полные документы доступны по запросу. Все расчёты и выплаты происходят между пациентом, врачом и страховой."
+                disclaimer: "⚠️ Отказ от ответственности: Этот обзор создан в информационных целях и не гарантирует покрытие конкретного лечения. Полные документы доступны по запросу. Все расчёты и выплаты происходят между пациентом, врачом и страховой.",
+
+                // Partners section
+                partnersTitle: "Наши проверенные стратегические партнеры",
             },
             uk: {
                 // Hero section
@@ -1700,7 +1915,10 @@
                 },
                 
                 // Disclaimer
-                disclaimer: "⚠️ Відмова від відповідальності: Цей огляд створений лише для інформаційних цілей, щоб допомогти вам зрозуміти доступні варіанти, і не гарантує покриття для будь-якого конкретного лікування. Для повних документів плану та деталей пільг, будь ласка, зв'яжіться з нами. Всі відшкодування здійснюються безпосередньо між пацієнтом, постачальником та страховими компаніями."
+                disclaimer: "⚠️ Відмова від відповідальності: Цей огляд створений лише для інформаційних цілей, щоб допомогти вам зрозуміти доступні варіанти, і не гарантує покриття для будь-якого конкретного лікування. Для повних документів плану та деталей пільг, будь ласка, зв'яжіться з нами. Всі відшкодування здійснюються безпосередньо між пацієнтом, постачальником та страховими компаніями.",
+
+                // Partners section
+                partnersTitle: "Наші стратегічні партнери",
             }
         };
 
@@ -1825,7 +2043,112 @@
             // Apply initial translations
             applyTranslations();
         });
-    </script>
 
+        // Partners Section Logic
+        const partnersData = {
+            "New York": [
+                { name: "Alfa Dental", city: "New York City", link: "https://share.google/DgDz1bGgVqfbZbtjV" },
+                { name: "Leona Kotlyar, DDS - Pristine Pediatric Dentistry", city: "New York City", link: "https://share.google/b86pT6BGa773OLruL" },
+                { name: "Vadim Firdman Luxury Dental, PC", city: "New York City", link: "https://share.google/MAOOt0VPal0MGjnOi" }
+            ],
+            "Pennsylvania": [
+                { name: "Dental Beauty", city: "Philadelphia", link: "https://share.google/v3iJsA63ipHEAvqKa" },
+                { name: "BABINER DENTAL", city: "Philadelphia", link: "https://share.google/Qx537wYznsP6Lfgbr" },
+                { name: "Dr. Boris Babiner, DMD", city: "Philadelphia", link: "https://share.google/KLL3G0Ic3PqLHBzT6" },
+                { name: "Pennsylvania Center for Advanced Dentistry - Dr. Olga Shvarts", city: "Philadelphia", link: "https://share.google/btwempK1V4plMXSPM" },
+                { name: "Alexandr Volchonok DDS PC", city: "Philadelphia", link: "https://share.google/tHfHkbpojsODJxLLh" },
+                { name: "Advanced Dental Solutions", city: "Pittsburgh", link: "https://share.google/iAtwPef4Lcrc7BhJ0" },
+                { name: "Dr David Agia Southampton Aesthetic Dentistry", city: "Southampton", link: "https://share.google/KixNABUGX5SqFz0qk" }
+            ],
+            "Illinois": [
+                { name: "Dr Konstantin Gromov ImplantWIDE Schaumburg", city: "Schaumburg", link: "https://share.google/GDNd620yH51Yo5nRq" },
+                { name: "Dr. Gelena Roytman, DDS", city: "Chicago", link: "https://share.google/5xZD3bLT6k7JzC0OP" }
+            ],
+            "California": [
+                { name: "Kevin Kafayi, D.D.S.", city: "San Francisco", link: "https://share.google/LUCVoOBnyykzbKjIm" },
+                { name: "Alex Rabinovich, DDS, MD", city: "San Francisco", link: "https://share.google/DUJV6IjG7gWbE6iQr" },
+                { name: "Nataly Vilderman, D.D.S.", city: "San Francisco", link: "https://share.google/qy2U2UOCFgQ8QnSqo" },
+                { name: "Dr. Valentina Yasinsky", city: "San Francisco", link: "https://share.google/SVEi55QNBqT5JCQFU" },
+                { name: "San Francisco Reconstructive Periodontics - Greg Meyers, DDS, MSD", city: "San Francisco", link: "https://share.google/UgB58zct5TaQ6Nld5" }
+            ],
+            "Florida": [
+                { name: "Dr. Alexander Levin, DDS.", city: "Palm Coast", link: "https://share.google/SOq6Cyz0djjC6Hy1L" }
+            ],
+            "New Jersey": [
+                { name: "Magic Dental Lawrenceville", city: "Lawrenceville", link: "https://share.google/z8spbjg2oenGxaPw1" },
+                { name: "Dr. Yuliya Khodak DMD", city: "New Jersey", link: "https://share.google/9Kqz6eXCGqSMQ3k07" }
+            ]
+        };
+
+        const paginationContainer = document.querySelector('.partners-pagination');
+        const contentContainer = document.querySelector('.partners-content');
+
+        if (paginationContainer && contentContainer) {
+            const states = Object.keys(partnersData);
+
+            states.forEach((state, index) => {
+                const button = document.createElement('button');
+                button.className = 'partner-page-btn';
+                button.textContent = state;
+                button.dataset.state = state;
+                if (index === 0) {
+                    button.classList.add('active');
+                }
+                paginationContainer.appendChild(button);
+
+                const list = document.createElement('div');
+                list.className = 'partner-list';
+                list.dataset.state = state;
+                if (index === 0) {
+                    list.classList.add('active');
+                }
+
+                let partnersHtml = '';
+                partnersData[state].forEach(partner => {
+                    partnersHtml += `<div class="partner-item"><a href="${partner.link}" target="_blank" rel="noopener noreferrer" . >${partner.name} (${partner.city})</a></div>`;
+                });
+
+                list.innerHTML = partnersHtml;
+                contentContainer.appendChild(list);
+            });
+
+            paginationContainer.addEventListener('click', function(e) {
+                if (e.target.classList.contains('partner-page-btn')) {
+                    const targetState = e.target.dataset.state;
+
+                    document.querySelectorAll('.partner-page-btn').forEach(btn => btn.classList.remove('active'));
+                    e.target.classList.add('active');
+
+                    document.querySelectorAll('.partner-list').forEach(list => {
+                        list.classList.remove('active');
+                        if (list.dataset.state === targetState) {
+                            list.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        document.querySelectorAll('.testimonial-more a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const card = this.closest('.testimonial-card');
+                const text = card.querySelector('.testimonial-text');
+                
+                if (this.textContent === 'More' || this.textContent === 'Подробнее' || this.textContent === 'Детальніше') {
+                    e.preventDefault();
+                    text.style.webkitLineClamp = 'unset';
+                    if (document.documentElement.lang === 'ru') this.textContent = 'Свернуть';
+                    else if (document.documentElement.lang === 'uk') this.textContent = 'Згорнути';
+                    else this.textContent = 'Less';
+                } else {
+                    e.preventDefault();
+                    text.style.webkitLineClamp = '3';
+                    if (document.documentElement.lang === 'ru') this.textContent = 'Подробнее';
+                    else if (document.documentElement.lang === 'uk') this.textContent = 'Детальніше';
+                    else this.textContent = 'More';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
