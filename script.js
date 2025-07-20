@@ -96,7 +96,7 @@
                 // Enrollment
                 enrollmentTitle: "📝 How to Enroll",
                 enrollmentSteps: [
-                    "Visit go.juliabarinova.com/smile by the 20th of the month",
+                    "Visit <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> by the 20th of the month to become a Member on the 1st of the following month",
                     "Enter ZIP code and date of birth",
                     "Choose participant type: Individual / Adult + Kids / Couple / Family",
                     "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
@@ -140,7 +140,7 @@
                     "Hospital Indemnity & Critical Illness",
                     "Telemedicine & Wellness programs"
                 ],
-                browseOptions: "Browse your options following the same go.juliabarinova.com/smile link. Pick the ones you need!",
+                browseOptions: "Browse your options following the same <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> link. Pick the ones you need!",
                 
                 // Testimonials
                 testimonialsTitle: "Grateful Messages from Grateful Clients",
@@ -263,7 +263,7 @@
                 // Enrollment
                 enrollmentTitle: "📝 Как зарегистрироваться",
                 enrollmentSteps: [
-                    "Перейдите на go.juliabarinova.com/smile до 20 числа месяца",
+                    "Перейдите на <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> до 20-го числа месяца, чтобы стать участником с 1-го числа следующего месяца",
                     "Введите ZIP-код и дату рождения",
                     "Выберите тип участия: индивидуально / взрослый + дети / пара / семья",
                     "Выберите план: MetLife PPO Platinum или Delta Dental PPO 1500",
@@ -306,7 +306,7 @@
                     "Зрение, медицина, страхование жизни, несчастные случаи",
                     "Критические болезни, телемедицина, wellness-программы"
                 ],
-                browseOptions: "Просмотрите опции по той же ссылке go.juliabarinova.com/smile. Выберите что нужно!",
+                browseOptions: "Просмотрите опции по ссылке <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Выберите подходящую!",
                 
                 // Testimonials
                 testimonialsTitle: "Благодарные отзывы клиентов",
@@ -430,7 +430,7 @@
                 // Enrollment
                 enrollmentTitle: "📝 Як зареєструватися",
                 enrollmentSteps: [
-                    "Відвідайте go.juliabarinova.com/smile до 20 числа місяця",
+                    "Відвідайте <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> до 20-го числа місяця, щоб стати учасником з 1-го числа наступного місяця",
                     "Введіть ZIP-код та дату народження",
                     "Оберіть тип учасника: Індивідуальна особа / Дорослий + діти / Пара / Сім'я",
                     "Оберіть план(и): MetLife PPO Platinum / Delta Dental PPO 1500",
@@ -474,7 +474,7 @@
                     "Госпітальна компенсація та критичні захворювання",
                     "Телемедицина та велнес-програми"
                 ],
-                browseOptions: "Переглядайте свої варіанти за тим же посиланням go.juliabarinova.com/smile. Оберіть те, що вам потрібно!",
+                browseOptions: "Переглядайте свої варіанти за тим же посиланням <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Оберіть те, що вам потрібно!",
                 
                 // Testimonials
                 testimonialsTitle: "Вдячні повідомлення від вдячних клієнтів",
