@@ -768,7 +768,6 @@
             
             // Apply initial translations
             applyTranslations();
-            initializeGallery();
         });
 
         // Partners Section Logic
@@ -897,66 +896,6 @@
                 galleryContainer.appendChild(rightButton);
             }
         }
-
-        function initializeGallery() {
-            createPartnerGallery();
-            
-            const modal = document.getElementById("imageModal");
-            const span = document.getElementsByClassName("close-modal")[0];
-
-            if(span) {
-                span.onclick = function() {
-                    modal.style.display = "none";
-                }
-            }
-
-            // Modal navigation
-            const next = document.querySelector(".next-modal");
-            const prev = document.querySelector(".prev-modal");
-
-            if(next) {
-                next.onclick = function() {
-                    let nextIndex = (currentImageIndex + 1) % partnerImages.length;
-                    updateModalImage(nextIndex);
-                }
-            }
-            if(prev) {
-                prev.onclick = function() {
-                    let prevIndex = (currentImageIndex - 1 + partnerImages.length) % partnerImages.length;
-                    updateModalImage(prevIndex);
-                }
-            }
-
-            // Swipe navigation for modal
-            let touchstartX = 0;
-            let touchendX = 0;
-                
-            const slider = document.getElementById('imageModal');
-
-            slider.addEventListener('touchstart', e => {
-                touchstartX = e.changedTouches[0].screenX;
-            });
-
-            slider.addEventListener('touchend', e => {
-                touchendX = e.changedTouches[0].screenX;
-                handleSwipe();
-            });
-
-            function handleSwipe() {
-                if (touchendX < touchstartX) {
-                    // Swiped left
-                    let nextIndex = (currentImageIndex + 1) % partnerImages.length;
-                    updateModalImage(nextIndex);
-                }
-            
-                if (touchendX > touchstartX) {
-                    // Swiped right
-                    let prevIndex = (currentImageIndex - 1 + partnerImages.length) % partnerImages.length;
-                    updateModalImage(prevIndex);
-                }
-            }
-        }
-
         const paginationContainer = document.querySelector('.partners-pagination');
         const contentContainer = document.querySelector('.partners-content');
 
