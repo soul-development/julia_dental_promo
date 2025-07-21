@@ -3,7 +3,8 @@
         const translations = {
             en: {
                 // Hero section
-                heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
+                // heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
+                heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
                 baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
                 baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
                 baner3: "from $55/mo",
