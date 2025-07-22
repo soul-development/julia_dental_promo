@@ -755,6 +755,8 @@
             localStorage.setItem('preferredLanguage', lang);
         }
 
+        window.switchLanguage = switchLanguage;
+
         // Load saved language preference
         document.addEventListener('DOMContentLoaded', function() {
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
