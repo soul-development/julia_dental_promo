@@ -1101,7 +1101,7 @@ es: {
     go1: "👇 PARA REVISAR Y REGISTRARSE:",
     go2: "👆 IR",
     advisorName: "Presentado por Julia Barinova, MBA – Asesora de Seguros Licenciada y Corredora",
-    meetJulia: "👋 Conoce a Julia",
+    meetJulia: "👋 Vamos a conocernos",
     juliaIntro: "Hola, soy Julia Barinova, una Asesora de Seguros y Corredora independiente con sede en la ciudad de Nueva York, con más de 20 años de experiencia en servicios financieros - desde consultoría de inversiones y marketing de fondos de cobertura hasta planificación personalizada de seguros.",
     juliaPassion: "Soy apasionada por ayudar a las personas a protegerse a sí mismas, a sus familias y negocios de riesgos financieros devastadores - ya sea que surjan de enfermedades graves, pérdida de ingresos, necesidades de cuidado a largo plazo, o la pérdida de un ser querido - educándolos y construyendo estrategias de seguros inteligentes y personalizadas. También me encanta descubrir soluciones innovadoras que llenan vacíos críticos y ahorran dinero real en servicios esenciales como el cuidado dental.",
     clientStats: `👉 El cuidado dental en EE.UU. es notoriamente caro. Tristemente, muchas personas posponen chequeos y tratamientos esenciales simplemente porque no pueden pagarlos - solo para enfrentar problemas dentales más serios después que pueden costar una fortuna arreglar. O simplemente descuidan completamente su boca, lo que puede resultar en problemas de salud general significativos.
