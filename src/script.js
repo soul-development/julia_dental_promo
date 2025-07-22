@@ -1091,6 +1091,222 @@ websiteLabel: "Vebsayt:",
 emailLabel: "Elektron pochta:",
 calendarLabel: "Qo‘ng‘iroqni bron qilish:",
 saveContact: "Kontaktni saqlash"
+},
+es: {
+    // Hero section
+    heroTitle: "🦷 SONRISA FELIZ HOY: Seguro Dental «Todo Incluido» que Funciona: ¡De inmediato! ¡Desde el día 1!",
+    baner1: "IMPLANTES, CORONAS, CANALES CUBIERTOS desde el día 1",
+    baner2: "SIN PERÍODO DE ESPERA. DIENTE FALTANTE - ESTÁ BIEN",
+    baner3: "desde $55/mes",
+    go1: "👇 PARA REVISAR Y REGISTRARSE:",
+    go2: "👆 IR",
+    advisorName: "Presentado por Julia Barinova, MBA – Asesora de Seguros Licenciada y Corredora",
+    meetJulia: "👋 Conoce a Julia",
+    juliaIntro: "Hola, soy Julia Barinova, una Asesora de Seguros y Corredora independiente con sede en la ciudad de Nueva York, con más de 20 años de experiencia en servicios financieros - desde consultoría de inversiones y marketing de fondos de cobertura hasta planificación personalizada de seguros.",
+    juliaPassion: "Soy apasionada por ayudar a las personas a protegerse a sí mismas, a sus familias y negocios de riesgos financieros devastadores - ya sea que surjan de enfermedades graves, pérdida de ingresos, necesidades de cuidado a largo plazo, o la pérdida de un ser querido - educándolos y construyendo estrategias de seguros inteligentes y personalizadas. También me encanta descubrir soluciones innovadoras que llenan vacíos críticos y ahorran dinero real en servicios esenciales como el cuidado dental.",
+    clientStats: `👉 El cuidado dental en EE.UU. es notoriamente caro. Tristemente, muchas personas posponen chequeos y tratamientos esenciales simplemente porque no pueden pagarlos - solo para enfrentar problemas dentales más serios después que pueden costar una fortuna arreglar. O simplemente descuidan completamente su boca, lo que puede resultar en problemas de salud general significativos.
+    <br><br>
+    La mayoría de los planes individuales de seguro dental - a menos que sean ofrecidos a través de un empleador - vienen con largos períodos de espera para procedimientos mayores como coronas y endodoncias, y casi nunca cubren implantes.
+    <br><br>
+    Hace aproximadamente tres años, descubrí una "joya oculta": planes de acceso grupal MetLife PPO y Delta Dental PPO SIN períodos de espera y SIN exclusiones de dientes faltantes - incluso para tratamientos mayores como implantes y coronas. Funcionó tan bien para mí (ahorré casi $2,000 en un implante) que me convertí en representante licenciada de la compañía que los ofrece, emocionada de ayudar a otros a beneficiarse también.
+    <br><br>
+    Desde entonces, más de 1,000 clientes y sus familias a nivel nacional han usado estos planes para ahorrar miles de dólares en limpiezas, empastes, coronas, endodoncias - y sí, implantes. Incluso los dentistas locales en la ciudad de Nueva York, Filadelfia, Chicago y San Francisco, con quienes eventualmente desarrollamos relaciones profesionales cálidas, fueron algo escépticos al principio, pero luego se convirtieron en mis defensores más fuertes - ahora refieren cientos de pacientes cada año para obtener cobertura.
+    <br><br>
+    ¡Ahora es tu turno! Estaría encantada de ayudarte a restaurar tu sonrisa saludable y feliz - con dos planes confiables que uso personalmente y recomiendo, y profesionales dentales locales que ya conoces y en los que confías, o a quienes podemos recomendarte, si es necesario.`,
+    // Plans section
+    plansTitle: "🌟 Los Dos Planes que Recomiendo",
+    plansIntro: "MetLife PPO (PDP Network) y Delta Dental PPO 1500 - aceptados y recomendados por mi red confiable de dentistas en: Nueva York, Filadelfia, Miami, San Francisco, Chicago, y más (¡pídenos una referencia en tu área!)",
+    sharedAdvantages: "🔹 Ventajas Compartidas de Ambos Planes",
+    sharedList: [
+        "✔️ Aceptado por la mayoría de dentistas a nivel nacional",
+        "✔️ SIN PERÍODO DE ESPERA - incluso para implantes y coronas",
+        "✔️ SIN cláusula de DIENTE FALTANTE: cubre diente ya ausente",
+        "✔️ La cobertura comienza el 1ro del próximo mes (si se inscribe antes del 20 del mes actual)",
+        "✔️ Los beneficios anuales se reinician el 1 de enero (puedes duplicar tus ahorros si planificas estratégicamente)",
+        "✔️ Mínimas sorpresas de gastos propios (¡recibe una estimación de cobertura de la compañía de seguros antes de comenzar un proyecto dental serio!)"
+    ],
+    
+    // MetLife section
+    metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
+    metlifeNotAvailable: "🚫 No disponible en: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+    whyClientsLove: "Por qué los Clientes lo Aman:",
+    metlifeFeatures: [
+        "Beneficio Anual Máximo Generoso: $3,000/año",
+        "Deducible Anual Bajo: $25/persona, $75 familia basado en código ZIP",
+        "SIN Período de Espera, incluso en implantes o coronas",
+        "SIN Cláusula de Dientes Faltantes",
+        "Ampliamente aceptado (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>buscar Proveedores Dentales MetLife PPO – PDP Network</a>)",
+        "Ortodoncia infantil incluida (hasta $2,000 de por vida, menores de 19 años en el plan de los padres)"
+    ],
+    coverage: "Cobertura:",
+    metlifeCoverage: [
+        "✅ 100% – Preventiva (limpiezas, rayos X, exámenes, flúor)",
+        "✅ 80% – Básica (extracciones, tratamiento de encías)",
+        "✅ 50% – Mayor (coronas, endodoncias, puentes, dentaduras, cirugía oral)"
+    ],
+    monthlyPremiumsMetlife: "💰 Primas Mensuales para un Individuo (tarifas de ejemplo basadas en código ZIP, incluye membresía de asociación de $5*):",
+    monthlyPremiumsDelta: "💰 Primas Mensuales para un Individuo (incluye membresía de asociación de $5*):",
+    metlifePricing: [
+        "$96 – Pensilvania, Ohio",
+        "$110 – Nueva Jersey, Staten Island",
+        "$123 – Nueva York, Chicago, Miami",
+        "$133 – San Francisco"
+    ],
+    juliaRecommendationMetlife: 'RECOMENDACIÓN DE JULIA: Mejor para aquellos que necesitan trabajo dental mayor (implantes, coronas, tratamientos extensivos) o cuyo proveedor está en la red solo con MetLife (te ahorrará más dinero) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan</a>',
+    
+    // Delta Dental section
+    deltaTitle: "🦷 Delta Dental PPO 1500",
+    deltaFeatures: [
+        "Beneficio anual: $1,500/ año calendario",
+        "Beneficio Transferible – transfiere parte del beneficio no usado al próximo año",
+        "SIN Período de Espera",
+        "Cubre Dientes Faltantes",
+        "Gran red nacional (disponible en los 50 estados – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>buscar Proveedores Delta Dental PPO</a>)"
+    ],
+    deltaCoverage: [
+        "✅ 100% – Preventiva",
+        "✅ 80% – Básica (extracciones, endodoncias)",
+        "✅ 50% – Mayor (coronas, puentes, cirugía, implantes, dentaduras)"
+    ],
+    deltaPricing: [
+        "$55 – Individual",
+        "$100 – Adulto + Niños",
+        "$112 – Adulto + Cónyuge",
+        "$156 – Familia Completa"
+    ],
+    juliaRecommendationDelta: 'RECOMENDACIÓN DE JULIA: Un plan confiable y económico. Excelente para familias. Mantendrá tus dientes saludables y limpios con costo mensual mínimo. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan</a>',
+    
+    // How coverage works
+    coverageWorksTitle: "💡 Cómo Funcionan los Porcentajes de Cobertura",
+    coverageExplanation: [
+        "📌 La cobertura del 100% (Preventiva), 80% (Básica), y 50% (Mayor) se calcula basada en la tarifa negociada dentro de la red para cada procedimiento dental.",
+        "👩‍⚕️ Los dentistas dentro de la red deben seguir tarifas preestablecidas entre ellos y el asegurador - y tu parte se basa en esas tarifas reducidas.",
+        "❗ ¿Vas fuera de la red? Puedes esperar facturas algo más altas y más gastos de tu bolsillo. La opción fuera de la red es genial tener si tu dentista favorito no está en la red. ¡Usualmente, aún ahorrarás bastante dinero comparado con pagar en efectivo!",
+        "👉 Al elegir un nuevo dentista, trata de confirmar con tu dentista que están en la red con tu plan para evitar facturas sorpresa."
+    ],
+    
+    // Enrollment
+    enrollmentTitle: "📝 Cómo Inscribirse",
+    enrollmentSteps: [
+        "Visita <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> antes del día 20 del mes para convertirte en Miembro el 1ro del mes siguiente",
+        "Ingresa código ZIP y fecha de nacimiento",
+        "Elige tipo de participante: Individual / Adulto + Niños / Pareja / Familia",
+        "Selecciona plan(es): MetLife PPO Platinum / Delta Dental PPO 1500",
+        "Agrega Membresía EWA ($5/mes-ver explicación abajo) para acceder a precios grupales",
+        "Haz clic en Inscribir - recibe confirmación instantánea"
+    ],
+    youllNeedTitle: "Necesitarás:",
+    youllNeedList: [
+        "Nombre completo, fecha de nacimiento, NÚMERO DE SEGURO SOCIAL (requerido)",
+        "Dirección, email, número de teléfono",
+        "Información de cuenta bancaria (routing + número de cuenta)",
+        "❌ Tarjetas de crédito/débito NO son aceptadas"
+    ],
+    
+    // Payment & Billing
+    paymentTitle: "💳 Detalles de Pago y Facturación",
+    paymentDetails: [
+        "Tu cuenta bancaria será cargada automáticamente alrededor del día 28 de cada mes por NuEra",
+        "Los pagos continúan mensualmente hasta que canceles a través de tu corredor",
+        "Por favor asegúrate de que haya fondos suficientes disponibles para evitar una tarifa de devolución/rebote/reinstalación de $30"
+    ],
+    
+    // After Enrollment
+    afterEnrollmentTitle: "🗓️ Después de la Inscripción",
+    afterEnrollmentDetails: [
+        "Usualmente, aparecerás en el sistema del asegurador entre el día 8–15 del primer mes",
+        "ID de Miembro MetLife = tu SSN",
+        "Delta Dental te enviará tu tarjeta por correo y proporcionará un ID en línea"
+    ],
+    trackBenefitsTitle: "Rastrea y Gestiona tus Beneficios:",
+    trackBenefitsList: [
+        "🔹 metlife.com (podrás acceder a mediados de mes después del inicio de tu plan)",
+        "🔹 deltadentalct.com",
+        "🔹 corenroll.com o través de la app Corenroll"
+    ],
+    
+    additionalBenefits: "Explora beneficios adicionales a través de *Elevate Wellness Association (la tarifa de membresía de $5/mes está incluida en las estimaciones de prima anteriores):",
+    ewaDescription: "*Elevate Wellness Association (EWA) es una organización de membresía nacional fundada en 1993 que empodera a pequeñas y medianas empresas, individuos auto-empleados, individuos y familias a través de EE.UU. para acceder a beneficios de salud y bienestar a nivel grupal típicamente reservados para empleadores más grandes. Puedes elegir entre los siguientes beneficios importantes:",
+    ewaBenefits: [
+        "Visión, Médico, Vida, Accidente",
+        "Indemnización Hospitalaria y Enfermedad Crítica",
+        "Telemedicina y programas de Bienestar"
+    ],
+    browseOptions: "Navega tus opciones siguiendo el mismo enlace <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. ¡Elige los que necesites!",
+    
+    // Testimonials
+    testimonialsTitle: "Mensajes Agradecidos de Clientes Agradecidos",
+    
+    // Contact
+    contactTitle: "📇 Contacta a Julia Barinova, MBA",
+    contactIntro: "📢 Te invito a conectarte conmigo y programar una consulta gratuita para discutir tu planificación de seguros - incluyendo protegerte a ti y a tus seres queridos con seguro de vida con beneficios vivientes, cobertura de discapacidad, cuidado a largo plazo, y cualquier otra pregunta que puedas tener. Habiendo vivido y trabajado en EE.UU. por casi 30 años, estoy feliz de apoyar a nuevos inmigrantes con información valiosa y recursos para ayudarlos a construir una mejor vida.",
+    thankYou: "Gracias por tu interés y tu negocio.",
+    contactInfo: {
+        name: "Julia Barinova, MBA",
+        title: "Corredora de Seguros Licenciada",
+        license: "Licencia de Seguros NYS LA-937924",
+        phone: "347-922-8037",
+        website: "www.juliabarinova.com",
+        email: "julia@juliabarinova.com",
+        calendar: "calendly.com/jbarinova",
+        reviewsText: "Revisa nuestras reseñas de Google, incluyendo dental:",
+        reviewsLink: "Todas las reseñas",
+        saveContact: "Guardar contacto"
+    },
+    dentalProfessionalsAtention: `
+        <h2 class="partners-title">🦷 ¡Atención Profesionales Dentales! Creemos Más Sonrisas Juntos</h2>
+    <p>¿Estás buscando formas de ayudar a tus pacientes a avanzar con el tratamiento más rápido — y con menos vacilación financiera?</p>
+    <p>Estamos invitando a dentistas como tú a asociarse con nosotros en ofrecer dos emocionantes planes dentales PPO de acceso grupal: MetLife PPO y Delta Dental PPO 1500. Estos planes no tienen períodos de espera, no tienen exclusiones de dientes faltantes, y cubren procedimientos mayores como implantes, coronas, y endodoncias — desde el primer día.</p>
+    <ul>
+        <li>✅ Los pacientes se benefician de aprobaciones más rápidas, costos menores de bolsillo, y mayor motivación para seguir adelante con el trabajo dental necesario.</li>
+        <li>✅ Los dentistas se benefician de menos cancelaciones, cambio de tratamiento más rápido, y pacientes más felices y leales.</li>
+    </ul>
+    <p>Trabajemos juntos para hacer el cuidado dental de calidad más accesible y simplificado.</p>
+    <p>📩 Ponte en contacto hoy — con gusto enviaremos materiales del plan, educaremos a tu equipo, e incluso referiremos pacientes que están buscando activamente proveedores en la red en tu área.</p>
+    <p>¡Juntos, podemos hacer que más sonrisas sucedan — con velocidad, ahorros, y satisfacción!</p>
+    <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
+    `,
+    // Disclaimer
+    newDisclaimer: `<div class="privacy-notice">
+        ESTE RESUMEN HA SIDO PREPARADO ÚNICAMENTE PARA PROPÓSITOS INFORMATIVOS POR TU CORREDOR DE SEGUROS PARA ASISTIRTE EN EL PROCESO DE SELECCIÓN DE PLAN. SE RECOMIENDA FUERTEMENTE A LOS PACIENTES QUE REVISEN LOS DOCUMENTOS DETALLADOS DEL PLAN PARA INFORMACIÓN COMPRENSIVA SOBRE COBERTURA, LIMITACIONES, Y EXCLUSIONES. TODAS LAS DISCUSIONES REFERENTES A PLANES DE TRATAMIENTO, APROBACIONES DE COBERTURA, Y RESPONSABILIDADES DE PAGO DEBEN SER MANEJADAS DIRECTAMENTE ENTRE TÚ, TU PROVEEDOR DENTAL, Y LA COMPAÑÍA DE SEGUROS.<br><br>
+        
+        <h3>🛡️ Aviso de Privacidad</h3>
+        <p><strong>Fecha Efectiva:</strong> 2025</p>
+        <p>Julia Barinova, Inc. ("nosotros," "nuestro," o "nos") respeta tu privacidad y está comprometida a proteger tu información personal. Este Aviso de Privacidad explica cómo recolectamos, usamos, y protegemos tus datos cuando visitas nuestro sitio web, envías formularios, o te comunicas con nosotros.</p>
+        <h4>Lo que Recolectamos:</h4>
+        <p>Podemos recolectar detalles personales que proporciones, incluyendo tu nombre, información de contacto, y preferencias de seguros. También recolectamos datos no personales como tipo de navegador, dirección IP, y actividad del sitio para propósitos analíticos.</p>
+        <h4>Cómo Usamos tu Información:</h4>
+        <ul>
+            <li>Para responder a tus consultas</li>
+            <li>Para proporcionar cotizaciones de seguros o asistencia de inscripción</li>
+            <li>Para enviar actualizaciones importantes e información útil (puedes cancelar suscripción en cualquier momento)</li>
+            <li>Para mejorar nuestro sitio web y experiencia del usuario</li>
+        </ul>
+        <h4>NO hacemos:</h4>
+        <ul>
+            <li>Vender o rentar tu información personal</li>
+            <li>Compartir tus datos con terceros sin tu consentimiento, excepto donde sea requerido por ley o para cumplir tus solicitudes de seguros</li>
+        </ul>
+        <p><strong>Seguridad de Datos:</strong> Implementamos medidas estándar de la industria para proteger tu información. Sin embargo, ninguna transmisión de internet es 100% segura.</p>
+        <p><strong>Cookies:</strong> Nuestro sitio web puede usar cookies para una experiencia de navegación más fluida y analíticos básicos.</p>
+        <p><strong>Tu Consentimiento:</strong> Al usar nuestro sitio, consientes a este Aviso de Privacidad.</p>
+        <p><strong>Contáctanos:</strong> Si tienes preguntas sobre esta política, por favor contacta a Julia Barinova al <a href="tel:+13479228037">📞 347-922-8037</a> o <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+    </div>
+    <hr class="disclaimer-divider">
+    <div class="rights-reserved">
+        <h3>⚖️ Todos los Derechos Reservados</h3>
+        <p>©️ 2025 Julia Barinova, Inc.</p>
+        <p>Todo el contenido en este sitio web — incluyendo texto, gráficos, logos, imágenes, y materiales descargables — es propiedad de Julia Barinova, Inc. y protegido por leyes de derechos de autor de EE.UU. e internacionales.</p>
+        <p>La reproducción, distribución, o uso no autorizado de cualquier parte de este sitio web está estrictamente prohibido sin consentimiento escrito previo.</p>
+    </div>`,
+
+    // Partners section
+    partnersTitle: "Nuestros socios dentales estratégicos de confianza",
+    phoneLabel: "Teléfono:",
+    websiteLabel: "Sitio Web:",
+    emailLabel: "Email:",
+    calendarLabel: "Reservar una Llamada:",
+    saveContact: "Guardar contacto"
 }
         };
 
