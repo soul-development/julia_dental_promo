@@ -4,7 +4,8 @@
             en: {
                 // Hero section
                 // heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
-                heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
+                // heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
+                heroTitle: "🦷 HAPPY SMILE TODAY: Join the revolution in dental care - no waiting, no nonsense, just protection.",
                 baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
                 baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
                 baner3: "from $55/mo",
@@ -79,10 +80,10 @@
                     "✅ 50% – Major (crowns, bridges, surgery, implants, dentures)"
                 ],
                 deltaPricing: [
-                    "$55 – Individual",
-                    "$100 – Adult + Children",
-                    "$112 – Adult + Spouse",
-                    "$156 – Full Family"
+                    "$59.50 – Individual",
+                    "$108.25 – Adult + Spouse",
+                    "$100.75 – Adult + Children",
+                    "$161.25 – Full Family"
                 ],
                 juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a>',
                 
@@ -300,10 +301,10 @@
                     "✅ 50% – Крупные процедуры (Импланты, коронки, мосты, хирургия, протезы)"
                 ],
                 deltaPricing: [
-                    "$55 – Индивидуально",
-                    "$100 – Взрослый + дети",
-                    "$112 – Взрослый + супруг(а)",
-                    "$156 – Полная семья"
+                    "$59.50 – Индивидуально",
+                    "$100.75 – Взрослый + дети",
+                    "$108.25 – Взрослый + супруг(а)",
+                    "$161.25 – Полная семья"
                 ],
                 juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a>',
                 
@@ -516,10 +517,10 @@
                     "✅ 50% – Складні процедури (Імпланти, коронки, мости, хірургія, протези)"
                 ],
                 deltaPricing: [
-                    "$55 – Індивідуальна особа",
-                    "$100 – Дорослий + діти",
-                    "$112 – Дорослий + чоловік/дружина",
-                    "$156 – Повна сім'я"
+                    "$59.50 – Індивідуальна особа",
+                    "$100.75 – Дорослий + діти",
+                    "$108.25 – Дорослий + чоловік/дружина",
+                    "$161.25 – Повна сім'я"
                 ],
                 juliaRecommendationDelta: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Надійний, бюджетний план. Чудовий для сімей. Підтримає здоров\'я ваших зубів з мінімальними щомісячними витратами. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Delta Dental план детально</a>',
                 
@@ -736,10 +737,10 @@
         "✅ 50% – მთავარი (კრონები, ხიდები, ქირურგია, იმპლანტები, საშნელები)"
     ],
     deltaPricing: [
-        "$55 – ინდივიდუალური",
-        "$100 – ზრდასრული + ბავშვები",
-        "$112 – ზრდასრული + მეუღლე",
-        "$156 – სრული ოჯახი"
+        "$59.50 – ინდივიდუალური",
+        "$100.75 – ზრდასრული + ბავშვები",
+        "$108.25 – ზრდასრული + მეუღლე",
+        "$161.25 – სრული ოჯახი"
     ],
     juliaRecommendationDelta: 'იულიას რეკომენდაცია: საიმედო, ბიუჯეტურად მეგობრული გეგმა. შესანიშნავია ოჯახებისთვის. შენარჩუნებს კბილების ჯანსაღობას მინიმალური ყოველთვიური ღირებულებით. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა</a>',
     
@@ -953,10 +954,10 @@ uz: {
         "✅ 50% – Asosiy (tojlar, ko'priklar, operatsiya, implantlar, protezlar)"
     ],
     deltaPricing: [
-        "$55 – Shaxsiy",
-        "$100 – Kattalar + Bolalar",
-        "$112 – Kattalar + Turmush o'rtog'i",
-        "$156 – To'liq oila"
+        "$59.50 – Shaxsiy",
+        "$100.75 – Kattalar + Bolalar",
+        "$108.25 – Kattalar + Turmush o'rtog'i",
+        "$161.25 – To'liq oila"
     ],
     juliaRecommendationDelta: 'YULIYANING TAVSIYASI: Ishonchli, byudjetga mos reja. Oilalar uchun ajoyib. Tishlaringizni minimal oylik xarajat bilan sog\'lom va toza saqlaydi. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi</a>',
     
@@ -1169,10 +1170,10 @@ es: {
         "✅ 50% – Mayor (coronas, puentes, cirugía, implantes, dentaduras)"
     ],
     deltaPricing: [
-        "$55 – Individual",
-        "$100 – Adulto + Niños",
-        "$112 – Adulto + Cónyuge",
-        "$156 – Familia Completa"
+        "$59.50 – Individual",
+        "$100.75 – Adulto + Niños",
+        "$108.25 – Adulto + Cónyuge",
+        "$161.25 – Familia Completa"
     ],
     juliaRecommendationDelta: 'RECOMENDACIÓN DE JULIA: Un plan confiable y económico. Excelente para familias. Mantendrá tus dientes saludables y limpios con costo mensual mínimo. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan</a>',
     
