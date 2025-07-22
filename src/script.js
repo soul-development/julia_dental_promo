@@ -448,7 +448,7 @@
                 go1: "👇 ДЛЯ РЕЄСТРАЦІЇ ПЕРЕХОДЬ",
                 go2: "👆 ПЕРЕХОДЬ",
                 advisorName: "Пропонує Юлія Барінова, MBA – Ліцензований страховий консультант та брокер",
-                meetJulia: "👋 Знайомтеся з Юлією",
+                meetJulia: "👋 Давайте познайомимося",
                 juliaIntro: "Привіт, я Юлія Барінова, незалежний страховий консультант та брокер з Нью-Йорка, з понад 20-річним досвідом у фінансових послугах - від інвестиційного консалтингу та маркетингу хедж-фондів до персоналізованого страхового планування.",
                 juliaPassion: "Я пристрасно допомагаю людям захистити себе, свої сім'ї та бізнес від руйнівних фінансових ризиків - чи то через серйозні захворювання, втрату доходу, потребу в довготривалому догляді або втрату близької людини - освічуючи їх та створюючи розумні, індивідуальні страхові стратегії. Мені також подобається знаходити інноваційні рішення, які заповнюють критичні прогалини та дозволяють реально заощаджувати на життєво важливих послугах, таких як стоматологічний догляд.",
                 clientStats: `👉 Стоматологічне обслуговування в США печально відоме своєю дорожнечею. На жаль, багато людей відкладають необхідні огляди та лікування просто тому, що не можуть собі цього дозволити - і в результаті стикаються з більш серйозними стоматологічними проблемами, які можуть коштувати цілий статок на лікування. Або просто нехтують своїм ротом взагалі, що може призвести до значних загальних проблем зі здоров'ям.
@@ -668,7 +668,7 @@
     go1: "👇 განხილვისა და რეგისტრაციისთვის:",
     go2: "👆 იდი",
     advisorName: "გთავაზობთ იულია ბარინოვა, MBA – ლიცენზირებული სადაზღვევო კონსულტანტი და ბროკერი",
-    meetJulia: "👋 გაიცანით იულია",
+    meetJulia: "👋 მოდით გავიცნოთ",
     juliaIntro: "გამარჯობა, მე ვარ იულია ბარინოვა, დამოუკიდებელი სადაზღვევო კონსულტანტი და ბროკერი ნიუ-იორკიდან, 20 წელზე მეტი გამოცდილებით ფინანსურ სერვისებში - საინვესტიციო კონსალტინგიდან და ჰეჯ ფონდების მარკეტინგიდან პერსონალიზებულ სადაზღვევო დაგეგმვამდე.",
     juliaPassion: "ვარ ვნებიანი ადამიანების დახმარებაში საკუთარი თავისა და ოჯახების, ბიზნესის დაცვაში დამანგრეველი ფინანსური რისკებისგან - იქნება ეს სერიოზული დაავადება, შემოსავლის დაკარგვა, გრძელვადიანი მოვლის საჭიროება, თუ საყვარელი ადამიანის დაკარგვა - მათ განათლებასა და გონიერი, მორგებული სადაზღვევო სტრატეგიების ჩამოყალიბებაში. ასევე მიყვარს ინოვაციური გადაწყვეტილებების აღმოჩენა, რომლებიც ავსებს კრიტიკულ ხარვეზებს და რეალურ ფულს იზოგავს არსებით სერვისებზე, როგორიცაა სტომატოლოგიური მოვლა.",
     clientStats: `👉 სტომატოლოგიური მოვლა ამერიკაში ცნობილია თავისი ძვირ ღირებულებით. სამწუხაროდ, ბევრი ადამიანი აჩერებს აუცილებელ გამოკვლევებსა და მკურნალობას მხოლოდ იმიტომ, რომ ვერ აძლევს ფინანსურად - რის შედეგადაც უფრო სერიოზული სტომატოლოგიური პრობლემები უნდა გადაჭრან, რაც შეიძლება ძვირი დაჯდეთ. ან უბრალოდ უგულებელყოფენ პირის ღრუს მთლიანად, რაც შეიძლება მნიშვნელოვან ზოგად ჯანმრთელობით პრობლემებამდე მიგვიყვანოს.
@@ -885,7 +885,7 @@ uz: {
     go1: "👇 KO'RIB CHIQISH VA RO'YXATDAN O'TISH:",
     go2: "👆 O'TING",
     advisorName: "Yuliya Barinova, MBA – litsenziyalangan sug'urta maslahatchi va broker tomonidan taklif qilinadi",
-    meetJulia: "👋 Yuliya bilan tanishing",
+    meetJulia: "👋 Keling, tanishaylik",
     juliaIntro: "Salom, men Yuliya Barinova, Nyu-York shahrida joylashgan mustaqil sug'urta maslahatchi va brokerman, moliyaviy xizmatlarda 20 yildan ortiq tajribam bor - investitsiya maslahatidan va xej-fondlar marketingidan shaxsiy sug'urta rejalashtirish gacha.",
     juliaPassion: "Men odamlarni o'zlari, oilalari va bizneslarini halokatli moliyaviy xavflardan himoya qilishda yordam berishdan iborat bo'lgan ishqibozman - bu jiddiy kasallik, daromad yo'qolishi, uzoq muddatli g'amxo'rlik ehtiyojlari yoki yaqin kishini yo'qotishdan kelib chiqqan bo'lsin - ularni ta'lim berish va aqlli, moslashtirilgan sug'urta strategiyalarini qurish orqali. Men shuningdek, muhim bo'shliqlarni to'ldiruvchi va tish davolash kabi muhim xizmatlar uchun haqiqiy pulni tejovchi innovatsion yechimlarni ochishni yaxshi ko'raman.",
     clientStats: `👉 AQShda tish davolash o'zining qimmatligiga mashhur. Afsuski, ko'plab odamlar zaruriy tekshiruvlar va davolashni shunchaki moliyaviy imkoni yo'qligi sababli kechiktiradi - faqat keyinroq davolash uchun boylik talab qilishi mumkin bo'lgan yanada jiddiy tish muammolari bilan yuzlashish uchun. Yoki shunchaki og'zini umuman e'tiborsiz qoldirish, bu muhim umumiy sog'liq muammolariga olib kelishi mumkin.
