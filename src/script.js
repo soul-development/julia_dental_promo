@@ -1,11 +1,11 @@
 {/* <script> */}
         // Translation data
-        const translations = {
+const translations = {
             en: {
                 // Hero section
                 // heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
                 // heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
-                heroTitle: "🦷 HAPPY SMILE TODAY: Join the revolution in dental care - no waiting, no nonsense, just protection.",
+                heroTitle: "🦷 HAPPY SMILE TODAY: Join the revolution in dental insurance - no waiting, no nonsense, just protection.",
                 baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
                 baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
                 baner3: "from $55/mo",
@@ -166,6 +166,13 @@
                 },
                 dentalProfessionalsAtention: `
                 <h2 class="partners-title">🦷 Attention Dental Professionals! Let's Bring More Smiles Together</h2>
+                <p>Are you looking for ways to help your patients move forward with treatment faster — and with less financial hesitation?</p>
+                <p class="dental-professionals-link">
+                    <a href="#" id="dental-professionals-link" class="learn-more-link">Click here for more information</a>
+                </p>
+                `,
+                dentalProfessionalsFullContent: `
+                <h2 class="partners-title">🦷 Attention Dental Professionals! Let's Bring More Smiles Together</h2>
             <p>Are you looking for ways to help your patients move forward with treatment faster — and with less financial hesitation?</p>
             <p>We're inviting dentists like you to partner with us in offering two exciting group-access PPO dental plans: MetLife PPO and Delta Dental PPO 1500. These plans have no waiting periods, no missing tooth exclusions, and cover major procedures like implants, crowns, and root canals — right from day one.</p>
             <ul>
@@ -178,7 +185,16 @@
             <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contact us to learn more.</a></p>
                 `,
                 // Disclaimer
-                newDisclaimer: `<div class="privacy-notice">
+                newDisclaimer: `<div class="rights-reserved">
+                    <h3>⚖️ All Rights Reserved</h3>
+                    <p>©️ 2025 Julia Barinova, Inc.</p>
+                    <p>All content on this website — including text, graphics, logos, images, and downloadable materials — is the property of Julia Barinova, Inc. and protected by U.S. and international copyright laws.</p>
+                    <p>Unauthorized reproduction, distribution, or use of any part of this website is strictly prohibited without prior written consent.</p>
+                    <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Privacy Notes</a></p>
+                </div>`,
+
+                // Privacy Policy Modal Content
+                privacyPolicyContent: `<div class="privacy-notice">
                 THIS SUMMARY HAS BEEN PREPARED SOLELY FOR INFORMATIONAL PURPOSES BY YOUR INSURANCE BROKER TO ASSIST YOU IN THE PLAN SELECTION PROCESS. PATIENTS ARE STRONGLY ENCOURAGED TO REVIEW THE DETAILED PLAN DOCUMENTS FOR COMPREHENSIVE INFORMATION ON COVERAGE, LIMITATIONS, AND EXCLUSIONS. ALL DISCUSSIONS REGARDING TREATMENT PLANS, COVERAGE APPROVALS, AND PAYMENT RESPONSIBILITIES SHOULD BE HANDLED DIRECTLY BETWEEN YOU, YOUR DENTAL PROVIDER, AND THE INSURANCE COMPANY.<br><br>
                     <h3>🛡️ Privacy Notice</h3>
                     <p><strong>Effective Date:</strong> 2025</p>
@@ -201,13 +217,6 @@
                     <p><strong>Cookies:</strong> Our website may use cookies for a smoother browsing experience and basic analytics.</p>
                     <p><strong>Your Consent:</strong> By using our site, you consent to this Privacy Notice.</p>
                     <p><strong>Contact Us:</strong> If you have questions about this policy, please contact Julia Barinova at <a href="tel:+13479228037">📞 347-922-8037</a> or <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-                </div>
-                <hr class="disclaimer-divider">
-                <div class="rights-reserved">
-                    <h3>⚖️ All Rights Reserved</h3>
-                    <p>©️ 2025 Julia Barinova, Inc.</p>
-                    <p>All content on this website — including text, graphics, logos, images, and downloadable materials — is the property of Julia Barinova, Inc. and protected by U.S. and international copyright laws.</p>
-                    <p>Unauthorized reproduction, distribution, or use of any part of this website is strictly prohibited without prior written consent.</p>
                 </div>`,
 
                 // Partners section
@@ -230,7 +239,8 @@
                 go1: "👇 ДЛЯ РЕГИСТРАЦИИ ПЕРЕХОДИ",
                 go2: "👆 ПЕРЕХОДИ",
                 // heroTitle: '🦷 Улыбайся и экономь с первого дня: стоматологическое покрытие «Всё включено»!',
-                heroTitle: '🦷 Стоматологическое покрытие «Всё включено»: Улыбайся и экономь с первого дня!',
+                // heroTitle: '🦷 Стоматологическое покрытие «Всё включено»: Улыбайся и экономь с первого дня!',
+                heroTitle: '🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Присоединяйтесь к революции в стоматологическом страховании - без ожидания, без лишних хлопот, только защита.',
                 advisorName: "Предлагает Юлия Баринова, MBA – Лицензированный страховой консультант и брокер",
                 // meetJulia: "💬 «Моя страсть - это защита».",
                 // juliaIntro: "Я помогаю людям избегать разрушительных финансовых рисков - от серьёзных заболеваний до потери дохода, от необходимости долгосрочного ухода до утраты близкого человека - создавая умные, персонализированные страховые стратегии.",
@@ -387,6 +397,13 @@
                 },
                 dentalProfessionalsAtention:`
                 <h2 class="partners-title">🦷 Внимание стоматологам! Давайте вместе дарить больше улыбок</h2>
+                <p>Ищете способы помочь вашим пациентам быстрее приступить к лечению — и с меньшими финансовыми колебаниями?</p>
+                <p class="dental-professionals-link">
+                    <a href="#" id="dental-professionals-link" class="learn-more-link">Нажмите здесь для получения дополнительной информации</a>
+                </p>
+                `,
+                dentalProfessionalsFullContent:`
+                <h2 class="partners-title">🦷 Внимание стоматологам! Давайте вместе дарить больше улыбок</h2>
             <p>Ищете способы помочь вашим пациентам быстрее приступить к лечению — и с меньшими финансовыми колебаниями?</p>
             <p>Мы приглашаем стоматологов, таких как вы, стать нашими партнерами в предложении двух захватывающих групповых планов PPO стоматологического страхования: MetLife PPO и Delta Dental PPO 1500. Эти планы не имеют периодов ожидания, исключений для отсутствующих зубов и покрывают серьезные процедуры, такие как имплантаты, коронки и лечение каналов — с первого дня.</p>
             <ul>
@@ -401,7 +418,16 @@
                 
                 // Disclaimer
                 // disclaimer: "⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.",
-                newDisclaimer: `<div class="privacy-notice">
+                newDisclaimer: `<div class="rights-reserved">
+                    <h3>⚖️ Все права защищены</h3>
+                    <p>©️ 2025 Julia Barinova, Inc.</p>
+                    <p>Все содержимое этого веб-сайта, включая текст, графику, логотипы, изображения и загружаемые материалы, является собственностью Julia Barinova, Inc. и защищено законами США и международными законами об авторском праве.</p>
+                    <p>Несанкционированное воспроизведение, распространение или использование любой части этого веб-сайта строго запрещено без предварительного письменного согласия.</p>
+                    <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Примечания о конфиденциальности</a></p>
+                </div>`,
+
+                // Privacy Policy Modal Content
+                privacyPolicyContent: `<div class="privacy-notice">
                     ⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.<br><br>
                     
                     <h3>🛡️ Уведомление о конфиденциальности</h3>
@@ -425,13 +451,6 @@
                     <p><strong>Файлы cookie:</strong> Наш веб-сайт может использовать файлы cookie для более удобного просмотра и базовой аналитики.</p>
                     <p><strong>Ваше согласие:</strong> Используя наш сайт, вы соглашаетесь с настоящим Уведомлением о конфиденциальности.</p>
                     <p><strong>Свяжитесь с нами:</strong> Если у вас есть вопросы по поводу этой политики, пожалуйста, свяжитесь с Юлией Бариновой по телефону <a href="tel:+13479228037">📞 347-922-8037</a> или электронной почте <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-                </div>
-                <hr class="disclaimer-divider">
-                <div class="rights-reserved">
-                    <h3>⚖️ Все права защищены</h3>
-                    <p>©️ 2025 Julia Barinova, Inc.</p>
-                    <p>Все содержимое этого веб-сайта, включая текст, графику, логотипы, изображения и загружаемые материалы, является собственностью Julia Barinova, Inc. и защищено законами США и международными законами об авторском праве.</p>
-                    <p>Несанкционированное воспроизведение, распространение или использование любой части этого веб-сайта строго запрещено без предварительного письменного согласия.</p>
                 </div>`,
                 // Partners section
                 partnersTitle: "Наши проверенные партнеры дантисты",
@@ -444,7 +463,7 @@
             },
             uk: {
                 // Hero section
-                heroTitle: "🦷 ЩАСЛИВА ПОСМІШКА СЬОГОДНІ: Ваше комплексне стоматологічне страхування!",
+                heroTitle: "🦷 ЩАСЛИВА ПОСМІШКА СЬОГОДНІ: Приєднуйтесь до революції у стоматологічному страхуванні - без очікування, без дурниць, лише захист.",
                 baner1: "ІМПЛАНТИ, КОРОНКИ, КАНАЛИ ПОКРИТІ з 1 дня",
                 baner2: "БЕЗ ПЕРІОДУ ОЧІКУВАННЯ. ВІДСУТНІЙ ЗУБ-ОК",
                 baner3: "від $55/міс",
@@ -619,38 +638,73 @@
                 
                 // Disclaimer
                 // disclaimer: "⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.",
-                newDisclaimer: `<div class="privacy-notice">
-                    ⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.<br><br>
+                    // Disclaimer
+                     newDisclaimer: `<div class="rights-reserved">
+                         <h3>⚖️ Всі права захищені</h3>
+                         <p>©️ 2025 Julia Barinova, Inc.</p>
+                         <p>Весь вміст цього веб-сайту, включаючи текст, графіку, логотипи, зображення та завантажувані матеріали, є власністю Julia Barinova, Inc. та захищений законами США та міжнародними законами про авторське право.</p>
+                         <p>Несанкціоноване відтворення, розповсюдження або використання будь-якої частини цього веб-сайту суворо заборонено без попередньої письмової згоди.</p>
+                         <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Примітки про конфіденційність</a></p>
+                     </div>`,
+     
+                     // Privacy Policy Modal Content
+                     privacyPolicyContent: `<div class="privacy-notice">
+                         ⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.<br><br>
+                         
+                         <h3>🛡️ Повідомлення про конфіденційність</h3>
+                         <p><strong>Дата набрання чинності:</strong> 2025</p>
+                         <p>Julia Barinova, Inc. («ми», «наш» або «нас») поважає вашу конфіденційність і зобов'язується захищати ваші особисті дані. Це Повідомлення про конфіденційність пояснює, як ми збираємо, використовуємо та захищаємо ваші дані, коли ви відвідуєте наш веб-сайт, надсилаєте форми або спілкуєтеся з нами.</p>
+                         <h4>Що ми збираємо:</h4>
+                         <p>Ми можемо збирати надані вами особисті дані, включаючи ваше ім'я, контактну інформацію та уподобання у страхуванні. Ми також збираємо неособисті дані, такі як тип браузера, IP-адреса та активність на сайті, в аналітичних цілях.</p>
+                         <h4>Як ми використовуємо вашу інформацію:</h4>
+                         <ul>
+                             <li>Для відповіді на ваші запити</li>
+                             <li>Для надання страхових пропозицій або допомоги в реєстрації</li>
+                             <li>Для надсилання важливих оновлень та корисної інформації (ви можете відписатися в будь-який час)</li>
+                             <li>Для покращення нашого веб-сайту та користувацького досвіду</li>
+                         </ul>
+                         <h4>Ми НЕ:</h4>
+                         <ul>
+                             <li>Продаємо або здаємо в оренду вашу особисту інформацію</li>
+                             <li>Передаємо ваші дані третім особам без вашої згоди, за винятком випадків, передбачених законом або для виконання ваших запитів щодо страхування</li>
+                         </ul>
+                         <p><strong>Безпека даних:</strong> Ми застосовуємо стандартні галузеві заходи для захисту вашої інформації. Однак жодна передача даних через Інтернет не є на 100% безпечною.</p>
+                         <p><strong>Файли cookie:</strong> Наш веб-сайт може використовувати файли cookie для більш зручного перегляду та базової аналітики.</p>
+                         <p><strong>Ваша згода:</strong> Використовуючи наш сайт, ви погоджуєтесь з цим Повідомленням про конфіденційність.</p>
+                         <p><strong>Зв'яжіться з нами:</strong> Якщо у вас є питання щодо цієї політики, будь ласка, зв'яжіться з Юлією Баріновою за телефоном <a href="tel:+13479228037">📞 347-922-8037</a> або електронною поштою <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+                     </div>`,
+                // newDisclaimer: `<div class="privacy-notice">
+                //     ⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.<br><br>
                     
-                    <h3>🛡️ Повідомлення про конфіденційність</h3>
-                    <p><strong>Дата набрання чинності:</strong> 2025</p>
-                    <p>Julia Barinova, Inc. («ми», «наш» або «нас») поважає вашу конфіденційність і зобов'язується захищати ваші особисті дані. Це Повідомлення про конфіденційність пояснює, як ми збираємо, використовуємо та захищаємо ваші дані, коли ви відвідуєте наш веб-сайт, надсилаєте форми або спілкуєтеся з нами.</p>
-                    <h4>Що ми збираємо:</h4>
-                    <p>Ми можемо збирати надані вами особисті дані, включаючи ваше ім'я, контактну інформацію та уподобання у страхуванні. Ми також збираємо неособисті дані, такі як тип браузера, IP-адреса та активність на сайті, в аналітичних цілях.</p>
-                    <h4>Як ми використовуємо вашу інформацію:</h4>
-                    <ul>
-                        <li>Для відповіді на ваші запити</li>
-                        <li>Для надання страхових пропозицій або допомоги в реєстрації</li>
-                        <li>Для надсилання важливих оновлень та корисної інформації (ви можете відписатися в будь-який час)</li>
-                        <li>Для покращення нашого веб-сайту та користувацького досвіту</li>
-                    </ul>
-                    <h4>Ми НЕ:</h4>
-                    <ul>
-                        <li>Продаємо або здаємо в оренду вашу особисту інформацію</li>
-                        <li>Передаємо ваші дані третім особам без вашої згоди, за винятком випадків, передбачених законом або для виконання ваших запитів щодо страхування</li>
-                    </ul>
-                    <p><strong>Безпека даних:</strong> Ми застосовуємо стандартні галузеві заходи для захисту вашої інформації. Однак жодна передача даних через Інтернет не є на 100% безпечною.</p>
-                    <p><strong>Файли cookie:</strong> Наш веб-сайт може використовувати файли cookie для більш зручного перегляду та базової аналітики.</p>
-                    <p><strong>Ваша згода:</strong> Використовуючи наш сайт, ви погоджуєтесь з цим Повідомленням про конфіденційності.</p>
-                    <p><strong>Зв'яжіться з нами:</strong> Якщо у вас є питання щодо цієї політики, будь ласка, зв'яжіться з Юлією Баріновою за телефоном  <a href="tel:+13479228037">📞 347-922-8037</a> або електронною поштою <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-                </div>
-                <hr class="disclaimer-divider">
-                <div class="rights-reserved">
-                    <h3>⚖️ Всі права захищені</h3>
-                    <p>©️ 2025 Julia Barinova, Inc.</p>
-                    <p>Весь вміст цього веб-сайту, включаючи текст, графіку, логотипи, зображення та завантажувані матеріали, є власністю Julia Barinova, Inc. та захищений законами США та міжнародними законами про авторське право.</p>
-                    <p>Несанкціоноване відтворення, розповсюдження або використання будь-якої частини цього веб-сайту суворо заборонено без попередньої письмової згоди.</p>
-                </div>`,
+                //     <h3>🛡️ Повідомлення про конфіденційність</h3>
+                //     <p><strong>Дата набрання чинності:</strong> 2025</p>
+                //     <p>Julia Barinova, Inc. («ми», «наш» або «нас») поважає вашу конфіденційність і зобов'язується захищати ваші особисті дані. Це Повідомлення про конфіденційність пояснює, як ми збираємо, використовуємо та захищаємо ваші дані, коли ви відвідуєте наш веб-сайт, надсилаєте форми або спілкуєтеся з нами.</p>
+                //     <h4>Що ми збираємо:</h4>
+                //     <p>Ми можемо збирати надані вами особисті дані, включаючи ваше ім'я, контактну інформацію та уподобання у страхуванні. Ми також збираємо неособисті дані, такі як тип браузера, IP-адреса та активність на сайті, в аналітичних цілях.</p>
+                //     <h4>Як ми використовуємо вашу інформацію:</h4>
+                //     <ul>
+                //         <li>Для відповіді на ваші запити</li>
+                //         <li>Для надання страхових пропозицій або допомоги в реєстрації</li>
+                //         <li>Для надсилання важливих оновлень та корисної інформації (ви можете відписатися в будь-який час)</li>
+                //         <li>Для покращення нашого веб-сайту та користувацького досвіту</li>
+                //     </ul>
+                //     <h4>Ми НЕ:</h4>
+                //     <ul>
+                //         <li>Продаємо або здаємо в оренду вашу особисту інформацію</li>
+                //         <li>Передаємо ваші дані третім особам без вашої згоди, за винятком випадків, передбачених законом або для виконання ваших запитів щодо страхування</li>
+                //     </ul>
+                //     <p><strong>Безпека даних:</strong> Ми застосовуємо стандартні галузеві заходи для захисту вашої інформації. Однак жодна передача даних через Інтернет не є на 100% безпечною.</p>
+                //     <p><strong>Файли cookie:</strong> Наш веб-сайт може використовувати файли cookie для більш зручного перегляду та базової аналітики.</p>
+                //     <p><strong>Ваша згода:</strong> Використовуючи наш сайт, ви погоджуєтесь з цим Повідомленням про конфіденційності.</p>
+                //     <p><strong>Зв'яжіться з нами:</strong> Якщо у вас є питання щодо цієї політики, будь ласка, зв'яжіться з Юлією Баріновою за телефоном  <a href="tel:+13479228037">📞 347-922-8037</a> або електронною поштою <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+                // </div>
+                // <hr class="disclaimer-divider">
+                // <div class="rights-reserved">
+                //     <h3>⚖️ Всі права захищені</h3>
+                //     <p>©️ 2025 Julia Barinova, Inc.</p>
+                //     <p>Весь вміст цього веб-сайту, включаючи текст, графіку, логотипи, зображення та завантажувані матеріали, є власністю Julia Barinova, Inc. та захищений законами США та міжнародними законами про авторське право.</p>
+                //     <p>Несанкціоноване відтворення, розповсюдження або використання будь-якої частини цього веб-сайту суворо заборонено без попередньої письмової згоди.</p>
+                // </div>`,
                 // Partners section
                 partnersTitle: "🤝 Наші перевірені партнери - стоматологи",
                 partnersTitle2: "Галерея стоматологічних фотографій",
@@ -665,7 +719,8 @@
 
             ka: {
     // Hero section
-    heroTitle: "🦷 ბედნიერი ღიმილი დღეს: «ყველაფერი შედის» - სტომატოლოგიური დაზღვევა, რომელიც მუშაობს: დაუყოვნებლივ! პირველ დღეს!",
+    // heroTitle: "🦷 ბედნიერი ღიმილი დღეს: «ყველაფერი შედის» - სტომატოლოგიური დაზღვევა, რომელიც მუშაობს: დაუყოვნებლივ! პირველ დღეს!",
+    heroTitle: "🦷 ბედნიერი ღიმილი დღეს: შეუერთდი სტომატოლოგიური დაზღვევის რევოლუციას - ლოდინის გარეშე, ზედმეტი სირთულეების გარეშე, მხოლოდ დაცვა.",
     baner1: "იმპლანტები, კრონები, არხები დაფარულია 1 დღიდან",
     baner2: "ლოდინის პერიოდის გარეშე. დაკარგული კბილი-კარგია",
     baner3: "$55/თვიდან",
@@ -839,38 +894,74 @@
     `,
     
     // Disclaimer
-    newDisclaimer: `<div class="privacy-notice">
-        ეს რეზიუმე მომზადებულია მხოლოდ ინფორმაციული მიზნებისთვის შენი სადაზღვევო ბროკერის მიერ გეგმის არჩევის პროცესში დასახმარებლად. პაციენტებს მტკიცედ ურჩევთ გადახედონ დეტალურ გეგმის დოკუმენტებს ყოვლისმომცველი ინფორმაციისთვის დაფარვის, შეზღუდვებისა და გამონაკლისების შესახებ. ყველა განხილვა მკურნალობის გეგმების, დაფარვის მოწონებისა და გადახდის ვალდებულებების შესახებ უნდა მოხდეს უშუალოდ შენს, შენს სტომატოლოგ მომწოდებელსა და სადაზღვევო კომპანიას შორის.<br><br>
+        // Disclaimer
+        newDisclaimer: `<div class="rights-reserved">
+            <h3>⚖️ ყველა უფლება დაცულია</h3>
+            <p>©️ 2025 Julia Barinova, Inc.</p>
+            <p>ამ ვებსაიტზე არსებული ყველა მასალა — მათ შორის ტექსტი, გრაფიკა, ლოგოები, სურათები და ჩამოტვირთვადი მასალები — არის Julia Barinova, Inc.-ის საკუთრება და დაცულია ამერიკის და საერთაშორისო საავტორო უფლების კანონებით.</p>
+            <p>ამ ვებსაიტის ნებისმიერი ნაწილის უნებართვო რეპროდუქცია, განაწილება ან გამოყენება მკაცრად აკრძალულია წინასწარი წერილობითი თანხმობის გარეშე.</p>
+            <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">კონფიდენციალურობის შენიშვნები</a></p>
+        </div>`,
+
+        // Privacy Policy Modal Content
+        privacyPolicyContent: `<div class="privacy-notice">
+            ეს რეზიუმე მომზადებულია მხოლოდ ინფორმაციული მიზნებისთვის შენი სადაზღვევო ბროკერის მიერ გეგმის არჩევის პროცესში დასახმარებლად. პაციენტებს მტკიცედ ურჩევთ გადახედონ დეტალურ გეგმის დოკუმენტებს ყოვლისმომცველი ინფორმაციისთვის დაფარვის, შეზღუდვებისა და გამონაკლისების შესახებ. ყველა განხილვა მკურნალობის გეგმების, დაფარვის მოწონებისა და გადახდის ვალდებულებების შესახებ უნდა მოხდეს უშუალოდ შენს, შენს სტომატოლოგ მომწოდებელსა და სადაზღვევო კომპანიას შორის.<br><br>
+            
+            <h3>🛡️ კონფიდენციალურობის შეტყობინება</h3>
+            <p><strong>ძალაში შესვლის თარიღი:</strong> 2025</p>
+            <p>Julia Barinova, Inc. («ჩვენ», «ჩვენი» ან «ნაცვლად») პატივს სცემს შენს კონფიდენციალურობას და ვალდებულია შენი პირადი ინფორმაციის დაცვაზე. ეს კონფიდენციალურობის შეტყობინება ახსნის, როგორ ვაგროვებთ, ვიყენებთ და ვიცავთ შენს მონაცემებს, როდესაც სტუმრობ ჩვენს ვებსაიტს, აგზავნი ფორმებს ან გვიკავშირდები.</p>
+            <h4>რას ვაგროვებთ:</h4>
+            <p>შეიძლება ვაგროვებდეთ პირად დეტალებს, რომლებსაც წარმოადგენ, მათ შორის შენს სახელს, საკონტაქტო ინფორმაციასა და სადაზღვევო პრეფერენციებს. ასევე ვაგროვებთ არაპირად მონაცემებს როგორიცაა ბრაუზერის ტიპი, IP მისამართი და საიტის აქტივობა ანალიტიკური მიზნებისთვის.</p>
+            <h4>როგორ ვიყენებთ შენს ინფორმაციას:</h4>
+            <ul>
+                <li>შენს კითხვებზე პასუხისთვის</li>
+                <li>სადაზღვევო კოტირებების ან რეგისტრაციის დახმარების მისაცემად</li>
+                <li>მნიშვნელოვანი განახლებებისა და სასარგებლო ინფორმაციის გასაგზავნად (შეიძლება ნებისმიერ დროს გამოიწერო)</li>
+                <li>ჩვენი ვებსაიტისა და მომხმარებლის გამოცდილების გასაუმჯობესებლად</li>
+            </ul>
+            <h4>ჩვენ არ ვაკეთებთ:</h4>
+            <ul>
+                <li>არ ვყიდით ან ვქირაობთ შენს პირად ინფორმაციას</li>
+                <li>არ ვუზიარებთ შენს მონაცემებს მესამე მხარეებს შენი თანხმობის გარეშე, გარდა იმ შემთხვევისა, როდესაც ეს კანონით იქნება მოთხოვნილი ან შენი სადაზღვევო მოთხოვნების შესრულებისთვის</li>
+            </ul>
+            <p><strong>მონაცემთა უსაფრთხოება:</strong> ვახორციელებთ ინდუსტრიის სტანდარტულ ღონისძიებებს შენი ინფორმაციის დასაცავად. თუმცა, ინტერნეტის მეშვეობით ვერცერთი გადაცემა 100% უსაფრთხო არ არის.</p>
+            <p><strong>ქუქიზ:</strong> ჩვენმა ვებსაიტმა შეიძლება გამოიყენოს ქუქიზ უფრო გლუვი დათვალიერების გამოცდილებისა და ბაზისური ანალიტიკისთვის.</p>
+            <p><strong>შენი თანხმობა:</strong> ჩვენი საიტის გამოყენებით, ეთანხმები ამ კონფიდენციალურობის შეტყობინებას.</p>
+            <p><strong>დაგვიკავშირდი:</strong> თუ კითხვები გაქვს ამ პოლიტიკის შესახებ, გთხოვ დაუკავშირდი იულია ბარინოვას <a href="tel:+13479228037">📞 347-922-8037</a> ან <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+        </div>`,
+
+    // newDisclaimer: `<div class="privacy-notice">
+    //     ეს რეზიუმე მომზადებულია მხოლოდ ინფორმაციული მიზნებისთვის შენი სადაზღვევო ბროკერის მიერ გეგმის არჩევის პროცესში დასახმარებლად. პაციენტებს მტკიცედ ურჩევთ გადახედონ დეტალურ გეგმის დოკუმენტებს ყოვლისმომცველი ინფორმაციისთვის დაფარვის, შეზღუდვებისა და გამონაკლისების შესახებ. ყველა განხილვა მკურნალობის გეგმების, დაფარვის მოწონებისა და გადახდის ვალდებულებების შესახებ უნდა მოხდეს უშუალოდ შენს, შენს სტომატოლოგ მომწოდებელსა და სადაზღვევო კომპანიას შორის.<br><br>
         
-        <h3>🛡️ კონფიდენციალურობის შეტყობინება</h3>
-        <p><strong>ძალაში შესვლის თარიღი:</strong> 2025</p>
-        <p>Julia Barinova, Inc. («ჩვენ», «ჩვენი» ან «ნაცვლად») პატივს სცემს შენს კონფიდენციალურობას და ვალდებულია შენი პირადი ინფორმაციის დაცვაზე. ეს კონფიდენციალურობის შეტყობინება ახსნის, როგორ ვაგროვებთ, ვიყენებთ და ვიცავთ შენს მონაცემებს, როდესაც სტუმრობ ჩვენს ვებსაიტს, აგზავნი ფორმებს ან გვიკავშირდები.</p>
-        <h4>რას ვაგროვებთ:</h4>
-        <p>შეიძლება ვაგროვებდეთ პირად დეტალებს, რომლებსაც წარმოადგენ, მათ შორის შენს სახელს, საკონტაქტო ინფორმაციასა და სადაზღვევო პრეფერენციებს. ასევე ვაგროვებთ არაპირად მონაცემებს როგორიცაა ბრაუზერის ტიპი, IP მისამართი და საიტის აქტივობა ანალიტიკური მიზნებისთვის.</p>
-        <h4>როგორ ვიყენებთ შენს ინფორმაციას:</h4>
-        <ul>
-            <li>შენს კითხვებზე პასუხისთვის</li>
-            <li>სადაზღვევო კოტირებების ან რეგისტრაციის დახმარების მისაცემად</li>
-            <li>მნიშვნელოვანი განახლებებისა და სასარგებლო ინფორმაციის გასაგზავნად (შეიძლება ნებისმიერ დროს გამოიწერო)</li>
-            <li>ჩვენი ვებსაიტისა და მომხმარებლის გამოცდილების გასაუმჯობესებლად</li>
-        </ul>
-        <h4>ჩვენ არ ვაკეთებთ:</h4>
-        <ul>
-            <li>არ ვყიდით ან ვქირაობთ შენს პირად ინფორმაციას</li>
-            <li>არ ვუზიარებთ შენს მონაცემებს მესამე მხარეებს შენი თანხმობის გარეშე, გარდა იმ შემთხვევისა, როდესაც ეს კანონით იქნება მოთხოვნილი ან შენი სადაზღვევო მოთხოვნების შესრულებისთვის</li>
-        </ul>
-        <p><strong>მონაცემთა უსაფრთხოება:</strong> ვახორციელებთ ინდუსტრიის სტანდარტულ ღონისძიებებს შენი ინფორმაციის დასაცავად. თუმცა, ინტერნეტის მეშვეობით ვერცერთი გადაცემა 100% უსაფრთხო არ არის.</p>
-        <p><strong>ქუქიზ:</strong> ჩვენმა ვებსაიტმა შეიძლება გამოიყენოს ქუქიზ უფრო გლუვი დათვალიერების გამოცდილებისა და ბაზისური ანალიტიკისთვის.</p>
-        <p><strong>შენი თანხმობა:</strong> ჩვენი საიტის გამოყენებით, ეთანხმები ამ კონფიდენციალურობის შეტყობინებას.</p>
-        <p><strong>დაგვიკავშირდი:</strong> თუ კითხვები გაქვს ამ პოლიტიკის შესახებ, გთხოვ დაუკავშირდი იულია ბარინოვას <a href="tel:+13479228037">📞 347-922-8037</a> ან <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-    </div>
-    <hr class="disclaimer-divider">
-    <div class="rights-reserved">
-        <h3>⚖️ ყველა უფლება დაცულია</h3>
-        <p>©️ 2025 Julia Barinova, Inc.</p>
-        <p>ამ ვებსაიტზე არსებული ყველა მასალა — მათ შორის ტექსტი, გრაფიკა, ლოგოები, სურათები და ჩამოტვირთვადი მასალები — არის Julia Barinova, Inc.-ის საკუთრება და დაცულია ამერიკის და საერთაშორისო საავტორო უფლების კანონებით.</p>
-        <p>ამ ვებსაიტის ნებისმიერი ნაწილის უნებართვო რეპროდუქცია, განაწილება ან გამოყენება მკაცრად აკრძალულია წინასწარი წერილობითი თანხმობის გარეშე.</p>
-    </div>`,
+    //     <h3>🛡️ კონფიდენციალურობის შეტყობინება</h3>
+    //     <p><strong>ძალაში შესვლის თარიღი:</strong> 2025</p>
+    //     <p>Julia Barinova, Inc. («ჩვენ», «ჩვენი» ან «ნაცვლად») პატივს სცემს შენს კონფიდენციალურობას და ვალდებულია შენი პირადი ინფორმაციის დაცვაზე. ეს კონფიდენციალურობის შეტყობინება ახსნის, როგორ ვაგროვებთ, ვიყენებთ და ვიცავთ შენს მონაცემებს, როდესაც სტუმრობ ჩვენს ვებსაიტს, აგზავნი ფორმებს ან გვიკავშირდები.</p>
+    //     <h4>რას ვაგროვებთ:</h4>
+    //     <p>შეიძლება ვაგროვებდეთ პირად დეტალებს, რომლებსაც წარმოადგენ, მათ შორის შენს სახელს, საკონტაქტო ინფორმაციასა და სადაზღვევო პრეფერენციებს. ასევე ვაგროვებთ არაპირად მონაცემებს როგორიცაა ბრაუზერის ტიპი, IP მისამართი და საიტის აქტივობა ანალიტიკური მიზნებისთვის.</p>
+    //     <h4>როგორ ვიყენებთ შენს ინფორმაციას:</h4>
+    //     <ul>
+    //         <li>შენს კითხვებზე პასუხისთვის</li>
+    //         <li>სადაზღვევო კოტირებების ან რეგისტრაციის დახმარების მისაცემად</li>
+    //         <li>მნიშვნელოვანი განახლებებისა და სასარგებლო ინფორმაციის გასაგზავნად (შეიძლება ნებისმიერ დროს გამოიწერო)</li>
+    //         <li>ჩვენი ვებსაიტისა და მომხმარებლის გამოცდილების გასაუმჯობესებლად</li>
+    //     </ul>
+    //     <h4>ჩვენ არ ვაკეთებთ:</h4>
+    //     <ul>
+    //         <li>არ ვყიდით ან ვქირაობთ შენს პირად ინფორმაციას</li>
+    //         <li>არ ვუზიარებთ შენს მონაცემებს მესამე მხარეებს შენი თანხმობის გარეშე, გარდა იმ შემთხვევისა, როდესაც ეს კანონით იქნება მოთხოვნილი ან შენი სადაზღვევო მოთხოვნების შესრულებისთვის</li>
+    //     </ul>
+    //     <p><strong>მონაცემთა უსაფრთხოება:</strong> ვახორციელებთ ინდუსტრიის სტანდარტულ ღონისძიებებს შენი ინფორმაციის დასაცავად. თუმცა, ინტერნეტის მეშვეობით ვერცერთი გადაცემა 100% უსაფრთხო არ არის.</p>
+    //     <p><strong>ქუქიზ:</strong> ჩვენმა ვებსაიტმა შეიძლება გამოიყენოს ქუქიზ უფრო გლუვი დათვალიერების გამოცდილებისა და ბაზისური ანალიტიკისთვის.</p>
+    //     <p><strong>შენი თანხმობა:</strong> ჩვენი საიტის გამოყენებით, ეთანხმები ამ კონფიდენციალურობის შეტყობინებას.</p>
+    //     <p><strong>დაგვიკავშირდი:</strong> თუ კითხვები გაქვს ამ პოლიტიკის შესახებ, გთხოვ დაუკავშირდი იულია ბარინოვას <a href="tel:+13479228037">📞 347-922-8037</a> ან <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+    // </div>
+    // <hr class="disclaimer-divider">
+    // <div class="rights-reserved">
+    //     <h3>⚖️ ყველა უფლება დაცულია</h3>
+    //     <p>©️ 2025 Julia Barinova, Inc.</p>
+    //     <p>ამ ვებსაიტზე არსებული ყველა მასალა — მათ შორის ტექსტი, გრაფიკა, ლოგოები, სურათები და ჩამოტვირთვადი მასალები — არის Julia Barinova, Inc.-ის საკუთრება და დაცულია ამერიკის და საერთაშორისო საავტორო უფლების კანონებით.</p>
+    //     <p>ამ ვებსაიტის ნებისმიერი ნაწილის უნებართვო რეპროდუქცია, განაწილება ან გამოყენება მკაცრად აკრძალულია წინასწარი წერილობითი თანხმობის გარეშე.</p>
+    // </div>`,
     // Partners section
     partnersTitle: "ჩვენი სანდო სტრატეგიული სტომატოლოგი პარტნიორები",
     partnersTitle2: "სტომატოლოგიული ფოტოგალერია",
@@ -883,7 +974,7 @@ saveContact: "კონტაქტის შენახვა"
 
 uz: {
     // Hero section
-    heroTitle: "🦷 BUGUN BAXTLI TABASSUM: «Hammasini qamrab oluvchi» Tish davolash sug'urtasi: Darhol! Birinchi kundan!",
+    heroTitle: "🦷 BUGUN BAXTLI TABASSUM: Tish davolash sug'urtasida inqilobga qo'shiling - kutish yo'q, keraksiz narsalar yo'q, faqat himoya.",
     baner1: "IMPLANTLAR, TOJLAR, KANALLAR 1-kundan boshlab qoplangan",
     baner2: "KUTISH DAVRI YO'Q. YO'QOLGAN TISH - YAXSHI",
     baner3: "$55/oydan boshlab",
@@ -1057,38 +1148,74 @@ uz: {
     `,
     
     // Disclaimer
-    newDisclaimer: `<div class="privacy-notice">
-        USHBU XULOSA FAQAT MA'LUMOT BERISH MAQSADLARI UCHUN SIZNING SUG'URTA BROKERINGIZ TOMONIDAN REJA TANLASH JARAYONIDA SIZGA YORDAM BERISH UCHUN TAYYORLANGAN. BEMORLARGA QOPLASH, CHEKLOVLAR VA ISTISNOLAR HAQIDA TO'LIQ MA'LUMOT OLISH UCHUN BATAFSIL REJA HUJJATLARINI KO'RIB CHIQISH TAVSIYA ETILADI. DAVOLASH REJALARI, QOPLASH TASDIQLARI VA TO'LOV MAS'ULIYATLARI HAQIDAGI BARCHA MUHOKAMALAR TO'G'RIDAN-TO'G'RI SIZ, SIZNING TISH DAVOLASH PROVAYDERINGIZ VA SUG'URTA KOMPANIYASI O'RTASIDA HAL QILINISHI KERAK.<br><br>
+        // Disclaimer
+        newDisclaimer: `<div class="rights-reserved">
+            <h3>⚖️ Barcha huquqlar himoyalangan</h3>
+            <p>©️ 2025 Julia Barinova, Inc.</p>
+            <p>Ushbu veb-saytdagi barcha kontent — shu jumladan matn, grafika, logotiplar, rasmlar va yuklab olish mumkin bo'lgan materiallar — Julia Barinova, Inc. mulki hisoblanadi va AQSh va xalqaro mualliflik huquqi qonunlari bilan himoyalangan.</p>
+            <p>Ushbu veb-saytning biron bir qismini ruxsatsiz ko'paytirish, tarqatish yoki foydalanish oldindan yozma rozilik holda qat'iyan taqiqlanadi.</p>
+            <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Maxfiylik yozuvlari</a></p>
+        </div>`,
+
+        // Privacy Policy Modal Content
+        privacyPolicyContent: `<div class="privacy-notice">
+            USHBU XULOSA FAQAT MA'LUMOT BERISH MAQSADLARI UCHUN SIZNING SUG'URTA BROKERINGIZ TOMONIDAN REJA TANLASH JARAYONIDA SIZGA YORDAM BERISH UCHUN TAYYORLANGAN. BEMORLARGA QOPLASH, CHEKLOVLAR VA ISTISNOLAR HAQIDA TO'LIQ MA'LUMOT OLISH UCHUN BATAFSIL REJA HUJJATLARINI KO'RIB CHIQISH TAVSIYA ETILADI. DAVOLASH REJALARI, QOPLASH TASDIQLARI VA TO'LOV MAS'ULIYATLARI HAQIDAGI BARCHA MUHOKAMALAR TO'G'RIDAN-TO'G'RI SIZ, SIZNING TISH DAVOLASH PROVAYDERINGIZ VA SUG'URTA KOMPANIYASI O'RTASIDA HAL QILINISHI KERAK.<br><br>
+            
+            <h3>🛡️ Maxfiylik haqida xabar</h3>
+            <p><strong>Kuchga kirish sanasi:</strong> 2025</p>
+            <p>Julia Barinova, Inc. ("biz," "bizning" yoki "bizni") sizning maxfiyligingizni hurmat qiladi va sizning shaxsiy ma'lumotlaringizni himoya qilishga majburdir. Ushbu maxfiylik haqida xabar biz sizning veb-saytimizga tashrif buyurganingizda, formalarni yuborgan yoki biz bilan muloqot qilganingizda ma'lumotlaringizni qanday yig'ishimiz, ishlatishimiz va himoya qilishimizni tushuntiradi.</p>
+            <h4>Biz nima yig'amiz:</h4>
+            <p>Biz siz bergan shaxsiy tafsilotlarni yig'ishimiz mumkin, shu jumladan sizning ismingiz, aloqa ma'lumotlari va sug'urta afzalliklari. Shuningdek, biz analitik maqsadlarda brauzer turi, IP manzili va sayt faolligi kabi shaxsiy bo'lmagan ma'lumotlarni yig'amiz.</p>
+            <h4>Ma'lumotlaringizni qanday ishlatamiz:</h4>
+            <ul>
+                <li>Sizning so'rovlaringizga javob berish uchun</li>
+                <li>Sug'urta takliflari yoki ro'yxatdan o'tish yordami berish uchun</li>
+                <li>Muhim yangilanishlar va foydali ma'lumotlarni yuborish uchun (istalgan vaqtda obunani bekor qilishingiz mumkin)</li>
+                <li>Veb-saytimiz va foydalanuvchi tajribasini yaxshilash uchun</li>
+            </ul>
+            <h4>Biz QILMAYMIZ:</h4>
+            <ul>
+                <li>Shaxsiy ma'lumotlaringizni sotmaymiz yoki ijaraga bermaymiz</li>
+                <li>Ma'lumotlaringizni uchinchi tomonlar bilan sizning roziligingiz holda bo'lmasdan baham ko'rmaymiz, qonun talablari yoki sizning sug'urta so'rovlaringizni bajarish uchun talab qilingan holatlar bundan mustasno</li>
+            </ul>
+            <p><strong>Ma'lumotlar xavfsizligi:</strong> Biz ma'lumotlaringizni himoya qilish uchun sanoat standartlaridagi chora-tadbirlarni amalga oshiramiz. Biroq, hech bir internet orqali uzatish 100% xavfsiz emas.</p>
+            <p><strong>Cookie-lar:</strong> Bizning veb-saytimiz silliqroq ko'rish tajribasi va asosiy tahlil uchun cookie-lardan foydalanishi mumkin.</p>
+            <p><strong>Sizning roziliringiz:</strong> Saytimizdan foydalanish orqali siz ushbu maxfiylik haqidagi xabarga rozi bo'lasiz.</p>
+            <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Yuliya Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+        </div>`,
+    
+    // newDisclaimer: `<div class="privacy-notice">
+    //     USHBU XULOSA FAQAT MA'LUMOT BERISH MAQSADLARI UCHUN SIZNING SUG'URTA BROKERINGIZ TOMONIDAN REJA TANLASH JARAYONIDA SIZGA YORDAM BERISH UCHUN TAYYORLANGAN. BEMORLARGA QOPLASH, CHEKLOVLAR VA ISTISNOLAR HAQIDA TO'LIQ MA'LUMOT OLISH UCHUN BATAFSIL REJA HUJJATLARINI KO'RIB CHIQISH TAVSIYA ETILADI. DAVOLASH REJALARI, QOPLASH TASDIQLARI VA TO'LOV MAS'ULIYATLARI HAQIDAGI BARCHA MUHOKAMALAR TO'G'RIDAN-TO'G'RI SIZ, SIZNING TISH DAVOLASH PROVAYDERINGIZ VA SUG'URTA KOMPANIYASI O'RTASIDA HAL QILINISHI KERAK.<br><br>
         
-        <h3>🛡️ Maxfiylik haqida xabar</h3>
-        <p><strong>Kuchga kirish sanasi:</strong> 2025</p>
-        <p>Julia Barinova, Inc. ("biz," "bizning" yoki "bizni") sizning maxfiyligingizni hurmat qiladi va sizning shaxsiy ma'lumotlaringizni himoya qilishga majburdir. Ushbu maxfiylik haqida xabar biz sizning veb-saytimizga tashrif buyurganingizda, formalarni yuborgan yoki biz bilan muloqot qilganingizda ma'lumotlaringizni qanday yig'ishimiz, ishlatishimiz va himoya qilishimizni tushuntiradi.</p>
-        <h4>Biz nima yig'amiz:</h4>
-        <p>Biz siz bergan shaxsiy tafsilotlarni yig'ishimiz mumkin, shu jumladan sizning ismingiz, aloqa ma'lumotlari va sug'urta afzalliklari. Shuningdek, biz analitik maqsadlarda brauzer turi, IP manzili va sayt faolligi kabi shaxsiy bo'lmagan ma'lumotlarni yig'amiz.</p>
-        <h4>Ma'lumotlaringizni qanday ishlatamiz:</h4>
-        <ul>
-            <li>Sizning so'rovlaringizga javob berish uchun</li>
-            <li>Sug'urta takliflari yoki ro'yxatdan o'tish yordami berish uchun</li>
-            <li>Muhim yangilanishlar va foydali ma'lumotlarni yuborish uchun (istalgan vaqtda obunani bekor qilishingiz mumkin)</li>
-            <li>Veb-saytimiz va foydalanuvchi tajribasini yaxshilash uchun</li>
-        </ul>
-        <h4>Biz QILMAYMIZ:</h4>
-        <ul>
-            <li>Shaxsiy ma'lumotlaringizni sotmaymiz yoki ijaraga bermaymiz</li>
-            <li>Ma'lumotlaringizni uchinchi tomonlar bilan sizning roziligingiz holda bo'lmasdan baham ko'rmaymiz, qonun talablari yoki sizning sug'urta so'rovlaringizni bajarish uchun talab qilingan holatlar bundan mustasno</li>
-        </ul>
-        <p><strong>Ma'lumotlar xavfsizligi:</strong> Biz ma'lumotlaringizni himoya qilish uchun sanoat standartlaridagi chora-tadbirlarni amalga oshiramiz. Biroq, hech bir internet orqali uzatish 100% xavfsiz emas.</p>
-        <p><strong>Cookie-lar:</strong> Bizning veb-saytimiz silliqroq ko'rish tajribasi va asosiy tahlil uchun cookie-lardan foydalanishi mumkin.</p>
-        <p><strong>Sizning roziliringiz:</strong> Saytimizdan foydalanish orqali siz ushbu maxfiylik haqidagi xabarga rozi bo'lasiz.</p>
-        <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Yuliya Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-    </div>
-    <hr class="disclaimer-divider">
-    <div class="rights-reserved">
-        <h3>⚖️ Barcha huquqlar himoyalangan</h3>
-        <p>©️ 2025 Julia Barinova, Inc.</p>
-        <p>Ushbu veb-saytdagi barcha kontent — shu jumladan matn, grafika, logotiplar, rasmlar va yuklab olish mumkin bo'lgan materiallar — Julia Barinova, Inc. mulki hisoblanadi va AQSh va xalqaro mualliflik huquqi qonunlari bilan himoyalangan.</p>
-        <p>Ushbu veb-saytning biron bir qismini ruxsatsiz ko'paytirish, tarqatish yoki foydalanish oldindan yozma rozilik holda qat'iyan taqiqlanadi.</p>
-    </div>`,
+    //     <h3>🛡️ Maxfiylik haqida xabar</h3>
+    //     <p><strong>Kuchga kirish sanasi:</strong> 2025</p>
+    //     <p>Julia Barinova, Inc. ("biz," "bizning" yoki "bizni") sizning maxfiyligingizni hurmat qiladi va sizning shaxsiy ma'lumotlaringizni himoya qilishga majburdir. Ushbu maxfiylik haqida xabar biz sizning veb-saytimizga tashrif buyurganingizda, formalarni yuborgan yoki biz bilan muloqot qilganingizda ma'lumotlaringizni qanday yig'ishimiz, ishlatishimiz va himoya qilishimizni tushuntiradi.</p>
+    //     <h4>Biz nima yig'amiz:</h4>
+    //     <p>Biz siz bergan shaxsiy tafsilotlarni yig'ishimiz mumkin, shu jumladan sizning ismingiz, aloqa ma'lumotlari va sug'urta afzalliklari. Shuningdek, biz analitik maqsadlarda brauzer turi, IP manzili va sayt faolligi kabi shaxsiy bo'lmagan ma'lumotlarni yig'amiz.</p>
+    //     <h4>Ma'lumotlaringizni qanday ishlatamiz:</h4>
+    //     <ul>
+    //         <li>Sizning so'rovlaringizga javob berish uchun</li>
+    //         <li>Sug'urta takliflari yoki ro'yxatdan o'tish yordami berish uchun</li>
+    //         <li>Muhim yangilanishlar va foydali ma'lumotlarni yuborish uchun (istalgan vaqtda obunani bekor qilishingiz mumkin)</li>
+    //         <li>Veb-saytimiz va foydalanuvchi tajribasini yaxshilash uchun</li>
+    //     </ul>
+    //     <h4>Biz QILMAYMIZ:</h4>
+    //     <ul>
+    //         <li>Shaxsiy ma'lumotlaringizni sotmaymiz yoki ijaraga bermaymiz</li>
+    //         <li>Ma'lumotlaringizni uchinchi tomonlar bilan sizning roziligingiz holda bo'lmasdan baham ko'rmaymiz, qonun talablari yoki sizning sug'urta so'rovlaringizni bajarish uchun talab qilingan holatlar bundan mustasno</li>
+    //     </ul>
+    //     <p><strong>Ma'lumotlar xavfsizligi:</strong> Biz ma'lumotlaringizni himoya qilish uchun sanoat standartlaridagi chora-tadbirlarni amalga oshiramiz. Biroq, hech bir internet orqali uzatish 100% xavfsiz emas.</p>
+    //     <p><strong>Cookie-lar:</strong> Bizning veb-saytimiz silliqroq ko'rish tajribasi va asosiy tahlil uchun cookie-lardan foydalanishi mumkin.</p>
+    //     <p><strong>Sizning roziliringiz:</strong> Saytimizdan foydalanish orqali siz ushbu maxfiylik haqidagi xabarga rozi bo'lasiz.</p>
+    //     <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Yuliya Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+    // </div>
+    // <hr class="disclaimer-divider">
+    // <div class="rights-reserved">
+    //     <h3>⚖️ Barcha huquqlar himoyalangan</h3>
+    //     <p>©️ 2025 Julia Barinova, Inc.</p>
+    //     <p>Ushbu veb-saytdagi barcha kontent — shu jumladan matn, grafika, logotiplar, rasmlar va yuklab olish mumkin bo'lgan materiallar — Julia Barinova, Inc. mulki hisoblanadi va AQSh va xalqaro mualliflik huquqi qonunlari bilan himoyalangan.</p>
+    //     <p>Ushbu veb-saytning biron bir qismini ruxsatsiz ko'paytirish, tarqatish yoki foydalanish oldindan yozma rozilik holda qat'iyan taqiqlanadi.</p>
+    // </div>`,
     // Partners section
     partnersTitle: "Bizning ishonchli strategik tish davolash hamkorlari",
     partnersTitle2: "Tish davolash rasmlari galeriyasi",
@@ -1100,7 +1227,7 @@ saveContact: "Kontaktni saqlash"
 },
 es: {
     // Hero section
-    heroTitle: "🦷 SONRISA FELIZ HOY: Seguro Dental «Todo Incluido» que Funciona: ¡De inmediato! ¡Desde el día 1!",
+    heroTitle: "🦷 SONRISA FELIZ HOY: Únete a la revolución en seguros dentales - sin esperas, sin complicaciones, solo protección.",
     baner1: "IMPLANTES, CORONAS, CANALES CUBIERTOS desde el día 1",
     baner2: "SIN PERÍODO DE ESPERA. DIENTE FALTANTE - ESTÁ BIEN",
     baner3: "desde $55/mes",
@@ -1273,38 +1400,74 @@ es: {
     <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
     `,
     // Disclaimer
-    newDisclaimer: `<div class="privacy-notice">
-        ESTE RESUMEN HA SIDO PREPARADO ÚNICAMENTE PARA PROPÓSITOS INFORMATIVOS POR TU CORREDOR DE SEGUROS PARA ASISTIRTE EN EL PROCESO DE SELECCIÓN DE PLAN. SE RECOMIENDA FUERTEMENTE A LOS PACIENTES QUE REVISEN LOS DOCUMENTOS DETALLADOS DEL PLAN PARA INFORMACIÓN COMPRENSIVA SOBRE COBERTURA, LIMITACIONES, Y EXCLUSIONES. TODAS LAS DISCUSIONES REFERENTES A PLANES DE TRATAMIENTO, APROBACIONES DE COBERTURA, Y RESPONSABILIDADES DE PAGO DEBEN SER MANEJADAS DIRECTAMENTE ENTRE TÚ, TU PROVEEDOR DENTAL, Y LA COMPAÑÍA DE SEGUROS.<br><br>
+        // Disclaimer
+        newDisclaimer: `<div class="rights-reserved">
+            <h3>⚖️ Todos los Derechos Reservados</h3>
+            <p>©️ 2025 Julia Barinova, Inc.</p>
+            <p>Todo el contenido en este sitio web — incluyendo texto, gráficos, logos, imágenes, y materiales descargables — es propiedad de Julia Barinova, Inc. y protegido por leyes de derechos de autor de EE.UU. e internacionales.</p>
+            <p>La reproducción, distribución, o uso no autorizado de cualquier parte de este sitio web está estrictamente prohibido sin consentimiento escrito previo.</p>
+            <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Notas de Privacidad</a></p>
+        </div>`,
+
+        // Privacy Policy Modal Content
+        privacyPolicyContent: `<div class="privacy-notice">
+            ESTE RESUMEN HA SIDO PREPARADO ÚNICAMENTE PARA PROPÓSITOS INFORMATIVOS POR TU CORREDOR DE SEGUROS PARA ASISTIRTE EN EL PROCESO DE SELECCIÓN DE PLAN. SE RECOMIENDA FUERTEMENTE A LOS PACIENTES QUE REVISEN LOS DOCUMENTOS DETALLADOS DEL PLAN PARA INFORMACIÓN COMPRENSIVA SOBRE COBERTURA, LIMITACIONES, Y EXCLUSIONES. TODAS LAS DISCUSIONES REFERENTES A PLANES DE TRATAMIENTO, APROBACIONES DE COBERTURA, Y RESPONSABILIDADES DE PAGO DEBEN SER MANEJADAS DIRECTAMENTE ENTRE TÚ, TU PROVEEDOR DENTAL, Y LA COMPAÑÍA DE SEGUROS.<br><br>
+            
+            <h3>🛡️ Aviso de Privacidad</h3>
+            <p><strong>Fecha Efectiva:</strong> 2025</p>
+            <p>Julia Barinova, Inc. ("nosotros," "nuestro," o "nos") respeta tu privacidad y está comprometida a proteger tu información personal. Este Aviso de Privacidad explica cómo recolectamos, usamos, y protegemos tus datos cuando visitas nuestro sitio web, envías formularios, o te comunicas con nosotros.</p>
+            <h4>Lo que Recolectamos:</h4>
+            <p>Podemos recolectar detalles personales que proporciones, incluyendo tu nombre, información de contacto, y preferencias de seguros. También recolectamos datos no personales como tipo de navegador, dirección IP, y actividad del sitio para propósitos analíticos.</p>
+            <h4>Cómo Usamos tu Información:</h4>
+            <ul>
+                <li>Para responder a tus consultas</li>
+                <li>Para proporcionar cotizaciones de seguros o asistencia de inscripción</li>
+                <li>Para enviar actualizaciones importantes e información útil (puedes cancelar suscripción en cualquier momento)</li>
+                <li>Para mejorar nuestro sitio web y experiencia del usuario</li>
+            </ul>
+            <h4>NO hacemos:</h4>
+            <ul>
+                <li>Vender o rentar tu información personal</li>
+                <li>Compartir tus datos con terceros sin tu consentimiento, excepto donde sea requerido por ley o para cumplir tus solicitudes de seguros</li>
+            </ul>
+            <p><strong>Seguridad de Datos:</strong> Implementamos medidas estándar de la industria para proteger tu información. Sin embargo, ninguna transmisión de internet es 100% segura.</p>
+            <p><strong>Cookies:</strong> Nuestro sitio web puede usar cookies para una experiencia de navegación más fluida y analíticos básicos.</p>
+            <p><strong>Tu Consentimiento:</strong> Al usar nuestro sitio, consientes a este Aviso de Privacidad.</p>
+            <p><strong>Contáctanos:</strong> Si tienes preguntas sobre esta política, por favor contacta a Julia Barinova al <a href="tel:+13479228037">📞 347-922-8037</a> o <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+        </div>`,
+    
+    // newDisclaimer: `<div class="privacy-notice">
+    //     ESTE RESUMEN HA SIDO PREPARADO ÚNICAMENTE PARA PROPÓSITOS INFORMATIVOS POR TU CORREDOR DE SEGUROS PARA ASISTIRTE EN EL PROCESO DE SELECCIÓN DE PLAN. SE RECOMIENDA FUERTEMENTE A LOS PACIENTES QUE REVISEN LOS DOCUMENTOS DETALLADOS DEL PLAN PARA INFORMACIÓN COMPRENSIVA SOBRE COBERTURA, LIMITACIONES, Y EXCLUSIONES. TODAS LAS DISCUSIONES REFERENTES A PLANES DE TRATAMIENTO, APROBACIONES DE COBERTURA, Y RESPONSABILIDADES DE PAGO DEBEN SER MANEJADAS DIRECTAMENTE ENTRE TÚ, TU PROVEEDOR DENTAL, Y LA COMPAÑÍA DE SEGUROS.<br><br>
         
-        <h3>🛡️ Aviso de Privacidad</h3>
-        <p><strong>Fecha Efectiva:</strong> 2025</p>
-        <p>Julia Barinova, Inc. ("nosotros," "nuestro," o "nos") respeta tu privacidad y está comprometida a proteger tu información personal. Este Aviso de Privacidad explica cómo recolectamos, usamos, y protegemos tus datos cuando visitas nuestro sitio web, envías formularios, o te comunicas con nosotros.</p>
-        <h4>Lo que Recolectamos:</h4>
-        <p>Podemos recolectar detalles personales que proporciones, incluyendo tu nombre, información de contacto, y preferencias de seguros. También recolectamos datos no personales como tipo de navegador, dirección IP, y actividad del sitio para propósitos analíticos.</p>
-        <h4>Cómo Usamos tu Información:</h4>
-        <ul>
-            <li>Para responder a tus consultas</li>
-            <li>Para proporcionar cotizaciones de seguros o asistencia de inscripción</li>
-            <li>Para enviar actualizaciones importantes e información útil (puedes cancelar suscripción en cualquier momento)</li>
-            <li>Para mejorar nuestro sitio web y experiencia del usuario</li>
-        </ul>
-        <h4>NO hacemos:</h4>
-        <ul>
-            <li>Vender o rentar tu información personal</li>
-            <li>Compartir tus datos con terceros sin tu consentimiento, excepto donde sea requerido por ley o para cumplir tus solicitudes de seguros</li>
-        </ul>
-        <p><strong>Seguridad de Datos:</strong> Implementamos medidas estándar de la industria para proteger tu información. Sin embargo, ninguna transmisión de internet es 100% segura.</p>
-        <p><strong>Cookies:</strong> Nuestro sitio web puede usar cookies para una experiencia de navegación más fluida y analíticos básicos.</p>
-        <p><strong>Tu Consentimiento:</strong> Al usar nuestro sitio, consientes a este Aviso de Privacidad.</p>
-        <p><strong>Contáctanos:</strong> Si tienes preguntas sobre esta política, por favor contacta a Julia Barinova al <a href="tel:+13479228037">📞 347-922-8037</a> o <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-    </div>
-    <hr class="disclaimer-divider">
-    <div class="rights-reserved">
-        <h3>⚖️ Todos los Derechos Reservados</h3>
-        <p>©️ 2025 Julia Barinova, Inc.</p>
-        <p>Todo el contenido en este sitio web — incluyendo texto, gráficos, logos, imágenes, y materiales descargables — es propiedad de Julia Barinova, Inc. y protegido por leyes de derechos de autor de EE.UU. e internacionales.</p>
-        <p>La reproducción, distribución, o uso no autorizado de cualquier parte de este sitio web está estrictamente prohibido sin consentimiento escrito previo.</p>
-    </div>`,
+    //     <h3>🛡️ Aviso de Privacidad</h3>
+    //     <p><strong>Fecha Efectiva:</strong> 2025</p>
+    //     <p>Julia Barinova, Inc. ("nosotros," "nuestro," o "nos") respeta tu privacidad y está comprometida a proteger tu información personal. Este Aviso de Privacidad explica cómo recolectamos, usamos, y protegemos tus datos cuando visitas nuestro sitio web, envías formularios, o te comunicas con nosotros.</p>
+    //     <h4>Lo que Recolectamos:</h4>
+    //     <p>Podemos recolectar detalles personales que proporciones, incluyendo tu nombre, información de contacto, y preferencias de seguros. También recolectamos datos no personales como tipo de navegador, dirección IP, y actividad del sitio para propósitos analíticos.</p>
+    //     <h4>Cómo Usamos tu Información:</h4>
+    //     <ul>
+    //         <li>Para responder a tus consultas</li>
+    //         <li>Para proporcionar cotizaciones de seguros o asistencia de inscripción</li>
+    //         <li>Para enviar actualizaciones importantes e información útil (puedes cancelar suscripción en cualquier momento)</li>
+    //         <li>Para mejorar nuestro sitio web y experiencia del usuario</li>
+    //     </ul>
+    //     <h4>NO hacemos:</h4>
+    //     <ul>
+    //         <li>Vender o rentar tu información personal</li>
+    //         <li>Compartir tus datos con terceros sin tu consentimiento, excepto donde sea requerido por ley o para cumplir tus solicitudes de seguros</li>
+    //     </ul>
+    //     <p><strong>Seguridad de Datos:</strong> Implementamos medidas estándar de la industria para proteger tu información. Sin embargo, ninguna transmisión de internet es 100% segura.</p>
+    //     <p><strong>Cookies:</strong> Nuestro sitio web puede usar cookies para una experiencia de navegación más fluida y analíticos básicos.</p>
+    //     <p><strong>Tu Consentimiento:</strong> Al usar nuestro sitio, consientes a este Aviso de Privacidad.</p>
+    //     <p><strong>Contáctanos:</strong> Si tienes preguntas sobre esta política, por favor contacta a Julia Barinova al <a href="tel:+13479228037">📞 347-922-8037</a> o <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+    // </div>
+    // <hr class="disclaimer-divider">
+    // <div class="rights-reserved">
+    //     <h3>⚖️ Todos los Derechos Reservados</h3>
+    //     <p>©️ 2025 Julia Barinova, Inc.</p>
+    //     <p>Todo el contenido en este sitio web — incluyendo texto, gráficos, logos, imágenes, y materiales descargables — es propiedad de Julia Barinova, Inc. y protegido por leyes de derechos de autor de EE.UU. e internacionales.</p>
+    //     <p>La reproducción, distribución, o uso no autorizado de cualquier parte de este sitio web está estrictamente prohibido sin consentimiento escrito previo.</p>
+    // </div>`,
 
     // Partners section
     partnersTitle: "Nuestros socios dentales estratégicos de confianza",
@@ -1420,6 +1583,9 @@ es: {
 
             // Update current language
             currentLanguage = lang;
+            
+            // Update document language attribute for privacy modal
+            document.documentElement.lang = lang;
 
             // Apply translations
             applyTranslations();
@@ -1435,6 +1601,9 @@ es: {
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLanguage = savedLang;
             
+            // Set document language attribute
+            document.documentElement.lang = savedLang;
+            
             // Update button state
             document.querySelectorAll('.lang-btn').forEach(btn => {
                 btn.classList.remove('active');
@@ -1448,7 +1617,7 @@ es: {
         // Partners Section Logic
         const partnersData = {
             "New York": [
-                { name: "Dr. Boris Zats, Dr Dmitry Tokar, Sheepsheadbay Oral Surgery, Forest Hills Oral Surgery",city: "New York City", link: "https://share.google/O7ZBgf7rdE5hY2oX2"},
+                { name: "Dr. Boris Zats, Dr Dmitry Tokar, Sheepsheadbay Oral Surgery, Forest Hills Oral Surgery, Brooklyn",city: "New York City", link: "https://share.google/O7ZBgf7rdE5hY2oX2"},
                 { name: "Sheepshead Bay Oral Surgery PLLC - MY ORAL SURGEON",city: "New York City", link: "https://share.google/AXFZCzTV6frl7MzW8"},
                 { name: "Royzman & Poznyansky, DDS (DENTAL CENTER OF BROOKLYN)",city: "New York City", link: "https://share.google/2260Jitf3tj7fnNFL"},
                 { name: "Family Smile Dental",city: "New York City", link: "https://share.google/MyapQ9y2glGcX7Afs"},
@@ -1460,15 +1629,16 @@ es: {
             ],
             "Pennsylvania": [
                 { name: "Dental Beauty", city: "Philadelphia", link: "https://share.google/v3iJsA63ipHEAvqKa" },
-                { name: "BABINER DENTAL", city: "Philadelphia", link: "https://share.google/Qx537wYznsP6Lfgbr" },
-                { name: "Dr. Boris Babiner, DMD", city: "Philadelphia", link: "https://share.google/KLL3G0Ic3PqLHBzT6" },
-                { name: "Pennsylvania Center for Advanced Dentistry - Dr. Olga Shvarts", city: "Philadelphia", link: "https://share.google/btwempK1V4plMXSPM" },
+                { name: "Dr Maxim Babiner, Babiner Dental", city: "Philadelphia", link: "https://share.google/Qx537wYznsP6Lfgbr" },
+                { name: "Boris Babiner, DDS. Implantology", city: "Philadelphia", link: "https://share.google/KLL3G0Ic3PqLHBzT6" },
                 { name: "Alexandr Volchonok DDS PC", city: "Philadelphia", link: "https://share.google/tHfHkbpojsODJxLLh" },
                 { name: "Advanced Dental Solutions", city: "Pittsburgh", link: "https://share.google/iAtwPef4Lcrc7BhJ0" },
-                { name: "Dr David Agia Southampton Aesthetic Dentistry", city: "Southampton", link: "https://share.google/KixNABUGX5SqFz0qk" }
+                { name: "Dr David Agia Southampton Aesthetic Dentistry", city: "Southampton", link: "https://share.google/KixNABUGX5SqFz0qk" },
+                { name: "Pennsylvania Center for Advanced Dentistry - Dr. Olga Shvarts", city: "Southampton", link: "https://g.co/kgs/29UABT9" },
+                // { name: "Dr Olga Shvarts", city: "", link: "https://g.co/kgs/29UABT9" }
             ],
             "Illinois": [
-                { name: "Dr Konstantin Gromov ImplantWIDE Schaumburg", city: "Schaumburg", link: "https://share.google/GDNd620yH51Yo5nRq" },
+                { name: "Dr Konstantin Gromov, Implantwide.com", city: "Schaumburg", link: "https://share.google/GDNd620yH51Yo5nRq" },
                 { name: "Dr. Gelena Roytman, DDS", city: "Chicago", link: "https://share.google/5xZD3bLT6k7JzC0OP" }
             ],
             "California": [
@@ -1640,4 +1810,116 @@ es: {
                 }
             });
         });
+
+        // Privacy Policy Modal functionality
+        function initPrivacyModal() {
+            const privacyModal = document.getElementById('privacyModal');
+            const privacyModalBody = document.getElementById('privacyModalBody');
+            const privacyClose = document.querySelector('.privacy-close');
+            
+            // Function to open privacy modal
+            function openPrivacyModal() {
+                const currentLang = document.documentElement.lang || 'en';
+                const content = translations[currentLang].privacyPolicyContent;
+                privacyModalBody.innerHTML = content;
+                privacyModal.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            }
+            
+            // Function to close privacy modal
+            function closePrivacyModal() {
+                privacyModal.style.display = 'none';
+                document.body.style.overflow = 'auto'; // Restore scrolling
+            }
+            
+            // Event listener for privacy notes link (using event delegation)
+            document.addEventListener('click', function(e) {
+                if (e.target && e.target.id === 'privacy-notes-link') {
+                    e.preventDefault();
+                    openPrivacyModal();
+                }
+            });
+            
+            // Event listener for close button
+            if (privacyClose) {
+                privacyClose.addEventListener('click', closePrivacyModal);
+            }
+            
+            // Event listener for clicking outside modal content
+            privacyModal.addEventListener('click', function(e) {
+                if (e.target === privacyModal) {
+                    closePrivacyModal();
+                }
+            });
+            
+            // Event listener for ESC key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && privacyModal.style.display === 'block') {
+                    closePrivacyModal();
+                }
+            });
+        }
+        
+        // Initialize privacy modal when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPrivacyModal);
+        } else {
+            initPrivacyModal();
+        }
+
+        // Dental Professionals Modal functionality
+        function initDentalProfessionalsModal() {
+            const dentalModal = document.getElementById('dentalProfessionalsModal');
+            const dentalModalBody = document.getElementById('dentalProfessionalsModalBody');
+            const dentalClose = document.querySelector('.dental-close');
+            
+            // Function to open dental professionals modal
+            function openDentalModal() {
+                const currentLang = document.documentElement.lang || 'en';
+                const content = translations[currentLang].dentalProfessionalsFullContent;
+                dentalModalBody.innerHTML = content;
+                dentalModal.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            }
+            
+            // Function to close dental professionals modal
+            function closeDentalModal() {
+                dentalModal.style.display = 'none';
+                document.body.style.overflow = 'auto'; // Restore scrolling
+            }
+            
+            // Event listener for dental professionals link (using event delegation)
+            document.addEventListener('click', function(e) {
+                if (e.target && e.target.id === 'dental-professionals-link') {
+                    e.preventDefault();
+                    openDentalModal();
+                }
+            });
+            
+            // Event listener for close button
+            if (dentalClose) {
+                dentalClose.addEventListener('click', closeDentalModal);
+            }
+            
+            // Event listener for clicking outside modal content
+            dentalModal.addEventListener('click', function(e) {
+                if (e.target === dentalModal) {
+                    closeDentalModal();
+                }
+            });
+            
+            // Event listener for ESC key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && dentalModal.style.display === 'block') {
+                    closeDentalModal();
+                }
+            });
+        }
+
+        // Initialize dental professionals modal when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initDentalProfessionalsModal);
+        } else {
+            initDentalProfessionalsModal();
+        }
     {/* </script> */}
