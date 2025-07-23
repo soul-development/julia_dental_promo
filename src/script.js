@@ -146,7 +146,7 @@
                 browseOptions: "Browse your options following the same <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> link. Pick the ones you need!",
                 
                 // Testimonials
-                testimonialsTitle: "Grateful Messages from Grateful Clients",
+                testimonialsTitle: "Grateful Clients Reviews",
                 
                 // Contact
                 contactTitle: "📇 Contact Julia Barinova, MBA",
@@ -583,7 +583,7 @@
                 browseOptions: "Переглядайте свої варіанти за тим же посиланням <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Оберіть те, що вам потрібно!",
                 
                 // Testimonials
-                testimonialsTitle: "Вдячні повідомлення від вдячних клієнтів",
+                testimonialsTitle: "Відгуки вдячних клієнтів",
                 
                 // Contact
                 contactTitle: "📇 Контакти: Юлія Барінова, MBA",
@@ -803,7 +803,7 @@
     browseOptions: "დაათვალიერე შენი ვარიანტები იმავე <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> ბმულზე. აირჩიე რაც გჭირდება!",
     
     // Testimonials
-    testimonialsTitle: "მადლიერი შეტყობინებები მადლიერი კლიენტებისგან",
+    testimonialsTitle: "მადლიერი კლიენტების მიმოხილვები",
     
     // Contact
     contactTitle: "📇 დაუკავშირდი იულია ბარინოვას, MBA",
@@ -1020,7 +1020,7 @@ uz: {
     browseOptions: "Xuddi shu <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> havolasi bo'yicha variantlaringizni ko'rib chiqing. Kerakligini tanlang!",
     
     // Testimonials
-    testimonialsTitle: "Minnatdor mijozlardan minnatdor xabarlar",
+    testimonialsTitle: "Minnatdor mijozlar sharhlari",
     
     // Contact
     contactTitle: "📇 Yuliya Barinova, MBA bilan bog'laning",
@@ -1236,7 +1236,7 @@ es: {
     browseOptions: "Navega tus opciones siguiendo el mismo enlace <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. ¡Elige los que necesites!",
     
     // Testimonials
-    testimonialsTitle: "Mensajes Agradecidos de Clientes Agradecidos",
+    testimonialsTitle: "Reseñas de Clientes Agradecidos",
     
     // Contact
     contactTitle: "📇 Contacta a Julia Barinova, MBA",
