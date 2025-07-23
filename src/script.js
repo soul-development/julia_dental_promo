@@ -624,6 +624,13 @@ const translations = {
                 },
                 dentalProfessionalsAtention: `
                 <h2 class="partners-title">🦷 Увага стоматологічним професіоналам! Давайте разом створимо більше посмішок</h2>
+                <p>Ви шукаєте способи допомогти своїм пацієнтам швидше приступити до лікування — і з меншою фінансовою вагомістю?</p>
+                <p class="dental-professionals-link">
+                    <a href="#" id="dental-professionals-link" class="learn-more-link">Натисніть тут для отримання додаткової інформації</a>
+                </p>
+                `,
+                dentalProfessionalsFullContent: `
+                <h2 class="partners-title">🦷 Увага стоматологічним професіоналам! Давайте разом створимо більше посмішок</h2>
             <p>Ви шукаєте способи допомогти своїм пацієнтам швидше приступити до лікування — і з меншою фінансовою вагомістю?</p>
             <p>Ми запрошуємо стоматологів, таких як ви, співпрацювати з нами в пропозиції двох захоплюючих групових PPO стоматологічних планів: MetLife PPO та Delta Dental PPO 1500. Ці плани не мають періодів очікування, немає виключень для втрачених зубів, і покривають основні процедури, такі як імплантати, коронки та лікування кореневих каналів — прямо з першого дня.</p>
             <ul>
@@ -880,18 +887,25 @@ const translations = {
         saveContact: "შეინახე კონტაქტი"
     },
     dentalProfessionalsAtention: `
-        <h2 class="partners-title">🦷 ყურადღება სტომატოლოგ პროფესიონალებს! მოდით ერთად უფრო მეტი ღიმილი შევქმნათ</h2>
-    <p>ეძებ გზებს, რომ დაეხმარო შენს პაციენტებს უფრო სწრაფად წინ წავიდნენ მკურნალობაში — და ნაკლები ფინანსური ძვრადობით?</p>
-    <p>ჩვენ გვიწვევთ სტომატოლოგებს, შენს მსგავსებს, რომ გახდნენ ჩვენი პარტნერები ორი საინტერესო ჯგუფური წვდომის PPO სტომატოლოგიური გეგმის შეთავაზებაში: MetLife PPO და Delta Dental PPO 1500. ამ გეგმებს არ აქვთ ლოდინის პერიოდები, დაკარგული კბილების გამონაკლისები და ფარავს მთავარ პროცედურებს როგორიცაა იმპლანტები, კრონები და ფესვის არხები — პირველი დღიდანვე.</p>
-    <ul>
-        <li>✅ პაციენტები ისარგებლებენ უფრო სწრაფი მოწონებებით, ნაკლები საკუთარი ხარჯებით და უფრო მეტი მოტივაციით აუცილებელი სტომატოლოგიური სამუშაოების განხორციელებაში.</li>
-        <li>✅ სტომატოლოგები ისარგებლებენ ნაკლები გაუქმებებით, უფრო სწრაფი მკურნალობის ბრუნვით და უფრო ბედნიერი, ერთგული პაციენტებით.</li>
-    </ul>
-    <p>მოდით ერთად ვიმუშაოთ, რომ ხარისხიანი სტომატოლოგიური მოვლა უფრო ხელმისაწვდომი და სტრუქტურული გავხადოთ.</p>
-    <p>📩 დღევე დაუკავშირდი — მხიარულებით გამოვიგზავნით გეგმის მასალებს, გავუფლოთ შენს გუნდს და ნაგულისხმევად მივმართოთ პაციენტებს, რომლებიც აქტიურად ეძებენ ქსელში მომწოდებლებს შენს რაიონში.</p>
-    <p>ერთად შეგვიძლია უფრო მეტი ღიმილი შევქმნათ — სისწრაფით, დაზოგვითა და კმაყოფილებით!</p>
-    <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">დაუკავშირდი მეტი ინფორმაციისთვის.</a></p>
-    `,
+                <h2 class="partners-title">🦷 ყურადღება სტომატოლოგ პროფესიონალებს! მოდით ერთად უფრო მეტი ღიმილი შევქმნათ</h2>
+                <p>ეძებ გზებს, რომ დაეხმარო შენს პაციენტებს უფრო სწრაფად წინ წავიდნენ მკურნალობაში — და ნაკლები ფინანსური ძვრადობით?</p>
+                <p class="dental-professionals-link">
+                    <a href="#" id="dental-professionals-link" class="learn-more-link">დააჭირე აქ მეტი ინფორმაციისთვის</a>
+                </p>
+                `,
+                dentalProfessionalsFullContent: `
+                <h2 class="partners-title">🦷 ყურადღება სტომატოლოგ პროფესიონალებს! მოდით ერთად უფრო მეტი ღიმილი შევქმნათ</h2>
+            <p>ეძებ გზებს, რომ დაეხმარო შენს პაციენტებს უფრო სწრაფად წინ წავიდნენ მკურნალობაში — და ნაკლები ფინანსური ძვრადობით?</p>
+            <p>ჩვენ გვიწვევთ სტომატოლოგებს, შენს მსგავსებს, რომ გახდნენ ჩვენი პარტნერები ორი საინტერესო ჯგუფური წვდომის PPO სტომატოლოგიური გეგმის შეთავაზებაში: MetLife PPO და Delta Dental PPO 1500. ამ გეგმებს არ აქვთ ლოდინის პერიოდები, დაკარგული კბილების გამონაკლისები და ფარავს მთავარ პროცედურებს როგორიცაა იმპლანტები, კრონები და ფესვის არხები — პირველი დღიდანვე.</p>
+            <ul>
+                <li>✅ პაციენტები ისარგებლებენ უფრო სწრაფი მოწონებებით, ნაკლები საკუთარი ხარჯებით და უფრო მეტი მოტივაციით აუცილებელი სტომატოლოგიური სამუშაოების განხორციელებაში.</li>
+                <li>✅ სტომატოლოგები ისარგებლებენ ნაკლები გაუქმებებით, უფრო სწრაფი მკურნალობის ბრუნვით და უფრო ბედნიერი, ერთგული პაციენტებით.</li>
+            </ul>
+            <p>მოდით ერთად ვიმუშაოთ, რომ ხარისხიანი სტომატოლოგიური მოვლა უფრო ხელმისაწვდომი და სტრუქტურული გავხადოთ.</p>
+            <p>📩 დღევე დაუკავშირდი — მხიარულებით გამოვიგზავნით გეგმის მასალებს, გავუფლოთ შენს გუნდს და ნაგულისხმევად მივმართოთ პაციენტებს, რომლებიც აქტიურად ეძებენ ქსელში მომწოდებლებს შენს რაიონში.</p>
+            <p>ერთად შეგვიძლია უფრო მეტი ღიმილი შევქმნათ — სისწრაფით, დაზოგვითა და კმაყოფილებით!</p>
+            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">დაუკავშირდი მეტი ინფორმაციისთვის.</a></p>
+                `,
     
     // Disclaimer
         // Disclaimer
@@ -1134,18 +1148,25 @@ uz: {
         saveContact: "Kontaktni saqlash"
     },
     dentalProfessionalsAtention: `
-        <h2 class="partners-title">🦷 Tish davolash mutaxassislariga e'tibor! Keling, ko'proq tabassum yarataylik</h2>
-    <p>Bemorlaringizga davolashda tezroq oldinga siljishga yordam berish yo'llarini qidiryapsizmi - va kamroq moliyaviy ikkilanish bilan?</p>
-    <p>Biz sizga o'xshagan stomatologlarni bizga sherik bo'lishga taklif qilamiz, ikkita qiziqarli guruh kirish PPO tish davolash rejalarini taklif qilishda: MetLife PPO va Delta Dental PPO 1500. Ushbu rejalarda kutish davrlari yo'q, yo'qolgan tish istisnolari yo'q va implantlar, tojlar va ildiz kanallari kabi asosiy protseduralani qoplaydi - birinchi kundan boshlab.</p>
-    <ul>
-        <li>✅ Bemorlar tezroq tasdiqlar, kamroq o'z xarajatlari va zaruriy tish ishlariga ergashishda ko'proq motivatsiyadan foydalanadilar.</li>
-        <li>✅ Stomatologlar kamroq bekor qilishlar, tezroq davolash aylanishi va baxtliroq, sodiq bemorlardan foydalanadilar.</li>
-    </ul>
-    <p>Sifatli tish davolashni yanada qulayroq va tartibga solingan qilish uchun birgalikda ishlaylik.</p>
-    <p>📩 Bugun bog'laning - biz reja materiallarini yuborishdan, jamoangizni o'rgatishdan va hatto hududingizdagi tarmoqdagi provayderlari faol qidirayotgan bemorlarni yo'naltirishdan mamnun bo'lamiz.</p>
-    <p>Birgalikda ko'proq tabassum yaratishimiz mumkin - tezlik, tejamkorlik va mamnunlik bilan!</p>
-    <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
-    `,
+                <h2 class="partners-title">🦷 Tish davolash mutaxassislariga e'tibor! Keling, ko'proq tabassum yarataylik</h2>
+                <p>Bemorlaringizga davolashda tezroq oldinga siljishga yordam berish yo'llarini qidiryapsizmi - va kamroq moliyaviy ikkilanish bilan?</p>
+                <p class="dental-professionals-link">
+                    <a href="#" id="dental-professionals-link" class="learn-more-link">Ko'proq ma'lumot olish uchun bu yerga bosing</a>
+                </p>
+                `,
+                dentalProfessionalsFullContent: `
+                <h2 class="partners-title">🦷 Tish davolash mutaxassislariga e'tibor! Keling, ko'proq tabassum yarataylik</h2>
+            <p>Bemorlaringizga davolashda tezroq oldinga siljishga yordam berish yo'llarini qidiryapsizmi - va kamroq moliyaviy ikkilanish bilan?</p>
+            <p>Biz sizga o'xshagan stomatologlarni bizga sherik bo'lishga taklif qilamiz, ikkita qiziqarli guruh kirish PPO tish davolash rejalarini taklif qilishda: MetLife PPO va Delta Dental PPO 1500. Ushbu rejalarda kutish davrlari yo'q, yo'qolgan tish istisnolari yo'q va implantlar, tojlar va ildiz kanallari kabi asosiy protseduralani qoplaydi - birinchi kundan boshlab.</p>
+            <ul>
+                <li>✅ Bemorlar tezroq tasdiqlar, kamroq o'z xarajatlari va zaruriy tish ishlariga ergashishda ko'proq motivatsiyadan foydalanadilar.</li>
+                <li>✅ Stomatologlar kamroq bekor qilishlar, tezroq davolash aylanishi va baxtliroq, sodiq bemorlardan foydalanadilar.</li>
+            </ul>
+            <p>Sifatli tish davolashni yanada qulayroq va tartibga solingan qilish uchun birgalikda ishlaylik.</p>
+            <p>📩 Bugun bog'laning - biz reja materiallarini yuborishdan, jamoangizni o'rgatishdan va hatto hududingizdagi tarmoqdagi provayderlari faol qidirayotgan bemorlarni yo'naltirishdan mamnun bo'lamiz.</p>
+            <p>Birgalikda ko'proq tabassum yaratishimiz mumkin - tezlik, tejamkorlik va mamnunlik bilan!</p>
+            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
+                `,
     
     // Disclaimer
         // Disclaimer
@@ -1387,18 +1408,25 @@ es: {
         saveContact: "Guardar contacto"
     },
     dentalProfessionalsAtention: `
-        <h2 class="partners-title">🦷 ¡Atención Profesionales Dentales! Creemos Más Sonrisas Juntos</h2>
-    <p>¿Estás buscando formas de ayudar a tus pacientes a avanzar con el tratamiento más rápido — y con menos vacilación financiera?</p>
-    <p>Estamos invitando a dentistas como tú a asociarse con nosotros en ofrecer dos emocionantes planes dentales PPO de acceso grupal: MetLife PPO y Delta Dental PPO 1500. Estos planes no tienen períodos de espera, no tienen exclusiones de dientes faltantes, y cubren procedimientos mayores como implantes, coronas, y endodoncias — desde el primer día.</p>
-    <ul>
-        <li>✅ Los pacientes se benefician de aprobaciones más rápidas, costos menores de bolsillo, y mayor motivación para seguir adelante con el trabajo dental necesario.</li>
-        <li>✅ Los dentistas se benefician de menos cancelaciones, cambio de tratamiento más rápido, y pacientes más felices y leales.</li>
-    </ul>
-    <p>Trabajemos juntos para hacer el cuidado dental de calidad más accesible y simplificado.</p>
-    <p>📩 Ponte en contacto hoy — con gusto enviaremos materiales del plan, educaremos a tu equipo, e incluso referiremos pacientes que están buscando activamente proveedores en la red en tu área.</p>
-    <p>¡Juntos, podemos hacer que más sonrisas sucedan — con velocidad, ahorros, y satisfacción!</p>
-    <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
-    `,
+                <h2 class="partners-title">🦷 ¡Atención Profesionales Dentales! Creemos Más Sonrisas Juntos</h2>
+                <p>¿Estás buscando formas de ayudar a tus pacientes a avanzar con el tratamiento más rápido — y con menos vacilación financiera?</p>
+                <p class="dental-professionals-link">
+                    <a href="#" id="dental-professionals-link" class="learn-more-link">Haz clic aquí para más información</a>
+                </p>
+                `,
+                dentalProfessionalsFullContent: `
+                <h2 class="partners-title">🦷 ¡Atención Profesionales Dentales! Creemos Más Sonrisas Juntos</h2>
+            <p>¿Estás buscando formas de ayudar a tus pacientes a avanzar con el tratamiento más rápido — y con menos vacilación financiera?</p>
+            <p>Estamos invitando a dentistas como tú a asociarse con nosotros en ofrecer dos emocionantes planes dentales PPO de acceso grupal: MetLife PPO y Delta Dental PPO 1500. Estos planes no tienen períodos de espera, no tienen exclusiones de dientes faltantes, y cubren procedimientos mayores como implantes, coronas, y endodoncias — desde el primer día.</p>
+            <ul>
+                <li>✅ Los pacientes se benefician de aprobaciones más rápidas, costos menores de bolsillo, y mayor motivación para seguir adelante con el trabajo dental necesario.</li>
+                <li>✅ Los dentistas se benefician de menos cancelaciones, cambio de tratamiento más rápido, y pacientes más felices y leales.</li>
+            </ul>
+            <p>Trabajemos juntos para hacer el cuidado dental de calidad más accesible y simplificado.</p>
+            <p>📩 Ponte en contacto hoy — con gusto enviaremos materiales del plan, educaremos a tu equipo, e incluso referiremos pacientes que están buscando activamente proveedores en la red en tu área.</p>
+            <p>¡Juntos, podemos hacer que más sonrisas sucedan — con velocidad, ahorros, y satisfacción!</p>
+            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
+                `,
     // Disclaimer
         // Disclaimer
         newDisclaimer: `<div class="rights-reserved">
