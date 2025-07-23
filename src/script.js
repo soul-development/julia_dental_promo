@@ -63,7 +63,7 @@
                     "$123 – New York, Chicago, Miami",
                     "$133 – San Francisco"
                 ],
-                juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a>',
+                juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
                 
                 // Delta Dental section
                 deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -85,7 +85,7 @@
                     "$100.75 – Adult + Children",
                     "$161.25 – Full Family"
                 ],
-                juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a>',
+                juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
                 
                 // How coverage works
                 coverageWorksTitle: "💡 How Coverage Percentages Work",
@@ -284,7 +284,7 @@
                     "$123 – Нью-Йорк, Чикаго, Майами",
                     "$133 – Сан-Франциско"
                 ],
-                juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a>',
+                juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
                 
                 // Delta Dental section
                 deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -306,7 +306,7 @@
                     "$108.25 – Взрослый + супруг(а)",
                     "$161.25 – Полная семья"
                 ],
-                juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a>',
+                juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
                 
                 // How coverage works
                 coverageWorksTitle: "💡 Как работают проценты покрытия",
@@ -500,7 +500,7 @@
                     "$123 – Нью-Йорк, Чикаго, Маямі",
                     "$133 – Сан-Франциско"
                 ],
-                juliaRecommendationMetlife: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Найкраще для тих, хто потребує серйозної стоматологічної роботи (імпланти, коронки, обширне лікування) або чий лікар працює в мережі лише з MetLife (заощадить вам більше грошей). <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">MetLife план детально</a>',
+                juliaRecommendationMetlife: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Найкраще для тих, хто потребує серйозної стоматологічної роботи (імпланти, коронки, обширне лікування) або чий лікар працює в мережі лише з MetLife (заощадить вам більше грошей). <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">MetLife план детально 📄</a>',
                 
                 // Delta Dental section
                 deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -522,7 +522,7 @@
                     "$108.25 – Дорослий + чоловік/дружина",
                     "$161.25 – Повна сім'я"
                 ],
-                juliaRecommendationDelta: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Надійний, бюджетний план. Чудовий для сімей. Підтримає здоров\'я ваших зубів з мінімальними щомісячними витратами. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Delta Dental план детально</a>',
+                juliaRecommendationDelta: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Надійний, бюджетний план. Чудовий для сімей. Підтримає здоров\'я ваших зубів з мінімальними щомісячними витратами. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Delta Dental план детально 📄</a>',
                 
                 // How coverage works
                 coverageWorksTitle: "💡 Як працюють відсотки покриття",
@@ -720,7 +720,7 @@
         "$123 – ნიუ-იორკი, ჩიკაგო, მიამი",
         "$133 – სან-ფრანცისკო"
     ],
-    juliaRecommendationMetlife: 'იულიას რეკომენდაცია: საუკეთესოა მათთვის, ვისაც სჭირდება მთავარი სტომატოლოგიური სამუშაო (იმპლანტები, კრონები, ექსტენსიური მკურნალობა) ან ვისი მომწოდებელიც მხოლოდ MetLife-თან არის ქსელში (გაზოგავს მეტ ფულს) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა</a>',
+    juliaRecommendationMetlife: 'იულიას რეკომენდაცია: საუკეთესოა მათთვის, ვისაც სჭირდება მთავარი სტომატოლოგიური სამუშაო (იმპლანტები, კრონები, ექსტენსიური მკურნალობა) ან ვისი მომწოდებელიც მხოლოდ MetLife-თან არის ქსელში (გაზოგავს მეტ ფულს) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა 📄</a>',
     
     // Delta Dental section
     deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -742,7 +742,7 @@
         "$108.25 – ზრდასრული + მეუღლე",
         "$161.25 – სრული ოჯახი"
     ],
-    juliaRecommendationDelta: 'იულიას რეკომენდაცია: საიმედო, ბიუჯეტურად მეგობრული გეგმა. შესანიშნავია ოჯახებისთვის. შენარჩუნებს კბილების ჯანსაღობას მინიმალური ყოველთვიური ღირებულებით. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა</a>',
+    juliaRecommendationDelta: 'იულიას რეკომენდაცია: საიმედო, ბიუჯეტურად მეგობრული გეგმა. შესანიშნავია ოჯახებისთვის. შენარჩუნებს კბილების ჯანსაღობას მინიმალური ყოველთვიური ღირებულებით. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა 📄</a>',
     
     // How coverage works
     coverageWorksTitle: "💡 როგორ მუშაობს დაფარვის პროცენტები",
@@ -937,7 +937,7 @@ uz: {
         "$123 – Nyu-York, Chikago, Mayami",
         "$133 – San-Fransisko"
     ],
-    juliaRecommendationMetlife: 'YULIYANING TAVSIYASI: Asosiy tish ishi kerak bo\'lganlarga (implantlar, tojlar, keng davolash) yoki provayderini faqat MetLife bilan tarmoqda bo\'lganlarga eng yaxshisi (sizga ko\'proq pul tejaydi) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi</a>',
+    juliaRecommendationMetlife: 'YULIYANING TAVSIYASI: Asosiy tish ishi kerak bo\'lganlarga (implantlar, tojlar, keng davolash) yoki provayderini faqat MetLife bilan tarmoqda bo\'lganlarga eng yaxshisi (sizga ko\'proq pul tejaydi) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
     
     // Delta Dental section
     deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -959,7 +959,7 @@ uz: {
         "$108.25 – Kattalar + Turmush o'rtog'i",
         "$161.25 – To'liq oila"
     ],
-    juliaRecommendationDelta: 'YULIYANING TAVSIYASI: Ishonchli, byudjetga mos reja. Oilalar uchun ajoyib. Tishlaringizni minimal oylik xarajat bilan sog\'lom va toza saqlaydi. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi</a>',
+    juliaRecommendationDelta: 'YULIYANING TAVSIYASI: Ishonchli, byudjetga mos reja. Oilalar uchun ajoyib. Tishlaringizni minimal oylik xarajat bilan sog\'lom va toza saqlaydi. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
     
     // How coverage works
     coverageWorksTitle: "💡 Qoplash foizlari qanday ishlaydi",
@@ -1153,7 +1153,7 @@ es: {
         "$123 – Nueva York, Chicago, Miami",
         "$133 – San Francisco"
     ],
-    juliaRecommendationMetlife: 'RECOMENDACIÓN DE JULIA: Mejor para aquellos que necesitan trabajo dental mayor (implantes, coronas, tratamientos extensivos) o cuyo proveedor está en la red solo con MetLife (te ahorrará más dinero) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan</a>',
+    juliaRecommendationMetlife: 'RECOMENDACIÓN DE JULIA: Mejor para aquellos que necesitan trabajo dental mayor (implantes, coronas, tratamientos extensivos) o cuyo proveedor está en la red solo con MetLife (te ahorrará más dinero) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan 📄</a>',
     
     // Delta Dental section
     deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -1175,7 +1175,7 @@ es: {
         "$108.25 – Adulto + Cónyuge",
         "$161.25 – Familia Completa"
     ],
-    juliaRecommendationDelta: 'RECOMENDACIÓN DE JULIA: Un plan confiable y económico. Excelente para familias. Mantendrá tus dientes saludables y limpios con costo mensual mínimo. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan</a>',
+    juliaRecommendationDelta: 'RECOMENDACIÓN DE JULIA: Un plan confiable y económico. Excelente para familias. Mantendrá tus dientes saludables y limpios con costo mensual mínimo. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan 📄</a>',
     
     // How coverage works
     coverageWorksTitle: "💡 Cómo Funcionan los Porcentajes de Cobertura",
