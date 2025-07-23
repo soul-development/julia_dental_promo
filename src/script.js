@@ -182,7 +182,7 @@ const translations = {
             <p>Let's work together to make quality dental care more accessible and streamlined.</p>
             <p>📩 Get in touch today — we'll gladly send plan materials, educate your team, and even refer patients who are actively looking for in-network providers in your area.</p>
             <p>Together, we can make more smiles happen — with speed, savings, and satisfaction!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contact us to learn more.</a></p>
+            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
                 `,
                 // Disclaimer
                 newDisclaimer: `<div class="rights-reserved">
