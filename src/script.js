@@ -212,6 +212,7 @@
 
                 // Partners section
                 partnersTitle: "Our trusted strategic dental partners",
+                partnersTitle2: "Dental Photo Gallery",
                 phoneLabel: "Phone:",
                 websiteLabel: "Website:",
                 emailLabel: "Email:",
@@ -434,6 +435,7 @@
                 </div>`,
                 // Partners section
                 partnersTitle: "Наши проверенные партнеры дантисты",
+                partnersTitle2: "Галерея фотографий партнеров",
                 phoneLabel: "Тел:",
                 websiteLabel: "Cайт:",
                 emailLabel: "Email:",
@@ -651,6 +653,7 @@
                 </div>`,
                 // Partners section
                 partnersTitle: "🤝 Наші перевірені партнери - стоматологи",
+                partnersTitle2: "Галерея стоматологічних фотографій",
                 phoneLabel: "Тел:",
                 websiteLabel: "Сайт:",
                 emailLabel: "Email:",
@@ -870,6 +873,7 @@
     </div>`,
     // Partners section
     partnersTitle: "ჩვენი სანდო სტრატეგიული სტომატოლოგი პარტნიორები",
+    partnersTitle2: "სტომატოლოგიული ფოტოგალერია",
     phoneLabel: "ტელეფონი:",
 websiteLabel: "ვებგვერდი:",
 emailLabel: "ელფოსტა:",
@@ -1087,6 +1091,7 @@ uz: {
     </div>`,
     // Partners section
     partnersTitle: "Bizning ishonchli strategik tish davolash hamkorlari",
+    partnersTitle2: "Tish davolash rasmlari galeriyasi",
     phoneLabel: "Telefon:",
 websiteLabel: "Vebsayt:",
 emailLabel: "Elektron pochta:",
@@ -1303,6 +1308,7 @@ es: {
 
     // Partners section
     partnersTitle: "Nuestros socios dentales estratégicos de confianza",
+    partnersTitle2: "Galería de Fotos de Odontología",
     phoneLabel: "Teléfono:",
     websiteLabel: "Sitio Web:",
     emailLabel: "Email:",
