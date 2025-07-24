@@ -1,162 +1,167 @@
 {/* <script> */}
-        // Translation data
+// Translation data
 const translations = {
-            en: {
-                // Hero section
-                // heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
-                // heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
-                heroTitle: "🦷 HAPPY SMILE TODAY: Join the revolution in dental insurance - no waiting, no nonsense, just protection.",
-                baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
-                baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
-                baner3: "from $55/mo",
-                go1: "👇 TO REVIEW and REGISTER:",
-                go2: "👆 GO",
-                advisorName: "Brought to you by Julia Barinova, MBA – Licensed Insurance Advisor and Broker",
-                meetJulia: "👋 Meet Julia",
-                juliaIntro: "Hello, I'm Julia Barinova, an independent Insurance Advisor and Broker based in New York City, with over 20 years of experience in financial services - from investment consulting and hedge fund marketing- to personalized insurance planning.",
-                juliaPassion: "I am passionate about helping people protect themselves and their families and businesses from devastating financial risks - whether stemming from serious illness, income loss, long-term care needs, or the loss of a loved one - by educating them and building smart, customized insurance strategies. I also love uncovering innovative solutions that fill critical gaps and save real money on essential services like dental care.",
-                clientStats: `👉 Dental care in the U.S. is notoriously expensive. Sadly, many people delay essential checkups and treatments simply because they can't afford them - only to face more serious dental problems later that may cost a fortune to fix. Or, just neglect their mouth altogether, which may result in significant overall health problems.
-                <br><br>
-                Most individual dental insurance plans - unless offered through an employer - come with long waiting periods for major procedures like crowns and root canals, and almost never cover implants.
-                <br><br>
-                About three years ago, I discovered a "hidden gem": group-access MetLife PPO and Delta Dental PPO plans with NO waiting periods and NO missing tooth exclusions - even for major treatments like implants and crowns. It worked so well for me(I saved nearly $2,000 on an implant) that I became a licensed representative for the company offering them, thrilled to help others benefit too.
-                <br><br>
-                Since then, over 1,000 clients and their families nationwide have used these plans to save thousands of dollars on cleanings, fillings, crowns, root canals - and yes, implants. Even local dentists in New York City, Philadelphia,Chicago and San Francisco, with whom we eventually developed warm professional relationships, were somewhat skeptical at first, but later became my strongest advocates - now referring hundreds of patients each year to get covered.
-                <br><br>
-                Now it's your turn! I'd be thrilled to help you restore your healthy, happy smile - with two trusted plans I personally use and recommend, and local dental professionals you already know and trust , or whom we can recommend, if needed.`,
-                // Plans section
-                plansTitle: "🌟 The Two Plans I Recommend",
-                plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
-                sharedAdvantages: "🔹 Shared Advantages of Both Plans",
-                sharedList: [
-                    "✔️ Accepted by most dentists nationwide",
-                    "✔️ NO WAITING PERIOD - even for implants and crowns",
-                    "✔️ NO MISSING TOOTH clause: covers already absent tooth",
-                    "✔️ Coverage starts on the 1st of next month (if enrolled by the 20th of the current month)",
-                    "✔️ Annual benefits reset on Jan 1 (you may be able to double your savings if planned strategically)",
-                    "✔️ Minimal out-of-pocket surprises (receive an estimate of coverage from the Insurance company prior to beginning of a serious dental project!)"
-                ],
-                
-                // MetLife section
-                metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
-                metlifeNotAvailable: "🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
-                whyClientsLove: "Why Clients Love It:",
-                metlifeFeatures: [
-                    "Generous Annual Maximum Benefit: $3,000/year",
-                    "Low Annual deductible: $25/person, $75 family based on ZIP code",
-                    "NO Waiting Period, even on implants or crowns",
-                    "NO Missing Teeth Clause",
-                    "Widely accepted (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>search MetLife PPO Dental Providers – PDP Network</a>)",
-                    "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
-                ],
-                coverage: "Coverage:",
-                metlifeCoverage: [
-                    "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
-                    "✅ 80% – Basic (extractions, gum treatment)",
-                    "✅ 50% – Major (crowns, root canals, bridges, dentures, oral surgery)"
-                ],
-                monthlyPremiumsMetlife: "💰 Monthly Premiums for an Individual (sample rates based on ZIP code, includes $5 association membership*):",
-                monthlyPremiumsDelta: "💰 Monthly Premiums for an Individual (includes $5 association membership*):",
-                metlifePricing: [
-                    "$96 – Pennsylvania, Ohio",
-                    "$110 – New Jersey, Staten Island",
-                    "$123 – New York, Chicago, Miami",
-                    "$133 – San Francisco"
-                ],
-                juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
-                
-                // Delta Dental section
-                deltaTitle: "🦷 Delta Dental PPO 1500",
-                deltaFeatures: [
-                    "Annual benefit: $1,500/ calendar year",
-                    "Carryover Benefit – roll over part of the unused benefit onto the next year",
-                    "NO Waiting Period",
-                    "Covers Missing Teeth",
-                    "Large national network (available in all 50 states – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>search Delta Dental PPO Providers</a>)"
-                ],
-                deltaCoverage: [
-                    "✅ 100% – Preventive",
-                    "✅ 80% – Basic (extractions, root canals)",
-                    "✅ 50% – Major (crowns, bridges, surgery, implants, dentures)"
-                ],
-                deltaPricing: [
-                    "$59.50 – Individual",
-                    "$108.25 – Adult + Spouse",
-                    "$100.75 – Adult + Children",
-                    "$161.25 – Full Family"
-                ],
-                juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
-                
-                // How coverage works
-                coverageWorksTitle: "💡 How Coverage Percentages Work",
-                coverageExplanation: [
-                    "📌 The 100% (Preventive), 80% (Basic), and 50% (Major) coverage is calculated based on the in-network negotiated rate for each dental procedure.",
-                    "👩‍⚕️ In-network dentists must follow pre-set rates between them and the insurer- and your share is based on those reduced rates.",
-                    "❗ Going out-of-network? You may expect somewhat higher bills and more out-of-pocket expenses. Out-of-Network option is great to have if your favorite dentist is not in-network. Usually, you will still save quite a bit of money compared to paying cash!",
-                    "👉 When choosing a new dentist, try to confirm with your dentist that they're in-network with your plan to avoid surprise bills."
-                ],
-                
-                // Enrollment
-                enrollmentTitle: "📝 How to Enroll",
-                enrollmentSteps: [
-                    "Visit <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> by the 20th of the month to become a Member on the 1st of the following month",
-                    "Enter ZIP code and date of birth",
-                    "Choose participant type: Individual / Adult + Kids / Couple / Family",
-                    "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
-                    "Add EWA Membership ($5/month-see explanation below) to access group pricing",
-                    "Click Enroll - receive instant confirmation"
-                ],
-                youllNeedTitle: "You'll Need:",
-                youllNeedList: [
-                    "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
-                    "Address, email, phone number",
-                    "Bank account information (routing + account number)",
-                    "❌ Credit/debit cards are NOT accepted"
-                ],
-                
-                // Payment & Billing
-                paymentTitle: "💳 Payment & Billing Details",
-                paymentDetails: [
-                    "Your bank account will be charged automatically around the 28th of each month by NuEra",
-                    "Payments continue monthly until you cancel through your broker",
-                    "Please ensure sufficient funds are available to avoid a $30 return/bounce/reinstatement fee"
-                ],
-                
-                // After Enrollment
-                afterEnrollmentTitle: "🗓️ After Enrollment",
-                afterEnrollmentDetails: [
-                    "Usually, you will appear in the insurer's system between the 8th–15th of the first month",
-                    "MetLife Member ID = your SSN",
-                    "Delta Dental will mail your card and provide an online ID"
-                ],
-                trackBenefitsTitle: "Track & Manage Your Benefits:",
-                trackBenefitsList: [
-                    "🔹 metlife.com (you will be able to access it by mid-month after the start of your plan)",
-                    "🔹 deltadentalct.com",
-                    "🔹 corenroll.com or via the Corenroll app"
-                ],
-                
-                additionalBenefits: "Explore additional benefits through *Elevate Wellness Association ($5/month membership fee is included in the above premium estimates):",
-                ewaDescription: "*Elevate Wellness Association (EWA) is a national membership organization founded in 1993 that empowers small and mid-sized companies, self-employed individuals, individuals and families across the U.S. to access group-level health and wellness benefits typically reserved for larger employers. You can chose among the following important benefits:",
-                ewaBenefits: [
-                    "Vision, Medical, Life, Accident",
-                    "Hospital Indemnity & Critical Illness",
-                    "Telemedicine & Wellness programs"
-                ],
-                browseOptions: "Browse your options following the same <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> link. Pick the ones you need!",
-                
-                // Testimonials
-                testimonialsTitle: "Grateful Clients Reviews",
-                
-                // Contact
-                contactTitle: "📇 Contact Julia Barinova, MBA",
-                contactIntro: "📢 I invite you to connect with me and schedule a free consultation to discuss your insurance planning - including protecting yourselves and your loved ones with life insurance with living benefits, disability coverage, long-term care, and any other questions you may have. Having lived and worked in the U.S. for nearly 30 years, I'm happy to support new immigrants with valuable information and resources to help them build a better life.",
-                thankYou: "Thank you for your interest and your business.",
-                contactInfo: {
-                    name: "Julia Barinova, MBA",
-                    title: "Licensed Insurance Broker",
-                    license: "NYS Insurance License LA-937924",
-                    phone: "347-922-8037",
+    en: {
+        // Hero section
+        // heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
+        // heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
+        heroTitle: "🦷 HAPPY SMILE TODAY: Join the revolution in dental insurance - no waiting, no nonsense, just protection.",
+        baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
+        baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
+        baner3: "from $55/mo",
+        go1: "👇 TO REVIEW and REGISTER:",
+        go2: "👆 GO",
+        advisorName: "Brought to you by Julia Barinova, MBA – Licensed Insurance Advisor and Broker",
+        meetJulia: "👋 Meet Julia",
+        juliaIntro: "Hello, I'm Julia Barinova, an independent Insurance Advisor and Broker based in New York City, with over 20 years of experience in financial services - from investment consulting and hedge fund marketing- to personalized insurance planning.",
+        juliaPassion: "I am passionate about helping people protect themselves and their families and businesses from devastating financial risks - whether stemming from serious illness, income loss, long-term care needs, or the loss of a loved one - by educating them and building smart, customized insurance strategies. I also love uncovering innovative solutions that fill critical gaps and save real money on essential services like dental care.",
+        clientStats: `👉 Dental care in the U.S. is notoriously expensive. Sadly, many people delay essential checkups and treatments simply because they can't afford them - only to face more serious dental problems later that may cost a fortune to fix. Or, just neglect their mouth altogether, which may result in significant overall health problems.
+        <br><br>
+        Most individual dental insurance plans - unless offered through an employer - come with long waiting periods for major procedures like crowns and root canals, and almost never cover implants.
+        <br><br>
+        About three years ago, I discovered a "hidden gem": group-access MetLife PPO and Delta Dental PPO plans with NO waiting periods and NO missing tooth exclusions - even for major treatments like implants and crowns. It worked so well for me(I saved nearly $2,000 on an implant) that I became a licensed representative for the company offering them, thrilled to help others benefit too.
+        <br><br>
+        Since then, over 1,000 clients and their families nationwide have used these plans to save thousands of dollars on cleanings, fillings, crowns, root canals - and yes, implants. Even local dentists in New York City, Philadelphia,Chicago and San Francisco, with whom we eventually developed warm professional relationships, were somewhat skeptical at first, but later became my strongest advocates - now referring hundreds of patients each year to get covered.
+        <br><br>
+        Now it's your turn! I'd be thrilled to help you restore your healthy, happy smile - with two trusted plans I personally use and recommend, and local dental professionals you already know and trust , or whom we can recommend, if needed.`,
+        // Plans section
+        plansTitle: "🌟 The Two Plans I Recommend",
+        plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
+        sharedAdvantages: "🔹 Shared Advantages of Both Plans",
+        sharedList: [
+            "✔️ Accepted by most dentists nationwide",
+            "✔️ NO WAITING PERIOD - even for implants and crowns",
+            "✔️ NO MISSING TOOTH clause: covers already absent tooth",
+            "✔️ Coverage starts on the 1st of next month (if enrolled by the 20th of the current month)",
+            "✔️ Annual benefits reset on Jan 1 (you may be able to double your savings if planned strategically)",
+            "✔️ Minimal out-of-pocket surprises (receive an estimate of coverage from the Insurance company prior to beginning of a serious dental project!)"
+        ],
+        
+        // MetLife section
+        metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
+        metlifeNotAvailable: "🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+        whyClientsLove: "Why Clients Love It:",
+        metlifeFeatures: [
+            "Generous Annual Maximum Benefit: $3,000/year",
+            "Low Annual deductible: $25/person, $75 family based on ZIP code",
+            "NO Waiting Period, even on implants or crowns",
+            "NO Missing Teeth Clause",
+            "Widely accepted (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>search MetLife PPO Dental Providers – PDP Network</a>)",
+            "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
+        ],
+        coverage: "Coverage:",
+        metlifeCoverage: [
+            "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
+            "✅ 80% – Basic (extractions, gum treatment)",
+            "✅ 50% – Major (crowns, root canals, bridges, dentures, oral surgery)"
+        ],
+        monthlyPremiumsMetlife: "💰 Monthly Premiums for an Individual (sample rates based on ZIP code, includes $5 association membership*):",
+        monthlyPremiumsDelta: "💰 Monthly Premiums for an Individual (includes $5 association membership*):",
+        metlifePricing: [
+            "$96 – Pennsylvania, Ohio",
+            "$110 – New Jersey, Staten Island",
+            "$123 – New York, Chicago, Miami",
+            "$133 – San Francisco"
+        ],
+        juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
+        
+        // Delta Dental section
+        deltaTitle: "🦷 Delta Dental PPO 1500",
+        deltaFeatures: [
+            "Annual benefit: $1,500/ calendar year",
+            "Carryover Benefit – roll over part of the unused benefit onto the next year",
+            "NO Waiting Period",
+            "Covers Missing Teeth",
+            "Large national network (available in all 50 states – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>search Delta Dental PPO Providers</a>)"
+        ],
+        deltaCoverage: [
+            "✅ 100% – Preventive",
+            "✅ 80% – Basic (extractions, root canals)",
+            "✅ 50% – Major (crowns, bridges, surgery, implants, dentures)"
+        ],
+        deltaPricing: [
+            "$59.50 – Individual",
+            "$108.25 – Adult + Spouse",
+            "$100.75 – Adult + Children",
+            "$161.25 – Full Family"
+        ],
+        juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
+        
+        // How coverage works
+        coverageWorksTitle: "💡 How Coverage Percentages Work",
+        coverageExplanation: [
+            "📌 The 100% (Preventive), 80% (Basic), and 50% (Major) coverage is calculated based on the in-network negotiated rate for each dental procedure.",
+            "👩‍⚕️ In-network dentists must follow pre-set rates between them and the insurer- and your share is based on those reduced rates.",
+            "❗ Going out-of-network? You may expect somewhat higher bills and more out-of-pocket expenses. Out-of-Network option is great to have if your favorite dentist is not in-network. Usually, you will still save quite a bit of money compared to paying cash!",
+            "👉 When choosing a new dentist, try to confirm with your dentist that they're in-network with your plan to avoid surprise bills."
+        ],
+        
+        // Enrollment
+        enrollmentTitle: "📝 How to Enroll",
+        enrollmentSteps: [
+            "Visit <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> by the 20th of the month to become a Member on the 1st of the following month",
+            "Enter ZIP code and date of birth",
+            "Choose participant type: Individual / Adult + Kids / Couple / Family",
+            "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
+            "Add EWA Membership ($5/month-see explanation below) to access group pricing",
+            "Click Enroll - receive instant confirmation"
+        ],
+        youllNeedTitle: "You'll Need:",
+        youllNeedList: [
+            "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
+            "Address, email, phone number",
+            "Bank account information (routing + account number)",
+            "❌ Credit/debit cards are NOT accepted"
+        ],
+        
+        // Payment & Billing
+        paymentTitle: "💳 Payment & Billing Details",
+        paymentDetails: [
+            "Your bank account will be charged automatically around the 28th of each month by NuEra",
+            "Payments continue monthly until you cancel through your broker",
+            "Please ensure sufficient funds are available to avoid a $30 return/bounce/reinstatement fee"
+        ],
+        
+        // After Enrollment
+        afterEnrollmentTitle: "🗓️ After Enrollment",
+        afterEnrollmentDetails: [
+            "Usually, you will appear in the insurer's system between the 8th–15th of the first month",
+            "MetLife Member ID = your SSN",
+            "Delta Dental will mail your card and provide an online ID"
+        ],
+        trackBenefitsTitle: "Track & Manage Your Benefits:",
+        trackBenefitsList: [
+            "🔹 metlife.com (you will be able to access it by mid-month after the start of your plan)",
+            "🔹 deltadentalct.com",
+            "🔹 corenroll.com or via the Corenroll app"
+        ],
+        
+        additionalBenefits: "Explore additional benefits through *Elevate Wellness Association ($5/month membership fee is included in the above premium estimates):",
+        ewaDescription: "*Elevate Wellness Association (EWA) is a national membership organization founded in 1993 that empowers small and mid-sized companies, self-employed individuals, individuals and families across the U.S. to access group-level health and wellness benefits typically reserved for larger employers. You can chose among the following important benefits:",
+        ewaBenefits: [
+            "Vision, Medical, Life, Accident",
+            "Hospital Indemnity & Critical Illness",
+            "Telemedicine & Wellness programs"
+        ],
+        browseOptions: "Browse your options following the same <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> link. Pick the ones you need!",
+        
+        // CTA Button
+        // cta: "READY TO VIEW AND ENROLL? CLICK HERE.",
+        cta: "Get this plan",
+        cta2: "READY TO VIEW AND ENROLL? CLICK HERE.",
+        
+        // Testimonials
+        testimonialsTitle: "Grateful Clients Reviews",
+        
+        // Contact
+        contactTitle: "📇 Contact Julia Barinova, MBA",
+        contactIntro: "📢 I invite you to connect with me and schedule a free consultation to discuss your insurance planning - including protecting yourselves and your loved ones with life insurance with living benefits, disability coverage, long-term care, and any other questions you may have. Having lived and worked in the U.S. for nearly 30 years, I'm happy to support new immigrants with valuable information and resources to help them build a better life.",
+        thankYou: "Thank you for your interest and your business.",
+        contactInfo: {
+            name: "Julia Barinova, MBA",
+            title: "Licensed Insurance Broker",
+            license: "NYS Insurance License LA-937924",
+            phone: "347-922-8037",
                     website: "www.juliabarinova.com",
                     email: "julia@juliabarinova.com",
                     calendar: "calendly.com/jbarinova",
@@ -376,6 +381,12 @@ const translations = {
                     "Критические болезни, телемедицина, wellness-программы"
                 ],
                 browseOptions: "Просмотрите опции по ссылке <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Выберите подходящую!",
+                
+                // CTA Button
+                // cta: "ГОТОВЫ ПОСМОТРЕТЬ и ЗАРЕГИСТРИРОВАТЬСЯ - НАЖМИТЕ на кнопку",
+                // cta: "Get this plan ✅",
+                cta: "Получить этот план",
+                cta2: "ГОТОВ ПОСМОТРЕТЬ И ЗАРЕГИСТРИРОВАТЬСЯ? ЖМИ ТУТ",
                 
                 // Testimonials
                 testimonialsTitle: "Благодарные отзывы клиентов",
@@ -604,6 +615,10 @@ const translations = {
                     "Телемедицина та велнес-програми"
                 ],
                 browseOptions: "Переглядайте свої варіанти за тим же посиланням <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Оберіть те, що вам потрібно!",
+                
+                // CTA Button
+                cta: "Отримати цей план",
+                cta2: "ГОТОВІ ПЕРЕГЛЯНУТИ ТА ЗАРЕЄСТРУВАТИСЯ? НАТИСНІТЬ ТУТ.",
                 
                 // Testimonials
                 testimonialsTitle: "Відгуки вдячних клієнтів",
@@ -868,10 +883,14 @@ const translations = {
         "საავადმყოფოს ანაზღაურება და კრიტიკული დაავადება",
         "ტელემედიცინა და კეთილდღეობის პროგრამები"
     ],
-    browseOptions: "დაათვალიერე შენი ვარიანტები იმავე <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> ბმულზე. აირჩიე რაც გჭირდება!",
-    
-    // Testimonials
-    testimonialsTitle: "მადლიერი კლიენტების მიმოხილვები",
+                    browseOptions: "დაათვალიერე შენი ვარიანტები იმავე <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> ბმულზე. აირჩიე რაც გჭირდება!",
+                
+                // CTA Button
+                cta: "ამ გეგმის მიღება",
+                cta2: "მზად ხარ ნახვისა და რეგისტრაციისთვის? დააჭირე აქ.",
+                
+                // Testimonials
+                testimonialsTitle: "მადლიერი კლიენტების მიმოხილვები",
     
     // Contact
     contactTitle: "📇 დაუკავშირდი იულია ბარინოვას, MBA",
@@ -1132,6 +1151,10 @@ uz: {
     ],
     browseOptions: "Xuddi shu <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> havolasi bo'yicha variantlaringizni ko'rib chiqing. Kerakligini tanlang!",
     
+    // CTA Button
+    cta: "Ushbu rejani olish",
+    cta2: "KO'RISH VA RO'YXATDAN O'TISHGA TAYYORMISIZ? SHU YERGA BOSING.",
+    
     // Testimonials
     testimonialsTitle: "Minnatdor mijozlar sharhlari",
     
@@ -1391,10 +1414,14 @@ es: {
         "Indemnización Hospitalaria y Enfermedad Crítica",
         "Telemedicina y programas de Bienestar"
     ],
-    browseOptions: "Navega tus opciones siguiendo el mismo enlace <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. ¡Elige los que necesites!",
-    
-    // Testimonials
-    testimonialsTitle: "Reseñas de Clientes Agradecidos",
+                    browseOptions: "Navega tus opciones siguiendo el mismo enlace <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. ¡Elige los que necesites!",
+                
+                // CTA Button
+                cta: "Obtener este plan",
+                cta2: "¿LISTO PARA VER Y INSCRIBIRSE? HAZ CLIC AQUÍ.",
+                
+                // Testimonials
+                testimonialsTitle: "Reseñas de Clientes Agradecidos",
     
     // Contact
     contactTitle: "📇 Contacta a Julia Barinova, MBA",
