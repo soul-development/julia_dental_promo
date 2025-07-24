@@ -1653,7 +1653,9 @@ es: {
                 {name: "Dr. David Poiman, DDS,  Yekaterina (Katya) Ryumina, Dental Hygienist ☺️",city: "New York City", link: "https://share.google/aAwz0Rxr7adJ15nzJ"},
                 { name: "Alfa Dental", city: "New York City", link: "https://share.google/DgDz1bGgVqfbZbtjV" },
                 { name: "Leona Kotlyar, DDS - Pristine Pediatric Dentistry", city: "New York City", link: "https://share.google/b86pT6BGa773OLruL" },
-                { name: "Vadim Firdman Luxury Dental, PC", city: "New York City", link: "https://share.google/MAOOt0VPal0MGjnOi" }
+                { name: "Vadim Firdman Luxury Dental, PC", city: "New York City", link: "https://share.google/MAOOt0VPal0MGjnOi" },
+                { name: "Leona Kotlyar, Pediatric Dentist", city: "New York City", link: "https://g.co/kgs/nxLiScr" },
+                { name: "Garry Shnayder, Oral Surgeon", city: "New York City", link: "https://www.pristineoralsurgery.com/meet-us/dr-garry-shnayder/" },
             ],
             "Pennsylvania": [
                 { name: "Dental Beauty", city: "Philadelphia", link: "https://share.google/v3iJsA63ipHEAvqKa" },
