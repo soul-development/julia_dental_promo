@@ -182,8 +182,9 @@ const translations = {
             <p>Let's work together to make quality dental care more accessible and streamlined.</p>
             <p>📩 Get in touch today — we'll gladly send plan materials, educate your team, and even refer patients who are actively looking for in-network providers in your area.</p>
             <p>Together, we can make more smiles happen — with speed, savings, and satisfaction!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
-                `,
+            // <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
                 // Disclaimer
                 newDisclaimer: `<div class="rights-reserved">
                     <h3>⚖️ All Rights Reserved</h3>
@@ -413,8 +414,9 @@ const translations = {
             <p>Давайте работать вместе, чтобы сделать качественную стоматологическую помощь более доступной и упорядоченной.</p>
             <p>📩 Свяжитесь с нами сегодня — мы с радостью отправим материалы планов, обучим вашу команду и даже направим пациентов, которые активно ищут провайдеров в сети в вашем районе.</p>
             <p>Вместе мы можем создать больше улыбок — с быстротой, экономией и удовлетворением!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
-                `,
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
                 
                 // Disclaimer
                 // disclaimer: "⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.",
@@ -640,8 +642,9 @@ const translations = {
             <p>Давайте працювати разом, щоб зробити якісну стоматологічну допомогу більш доступною та впорядкованою.</p>
             <p>📩 Зв'яжіться з нами сьогодні — ми з радістю надішлемо матеріали планів, навчимо вашу команду та навіть направимо пацієнтів, які активно шукають провайдерів у мережі у вашому районі.</p>
             <p>Разом ми можемо створити більше посмішок — зі швидкістю, економією та задоволенням!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Зв'яжіться з нами, щоб дізнатися більше.</a></p>
-                `,
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Зв'яжіться з нами, щоб дізнатися більше.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Зв'яжіться з нами, щоб дізнатися більше.</a></p>
                 
                 // Disclaimer
                 // disclaimer: "⚠️ ЦЕ РЕЗЮМЕ ПІДГОТОВЛЕНО ВИКЛЮЧНО В ІНФОРМАЦІЙНИХ ЦІЛЯХ ВАШИМ СТРАХОВИМ БРОКЕРОМ ДЛЯ НАДАННЯ ДОПОМОГИ В ПРОЦЕСІ ВИБОРУ ПЛАНУ. ПАЦІЄНТАМ НАПОЛЕГЛИВО РЕКОМЕНДУЄТЬСЯ ВИВЧИТИ ДЕТАЛЬНІ ДОКУМЕНТИ ПЛАНУ ДЛЯ ОТРИМАННЯ ВИЧЕРПНОЇ ІНФОРМАЦІЇ ПРО ПОКРИТТЯ, ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ. УСІ ОБГОВОРЕННЯ ПЛАНІВ ЛІКУВАННЯ, СХВАЛЕННЯ ПОКРИТТЯ ТА ВІДПОВІДАЛЬНОСТІ ЗА ОПЛАТУ ПОВИННІ ПРОВОДИТИСЯ БЕЗПОСЕРЕДНЬО МІЖ ВАМИ, ВАШИМ СТОМАТОЛОГОМ ТА СТРАХОВОЮ КОМПАНІЄЮ.",
@@ -904,8 +907,9 @@ const translations = {
             <p>მოდით ერთად ვიმუშაოთ, რომ ხარისხიანი სტომატოლოგიური მოვლა უფრო ხელმისაწვდომი და სტრუქტურული გავხადოთ.</p>
             <p>📩 დღევე დაუკავშირდი — მხიარულებით გამოვიგზავნით გეგმის მასალებს, გავუფლოთ შენს გუნდს და ნაგულისხმევად მივმართოთ პაციენტებს, რომლებიც აქტიურად ეძებენ ქსელში მომწოდებლებს შენს რაიონში.</p>
             <p>ერთად შეგვიძლია უფრო მეტი ღიმილი შევქმნათ — სისწრაფით, დაზოგვითა და კმაყოფილებით!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">დაუკავშირდი მეტი ინფორმაციისთვის.</a></p>
-                `,
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">დაუკავშირდი მეტი ინფორმაციისთვის.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">დაუკავშირდი მეტი ინფორმაციისთვის.</a></p>
     
     // Disclaimer
         // Disclaimer
@@ -1165,8 +1169,9 @@ uz: {
             <p>Sifatli tish davolashni yanada qulayroq va tartibga solingan qilish uchun birgalikda ishlaylik.</p>
             <p>📩 Bugun bog'laning - biz reja materiallarini yuborishdan, jamoangizni o'rgatishdan va hatto hududingizdagi tarmoqdagi provayderlari faol qidirayotgan bemorlarni yo'naltirishdan mamnun bo'lamiz.</p>
             <p>Birgalikda ko'proq tabassum yaratishimiz mumkin - tezlik, tejamkorlik va mamnunlik bilan!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
-                `,
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Ko'proq ma'lumot olish uchun bog'laning.</a></p>
     
     // Disclaimer
         // Disclaimer
@@ -1425,8 +1430,9 @@ es: {
             <p>Trabajemos juntos para hacer el cuidado dental de calidad más accesible y simplificado.</p>
             <p>📩 Ponte en contacto hoy — con gusto enviaremos materiales del plan, educaremos a tu equipo, e incluso referiremos pacientes que están buscando activamente proveedores en la red en tu área.</p>
             <p>¡Juntos, podemos hacer que más sonrisas sucedan — con velocidad, ahorros, y satisfacción!</p>
-            <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
-                `,
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Contáctanos para saber más.</a></p>
     // Disclaimer
         // Disclaimer
         newDisclaimer: `<div class="rights-reserved">
