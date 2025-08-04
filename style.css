@@ -275,6 +275,113 @@ ul[data-translate="sharedList"] {
     border-radius: 8px;
 }
 
+.sales-highlight {
+    background: linear-gradient(135deg, #e3f2fd 0%, #f8fbff 100%);
+    border: 2px solid #0178d3;
+    border-left: 6px solid #0178d3;
+    padding: 25px 30px;
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(1, 120, 211, 0.15);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.sales-highlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #0178d3, #ffc107, #0178d3);
+    border-radius: 12px 12px 0 0;
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 5px rgba(1, 120, 211, 0.3);
+    }
+
+    50% {
+        opacity: 0.8;
+        box-shadow: 0 0 15px rgba(1, 120, 211, 0.6);
+    }
+}
+
+.sales-highlight p {
+    font-size: 22px;
+    color: #0e4f87;
+    margin-bottom: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sales-highlight strong {
+    color: #0e4f87;
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(14, 79, 135, 0.15);
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sales-highlight ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sales-highlight li {
+    color: #2c2c2c;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 1.7;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.sales-highlight li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(135deg, #0178d3, #4CAF50);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 3px 8px rgba(1, 120, 211, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.sales-highlight li:hover::before {
+    transform: scale(1.1);
+}
+
+.sales-highlight li:hover {
+    color: #0e4f87;
+    transform: translateX(3px);
+    transition: all 0.2s ease;
+}
+
+.sales-highlight:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(1, 120, 211, 0.2);
+}
+
 .contact-box {
     background: #fff3cd;
     border: 2px solid #ffc107;
@@ -679,6 +786,35 @@ strong a:hover {
     .price-box {
         padding: 15px;
         margin: 15px 0;
+    }
+
+    .sales-highlight {
+        padding: 20px 18px;
+        margin: 20px 0;
+        border-left: 4px solid #0178d3;
+        border-radius: 10px;
+    }
+
+    .sales-highlight p {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+
+    .sales-highlight strong {
+        font-size: 20px;
+        letter-spacing: 0.3px;
+    }
+
+    .sales-highlight li {
+        font-size: 16px;
+        margin-bottom: 14px;
+        padding-left: 32px;
+    }
+
+    .sales-highlight li::before {
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
     }
 
     .contact-content {
