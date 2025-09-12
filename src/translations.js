@@ -153,7 +153,7 @@ export const translations = {
       
       // Educational Resources
       educationalResourcesTitle: "📚 Dental educational resources",
-      educationalResourcesBookGromov: "📥 Download book by Dr. Konstantin WEINGARTEN (Gromov)",
+      educationalResourcesBookGromov: "Educational book THE SMILE YOU DESERVE A PRACTICAL GUIDE TO YOUR DREAM SMILE  by Dr. Konstantin Gromov",
       
       // Contact
       contactTitle: "📇 Contact Julia Barinova, MBA",
@@ -395,7 +395,7 @@ export const translations = {
               
               // Educational Resources
               educationalResourcesTitle: "📚 Стоматологические образовательные ресурсы",
-              educationalResourcesBookGromov: "📥 Скачать книгу доктора Константина ВАЙНГАРТЕНА (Громова)",
+              educationalResourcesBookGromov: "Образовательная книга УЛЫБКА, КОТОРУЮ ВЫ ЗАСЛУЖИВАЕТЕ: ПРАКТИЧЕСКОЕ РУКОВОДСТВО К УЛЫБКЕ ВАШЕЙ МЕЧТЫ от доктора Константина Громова",
               
               // Contact
               contactTitle: "📇 Контакты: Юлия Баринова, MBA",
@@ -631,7 +631,7 @@ export const translations = {
               
               // Educational Resources
               educationalResourcesTitle: "📚 Стоматологічні освітні ресурси",
-              educationalResourcesBookGromov: "📥 Завантажити книгу доктора Костянтина ВАЙНГАРТЕНА (Громова)",
+              educationalResourcesBookGromov: "Освітня книга ПОСМІШКА, ЯКУ ВИ ЗАСЛУГОВУЄТЕ: ПРАКТИЧНИЙ ПОСІБНИК ДО ПОСМІШКИ ВАШОЇ МРІЇ від доктора Костянтина Громова",
               
               // Contact
               contactTitle: "📇 Контакти: Юлія Барінова, MBA",
@@ -904,7 +904,7 @@ export const translations = {
   
   // Educational Resources
   educationalResourcesTitle: "📚 კბილების განათლების რესურსები",
-  educationalResourcesBookGromov: "📥 ჩამოტვირთეთ წიგნი დოქტორ კონსტანტინე ვაინგარტენისა (გრომოვი)",
+  educationalResourcesBookGromov: "საგანმანათლებლო წიგნი ღიმილი, რომელსაც იმსახურებთ: პრაქტიკული სახელმძღვანელო თქვენი ოცნების ღიმილისთვის დოქტორ კონსტანტინე გრომოვისგან",
   
   // Contact
   contactTitle: "📇 დაუკავშირდი იულია ბარინოვას, MBA",
@@ -1174,7 +1174,7 @@ uz: {
   
   // Educational Resources
   educationalResourcesTitle: "📚 Stomatologik ta'lim resurslari",
-  educationalResourcesBookGromov: "📥 Doktor Konstantin WEINGARTEN (Gromov) kitobini yuklab olish",
+  educationalResourcesBookGromov: "Ta'lim kitobi SIZ LOYIQ BO'LGAN TABASSUM: ORZULARINGIZ TABASSUMIGA AMALIY YO'RIQNOMA doktor Konstantin Gromovdan",
   
   // Contact
   contactTitle: "📇 Yuliya Barinova, MBA bilan bog'laning",
@@ -1443,7 +1443,7 @@ es: {
   
   // Educational Resources
   educationalResourcesTitle: "📚 Recursos educativos dentales",
-  educationalResourcesBookGromov: "📥 Descargar libro del Dr. Konstantin WEINGARTEN (Gromov)",
+  educationalResourcesBookGromov: "Libro educativo LA SONRISA QUE MERECES: UNA GUÍA PRÁCTICA PARA LA SONRISA DE TUS SUEÑOS por el Dr. Konstantin Gromov",
   
   // Contact
   contactTitle: "📇 Contacta a Julia Barinova, MBA",
