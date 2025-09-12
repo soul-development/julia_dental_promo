@@ -2033,3 +2033,21 @@ strong a:hover {
         font-size: 13px;
     }
 }
+
+.educational-resources iframe {
+    max-width: 700px;
+    width: 100%;
+}
+.educational-resources-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.educational-resources a {
+    color: #0e4f87;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+    min-height: auto;
+    padding: 0;
+}
