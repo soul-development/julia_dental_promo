@@ -13,15 +13,17 @@ export const translations = {
       meetJulia: "👋 Meet Julia",
       juliaIntro: "Hello, I'm Julia Barinova, an independent Insurance Advisor and Broker based in New York City, with over 20 years of experience in financial services - from investment consulting and hedge fund marketing- to personalized insurance planning.",
       juliaPassion: "I am passionate about helping people protect themselves and their families and businesses from devastating financial risks - whether stemming from serious illness, income loss, long-term care needs, or the loss of a loved one - by educating them and building smart, customized insurance strategies. I also love uncovering innovative solutions that fill critical gaps and save real money on essential services like dental care.",
-      clientStats: `👉 Dental care in the U.S. is notoriously expensive. Sadly, many people delay essential checkups and treatments simply because they can't afford them - only to face more serious dental problems later that may cost a fortune to fix. Or, just neglect their mouth altogether, which may result in significant overall health problems.
-      <br><br>
-      Most individual dental insurance plans - unless offered through an employer - come with long waiting periods for major procedures like crowns and root canals, and almost never cover implants.
-      <br><br>
-      About three years ago, I discovered a "hidden gem": group-access MetLife PPO and Delta Dental PPO plans with NO waiting periods and NO missing tooth exclusions - even for major treatments like implants and crowns. It worked so well for me(I saved nearly $2,000 on an implant) that I became a licensed representative for the company offering them, thrilled to help others benefit too.
-      <br><br>
-      Since then, over 1,000 clients and their families nationwide have used these plans to save thousands of dollars on cleanings, fillings, crowns, root canals - and yes, implants. Even local dentists in New York City, Philadelphia,Chicago and San Francisco, with whom we eventually developed warm professional relationships, were somewhat skeptical at first, but later became my strongest advocates - now referring hundreds of patients each year to get covered.
-      <br><br>
-      Now it's your turn! I'd be thrilled to help you restore your healthy, happy smile - with two trusted plans I personally use and recommend, and local dental professionals you already know and trust , or whom we can recommend, if needed.`,
+      clientStats: `👉 Dental care in the U.S. is among the most expensive in the world. Too often, people put off checkups or treatments because of cost—only to face bigger, more painful, and far more expensive problems later.
+<br><br>
+Most private (non-employer) dental plans don’t help much: low yearly limits, long waits for crowns or root canals, no implant coverage—or tricky “missing tooth” clauses.
+<br><br>
+A few years ago, while searching for an affordable implant myself, I stumbled on something rare: group-access MetLife and Delta Dental PPO plans with NO WAITING PERIODS and NO MISSING TOOTH exclusions. Crowns, root canals, implants—covered from day one, at rates that truly make sense for individuals and families.
+<br><br>
+I was so impressed (and saved nearly $2,000 on my own implant) that I became licensed to represent these plans and share them with others. Since then, I’ve helped nearly 1,500 people nationwide save thousands, get treatment faster, and finally enjoy the healthy, confident smiles they deserve.
+<br><br>
+Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco refer patients to us—because they’ve seen how much these plans help.
+<br><br>
+We’re proud to make this opportunity available to you too—because everyone deserves a healthy, beautiful smile. 💙`,
       // Plans section
       plansTitle: "🌟 The Two Plans I Recommend",
       plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
