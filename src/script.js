@@ -47,14 +47,6 @@ import { translations } from './translations';
                 }
             }
 
-            // Handle after enrollment content
-            const afterEnrollmentDiv = document.getElementById('afterEnrollmentContent');
-            if (afterEnrollmentDiv) {
-                const content = translate('afterEnrollmentContent');
-                if (Array.isArray(content)) {
-                    afterEnrollmentDiv.innerHTML = content.map(text => `<p>${text}</p>`).join('');
-                }
-            }
 
             // Handle contact information
             const contactDiv = document.getElementById('contactInfo');

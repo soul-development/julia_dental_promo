@@ -135,11 +135,17 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       ],
       
       // After Enrollment
-      afterEnrollmentTitle: "🗓️ After Enrollment",
+      afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
       afterEnrollmentDetails: [
-          "Usually, you will appear in the insurer's system between the 8th–15th of the first month",
-          "MetLife Member ID = your SSN",
-          "Delta Dental will mail your card and provide an online ID"
+          "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
+          "Access plan documents",
+          "Explore and enroll in additional benefits offered through the platform",
+          "Communicate with your representative with questions, etc.",
+          "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
+          "For MetLife:",
+          "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
+          "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
+          "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
       ],
       trackBenefitsTitle: "Track & Manage Your Benefits:",
       trackBenefitsList: [
@@ -387,11 +393,17 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               ],
               
               // After Enrollment
-              afterEnrollmentTitle: "🗓️ После регистрации",
+              afterEnrollmentTitle: "ВЫ ЗАРЕГИСТРИРОВАЛИСЬ, ЧТО ДАЛЬШЕ?",
               afterEnrollmentDetails: [
-                  "В базу страховщика вы попадёте между 8 и 15 числом",
-                  "MetLife ID = ваш SSN",
-                  "Delta Dental пришлёт карту и выдаст онлайн ID"
+                  "После регистрации в стоматологическом плане через Corenroll вы сможете создать личный аккаунт на corenroll.com или через мобильное приложение Corenroll. Там вы сможете:",
+                  "Получить доступ к документам плана",
+                  "Изучить и зарегистрироваться в дополнительных льготах через платформу",
+                  "Общаться с вашим представителем по вопросам и т.д.",
+                  "Для отслеживания ваших стоматологических льгот и доступа к коммуникациям страховой компании (EOB - объяснение льгот), которые она вам присылает - вам нужно создать личный аккаунт с MetLife или Delta Dental. Вы сможете сделать это в начале-середине месяца, на который вы зарегистрировались.",
+                  "Для MetLife:",
+                  "Ваше стоматологическое покрытие начинается с 1-го числа месяца (если вы зарегистрировались до 20-го числа предыдущего месяца).",
+                  "Однако из-за сроков настройки системы ваша информация может быть недоступна для верификации примерно до 10-15 числа этого месяца. Мы рекомендуем планировать ваш первый визит к стоматологу с использованием страховки ближе к этому времени, чтобы вашу страховку мог проверить стоматолог.",
+                  "После полной обработки вашей регистрации вы можете зарегистрироваться в личном аккаунте metlife.com, следуя этим шагам:"
               ],
               trackBenefitsTitle: "📲 Управление планом:",
               trackBenefitsList: [
@@ -638,11 +650,17 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               ],
               
               // After Enrollment
-              afterEnrollmentTitle: "🗓️ Після реєстрації",
+              afterEnrollmentTitle: "ВИ ЗАРЕЄСТРУВАЛИСЯ, ЩО ДАЛІ?",
               afterEnrollmentDetails: [
-                  "Зазвичай ви з'являєтесь у системі страховика між 8 та 15 числом першого місяця",
-                  "MetLife ID учасника = ваш SSN",
-                  "Delta Dental надішле вашу картку та надасть онлайн ID"
+                  "Після реєстрації у вашому стоматологічному плані через Corenroll ви зможете створити особистий обліковий запис на corenroll.com або використовуючи мобільний додаток Corenroll. Звідти ви можете:",
+                  "Отримати доступ до документів плану",
+                  "Дослідити та зареєструватися в додаткових пільгах, запропонованих через платформу",
+                  "Спілкуватися з вашим представником з питаннями тощо.",
+                  "Для відстеження ваших стоматологічних пільг та доступу до комунікацій страхової компанії (EOB - пояснення пільг), які вона вам надсилає - вам потрібно створити особистий обліковий запис з MetLife або Delta Dental. Ви зможете зробити це на початку-середині місяця, на який ви зареєструвалися.",
+                  "Для MetLife:",
+                  "Ваше стоматологічне покриття починається з 1-го числа місяця (якщо ви зареєструвалися до 20-го числа попереднього місяця).",
+                  "Проте через терміни налаштування системи ваша інформація може бути недоступна для верифікації приблизно до 10-15 числа цього місяця. Ми рекомендуємо планувати ваш перший візит до стоматолога з використанням страховки ближче до цього часу, щоб вашу страховку міг перевірити стоматолог.",
+                  "Після повної обробки вашої реєстрації ви можете зареєструватися в особистому обліковому записі metlife.com, дотримуючись цих кроків:"
               ],
               trackBenefitsTitle: "Відстежуйте та керуйте своїми пільгами:",
               trackBenefitsList: [
@@ -925,11 +943,17 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   ],
   
   // After Enrollment
-  afterEnrollmentTitle: "🗓️ რეგისტრაციის შემდეგ",
+  afterEnrollmentTitle: "თქვენ დარეგისტრირდით, რა შემდეგ?",
   afterEnrollmentDetails: [
-      "ჩვეულებრივ, მზღვეველის სისტემაში გამოჩნდები პირველი თვის 8-15 რიცხვებს შორის",
-      "MetLife წევრის ID = შენი SSN",
-      "Delta Dental გამოგიგზავნის ბარათს და მისცემს ონლაინ ID-ს"
+      "Corenroll-ის მეშვეობით თქვენი სტომატოლოგიური გეგმის რეგისტრაციის შემდეგ, თქვენ შეძლებთ შექმნათ პირადი ანგარიში corenroll.com-ზე ან Corenroll მობილური აპლიკაციის გამოყენებით. იქიდან თქვენ შეგიძლიათ:",
+      "მიიღოთ წვდომა გეგმის დოკუმენტებზე",
+      "შეისწავლოთ და დარეგისტრირდეთ პლატფორმის მეშვეობით შემოთავაზებულ დამატებით სარგებლებზე",
+      "დაუკავშირდეთ თქვენს წარმომადგენელს შეკითხვებით და ა.შ.",
+      "თქვენი სტომატოლოგიური სარგებლების თვალყურის დევნებისა და სადაზღვევო კომპანიის მიერ გამოგზავნილი კომუნიკაციების (EOB - სარგებლების ახსნა) წვდომისთვის - თქვენ უნდა შექმნათ პირადი ანგარიში MetLife-თან ან Delta Dental-თან. თქვენ შეძლებთ ამას თვის დასაწყისში-შუაში, რომელზეც დარეგისტრირდით.",
+      "MetLife-სთვის:",
+      "თქვენი სტომატოლოგიური დაფარვა იწყება თვის 1-იდან (თუ დარეგისტრირდით წინა თვის 20-მდე).",
+      "თუმცა, სისტემის დაყენების ვადების გამო, თქვენი ინფორმაცია შეიძლება იყოს ხელმიუწვდომელი ვერიფიკაციისთვის დაახლოებით ამ თვის 10-15 რიცხვამდე. ჩვენ გირჩევთ დაგეგმოთ თქვენი პირველი სტომატოლოგიური ვიზიტი სადაზღვევო საშუალებით ამ დროის მახლობლად, რათა თქვენი სადაზღვევო საშუალება შეძლოს სტომატოლოგმა გადაამოწმოს.",
+      "თქვენი რეგისტრაციის სრულად დამუშავების შემდეგ, თქვენ შეგიძლიათ დარეგისტრირდეთ თქვენს პირად metlife.com ანგარიშზე, ამ ნაბიჯების დაცვით:"
   ],
   trackBenefitsTitle: "თვალყური ადევნე და მართე შენი სარგებლები:",
   trackBenefitsList: [
@@ -1209,11 +1233,17 @@ uz: {
   ],
   
   // After Enrollment
-  afterEnrollmentTitle: "🗓️ Ro'yxatdan o'tgandan keyin",
+  afterEnrollmentTitle: "Siz ro'yxatdan o'tdingiz, keyin nima?",
   afterEnrollmentDetails: [
-      "Odatda, birinchi oyning 8–15-kunlari orasida sug'urtachining tizimida paydo bo'lasiz",
-      "MetLife a'zo ID = sizning SSN",
-      "Delta Dental kartangizni pochta orqali yuboradi va onlayn ID beradi"
+      "Corenroll orqali sizning tish davolash rejangizga ro'yxatdan o'tgandan so'ng, siz corenroll.com saytida yoki Corenroll mobil ilovasi yordamida shaxsiy hisob ochishingiz mumkin. U erdan siz quyidagilarni qilishingiz mumkin:",
+      "Reja hujjatlariga kirish",
+      "Platforma orqali taklif qilingan qo'shimcha imtiyozlarni o'rganish va ularga ro'yxatdan o'tish",
+      "Savollar va h.k. bilan vakilingiz bilan muloqot qilish",
+      "Sizning tish davolash imtiyozlaringizni kuzatish va sug'urta kompaniyasi (EOB - imtiyozlar tushuntirishi) yuborgan kommunikatsiyalarga kirish uchun - siz MetLife yoki Delta Dental bilan shaxsiy hisob yaratishingiz kerak. Siz buni ro'yxatdan o'tgan oyingizning boshida yoki o'rtalarida qilishingiz mumkin.",
+      "MetLife uchun:",
+      "Sizning tish davolash qoplashingiz oyning 1-kunidan boshlanadi (agar siz oldingi oyning 20-kunigacha ro'yxatdan o'tgan bo'lsangiz).",
+      "Biroq, tizim sozlamalari muddatlari tufayli, sizning ma'lumotlaringiz taxminan ushbu oyning 10-15-kunlarigacha tekshirish uchun mavjud bo'lmasligi mumkin. Biz sizning birinchi tish davolash tashrifingizni sug'urta bilan ushbu vaqtga yaqinroq rejalashtirishni tavsiya qilamiz, shunda sizning sug'urtangizni stomatolog tekshirishi mumkin.",
+      "Sizning ro'yxatdan o'tishingiz to'liq ishlov berilgandan so'ng, siz ushbu qadamlarni bajarib shaxsiy metlife.com hisobingizni ro'yxatdan o'tkazishingiz mumkin:"
   ],
   trackBenefitsTitle: "Imtiyozlaringizni kuzating va boshqaring:",
   trackBenefitsList: [
@@ -1492,11 +1522,17 @@ es: {
   ],
   
   // After Enrollment
-  afterEnrollmentTitle: "🗓️ Después de la Inscripción",
+  afterEnrollmentTitle: "¿TE INSCRIBISTE, QUÉ SIGUE?",
   afterEnrollmentDetails: [
-      "Usualmente, aparecerás en el sistema del asegurador entre el día 8–15 del primer mes",
-      "ID de Miembro MetLife = tu SSN",
-      "Delta Dental te enviará tu tarjeta por correo y proporcionará un ID en línea"
+      "Una vez que te hayas inscrito en tu plan dental a través de Corenroll, podrás crear una cuenta personal en corenroll.com o usando la aplicación móvil de Corenroll. Desde allí, puedes:",
+      "Acceder a documentos del plan",
+      "Explorar e inscribirte en beneficios adicionales ofrecidos a través de la plataforma",
+      "Comunicarte con tu representante con preguntas, etc.",
+      "Para rastrear tus beneficios dentales y acceder a las comunicaciones que la compañía de seguros (EOB - explicación de beneficios) te envía - necesitarás crear una cuenta personal con MetLife o Delta Dental. Podrás hacerlo a principios o mediados del mes para el cual te inscribiste.",
+      "Para MetLife:",
+      "Tu Cobertura Dental comienza el 1ro del mes (si te inscribiste antes del 20 del mes anterior).",
+      "Sin embargo, debido a los plazos de configuración del sistema, tu información puede no estar disponible para verificación hasta aproximadamente el 10–15 de ese mes. Recomendamos programar tu primera visita dental con seguro más cerca de ese tiempo para que tu seguro pueda ser verificado por tu dentista.",
+      "Una vez que tu inscripción sea completamente procesada, puedes registrarte para tu cuenta personal metlife.com siguiendo estos pasos:"
   ],
   trackBenefitsTitle: "Rastrea y Gestiona tus Beneficios:",
   trackBenefitsList: [
