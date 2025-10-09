@@ -13,17 +13,11 @@ export const translations = {
       meetJulia: "👋 Meet Julia",
       juliaIntro: "Hello, I'm Julia Barinova, an independent Insurance Advisor and Broker based in New York City, with over 20 years of experience in financial services - from investment consulting and hedge fund marketing- to personalized insurance planning.",
       juliaPassion: "I am passionate about helping people protect themselves and their families and businesses from devastating financial risks - whether stemming from serious illness, income loss, long-term care needs, or the loss of a loved one - by educating them and building smart, customized insurance strategies. I also love uncovering innovative solutions that fill critical gaps and save real money on essential services like dental care.",
-      clientStats: `👉 Dental care in the U.S. is among the most expensive in the world. Too often, people put off checkups or treatments because of cost—only to face bigger, more painful, and far more expensive problems later.
+      clientStats: `👉 Dental care in the U.S. is among the most expensive in the world. Too often, people put off checkups or treatments because of cost—only to face bigger, more painful, and far more expensive problems later. Most private (non-employer) dental plans don’t help much: low yearly limits, long waits for crowns or root canals, no implant coverage—or tricky “missing tooth” clauses.
 <br><br>
-Most private (non-employer) dental plans don’t help much: low yearly limits, long waits for crowns or root canals, no implant coverage—or tricky “missing tooth” clauses.
+A few years ago, while searching for an affordable implant myself, I stumbled on something rare: group-access MetLife and Delta Dental PPO plans with NO WAITING PERIODS and NO MISSING TOOTH exclusions. Crowns, root canals, implants—covered from day one, at rates that truly make sense for individuals and families. I was so impressed (and saved nearly $2,000 on my own implant) that I became licensed to represent these plans and share them with others. Since then, I’ve helped nearly 1,500 people nationwide save thousands, get treatment faster, and finally enjoy the healthy, confident smiles they deserve.
 <br><br>
-A few years ago, while searching for an affordable implant myself, I stumbled on something rare: group-access MetLife and Delta Dental PPO plans with NO WAITING PERIODS and NO MISSING TOOTH exclusions. Crowns, root canals, implants—covered from day one, at rates that truly make sense for individuals and families.
-<br><br>
-I was so impressed (and saved nearly $2,000 on my own implant) that I became licensed to represent these plans and share them with others. Since then, I’ve helped nearly 1,500 people nationwide save thousands, get treatment faster, and finally enjoy the healthy, confident smiles they deserve.
-<br><br>
-Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco refer patients to us—because they’ve seen how much these plans help.
-<br><br>
-We’re proud to make this opportunity available to you too—because everyone deserves a healthy, beautiful smile. 💙`,
+Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco refer patients to us—because they’ve seen how much these plans help. We’re proud to make this opportunity available to you too—because everyone deserves a healthy, beautiful smile. 💙`,
       // Plans section
       plansTitle: "🌟 The Two Plans I Recommend",
       plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
@@ -75,9 +69,13 @@ We’re proud to make this opportunity available to you too—because everyone d
           "Large national network (available in all 50 states – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>search Delta Dental PPO Providers</a>)"
       ],
       deltaCoverage: [
-          "✅ 100% – Preventive",
-          "✅ 80% – Basic (extractions, root canals)",
-          "✅ 50% – Major (crowns, bridges, surgery, implants, dentures)"
+          "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
+        //   under 80% - insert 
+// 50% Major()
+        //   "✅ 80% – Basic (Fillings, extractions, oral surgery)",
+          "✅ 80% – Basic (fillings, extractions, root canals, etc)",
+        //   "✅ 50% – Major (crowns, implantz, root canals, bridges, dentures, periodontal surgery)"
+          "✅ 50% – Major (crowns, implants, bridges, surgery, etc)"
       ],
       deltaPricing: [
           "$59.50 – Individual",
@@ -105,6 +103,20 @@ We’re proud to make this opportunity available to you too—because everyone d
           "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
           "Add EWA Membership ($5/month-see explanation below) to access group pricing",
           "Click Enroll - receive instant confirmation"
+      ],
+
+      // After Enrollment
+      afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
+      afterEnrollmentContent: [
+          "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
+          "Access plan documents",
+          "Explore and enroll in additional benefits offered through the platform",
+          "Communicate with your representative with questions, etc.",
+          "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
+          "For MetLife:",
+          "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
+          "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
+          "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
       ],
       youllNeedTitle: "You'll Need:",
       youllNeedList: [
@@ -257,15 +269,11 @@ We’re proud to make this opportunity available to you too—because everyone d
               meetJulia: "👋 Давайте познакомимся",
               juliaIntro: "Привет, меня зовут Юлия Баринова, я независимый страховой консультант и брокер из Нью-Йорка с более чем 20-летним опытом в финансовых услугах - от инвестиционного консалтинга и маркетинга хедж-фондов до персонализированного страхового планирования.",
               juliaPassion: "Моя профессиональная миссия - помогать людям защитить себя, свои семьи и бизнес от разрушительных финансовых рисков - будь то серьёзная болезнь, потеря дохода, потребность в долгосрочном уходе или утрата близкого человека - обучая их и создавая умные, индивидуальные страховые стратегии. Мне также нравится находить инновационные решения, которые закрывают критические пробелы и помогают реально экономить на жизненно важных услугах, таких как стоматологическая помощь.",
-              clientStats: `👉 Стоматологическое обслуживание в США печально известно своей дороговизной. К сожалению, многие люди откладывают необходимые осмотры и лечение просто потому, что не могут себе этого позволить - и в итоге сталкиваются с более серьезными стоматологическими проблемами, которые могут стоить целое состояние. Или просто пренебрегают своим ртом в целом, что может привести к значительным общим проблемам со здоровьем.
+              clientStats: `👉 Стоматологическое обслуживание в США - одно из самых дорогих в мире. Слишком часто люди откладывают осмотры или лечение из-за стоимости - и в итоге сталкиваются с более серьёзными, болезненными и гораздо более дорогостоящими проблемами позже. Большинство частных (не от работодателя) стоматологических планов не особо помогают: низкие годовые лимиты, долгие периоды ожидания для коронок или лечения каналов, отсутствие покрытия имплантов - или хитрые оговорки об "отсутствующих зубах".
 <br><br>
-Большинство индивидуальных планов стоматологического страхования - если они не предлагаются через работодателя - имеют долгие периоды ожидания для серьезных процедур, таких как коронки и лечение корневых каналов, и почти никогда не покрывают импланты.
+Несколько лет назад, когда я искала доступный имплант для себя, я наткнулась на что-то редкое: групповые планы MetLife и Delta Dental PPO БЕЗ ПЕРИОДОВ ОЖИДАНИЯ и БЕЗ исключений по отсутствующим зубам. Коронки, лечение каналов, импланты - покрываются с первого дня, по тарифам, которые действительно выгодны для частных лиц и семей. Я была настолько впечатлена (и сэкономила почти $2,000 на своём импланте), что получила лицензию для представления этих планов и делюсь ими с другими. С тех пор я помогла почти 1,500 людям по всей стране сэкономить тысячи, получить лечение быстрее и наконец обрести здоровую, уверенную улыбку, которую они заслуживают.
 <br><br>
-Около трех лет назад я обнаружила "скрытую жемчужину": групповые планы MetLife PPO и Delta Dental PPO БЕЗ периодов ожидания и БЕЗ исключений по отсутствующим зубам - даже для серьезных процедур, таких как импланты и коронки. Это сработало так хорошо для меня (я сэкономила почти $2,000 на импланте), что я стала лицензированным представителем компании, предлагающей их, с радостью помогая другим получить такую же выгоду.
-<br><br>
-С тех пор более 1,000 клиентов и их семей по всей стране воспользовались этими планами, чтобы сэкономить тысячи долларов на чистках, пломбах, коронках, лечении корневых каналов - и да, имплантах. Даже местные стоматологи в Нью-Йорке, Филадельфии, Чикаго и Сан-Франциско, с которыми мы в конечном итоге развили теплые профессиональные отношения, поначалу были несколько скептически настроены, но позже стали моими самыми сильными сторонниками - теперь они направляют сотни пациентов каждый год, чтобы те получили покрытие.
-<br><br>
-Теперь ваша очередь! Я была бы рада помочь вам восстановить вашу здоровую, счастливую улыбку - с двумя проверенными планами, которые я лично использую и рекомендую, и местными стоматологами, которых вы уже знаете и которым доверяете, или которых мы можем рекомендовать, если необходимо.`,
+Сегодня даже ведущие стоматологи в Нью-Йорке, Чикаго, Майами, Филадельфии и Сан-Франциско направляют к нам пациентов - потому что они видели, насколько эти планы помогают. Мы с гордостью делаем эту возможность доступной и для вас - потому что каждый заслуживает здоровую, красивую улыбку. 💙`,
               // Plans section
               plansTitle: "🌟 Два плана, которые я рекомендую",
               plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
@@ -347,6 +355,20 @@ We’re proud to make this opportunity available to you too—because everyone d
                   "Выберите план: MetLife PPO Platinum или Delta Dental PPO 1500",
                   "Добавьте членство EWA ($5/мес)",
                   "Нажмите Enroll - получите мгновенное подтверждение"
+              ],
+
+              // After Enrollment
+              afterEnrollmentTitle: "ВЫ ЗАРЕГИСТРИРОВАЛИСЬ, ЧТО ДАЛЬШЕ?",
+              afterEnrollmentContent: [
+                  "После регистрации в стоматологическом плане через Corenroll вы сможете создать личный аккаунт на corenroll.com или через мобильное приложение Corenroll. Там вы сможете:",
+                  "Получить доступ к документам плана",
+                  "Изучить и зарегистрироваться в дополнительных льготах через платформу",
+                  "Общаться с вашим представителем по вопросам и т.д.",
+                  "Для отслеживания ваших стоматологических льгот и доступа к коммуникациям страховой компании (EOB - объяснение льгот), которые она вам присылает - вам нужно создать личный аккаунт с MetLife или Delta Dental. Вы сможете сделать это в начале-середине месяца, на который вы зарегистрировались.",
+                  "Для MetLife:",
+                  "Ваше стоматологическое покрытие начинается с 1-го числа месяца (если вы зарегистрировались до 20-го числа предыдущего месяца).",
+                  "Однако из-за сроков настройки системы ваша информация может быть недоступна для верификации примерно до 10-15 числа этого месяца. Мы рекомендуем планировать ваш первый визит к стоматологу с использованием страховки ближе к этому времени, чтобы вашу страховку мог проверить стоматолог.",
+                  "После полной обработки вашей регистрации вы можете зарегистрироваться в личном аккаунте metlife.com, следуя этим шагам:"
               ],
               youllNeedTitle: "Понадобится:",
               youllNeedList: [
@@ -584,6 +606,20 @@ We’re proud to make this opportunity available to you too—because everyone d
                   "Оберіть план(и): MetLife PPO Platinum / Delta Dental PPO 1500",
                   "Додайте членство EWA ($5/місяць-див. пояснення нижче) для доступу до групових цін",
                   "Натисніть Enroll - отримайте миттєве підтвердження"
+              ],
+
+              // After Enrollment
+              afterEnrollmentTitle: "ВИ ЗАРЕЄСТРУВАЛИСЯ, ЩО ДАЛІ?",
+              afterEnrollmentContent: [
+                  "Після реєстрації у вашому стоматологічному плані через Corenroll ви зможете створити особистий обліковий запис на corenroll.com або використовуючи мобільний додаток Corenroll. Звідти ви можете:",
+                  "Отримати доступ до документів плану",
+                  "Дослідити та зареєструватися в додаткових пільгах, запропонованих через платформу",
+                  "Спілкуватися з вашим представником з питаннями тощо.",
+                  "Для відстеження ваших стоматологічних пільг та доступу до комунікацій страхової компанії (EOB - пояснення пільг), які вона вам надсилає - вам потрібно створити особистий обліковий запис з MetLife або Delta Dental. Ви зможете зробити це на початку-середині місяця, на який ви зареєструвалися.",
+                  "Для MetLife:",
+                  "Ваше стоматологічне покриття починається з 1-го числа місяця (якщо ви зареєструвалися до 20-го числа попереднього місяця).",
+                  "Проте через терміни налаштування системи ваша інформація може бути недоступна для верифікації приблизно до 10-15 числа цього місяця. Ми рекомендуємо планувати ваш перший візит до стоматолога з використанням страховки ближче до цього часу, щоб вашу страховку міг перевірити стоматолог.",
+                  "Після повної обробки вашої реєстрації ви можете зареєструватися в особистому обліковому записі metlife.com, дотримуючись цих кроків:"
               ],
               youllNeedTitle: "Вам знадобиться:",
               youllNeedList: [
@@ -858,6 +894,20 @@ We’re proud to make this opportunity available to you too—because everyone d
       "დაამატე EWA წევრობა ($5/თვე-იხილე ახსნა ქვემოთ) ჯგუფური ფასების მისაღწევად",
       "დააჭირე Enroll - მიიღე დაუყოვნებლივ დასტური"
   ],
+
+  // After Enrollment
+  afterEnrollmentTitle: "თქვენ დარეგისტრირდით, რა შემდეგ?",
+  afterEnrollmentContent: [
+      "Corenroll-ის მეშვეობით თქვენი სტომატოლოგიური გეგმის რეგისტრაციის შემდეგ, თქვენ შეძლებთ შექმნათ პირადი ანგარიში corenroll.com-ზე ან Corenroll მობილური აპლიკაციის გამოყენებით. იქიდან თქვენ შეგიძლიათ:",
+      "მიიღოთ წვდომა გეგმის დოკუმენტებზე",
+      "შეისწავლოთ და დარეგისტრირდეთ პლატფორმის მეშვეობით შემოთავაზებულ დამატებით სარგებლებზე",
+      "დაუკავშირდეთ თქვენს წარმომადგენელს შეკითხვებით და ა.შ.",
+      "თქვენი სტომატოლოგიური სარგებლების თვალყურის დევნებისა და სადაზღვევო კომპანიის მიერ გამოგზავნილი კომუნიკაციების (EOB - სარგებლების ახსნა) წვდომისთვის - თქვენ უნდა შექმნათ პირადი ანგარიში MetLife-თან ან Delta Dental-თან. თქვენ შეძლებთ ამას თვის დასაწყისში-შუაში, რომელზეც დარეგისტრირდით.",
+      "MetLife-სთვის:",
+      "თქვენი სტომატოლოგიური დაფარვა იწყება თვის 1-იდან (თუ დარეგისტრირდით წინა თვის 20-მდე).",
+      "თუმცა, სისტემის დაყენების ვადების გამო, თქვენი ინფორმაცია შეიძლება იყოს ხელმიუწვდომელი ვერიფიკაციისთვის დაახლოებით ამ თვის 10-15 რიცხვამდე. ჩვენ გირჩევთ დაგეგმოთ თქვენი პირველი სტომატოლოგიური ვიზიტი სადაზღვევო საშუალებით ამ დროის მახლობლად, რათა თქვენი სადაზღვევო საშუალება შეძლოს სტომატოლოგმა გადაამოწმოს.",
+      "თქვენი რეგისტრაციის სრულად დამუშავების შემდეგ, თქვენ შეგიძლიათ დარეგისტრირდეთ თქვენს პირად metlife.com ანგარიშზე, ამ ნაბიჯების დაცვით:"
+  ],
   youllNeedTitle: "დაგჭირდება:",
   youllNeedList: [
       "სრული სახელი, დაბადების თარიღი, სოციალური დაცვის ნომერი (სავალდებულო)",
@@ -1128,6 +1178,20 @@ uz: {
       "Guruh narxlariga kirish uchun EWA a'zoligini qo'shing (oyiga $5 - quyida tushuntirishni ko'ring)",
       "Enroll tugmasini bosing - darhol tasdiqlash oling"
   ],
+
+  // After Enrollment
+  afterEnrollmentTitle: "Siz ro'yxatdan o'tdingiz, keyin nima?",
+  afterEnrollmentContent: [
+      "Corenroll orqali sizning tish davolash rejangizga ro'yxatdan o'tgandan so'ng, siz corenroll.com saytida yoki Corenroll mobil ilovasi yordamida shaxsiy hisob ochishingiz mumkin. U erdan siz quyidagilarni qilishingiz mumkin:",
+      "Reja hujjatlariga kirish",
+      "Platforma orqali taklif qilingan qo'shimcha imtiyozlarni o'rganish va ularga ro'yxatdan o'tish",
+      "Savollar va h.k. bilan vakilingiz bilan muloqot qilish",
+      "Sizning tish davolash imtiyozlaringizni kuzatish va sug'urta kompaniyasi (EOB - imtiyozlar tushuntirishi) yuborgan kommunikatsiyalarga kirish uchun - siz MetLife yoki Delta Dental bilan shaxsiy hisob yaratishingiz kerak. Siz buni ro'yxatdan o'tgan oyingizning boshida yoki o'rtalarida qilishingiz mumkin.",
+      "MetLife uchun:",
+      "Sizning tish davolash qoplashingiz oyning 1-kunidan boshlanadi (agar siz oldingi oyning 20-kunigacha ro'yxatdan o'tgan bo'lsangiz).",
+      "Biroq, tizim sozlamalari muddatlari tufayli, sizning ma'lumotlaringiz taxminan ushbu oyning 10-15-kunlarigacha tekshirish uchun mavjud bo'lmasligi mumkin. Biz sizning birinchi tish davolash tashrifingizni sug'urta bilan ushbu vaqtga yaqinroq rejalashtirishni tavsiya qilamiz, shunda sizning sug'urtangizni stomatolog tekshirishi mumkin.",
+      "Sizning ro'yxatdan o'tishingiz to'liq ishlov berilgandan so'ng, siz ushbu qadamlarni bajarib shaxsiy metlife.com hisobingizni ro'yxatdan o'tkazishingiz mumkin:"
+  ],
   youllNeedTitle: "Sizga kerak bo'ladi:",
   youllNeedList: [
       "To'liq ism, tug'ilgan sana, IJTIMOIY HIMOYA RAQAMI (majburiy)",
@@ -1396,6 +1460,20 @@ es: {
       "Selecciona plan(es): MetLife PPO Platinum / Delta Dental PPO 1500",
       "Agrega Membresía EWA ($5/mes-ver explicación abajo) para acceder a precios grupales",
       "Haz clic en Inscribir - recibe confirmación instantánea"
+  ],
+
+  // After Enrollment
+  afterEnrollmentTitle: "¿TE INSCRIBISTE, QUÉ SIGUE?",
+  afterEnrollmentContent: [
+      "Una vez que te hayas inscrito en tu plan dental a través de Corenroll, podrás crear una cuenta personal en corenroll.com o usando la aplicación móvil de Corenroll. Desde allí, puedes:",
+      "Acceder a documentos del plan",
+      "Explorar e inscribirte en beneficios adicionales ofrecidos a través de la plataforma",
+      "Comunicarte con tu representante con preguntas, etc.",
+      "Para rastrear tus beneficios dentales y acceder a las comunicaciones que la compañía de seguros (EOB - explicación de beneficios) te envía - necesitarás crear una cuenta personal con MetLife o Delta Dental. Podrás hacerlo a principios o mediados del mes para el cual te inscribiste.",
+      "Para MetLife:",
+      "Tu Cobertura Dental comienza el 1ro del mes (si te inscribiste antes del 20 del mes anterior).",
+      "Sin embargo, debido a los plazos de configuración del sistema, tu información puede no estar disponible para verificación hasta aproximadamente el 10–15 de ese mes. Recomendamos programar tu primera visita dental con seguro más cerca de ese tiempo para que tu seguro pueda ser verificado por tu dentista.",
+      "Una vez que tu inscripción sea completamente procesada, puedes registrarte para tu cuenta personal metlife.com siguiendo estos pasos:"
   ],
   youllNeedTitle: "Necesitarás:",
   youllNeedList: [

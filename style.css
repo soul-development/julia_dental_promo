@@ -1314,6 +1314,24 @@ strong a:hover {
         margin: 25px 0 15px 0;
     }
 
+    /* PDF links mobile responsive */
+    .pdf-links {
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .pdf-link {
+        font-size: 14px;
+        padding: 8px 12px;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .pdf-link-item {
+        margin-bottom: 10px;
+    }
+
     /* Optimize hero section stacking */
     .hero-section {
         overflow: visible;
@@ -2038,11 +2056,13 @@ strong a:hover {
     max-width: 700px;
     width: 100%;
 }
+
 .educational-resources-items {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .educational-resources a {
     color: #0e4f87;
     text-decoration: underline;
@@ -2050,4 +2070,47 @@ strong a:hover {
     font-size: 18px;
     min-height: auto;
     padding: 0;
+}
+
+/* PDF Links Section */
+.pdf-links {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #0178d3;
+}
+
+.pdf-link-item {
+    margin-bottom: 15px;
+}
+
+.pdf-link-item:last-child {
+    margin-bottom: 0;
+}
+
+.pdf-link {
+    display: inline-block;
+    color: #0e4f87 !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 15px;
+    background: white;
+    border: 2px solid #0178d3;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(1, 120, 211, 0.1);
+}
+
+.pdf-link:hover {
+    background: #0178d3;
+    color: white !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(1, 120, 211, 0.3);
+    text-decoration: none;
+}
+
+.pdf-link:active {
+    transform: translateY(0);
 }
