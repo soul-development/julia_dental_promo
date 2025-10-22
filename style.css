@@ -2117,8 +2117,8 @@ strong a:hover {
 
 /* Inline tooth icon to replace emoji */
 .tooth-icon {
-    width: 1em;
-    height: 1em;
+    width: 2em;
+    height: 2em;
     vertical-align: -0.15em;
     margin-right: 4px;
 }
