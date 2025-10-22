@@ -2114,3 +2114,56 @@ strong a:hover {
 .pdf-link:active {
     transform: translateY(0);
 }
+
+/* Inline tooth icon to replace emoji */
+.tooth-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    margin-right: 4px;
+}
+
+/* Plan titles with logos */
+h2[data-translate="metlifeTitle"],
+h2[data-translate="deltaTitle"] {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+h2[data-translate="metlifeTitle"]::before,
+h2[data-translate="deltaTitle"]::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+h2[data-translate="metlifeTitle"]::before {
+    background-image: url("public/MetLife.png");
+}
+
+h2[data-translate="deltaTitle"]::before {
+    background-image: url("public/Delta_Dental_logo.svg");
+}
+
+@media (max-width: 768px) {
+
+    h2[data-translate="metlifeTitle"]::before,
+    h2[data-translate="deltaTitle"]::before {
+        height: 24px;
+        width: 95px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h2[data-translate="metlifeTitle"]::before,
+    h2[data-translate="deltaTitle"]::before {
+        height: 20px;
+        width: 80px;
+    }
+}

@@ -3,7 +3,7 @@ export const translations = {
       // Hero section
       // heroTitle: "🦷 HAPPY SMILE TODAY: Your All-Inclusive Dental Coverage!",
       // heroTitle: "🦷 HAPPY SMILE TODAY: «All Inclusive» Dental Insurance That Works: Right away! Day 1!",
-      heroTitle: "🦷 HAPPY SMILE TODAY: Join the revolution in dental insurance - no waiting, no nonsense, just protection.",
+      heroTitle: "🦷 YOUR BEST SMILE STARTS WITH “SMART” DENTAL INSURANCE",
       baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
       baner2: "NO WAITING PERIOD. MISSING TOOTH-OK",
       baner3: "from $55/mo",
@@ -19,7 +19,7 @@ A few years ago, while searching for an affordable implant myself, I stumbled on
 <br><br>
 Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco refer patients to us—because they’ve seen how much these plans help. We’re proud to make this opportunity available to you too—because everyone deserves a healthy, beautiful smile. 💙`,
       // Plans section
-      plansTitle: "🌟 The Two Plans I Recommend",
+      plansTitle: "🌟 The Two Plans We Recommend",
       plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
       sharedAdvantages: "🔹 Shared Advantages of Both Plans",
       sharedList: [
@@ -107,23 +107,24 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
 
       // After Enrollment
       afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
-      afterEnrollmentContent: [
-          "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
-          "Access plan documents",
-          "Explore and enroll in additional benefits offered through the platform",
-          "Communicate with your representative with questions, etc.",
-          "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
-          "For MetLife:",
-          "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
-          "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
-          "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
+      afterEnrollmentDetails: [
+          "Once enrolled through CorEnroll, you can create your personal account at <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or in the CorEnroll mobile app to:",
+          "View plan documents",
+          "Explore additional benefits",
+          "Contact your representative",
+          "To track claims and EOBs, create an account with MetLife or Delta Dental once your enrollment is active (usually by the 10th–15th of the month).",
+          "MetLife: Coverage starts on the 1st (if enrolled by the 20th of the prior month).",
+          "Your info may appear in their system by mid-month—schedule your first visit after that for smooth verification.",
+          "Then, register at <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> to access your benefits."
       ],
       youllNeedTitle: "You'll Need:",
       youllNeedList: [
           "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
           "Address, email, phone number",
-          "Bank account information (routing + account number)",
-          "❌ Credit/debit cards are NOT accepted"
+          "⚠️ Bank Account only (Routing & Account #)",
+          "❌ Debit or Credit Cards not accepted",
+          "🦷 Delta Dental PPO: Card mailed + available at deltadentalct.com",
+          "💙 MetLife: No cards issued — use SSN as Member ID"
       ],
       
       // Payment & Billing
@@ -131,27 +132,26 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       paymentDetails: [
           "Your bank account will be charged automatically around the 28th of each month by NuEra",
           "Payments continue monthly until you cancel through your broker",
-          "Please ensure sufficient funds are available to avoid a $30 return/bounce/reinstatement fee"
+          "If a card is used, the system won’t locate your account and a $30 processing fee will be charged"
       ],
       
       // After Enrollment
       afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
-      afterEnrollmentDetails: [
-          "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
-          "Access plan documents",
-          "Explore and enroll in additional benefits offered through the platform",
-          "Communicate with your representative with questions, etc.",
-          "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
-          "For MetLife:",
-          "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
-          "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
-          "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
-      ],
+    //   afterEnrollmentDetails: [
+    //       "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
+    //       "Access plan documents",
+    //       "Explore and enroll in additional benefits offered through the platform",
+    //       "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
+    //       "For MetLife:",
+    //       "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
+    //       "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
+    //       "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
+    //   ],
       trackBenefitsTitle: "Track & Manage Your Benefits:",
       trackBenefitsList: [
-          "🔹 metlife.com (you will be able to access it by mid-month after the start of your plan)",
-          "🔹 deltadentalct.com",
-          "🔹 corenroll.com or via the Corenroll app"
+          "🔹 <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> (you will be able to access it by mid-month after the start of your plan)",
+          "🔹 <a href='https://deltadentalct.com' target='_blank' rel='noopener noreferrer'>deltadentalct.com</a>",
+          "🔹 <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or via the Corenroll app"
       ],
       
       additionalBenefits: "Explore additional benefits through *Elevate Wellness Association ($5/month membership fee is included in the above premium estimates):",
@@ -173,7 +173,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       
       // Educational Resources
       educationalResourcesTitle: "📚 Dental educational resources",
-      educationalResourcesBookGromov: "Educational book THE SMILE YOU DESERVE A PRACTICAL GUIDE TO YOUR DREAM SMILE  by Dr. Konstantin Gromov",
+      educationalResourcesBookGromov: "Educational book. THE SMILE YOU DESERVE: A PRACTICAL GUIDE TO YOUR DREAM SMILE. By Dr. Konstantin Gromov.",
       
       // Contact
       contactTitle: "📇 Contact Julia Barinova, MBA",
@@ -268,7 +268,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               go2: "👆 ПЕРЕХОДИ",
               // heroTitle: '🦷 Улыбайся и экономь с первого дня: стоматологическое покрытие «Всё включено»!',
               // heroTitle: '🦷 Стоматологическое покрытие «Всё включено»: Улыбайся и экономь с первого дня!',
-              heroTitle: '🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Присоединяйтесь к революции в стоматологическом страховании - без ожидания, без лишних хлопот, только защита.',
+              heroTitle: '🦷 Красивая улыбка начинается с “умной”😉 страховки',
               advisorName: "Предлагает Юлия Баринова, MBA – Лицензированный страховой консультант и брокер",
               // meetJulia: "💬 «Моя страсть - это защита».",
               // juliaIntro: "Я помогаю людям избегать разрушительных финансовых рисков - от серьёзных заболеваний до потери дохода, от необходимости долгосрочного ухода до утраты близкого человека - создавая умные, персонализированные страховые стратегии.",
@@ -281,7 +281,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
 <br><br>
 Сегодня даже ведущие стоматологи в Нью-Йорке, Чикаго, Майами, Филадельфии и Сан-Франциско направляют к нам пациентов - потому что они видели, насколько эти планы помогают. Мы с гордостью делаем эту возможность доступной и для вас - потому что каждый заслуживает здоровую, красивую улыбку. 💙`,
               // Plans section
-              plansTitle: "🌟 Два плана, которые я рекомендую",
+              plansTitle: "🌟 Два плана, которые мы рекомендуем",
               plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
               sharedAdvantages: "🔹 Общие преимущества обоих планов",
               sharedList: [

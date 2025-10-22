@@ -2,6 +2,13 @@ import { translations } from './translations';
         // Current language
         let currentLanguage = 'en';
 
+        // Replace all tooth emojis with SVG icon markup
+        function replaceToothEmoji(text) {
+            if (typeof text !== 'string') return text;
+            const icon = '<img src="public/tooth.svg" alt="" class="tooth-icon">';
+            return text.replace(/🦷/g, icon);
+        }
+
         // Translation function
         function translate(key) {
             const keys = key.split('.');
@@ -29,12 +36,18 @@ import { translations } from './translations';
                 if (Array.isArray(translation)) {
                     // Handle lists
                     if (element.tagName === 'UL' || element.tagName === 'OL') {
-                        element.innerHTML = translation.map(item => `<li>${item}</li>`).join('');
+                        element.innerHTML = translation.map(item => `<li>${replaceToothEmoji(item)}</li>`).join('');
                     }
                 } else if (key === 'clientStats' || key === 'juliaRecommendationMetlife' || key === 'juliaRecommendationDelta' || key === 'dentalProfessionalsAtention') {
-                    element.innerHTML = translation;
+                    element.innerHTML = replaceToothEmoji(translation);
                 } else {
-                    element.textContent = translation;
+                    // If value contains the tooth emoji, inject HTML with SVG icon
+                    const asString = typeof translation === 'string' ? translation : '';
+                    if (asString.includes('🦷')) {
+                        element.innerHTML = replaceToothEmoji(asString);
+                    } else {
+                        element.textContent = translation;
+                    }
                 }
             });
 
@@ -43,7 +56,7 @@ import { translations } from './translations';
             if (coverageDiv) {
                 const explanations = translate('coverageExplanation');
                 if (Array.isArray(explanations)) {
-                    coverageDiv.innerHTML = explanations.map(text => `<p>${text}</p>`).join('');
+                    coverageDiv.innerHTML = explanations.map(text => `<p>${replaceToothEmoji(text)}</p>`).join('');
                 }
             }
 
@@ -90,7 +103,7 @@ import { translations } from './translations';
             document.querySelectorAll('[data-translate-html]').forEach(element => {
                 const key = element.getAttribute('data-translate-html');
                 const translation = translate(key);
-                element.innerHTML = translation;
+                element.innerHTML = replaceToothEmoji(translation);
             });
         }
 
