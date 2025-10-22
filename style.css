@@ -2143,11 +2143,11 @@ h2[data-translate="deltaTitle"]::before {
 }
 
 h2[data-translate="metlifeTitle"]::before {
-    background-image: url("public/MetLife.png");
+    background-image: url("/MetLife.png");
 }
 
 h2[data-translate="deltaTitle"]::before {
-    background-image: url("public/Delta_Dental_logo.svg");
+    background-image: url("/Delta_Dental_logo.svg");
 }
 
 @media (max-width: 768px) {
