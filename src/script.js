@@ -5,7 +5,7 @@ import { translations } from './translations';
         // Replace all tooth emojis with SVG icon markup
         function replaceToothEmoji(text) {
             if (typeof text !== 'string') return text;
-            const icon = '<img src="public/tooth.svg" alt="" class="tooth-icon">';
+            const icon = '<img src="/tooth.svg" alt="" class="tooth-icon">';
             return text.replace(/🦷/g, icon);
         }
 
