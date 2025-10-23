@@ -3,9 +3,12 @@ import { translations } from './translations';
         let currentLanguage = 'en';
 
         // Replace all tooth emojis with SVG icon markup
-        function replaceToothEmoji(text) {
+        // FIXME: зачем вызывать каждый раз эту функцию, если можно сразу в translations засунуть это все?
+        // вынести иконку как переменную или функцию, чтобы поддерживать динамические размеры и в translations уже вставлять через `${icon(...args)}`
+        function replaceToothEmoji(text, iconHeight) {
+            const style = iconHeight ? `style="height: ${iconHeight}px;"` : '';
             if (typeof text !== 'string') return text;
-            const icon = '<img src="/tooth.svg" alt="" class="tooth-icon">';
+            const icon = `<img src="/cropped_tooth.svg" alt="" class="tooth-icon" ${style}>`;
             return text.replace(/🦷/g, icon);
         }
 
@@ -31,20 +34,21 @@ import { translations } from './translations';
             // Update all elements with data-translate attribute
             document.querySelectorAll('[data-translate]').forEach(element => {
                 const key = element.getAttribute('data-translate');
+                const iconHeight = element.getAttribute('data-icon-height');
                 const translation = translate(key);
                 
                 if (Array.isArray(translation)) {
                     // Handle lists
                     if (element.tagName === 'UL' || element.tagName === 'OL') {
-                        element.innerHTML = translation.map(item => `<li>${replaceToothEmoji(item)}</li>`).join('');
+                        element.innerHTML = translation.map(item => `<li>${replaceToothEmoji(item, iconHeight)}</li>`).join('');
                     }
                 } else if (key === 'clientStats' || key === 'juliaRecommendationMetlife' || key === 'juliaRecommendationDelta' || key === 'dentalProfessionalsAtention') {
-                    element.innerHTML = replaceToothEmoji(translation);
+                    element.innerHTML = replaceToothEmoji(translation, iconHeight);
                 } else {
                     // If value contains the tooth emoji, inject HTML with SVG icon
                     const asString = typeof translation === 'string' ? translation : '';
                     if (asString.includes('🦷')) {
-                        element.innerHTML = replaceToothEmoji(asString);
+                        element.innerHTML = replaceToothEmoji(asString, iconHeight);
                     } else {
                         element.textContent = translation;
                     }
@@ -411,7 +415,7 @@ import { translations } from './translations';
             // Function to open dental professionals modal
             function openDentalModal() {
                 const currentLang = document.documentElement.lang || 'en';
-                const content = translations[currentLang].dentalProfessionalsFullContent;
+                const content = replaceToothEmoji(translations[currentLang].dentalProfessionalsFullContent, 30);
                 dentalModalBody.innerHTML = content;
                 dentalModal.style.display = 'block';
                 document.body.style.overflow = 'hidden'; // Prevent background scrolling

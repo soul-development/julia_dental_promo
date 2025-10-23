@@ -18,7 +18,9 @@ export const translations = {
 A few years ago, while searching for an affordable implant myself, I stumbled on something rare: group-access MetLife and Delta Dental PPO plans with NO WAITING PERIODS and NO MISSING TOOTH exclusions. Crowns, root canals, implants—covered from day one, at rates that truly make sense for individuals and families. I was so impressed (and saved nearly $2,000 on my own implant) that I became licensed to represent these plans and share them with others. Since then, I’ve helped nearly 1,500 people nationwide save thousands, get treatment faster, and finally enjoy the healthy, confident smiles they deserve.
 <br><br>
 Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco refer patients to us—because they’ve seen how much these plans help. We’re proud to make this opportunity available to you too—because everyone deserves a healthy, beautiful smile. 💙`,
+    
       // Plans section
+      planDiscussionTitle: "💬 Your trusted local dentists and surgeons discuss why they love our Smart Dental Insurance Plans",
       plansTitle: "🌟 The Two Plans We Recommend",
       plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
       sharedAdvantages: "🔹 Shared Advantages of Both Plans",
@@ -210,7 +212,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
           <p>Let's work together to make quality dental care more accessible and streamlined.</p>
           <p>📩 Get in touch today — we'll gladly send plan materials, educate your team, and even refer patients who are actively looking for in-network providers in your area.</p>
           <p>Together, we can make more smiles happen — with speed, savings, and satisfaction!</p>
-          // <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
+        <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
           `,
           // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
               // Disclaimer
@@ -282,6 +284,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
 <br><br>
 Сегодня даже ведущие стоматологи в Нью-Йорке, Чикаго, Майами, Филадельфии и Сан-Франциско направляют к нам пациентов - потому что они видели, насколько эти планы помогают. Мы с гордостью делаем эту возможность доступной и для вас - потому что каждый заслуживает здоровую, красивую улыбку. 💙`,
               // Plans section
+              planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
               plansTitle: "🌟 Два плана, которые мы рекомендуем",
               plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
               sharedAdvantages: "🔹 Общие преимущества обоих планов",
@@ -540,6 +543,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               <br><br>
               Тепер ваша черга! Я була б рада допомогти вам відновити вашу здорову, щасливу посмішку - з двома перевіреними планами, які я особисто використовую та рекомендую, та місцевими стоматологами, яких ви вже знаєте і яким довіряєте, або яких ми можемо рекомендувати, якщо необхідно.`,
               // Plans section
+              planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
               plansTitle: "🌟 Два плани, які я рекомендую",
               plansIntro: "MetLife PPO (PDP Network) та Delta Dental PPO 1500 - приймаються та рекомендуються моєю надійною мережею стоматологів у: Нью-Йорку, Філадельфії, Маямі, Сан-Франциско, Чикаго та інших містах (запитайте нас про направлення у вашому районі!)",
               sharedAdvantages: "🔹 Спільні переваги обох планів",
@@ -834,6 +838,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   <br><br>
   ახლა შენი რიგია! მხიარულებით დაგეხმარები ჯანსაღი, ბედნიერი ღიმილის აღდგენაში - ორი სანდო გეგმით, რომლებსაც პირადად ვიყენებ და ვურჩევ, და ადგილობრივ სტომატოლოგ პროფესიონალებთან, რომლებიც უკვე იცი და ენდობი, ან რომლებსაც შეგვიძლია გირჩიოთ, საჭიროების შემთხვევაში.`,
   // Plans section
+  planDiscussionTitle: "💬 თქვენი სანდო სტომატოლოგები და ქირურგები განიხილავენ, რატომ უყვართ ჩვენი ჭკვიანი სტომატოლოგიური სადაზღვევო გეგმები",
   plansTitle: "🌟 ორი გეგმა, რომელსაც ვურჩევ",
   plansIntro: "MetLife PPO (PDP Network) და Delta Dental PPO 1500 - მიღებული და რეკომენდებული ჩემი სანდო სტომატოლოგების ქსელის მიერ: ნიუ-იორკში, ფილადელფიაში, მიამიში, სან-ფრანცისკოში, ჩიკაგოსა და სხვა ქალაქებში (იკითხეთ რეკომენდაცია თქვენს რაიონში!)",
   sharedAdvantages: "🔹 ორივე გეგმის საერთო უპირატესობები",
@@ -1125,6 +1130,7 @@ uz: {
   <br><br>
   Endi sizning navbatingiz! Men sizga sog'lom, baxtli tabassumingizni tiklashda yordam berishdan xursand bo'laman - men shaxsan foydalanib, tavsiya qilgan ikkita ishonchli reja va siz allaqachon bilgan va ishongan yoki kerak bo'lsa, tavsiya qilishimiz mumkin bo'lgan mahalliy tish davolash mutaxassislari bilan.`,
   // Plans section
+  planDiscussionTitle: "💬 Sizning ishonchli stomatologlaringiz va jarrohlari bizning aqlli stomatologik sug'urta rejalarimizni nima uchun yoqtirishlarini muhokama qilishadi",
   plansTitle: "🌟 Men tavsiya qilgan ikkita reja",
   plansIntro: "MetLife PPO (PDP Network) va Delta Dental PPO 1500 - mening ishonchli stomatologlar tarmog'im tomonidan qabul qilingan va tavsiya qilingan: Nyu-York, Filadelfiya, Mayami, San-Fransisko, Chikago va boshqa joylar (hududingizdagi yo'naltirish uchun bizdan so'rang!)",
   sharedAdvantages: "🔹 Ikkala rejaning umumiy afzalliklari",
@@ -1415,6 +1421,7 @@ es: {
   <br><br>
   ¡Ahora es tu turno! Estaría encantada de ayudarte a restaurar tu sonrisa saludable y feliz - con dos planes confiables que uso personalmente y recomiendo, y profesionales dentales locales que ya conoces y en los que confías, o a quienes podemos recomendarte, si es necesario.`,
   // Plans section
+  planDiscussionTitle: "💬 Sus dentistas y cirujanos de confianza discuten por qué aman nuestros Planes Inteligentes de Seguro Dental",
   plansTitle: "🌟 Los Dos Planes que Recomiendo",
   plansIntro: "MetLife PPO (PDP Network) y Delta Dental PPO 1500 - aceptados y recomendados por mi red confiable de dentistas en: Nueva York, Filadelfia, Miami, San Francisco, Chicago, y más (¡pídenos una referencia en tu área!)",
   sharedAdvantages: "🔹 Ventajas Compartidas de Ambos Planes",
