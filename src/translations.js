@@ -169,7 +169,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       // cta: "READY TO VIEW AND ENROLL? CLICK HERE.",
       cta: "Get this plan",
       cta2: "READY TO VIEW AND ENROLL? CLICK HERE.",
-      ctaPaymentNote: "⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
+      ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br><br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
       
       // Testimonials
       testimonialsTitle: "Grateful Clients Reviews",
@@ -429,7 +429,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               // cta: "Get this plan ✅",
               cta: "Получить этот план",
               cta2: "ГОТОВ ПОСМОТРЕТЬ И ЗАРЕГИСТРИРОВАТЬСЯ? ЖМИ ТУТ",
-              ctaPaymentNote: "⚠️ Только банковский счет (Routing и номер счета).<br>❌ Дебетовые или кредитные карты не принимаются",
+              ctaPaymentNote: "🔒 Сейчас вы будете перенаправлены на защищённую страницу регистрации нашего партнёра — ваши данные надёжно защищены и остаются конфиденциальными.<br><br>⚠️ Только банковский счет (Routing и номер счета).<br>❌ Дебетовые или кредитные карты не принимаются",
               
               // Testimonials
               testimonialsTitle: "Благодарные отзывы клиентов",
@@ -687,7 +687,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               // CTA Button
               cta: "Отримати цей план",
               cta2: "ГОТОВІ ПЕРЕГЛЯНУТИ ТА ЗАРЕЄСТРУВАТИСЯ? НАТИСНІТЬ ТУТ.",
-              ctaPaymentNote: "⚠️ Лише банківський рахунок (Routing і номер рахунку).<br>❌ Кредитні/дебетові картки НЕ приймаються",
+              ctaPaymentNote: "🔒 Зараз вас буде перенаправлено на захищену сторінку реєстрації нашого партнера — ваші дані у безпеці, конфіденційні та повністю захищені.<br><br>⚠️ Лише банківський рахунок (Routing і номер рахунку).<br>❌ Кредитні/дебетові картки НЕ приймаються",
               
               // Testimonials
               testimonialsTitle: "Відгуки вдячних клієнтів",
@@ -982,7 +982,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               // CTA Button
               cta: "ამ გეგმის მიღება",
               cta2: "მზად ხარ ნახვისა და რეგისტრაციისთვის? დააჭირე აქ.",
-              ctaPaymentNote: "⚠️ მხოლოდ საბანკო ანგარიში (Routing და ანგარიშის №).<br>❌ საკრედიტო/სადებეტო ბარათები არ მიიღება",
+              ctaPaymentNote: "🔒 ახლა გადაგამისამართებთ ჩვენი პარტნიორის დაცულ რეგისტრაციის გვერდზე — თქვენი ინფორმაცია უსაფრთხოა, კონფიდენციალურია და სრულად დაცულია.<br><br>⚠️ მხოლოდ საბანკო ანგარიში (Routing და ანგარიშის №).<br>❌ საკრედიტო/სადებეტო ბარათები არ მიიღება",
               
               // Testimonials
               testimonialsTitle: "მადლიერი კლიენტების მიმოხილვები",
@@ -1274,7 +1274,7 @@ uz: {
   // CTA Button
   cta: "Ushbu rejani olish",
   cta2: "KO'RISH VA RO'YXATDAN O'TISHGA TAYYORMISIZ? SHU YERGA BOSING.",
-  ctaPaymentNote: "⚠️ Faqat bank hisobi (Routing va Hisob raqami).<br>❌ Kredit yoki Debet kartalar qabul qilinmaydi",
+  ctaPaymentNote: "🔒 Siz hozir hamkorimizning xavfsiz ro‘yxatdan o‘tish sahifasiga yo‘naltirilasiz — ma’lumotlaringiz xavfsiz, maxfiy va to‘liq himoyalangan.<br><br>⚠️ Faqat bank hisobi (Routing va Hisob raqami).<br>❌ Kredit yoki Debet kartalar qabul qilinmaydi",
   
   // Testimonials
   testimonialsTitle: "Minnatdor mijozlar sharhlari",
@@ -1565,7 +1565,7 @@ es: {
               // CTA Button
               cta: "Obtener este plan",
               cta2: "¿LISTO PARA VER Y INSCRIBIRSE? HAZ CLIC AQUÍ.",
-              ctaPaymentNote: "⚠️ Solo cuenta bancaria (Routing y Nº de cuenta).<br>❌ No se aceptan tarjetas de débito o crédito",
+              ctaPaymentNote: "🔒 Ahora serás redirigido a la página de registro segura de nuestro socio — tu información está segura, privada y totalmente protegida.<br><br>⚠️ Solo cuenta bancaria (Routing y Nº de cuenta).<br>❌ No se aceptan tarjetas de débito o crédito",
               
               // Testimonials
               testimonialsTitle: "Reseñas de Clientes Agradecidos",
