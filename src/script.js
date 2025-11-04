@@ -196,7 +196,7 @@ import { translations } from './translations';
             ],
             "Maryland": [
                 { name: "Dr. Nina Aks", city: "Germantown", link: "https://share.google/pxdFsSTyM0tsfPM0N" },
-                // { name: "Dr. Yuliya Khodak DMD", city: "New Jersey", link: "https://share.google/9Kqz6eXCGqSMQ3k07" }
+                { name: "Dr. Anna Grinitsyna, Cosmetic Dentist Injector", city: "Gaithersburg", link: "https://gaithersburgdentalbeauty.com/" }
             ]
         };
 
