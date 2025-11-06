@@ -2210,40 +2210,44 @@ h2[data-translate="deltaTitle"]::before {
 
 /* Warning Banner */
 .warning-banner {
-    background-color: #ff9800;
-    /* Orange */
-    color: white;
-    padding: 15px 20px;
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+    color: #e65100;
+    padding: 18px 25px;
     margin: 20px 0;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
-    border: 2px solid #e68a00;
-    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
-    animation: pulse-orange 2s infinite;
+    border: 2px solid #ff9800;
+    border-left: 5px solid #ff6f00;
+    box-shadow: 0 3px 12px rgba(255, 152, 0, 0.25);
+    line-height: 1.5;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .warning-banner a {
-    color: white !important;
+    color: #e65100 !important;
     text-decoration: underline;
     font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 .warning-banner a:hover {
-    color: #f0f0f0 !important;
+    color: #bf360c !important;
 }
 
 @keyframes pulse-orange {
     0% {
-        box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+        box-shadow: 0 3px 12px rgba(255, 152, 0, 0.25);
     }
 
     50% {
-        box-shadow: 0 4px 25px rgba(255, 152, 0, 0.7);
+        box-shadow: 0 3px 18px rgba(255, 152, 0, 0.45);
     }
 
     100% {
-        box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+        box-shadow: 0 3px 12px rgba(255, 152, 0, 0.25);
     }
 }
