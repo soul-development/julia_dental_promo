@@ -42,7 +42,7 @@ import { translations } from './translations';
                     if (element.tagName === 'UL' || element.tagName === 'OL') {
                         element.innerHTML = translation.map(item => `<li>${replaceToothEmoji(item, iconHeight)}</li>`).join('');
                     }
-                } else if (key === 'clientStats' || key === 'juliaRecommendationMetlife' || key === 'juliaRecommendationDelta' || key === 'dentalProfessionalsAtention') {
+                } else if (key === 'clientStats' || key === 'juliaRecommendationMetlife' || key === 'juliaRecommendationDelta' || key === 'dentalProfessionalsAtention' || key === 'metlifeWarning') {
                     element.innerHTML = replaceToothEmoji(translation, iconHeight);
                 } else {
                     // If value contains the tooth emoji, inject HTML with SVG icon
