@@ -34,6 +34,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       ],
       
       // MetLife section
+      metlifeWarning: "⚠️ ATTENTION PLEASE: Starting January 1, the MetLife PPO 3000 (Platinum) plan will add a 12-month waiting period for Major Services! Enroll by November 20 for a December 1 start to keep your No Waiting Period coverage for 2025 and 2026! 👉 Click here!",
       metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
       metlifeNotAvailable: "🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
       whyClientsLove: "Why Clients Love It:",
@@ -44,520 +45,522 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
           "NO Missing Teeth Clause",
           "Widely accepted (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>search MetLife PPO Dental Providers – PDP Network</a>)",
           "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
-      ],
-      coverage: "Coverage:",
-      metlifeCoverage: [
-          "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
-          "✅ 80% – Basic (extractions, gum treatment)",
-          "✅ 50% – Major (crowns, root canals, bridges, dentures, oral surgery)"
-      ],
-      monthlyPremiumsMetlife: "💰 Monthly Premiums for an Individual (sample rates based on ZIP code, includes $5 association membership*):",
-      monthlyPremiumsDelta: "💰 Monthly Premiums for an Individual (includes $5 association membership*):",
-      metlifePricing: [
-          "$96 – Pennsylvania, Ohio",
-          "$110 – New Jersey, Staten Island",
-          "$123 – New York, Chicago, Miami",
-          "$133 – San Francisco"
-      ],
-      juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
-      
-      // Delta Dental section
-      deltaTitle: "🦷 Delta Dental PPO 1500",
-      deltaFeatures: [
-          "Annual benefit: $1,500/ calendar year",
-          "Carryover Benefit – roll over part of the unused benefit onto the next year",
-          "NO Waiting Period",
-          "Covers Missing Teeth",
-          "Large national network (available in all 50 states – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>search Delta Dental PPO Providers</a>)"
-      ],
-      deltaCoverage: [
-          "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
-        //   under 80% - insert 
-// 50% Major()
-        //   "✅ 80% – Basic (Fillings, extractions, oral surgery)",
-          "✅ 80% – Basic (fillings, extractions, root canals, etc)",
-        //   "✅ 50% – Major (crowns, implantz, root canals, bridges, dentures, periodontal surgery)"
-          "✅ 50% – Major (crowns, implants, bridges, surgery, etc)"
-      ],
-      deltaPricing: [
-          "$59.50 – Individual",
-          "$108.25 – Adult + Spouse",
-          "$100.75 – Adult + Children",
-          "$161.25 – Full Family"
-      ],
-      juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
-      
-      // How coverage works
-      coverageWorksTitle: "💡 How Coverage Percentages Work",
-      coverageExplanation: [
-          "📌 The 100% (Preventive), 80% (Basic), and 50% (Major) coverage is calculated based on the in-network negotiated rate for each dental procedure.",
-          "👩‍⚕️ In-network dentists must follow pre-set rates between them and the insurer- and your share is based on those reduced rates.",
-          "❗ Going out-of-network? You may expect somewhat higher bills and more out-of-pocket expenses. Out-of-Network option is great to have if your favorite dentist is not in-network. Usually, you will still save quite a bit of money compared to paying cash!",
-          "👉 When choosing a new dentist, try to confirm with your dentist that they're in-network with your plan to avoid surprise bills."
-      ],
-      
-      // Enrollment
-      enrollmentTitle: "📝 How to Enroll",
-      enrollmentSteps: [
-          "Visit <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> by the 20th of the month to become a Member on the 1st of the following month",
-          "Enter ZIP code and date of birth",
-          "Choose participant type: Individual / Adult + Kids / Couple / Family",
-          "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
-          "Add EWA Membership ($5/month-see explanation below) to access group pricing",
-          "Click Enroll - receive instant confirmation"
-      ],
-
-      // After Enrollment
-      afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
-      afterEnrollmentDetails: [
-          "Once enrolled through CorEnroll, you can create your personal account at <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or in the CorEnroll mobile app to:",
-          "View plan documents",
-          "Explore additional benefits",
-          "Contact your representative",
-          "To track claims and EOBs, create an account with MetLife or Delta Dental once your enrollment is active (usually by the 10th–15th of the month).",
-          "MetLife: Coverage starts on the 1st (if enrolled by the 20th of the prior month).",
-          "Your info may appear in their system by mid-month—schedule your first visit after that for smooth verification.",
-          "Then, register at <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> to access your benefits."
-      ],
-      youllNeedTitle: "You'll Need:",
-      youllNeedList: [
-          "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
-          "Address, email, phone number",
-          "⚠️ Bank Account only (Routing & Account #)",
-          "❌ Debit or Credit Cards not accepted",
-          "🦷 Delta Dental PPO: Card mailed + available at deltadentalct.com",
-          "💙 MetLife: No cards issued — use SSN as Member ID"
-      ],
-      
-      // Payment & Billing
-      paymentTitle: "💳 Payment & Billing Details",
-      paymentDetails: [
-          "Your bank account will be charged automatically around the 28th of each month by NuEra",
-          "Payments continue monthly until you cancel through your broker",
-          "If a card is used, the system won’t locate your account and a $30 processing fee will be charged"
-      ],
-      
-      // After Enrollment
-      afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
-    //   afterEnrollmentDetails: [
-    //       "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
-    //       "Access plan documents",
-    //       "Explore and enroll in additional benefits offered through the platform",
-    //       "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
-    //       "For MetLife:",
-    //       "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
-    //       "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
-    //       "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
-    //   ],
-      trackBenefitsTitle: "Track & Manage Your Benefits:",
-      trackBenefitsList: [
-          "🔹 <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> (you will be able to access it by mid-month after the start of your plan)",
-          "🔹 <a href='https://deltadentalct.com' target='_blank' rel='noopener noreferrer'>deltadentalct.com</a>",
-          "🔹 <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or via the Corenroll app"
-      ],
-      
-      additionalBenefits: "Explore additional benefits through *Elevate Wellness Association ($5/month membership fee is included in the above premium estimates):",
-      ewaDescription: "*Elevate Wellness Association (EWA) is a national membership organization founded in 1993 that empowers small and mid-sized companies, self-employed individuals, individuals and families across the U.S. to access group-level health and wellness benefits typically reserved for larger employers. You can chose among the following important benefits:",
-      ewaBenefits: [
-          "Vision, Medical, Life, Accident",
-          "Hospital Indemnity & Critical Illness",
-          "Telemedicine & Wellness programs"
-      ],
-      browseOptions: "Browse your options following the same <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> link. Pick the ones you need!",
-      
-      // CTA Button
-      // cta: "READY TO VIEW AND ENROLL? CLICK HERE.",
-      cta: "Get this plan",
-      cta2: "READY TO VIEW AND ENROLL? CLICK HERE.",
-      ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br><br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
-      
-      // Testimonials
-      testimonialsTitle: "Grateful Clients Reviews",
-      
-      // Educational Resources
-      educationalResourcesTitle: "📚 Dental educational resources",
-      educationalResourcesBookGromov: "Educational book. THE SMILE YOU DESERVE: A PRACTICAL GUIDE TO YOUR DREAM SMILE. By Dr. Konstantin Gromov.",
-      
-      // Contact
-      contactTitle: "📇 Contact Julia Barinova, MBA",
-      contactIntro: "📢 I invite you to connect with me and schedule a free consultation to discuss your insurance planning - including protecting yourselves and your loved ones with life insurance with living benefits, disability coverage, long-term care, and any other questions you may have. Having lived and worked in the U.S. for nearly 30 years, I'm happy to support new immigrants with valuable information and resources to help them build a better life.",
-      thankYou: "Thank you for your interest and your business.",
-      contactInfo: {
-          name: "Julia Barinova, MBA",
-          title: "Licensed Insurance Broker",
-          license: "NYS Insurance License LA-937924",
-          phone: "347-922-8037",
-                  website: "www.juliabarinova.com",
-                  email: "julia@juliabarinova.com",
-                  calendar: "calendly.com/jbarinova",
-                  reviewsText: "Check our Google reviews, including dental:",
-                  reviewsLink: "All reviews",
-                  saveContact: "Save contact"
-              },
-              dentalProfessionalsAtention: `
-              <h2 class="partners-title">🦷 Attention Dental Professionals! Let's Bring More Smiles Together</h2>
-              <p>Are you looking for ways to help your patients move forward with treatment faster — and with less financial hesitation?</p>
-              <p class="dental-professionals-link">
-                  <a href="#" id="dental-professionals-link" class="learn-more-link">Click here for more information</a>
-              </p>
-              `,
-              dentalProfessionalsFullContent: `
-              <h2 class="partners-title">🦷 Attention Dental Professionals! Let's Bring More Smiles Together</h2>
-          <p>Are you looking for ways to help your patients move forward with treatment faster — and with less financial hesitation?</p>
-          <p>We're inviting dentists like you to partner with us in offering two exciting group-access PPO dental plans: MetLife PPO and Delta Dental PPO 1500. These plans have no waiting periods, no missing tooth exclusions, and cover major procedures like implants, crowns, and root canals — right from day one.</p>
-          <ul>
-              <li>✅ Patients benefit from faster approvals, lower out-of-pocket costs, and greater motivation to follow through with necessary dental work.</li>
-              <li>✅ Dentists benefit from fewer cancellations, quicker treatment turnaround, and happier, more loyal patients.</li>
-          </ul>
-          <p>Let's work together to make quality dental care more accessible and streamlined.</p>
-          <p>📩 Get in touch today — we'll gladly send plan materials, educate your team, and even refer patients who are actively looking for in-network providers in your area.</p>
-          <p>Together, we can make more smiles happen — with speed, savings, and satisfaction!</p>
-        <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
-          `,
-          // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
-              // Disclaimer
-              newDisclaimer: `<div class="rights-reserved">
-                  <h3>⚖️ All Rights Reserved</h3>
-                  <p>©️ 2025 Julia Barinova, Inc.</p>
-                  <p>All content on this website — including text, graphics, logos, images, and downloadable materials — is the property of Julia Barinova, Inc. and protected by U.S. and international copyright laws.</p>
-                  <p>Unauthorized reproduction, distribution, or use of any part of this website is strictly prohibited without prior written consent.</p>
-                  <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Privacy Notes</a></p>
-              </div>`,
-
-              // Privacy Policy Modal Content
-              privacyPolicyContent: `<div class="privacy-notice">
-              THIS SUMMARY HAS BEEN PREPARED SOLELY FOR INFORMATIONAL PURPOSES BY YOUR INSURANCE BROKER TO ASSIST YOU IN THE PLAN SELECTION PROCESS. PATIENTS ARE STRONGLY ENCOURAGED TO REVIEW THE DETAILED PLAN DOCUMENTS FOR COMPREHENSIVE INFORMATION ON COVERAGE, LIMITATIONS, AND EXCLUSIONS. ALL DISCUSSIONS REGARDING TREATMENT PLANS, COVERAGE APPROVALS, AND PAYMENT RESPONSIBILITIES SHOULD BE HANDLED DIRECTLY BETWEEN YOU, YOUR DENTAL PROVIDER, AND THE INSURANCE COMPANY.<br><br>
-                  <h3>🛡️ Privacy Notice</h3>
-                  <p><strong>Effective Date:</strong> 2025</p>
-                  <p>Julia Barinova, Inc. ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Notice explains how we collect, use, and safeguard your data when you visit our website, submit forms, or communicate with us.</p>
-                  <h4>What We Collect:</h4>
-                  <p>We may collect personal details you provide, including your name, contact information, and insurance preferences. We also collect non-personal data like browser type, IP address, and site activity for analytics purposes.</p>
-                  <h4>How We Use Your Information:</h4>
-                  <ul>
-                      <li>To respond to your inquiries</li>
-                      <li>To provide insurance quotes or enrollment assistance</li>
-                      <li>To send important updates and helpful information (you can unsubscribe at any time)</li>
-                      <li>To improve our website and user experience</li>
-                  </ul>
-                  <h4>We DO NOT:</h4>
-                  <ul>
-                      <li>Sell or rent your personal information</li>
-                      <li>Share your data with third parties without your consent, except where required by law or to fulfill your insurance requests</li>
-                  </ul>
-                  <p><strong>Data Security:</strong> We implement industry-standard measures to protect your information. However, no internet transmission is 100% secure.</p>
-                  <p><strong>Cookies:</strong> Our website may use cookies for a smoother browsing experience and basic analytics.</p>
-                  <p><strong>Your Consent:</strong> By using our site, you consent to this Privacy Notice.</p>
-                  <p><strong>Contact Us:</strong> If you have questions about this policy, please contact Julia Barinova at <a href="tel:+13479228037">📞 347-922-8037</a> or <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-              </div>`,
-
-              // Partners section
-              partnersTitle: "Our trusted strategic dental partners",
-              partnersTitle2: "Dental Photo Gallery",
-              phoneLabel: "Phone:",
-              websiteLabel: "Website:",
-              emailLabel: "Email:",
-              calendarLabel: "Book a Call:",
-              saveContact: "Save contact"
-          },
-          ru: {
-              // Hero section
-              // heroTitle: '🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Стоматологическая страховка - всё покрыто с первого дня!',
-              // heroTitle: '🦷 Экономия с первой улыбки: уникальное покрытие без ожиданий!',
-              // heroTitle: '🦷 Стоматологическое покрытие «Все включено - улыбайся и экономь с первого дня!',
-              baner1: "ИМПЛАНТЫ, КОРОНКИ, КАНАЛЫ ПОКРЫТЫ с 1 дня",
-              baner2: "БЕЗ ПЕРИОДА ОЖИДАНИЯ. ОТСУТСТВУЮЩИЙ ЗУБ-ОК",
-              baner3: "от $55/мес",
-              go1: "👇 ДЛЯ РЕГИСТРАЦИИ ПЕРЕХОДИ",
-              go2: "👆 ПЕРЕХОДИ",
-              // heroTitle: '🦷 Улыбайся и экономь с первого дня: стоматологическое покрытие «Всё включено»!',
-              // heroTitle: '🦷 Стоматологическое покрытие «Всё включено»: Улыбайся и экономь с первого дня!',
-              heroTitle: '🦷 Красивая улыбка начинается с “умной”😉 страховки',
-              advisorName: "Предлагает Юлия Баринова, MBA – Лицензированный страховой консультант и брокер",
-              // meetJulia: "💬 «Моя страсть - это защита».",
-              // juliaIntro: "Я помогаю людям избегать разрушительных финансовых рисков - от серьёзных заболеваний до потери дохода, от необходимости долгосрочного ухода до утраты близкого человека - создавая умные, персонализированные страховые стратегии.",
-              meetJulia: "👋 Давайте познакомимся",
-              juliaIntro: "Привет, меня зовут Юлия Баринова, я независимый страховой консультант и брокер из Нью-Йорка с более чем 20-летним опытом в финансовых услугах - от инвестиционного консалтинга и маркетинга хедж-фондов до персонализированного страхового планирования.",
-              juliaPassion: "Моя профессиональная миссия - помогать людям защитить себя, свои семьи и бизнес от разрушительных финансовых рисков - будь то серьёзная болезнь, потеря дохода, потребность в долгосрочном уходе или утрата близкого человека - обучая их и создавая умные, индивидуальные страховые стратегии. Мне также нравится находить инновационные решения, которые закрывают критические пробелы и помогают реально экономить на жизненно важных услугах, таких как стоматологическая помощь.",
-              clientStats: `👉 Стоматологическое обслуживание в США - одно из самых дорогих в мире. Слишком часто люди откладывают осмотры или лечение из-за стоимости - и в итоге сталкиваются с более серьёзными, болезненными и гораздо более дорогостоящими проблемами позже. Большинство частных (не от работодателя) стоматологических планов не особо помогают: низкие годовые лимиты, долгие периоды ожидания для коронок или лечения каналов, отсутствие покрытия имплантов - или хитрые оговорки об "отсутствующих зубах".
-<br><br>
-Несколько лет назад, когда я искала доступный имплант для себя, я наткнулась на что-то редкое: групповые планы MetLife и Delta Dental PPO БЕЗ ПЕРИОДОВ ОЖИДАНИЯ и БЕЗ исключений по отсутствующим зубам. Коронки, лечение каналов, импланты - покрываются с первого дня, по тарифам, которые действительно выгодны для частных лиц и семей. Я была настолько впечатлена (и сэкономила почти $2,000 на своём импланте), что получила лицензию для представления этих планов и делюсь ими с другими. С тех пор я помогла почти 1,500 людям по всей стране сэкономить тысячи, получить лечение быстрее и наконец обрести здоровую, уверенную улыбку, которую они заслуживают.
-<br><br>
-Сегодня даже ведущие стоматологи в Нью-Йорке, Чикаго, Майами, Филадельфии и Сан-Франциско направляют к нам пациентов - потому что они видели, насколько эти планы помогают. Мы с гордостью делаем эту возможность доступной и для вас - потому что каждый заслуживает здоровую, красивую улыбку. 💙`,
-              // Plans section
-              planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
-              plansTitle: "🌟 Два плана, которые мы рекомендуем",
-              plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
-              sharedAdvantages: "🔹 Общие преимущества обоих планов",
-              sharedList: [
-                  "✔️ Принимаются большинством стоматологов по всей стране",
-                  "✔️ НЕТ ПЕРИОДА ОЖИДАНИЯ - даже на импланты и коронки",
-                  "✔️ Покрытие уже отсутствующих зубов (без исключения)",
-                  "✔️ Начало действия - с 1 числа следующего месяца (если зарегистрироваться до 20 числа текущего)",
-                  "✔️ Лимит обновляется 1 января (можно удвоить выгоду, если правильно спланировать)",
-                  "✔️ Минимум сюрпризов - можно заранее запросить оценку покрытия"
-              ],
-              
-              // MetLife section
-              metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
-              metlifeNotAvailable: "🚫 Недоступен в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
-              whyClientsLove: "Почему клиенты выбирают этот план:",
-              metlifeFeatures: [
-                  "Максимальное покрытие: $3,000 в год",
-                  "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
-                  "Без периода ожидания, даже для имплантов и коронок",
-                  "Покрытие отсутствующих зубов",
-                  "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
-                  "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
-              ],
-              coverage: "Покрытие:",
-              metlifeCoverage: [
-                  "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
-                  "✅ 80% – Базовые процедуры (пломбы, удаление, лечение дёсен)",
-                  "✅ 50% – Крупные процедуры (импланты, коронки, каналы, мосты, протезы, хирургия)"
-              ],
-              monthlyPremiumsMetlife: "💰 Примерные ежемесячные стоимости, в зависимости от ZIP-кода (включая $5 членский взнос):",
-              monthlyPremiumsDelta: "💰 Примерные ежемесячные стоимости(включая $5 членский взнос):",
-              metlifePricing: [
-                  "$96 – Пенсильвания, Огайо",
-                  "$110 – Нью-Джерси, Стейтен-Айленд",
-                  "$123 – Нью-Йорк, Чикаго, Майами",
-                  "$133 – Сан-Франциско"
-              ],
-              juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
-              
-              // Delta Dental section
-              deltaTitle: "🦷 Delta Dental PPO 1500",
-              deltaFeatures: [
-                  "Годовой лимит: $1,500",
-                  "Перенос неиспользованного лимита на следующий год",
-                  "Без периода ожидания",
-                  "Покрытие отсутствующих зубов",
-                  "Крупнейшая сеть по всей стране (во всех 50 штатах - <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>найдите своего специалиста</a>)"
-              ],
-              deltaCoverage: [
-                  "✅ 100% – Профилактика",
-                  "✅ 80% – Базовые процедуры (пломбы, удаление, лечение каналов)",
-                  "✅ 50% – Крупные процедуры (Импланты, коронки, мосты, хирургия, протезы)"
-              ],
-              deltaPricing: [
-                  "$59.50 – Индивидуально",
-                  "$100.75 – Взрослый + дети",
-                  "$108.25 – Взрослый + супруг(а)",
-                  "$161.25 – Полная семья"
-              ],
-              juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
-              
-              // How coverage works
-              coverageWorksTitle: "💡 Как работают проценты покрытия",
-              coverageExplanation: [
-                  "📌 100%, 80%, 50% рассчитываются от фиксированных тарифов in-network",
-                  "👩‍⚕️ Стоматологи обязаны следовать предварительно согласованным расценкам",
-                  "❗ Вне сети - возможно, придётся доплатить больше, но это всё равно дешевле, чем платить наличными",
-                  "👉 Всегда проверяйте, входит ли ваш врач в сеть"
-              ],
-              
-              // Enrollment
-              enrollmentTitle: "📝 Как зарегистрироваться",
-              enrollmentSteps: [
-                  "Перейдите на <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> до 20-го числа месяца, чтобы стать участником с 1-го числа следующего месяца",
-                  "Введите ZIP-код и дату рождения",
-                  "Выберите тип участия: индивидуально / взрослый + дети / пара / семья",
-                  "Выберите план: MetLife PPO Platinum или Delta Dental PPO 1500",
-                  "Добавьте членство EWA ($5/мес)",
-                  "Нажмите Enroll - получите мгновенное подтверждение"
-              ],
-
-              // After Enrollment
-              afterEnrollmentTitle: "ВЫ ЗАРЕГИСТРИРОВАЛИСЬ, ЧТО ДАЛЬШЕ?",
-              afterEnrollmentContent: [
-                  "После регистрации в стоматологическом плане через Corenroll вы сможете создать личный аккаунт на corenroll.com или через мобильное приложение Corenroll. Там вы сможете:",
-                  "Получить доступ к документам плана",
-                  "Изучить и зарегистрироваться в дополнительных льготах через платформу",
-                  "Общаться с вашим представителем по вопросам и т.д.",
-                  "Для отслеживания ваших стоматологических льгот и доступа к коммуникациям страховой компании (EOB - объяснение льгот), которые она вам присылает - вам нужно создать личный аккаунт с MetLife или Delta Dental. Вы сможете сделать это в начале-середине месяца, на который вы зарегистрировались.",
-                  "Для MetLife:",
-                  "Ваше стоматологическое покрытие начинается с 1-го числа месяца (если вы зарегистрировались до 20-го числа предыдущего месяца).",
-                  "Однако из-за сроков настройки системы ваша информация может быть недоступна для верификации примерно до 10-15 числа этого месяца. Мы рекомендуем планировать ваш первый визит к стоматологу с использованием страховки ближе к этому времени, чтобы вашу страховку мог проверить стоматолог.",
-                  "После полной обработки вашей регистрации вы можете зарегистрироваться в личном аккаунте metlife.com, следуя этим шагам:"
-              ],
-              youllNeedTitle: "Понадобится:",
-              youllNeedList: [
-                  "ФИО, дата рождения, номер SSN (обязательно)",
-                  "Адрес, email, телефон",
-                  "Данные банковского счёта (routing + account number)",
-                  "❌ Кредитные/дебетовые карты не принимаются"
-              ],
-              
-              // Payment & Billing
-              paymentTitle: "💳 Оплата",
-              paymentDetails: [
-                  "Списание около 28 числа каждого месяца от NuEra",
-                  "Автоматически, пока не отмените через брокера",
-                  "При недостатке средств - штраф $30"
-              ],
-              
-              // After Enrollment
-              afterEnrollmentTitle: "ВЫ ЗАРЕГИСТРИРОВАЛИСЬ, ЧТО ДАЛЬШЕ?",
-              afterEnrollmentDetails: [
-                  "После регистрации в стоматологическом плане через Corenroll вы сможете создать личный аккаунт на corenroll.com или через мобильное приложение Corenroll. Там вы сможете:",
-                  "Получить доступ к документам плана",
-                  "Изучить и зарегистрироваться в дополнительных льготах через платформу",
-                  "Общаться с вашим представителем по вопросам и т.д.",
-                  "Для отслеживания ваших стоматологических льгот и доступа к коммуникациям страховой компании (EOB - объяснение льгот), которые она вам присылает - вам нужно создать личный аккаунт с MetLife или Delta Dental. Вы сможете сделать это в начале-середине месяца, на который вы зарегистрировались.",
-                  "Для MetLife:",
-                  "Ваше стоматологическое покрытие начинается с 1-го числа месяца (если вы зарегистрировались до 20-го числа предыдущего месяца).",
-                  "Однако из-за сроков настройки системы ваша информация может быть недоступна для верификации примерно до 10-15 числа этого месяца. Мы рекомендуем планировать ваш первый визит к стоматологу с использованием страховки ближе к этому времени, чтобы вашу страховку мог проверить стоматолог.",
-                  "После полной обработки вашей регистрации вы можете зарегистрироваться в личном аккаунте metlife.com, следуя этим шагам:"
-              ],
-              trackBenefitsTitle: "📲 Управление планом:",
-              trackBenefitsList: [
-                  "🔹 metlife.com",
-                  "🔹 deltadentalct.com",
-                  "🔹 corenroll.com или приложение"
-              ],
-              
-              additionalBenefits: "🎁 Дополнительные выгоды через Elevate Wellness Association ($5/мес):",
-              ewaDescription: "*Elevate Wellness Association (EWA) - национальная организация, основанная в 1993 году, которая помогает малым и средним компаниям, самозайнятим особам, окремым особам та сім'ям по всій Америці отримати доступ до групових медичних та велнес-пільг, які зазвичай зарезервовані для більших роботодавців. Ви можете обрати серед наступних важливих пільг:",
-              ewaBenefits: [
-                  "Зрение, медицина, страхование жизни, несчастные случаи",
-                  "Критические болезни, телемедицина, wellness-программы"
-              ],
-              browseOptions: "Просмотрите опции по ссылке <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Выберите подходящую!",
-              
-              // CTA Button
-              // cta: "ГОТОВЫ ПОСМОТРЕТЬ и ЗАРЕГИСТРИРОВАТЬСЯ - НАЖМИТЕ на кнопку",
-              // cta: "Get this plan ✅",
-              cta: "Получить этот план",
-              cta2: "ГОТОВ ПОСМОТРЕТЬ И ЗАРЕГИСТРИРОВАТЬСЯ? ЖМИ ТУТ",
-              ctaPaymentNote: "🔒 Сейчас вы будете перенаправлены на защищённую страницу регистрации нашего партнёра — ваши данные надёжно защищены и остаются конфиденциальными.<br><br>⚠️ Только банковский счет (Routing и номер счета).<br>❌ Дебетовые или кредитные карты не принимаются",
-              
-              // Testimonials
-              testimonialsTitle: "Благодарные отзывы клиентов",
-              
-              // Educational Resources
-              educationalResourcesTitle: "📚 Стоматологические образовательные ресурсы",
-              educationalResourcesBookGromov: "Образовательная книга УЛЫБКА, КОТОРУЮ ВЫ ЗАСЛУЖИВАЕТЕ: ПРАКТИЧЕСКОЕ РУКОВОДСТВО К УЛЫБКЕ ВАШЕЙ МЕЧТЫ от доктора Константина Громова",
-              
-              // Contact
-              contactTitle: "📇 Контакты: Юлия Баринова, MBA",
-              contactIntro: "📢 Приглашаю вас на бесплатную консультацию для обсуждения страхового планирования: страхование жизни с живыми бенефитами, инвалидность, уход, и любые другие вопросы. Живя в США почти 30 лет, я с радостью поддержу новых иммигрантов полезной информацией и ресурсами для успешной адаптации.",
-              thankYou: "Спасибо за интерес и доверие!",
-              contactInfo: {
-                  name: "Юлия Баринова, MBA",
-                  title: "Лицензированный страховой брокер",
-                  license: "Лицензия штата NY: LA-937924",
-                  phone: "347-922-8037",
-                  website: "www.juliabarinova.com",
-                  email: "julia@juliabarinova.com",
-                  calendar: "calendly.com/jbarinova",
-                  reviewsText: "Отзывы Google:",
-                  reviewsLink: "Julia Barinova – Insurance Broker",
-                  saveContact: "Обменяться контактами"
-              },
-              dentalProfessionalsAtention:`
-              <h2 class="partners-title">🦷 Внимание стоматологам! Давайте вместе дарить больше улыбок</h2>
-              <p>Ищете способы помочь вашим пациентам быстрее приступить к лечению — и с меньшими финансовыми колебаниями?</p>
-              <p class="dental-professionals-link">
-                  <a href="#" id="dental-professionals-link" class="learn-more-link">Нажмите здесь для получения дополнительной информации</a>
-              </p>
-              `,
-              dentalProfessionalsFullContent:`
-              <h2 class="partners-title">🦷 Внимание стоматологам! Давайте вместе дарить больше улыбок</h2>
-          <p>Ищете способы помочь вашим пациентам быстрее приступить к лечению — и с меньшими финансовыми колебаниями?</p>
-          <p>Мы приглашаем стоматологов, таких как вы, стать нашими партнерами в предложении двух захватывающих групповых планов PPO стоматологического страхования: MetLife PPO и Delta Dental PPO 1500. Эти планы не имеют периодов ожидания, исключений для отсутствующих зубов и покрывают серьезные процедуры, такие как имплантаты, коронки и лечение каналов — с первого дня.</p>
-          <ul>
-              <li>✅ Пациенты получают преимущества от более быстрых одобрений, меньших расходов из собственного кармана и большей мотивации следовать необходимому стоматологическому лечению.</li>
-              <li>✅ Стоматологи получают преимущества от меньшего количества отмен, более быстрого оборота лечения и более счастливых, лояльных пациентов.</li>
-          </ul>
-          <p>Давайте работать вместе, чтобы сделать качественную стоматологическую помощь более доступной и упорядоченной.</p>
-          <p>📩 Свяжитесь с нами сегодня — мы с радостью отправим материалы планов, обучим вашу команду и даже направим пациентов, которые активно ищут провайдеров в сети в вашем районе.</p>
-          <p>Вместе мы можем создать больше улыбок — с быстротой, экономией и удовлетворением!</p>
-          <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
-          `,
-          // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
-              
-              // Disclaimer
-              // disclaimer: "⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.",
-              newDisclaimer: `<div class="rights-reserved">
-                  <h3>⚖️ Все права защищены</h3>
-                  <p>©️ 2025 Julia Barinova, Inc.</p>
-                  <p>Все содержимое этого веб-сайта, включая текст, графику, логотипы, изображения и загружаемые материалы, является собственностью Julia Barinova, Inc. и защищено законами США и международными законами об авторском праве.</p>
-                  <p>Несанкционированное воспроизведение, распространение или использование любой части этого веб-сайта строго запрещено без предварительного письменного согласия.</p>
-                  <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Примечания о конфиденциальности</a></p>
-              </div>`,
-
-              // Privacy Policy Modal Content
-              privacyPolicyContent: `<div class="privacy-notice">
-                  ⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.<br><br>
-                  
-                  <h3>🛡️ Уведомление о конфиденциальности</h3>
-                  <p><strong>Дата вступления в силу:</strong> 2025</p>
-                  <p>Julia Barinova, Inc. («мы», «наш» или «нас») уважает вашу конфиденциальность и обязуется защищать ваши личные данные. Это Уведомление о конфиденциальности объясняет, как мы собираем, используем и защищаем ваши данные, когда вы посещаете наш веб-сайт, отправляете формы или общаетесь с нами.</p>
-                  <h4>Что мы собираем:</h4>
-                  <p>Мы можем собирать предоставленные вами личные данные, включая ваше имя, контактную информацию и предпочтения в страховании. Мы также собираем неличные данные, такие как тип браузера, IP-адрес и активность на сайте, в аналитических целях.</p>
-                  <h4>Как мы используем вашу информацию:</h4>
-                  <ul>
-                      <li>Для ответа на ваши запросы</li>
-                      <li>Для предоставления страховых предложений или помощи в регистрации</li>
-                      <li>Для отправки важных обновлений и полезной информации (вы можете отписаться в любое время)</li>
-                      <li>Для улучшения нашего веб-сайта и пользовательского опыта</li>
-                  </ul>
-                  <h4>Мы НЕ:</h4>
-                  <ul>
-                      <li>Продаем или сдаем в аренду вашу личную информацию</li>
-                      <li>Передаем ваши данные третьим лицам без вашего согласия, за исключением случаев, предусмотренных законом или для выполнения ваших запросов по страхованию</li>
-                  </ul>
-                  <p><strong>Безопасность данных:</strong> Мы применяем стандартные отраслевые меры для защиты вашей информации. Однако ни одна передача данных через Интернет не является на 100% безопасной.</p>
-                  <p><strong>Файлы cookie:</strong> Наш веб-сайт может использовать файлы cookie для более удобного просмотра и базовой аналитики.</p>
-                  <p><strong>Ваше согласие:</strong> Используя наш сайт, вы соглашаетесь с настоящим Уведомлением о конфиденциальности.</p>
-                  <p><strong>Свяжитесь с нами:</strong> Если у вас есть вопросы по поводу этой политики, пожалуйста, свяжитесь с Юлией Бариновой по телефону <a href="tel:+13479228037">📞 347-922-8037</a> или электронной почте <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
-              </div>`,
-              // Partners section
-              partnersTitle: "Наши проверенные партнеры дантисты",
-              partnersTitle2: "Галерея фотографий партнеров",
-              phoneLabel: "Тел:",
-              websiteLabel: "Cайт:",
-              emailLabel: "Email:",
-              calendarLabel: "Записаться на звонок:",
-              saveContact: "Сохранить контакт"
-          },
-          uk: {
-              // Hero section
-              heroTitle: "🦷 ЩАСЛИВА ПОСМІШКА СЬОГОДНІ: Приєднуйтесь до революції у стоматологічному страхуванні - без очікування, без дурниць, лише захист.",
-              baner1: "ІМПЛАНТИ, КОРОНКИ, КАНАЛИ ПОКРИТІ з 1 дня",
-              baner2: "БЕЗ ПЕРІОДУ ОЧІКУВАННЯ. ВІДСУТНІЙ ЗУБ-ОК",
-              baner3: "від $55/міс",
-              go1: "👇 ДЛЯ РЕЄСТРАЦІЇ ПЕРЕХОДЬ",
-              go2: "👆 ПЕРЕХОДЬ",
-              advisorName: "Пропонує Юлія Барінова, MBA – Ліцензований страховий консультант та брокер",
-              meetJulia: "👋 Давайте познайомимося",
-              juliaIntro: "Привіт, я Юлія Барінова, незалежний страховий консультант та брокер з Нью-Йорка, з понад 20-річним досвідом у фінансових послугах - від інвестиційного консалтингу та маркетингу хедж-фондів до персоналізованого страхового планування.",
-              juliaPassion: "Я пристрасно допомагаю людям захистити себе, свої сім'ї та бізнес від руйнівних фінансових ризиків - чи то через серйозні захворювання, втрату доходу, потребу в довготривалому догляді або втрату близької людини - освічуючи їх та створюючи розумні, індивідуальні страхові стратегії. Мені також подобається знаходити інноваційні рішення, які заповнюють критичні прогалини та дозволяють реально заощаджувати на життєво важливих послугах, таких як стоматологічний догляд.",
-              clientStats: `👉 Стоматологічне обслуговування в США печально відоме своєю дорожнечею. На жаль, багато людей відкладають необхідні огляди та лікування просто тому, що не можуть собі цього дозволити - і в результаті стикаються з більш серйозними стоматологічними проблемами, які можуть коштувати цілий статок на лікування. Або просто нехтують своїм ротом взагалі, що може призвести до значних загальних проблем зі здоров'ям.
-              <br><br>
-              Більшість індивідуальних планів стоматологічного страхування - якщо вони не пропонуються через роботодавця - мають довгі періоди очікування для серйозних процедур, таких як коронки та лікування кореневих каналів, і майже ніколи не покривають імпланти.
-              <br><br>
-              Близько трьох років тому я виявила "приховану перлину": групові плани MetLife PPO та Delta Dental PPO БЕЗ періодів очікування та БЕЗ виключень по відсутніх зубах - навіть для серйозних процедур, таких як імпланти та коронки. Це спрацювало так добре для мене (я заощадила майже $2,000 на імпланті), що я стала ліцензованим представником компанії, яка їх пропонує, з радістю допомагаючи іншим отримати таку ж вигоду.
-              <br><br>
-              З того часу понад 1,000 клієнтів та їхніх сімей по всій країні скористалися цими планами, щоб заощадити тисячі доларів на чищеннях, пломбах, коронках, лікуванні кореневих каналів - і так, імплантах. Навіть місцеві стоматологи в Нью-Йорку, Філадельфії, Чикаго та Сан-Франциско, з якими ми в кінцевому підсумку розвинули теплі професійні відносини, спочатку були дещо скептично налаштовані, але пізніше стали моїми найсильнішими прихильниками - тепер вони направляють сотні пацієнтів щороку, щоб ті отримали покриття.
-              <br><br>
-              Тепер ваша черга! Я була б рада допомогти вам відновити вашу здорову, щасливу посмішку - з двома перевіреними планами, які я особисто використовую та рекомендую, та місцевими стоматологами, яких ви вже знаєте і яким довіряєте, або яких ми можемо рекомендувати, якщо необхідно.`,
-              // Plans section
-              planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
-              plansTitle: "🌟 Два плани, які я рекомендую",
-              plansIntro: "MetLife PPO (PDP Network) та Delta Dental PPO 1500 - приймаються та рекомендуються моєю надійною мережею стоматологів у: Нью-Йорку, Філадельфії, Маямі, Сан-Франциско, Чикаго та інших містах (запитайте нас про направлення у вашому районі!)",
-              sharedAdvantages: "🔹 Спільні переваги обох планів",
-              sharedList: [
-                  "✔️ Приймаються більшістю стоматологів по всій країні",
-                  "✔️ НЕМАЄ ПЕРІОДУ ОЧІКУВАННЯ - навіть для імплантів та коронок",
-                  "✔️ НЕМАЄ застереження про відсутні зуби: покриває вже відсутні зуби",
-                  "✔️ Покриття починається з 1 числа наступного місяця (якщо зареєструватися до 20 числа поточного місяця)",
-                  "✔️ Річні пільги оновлюються 1 січня (ви можете подвоїти свої заощадження, якщо правильно спланувати)",
-                  "✔️ Мінімальні несподівані витрати (отримайте оцінку покриття від страхової компанії перед початком серйозного стоматологічного проекту!)"
-              ],
-              
-              // MetLife section
-              metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
+        ],
+        coverage: "Coverage:",
+        metlifeCoverage: [
+            "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
+            "✅ 80% – Basic (extractions, gum treatment)",
+            "✅ 50% – Major (crowns, root canals, bridges, dentures, oral surgery)"
+        ],
+        monthlyPremiumsMetlife: "💰 Monthly Premiums for an Individual (sample rates based on ZIP code, includes $5 association membership*):",
+        monthlyPremiumsDelta: "💰 Monthly Premiums for an Individual (includes $5 association membership*):",
+        metlifePricing: [
+            "$96 – Pennsylvania, Ohio",
+            "$110 – New Jersey, Staten Island",
+            "$123 – New York, Chicago, Miami",
+            "$133 – San Francisco"
+        ],
+        juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
+        
+        // Delta Dental section
+        deltaTitle: "🦷 Delta Dental PPO 1500",
+        deltaFeatures: [
+            "Annual benefit: $1,500/ calendar year",
+            "Carryover Benefit – roll over part of the unused benefit onto the next year",
+            "NO Waiting Period",
+            "Covers Missing Teeth",
+            "Large national network (available in all 50 states – <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>search Delta Dental PPO Providers</a>)"
+        ],
+        deltaCoverage: [
+            "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
+            //   under 80% - insert 
+            // 50% Major()
+            //   "✅ 80% – Basic (Fillings, extractions, oral surgery)",
+            "✅ 80% – Basic (fillings, extractions, root canals, etc)",
+            //   "✅ 50% – Major (crowns, implantz, root canals, bridges, dentures, periodontal surgery)"
+            "✅ 50% – Major (crowns, implants, bridges, surgery, etc)"
+        ],
+        deltaPricing: [
+            "$59.50 – Individual",
+            "$108.25 – Adult + Spouse",
+            "$100.75 – Adult + Children",
+            "$161.25 – Full Family"
+        ],
+        juliaRecommendationDelta: 'JULIA\'S RECOMMENDATION: A reliable, budget-friendly plan. Great for families. Will keep your teeth healthy and clean at minimal monthly cost. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
+        
+        // How coverage works
+        coverageWorksTitle: "💡 How Coverage Percentages Work",
+        coverageExplanation: [
+            "📌 The 100% (Preventive), 80% (Basic), and 50% (Major) coverage is calculated based on the in-network negotiated rate for each dental procedure.",
+            "👩‍⚕️ In-network dentists must follow pre-set rates between them and the insurer- and your share is based on those reduced rates.",
+            "❗ Going out-of-network? You may expect somewhat higher bills and more out-of-pocket expenses. Out-of-Network option is great to have if your favorite dentist is not in-network. Usually, you will still save quite a bit of money compared to paying cash!",
+            "👉 When choosing a new dentist, try to confirm with your dentist that they're in-network with your plan to avoid surprise bills."
+        ],
+        
+        // Enrollment
+        enrollmentTitle: "📝 How to Enroll",
+        enrollmentSteps: [
+            "Visit <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> by the 20th of the month to become a Member on the 1st of the following month",
+            "Enter ZIP code and date of birth",
+            "Choose participant type: Individual / Adult + Kids / Couple / Family",
+            "Select plan(s): MetLife PPO Platinum / Delta Dental PPO 1500",
+            "Add EWA Membership ($5/month-see explanation below) to access group pricing",
+            "Click Enroll - receive instant confirmation"
+        ],
+        
+        // After Enrollment
+        afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
+        afterEnrollmentDetails: [
+            "Once enrolled through CorEnroll, you can create your personal account at <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or in the CorEnroll mobile app to:",
+            "View plan documents",
+            "Explore additional benefits",
+            "Contact your representative",
+            "To track claims and EOBs, create an account with MetLife or Delta Dental once your enrollment is active (usually by the 10th–15th of the month).",
+            "MetLife: Coverage starts on the 1st (if enrolled by the 20th of the prior month).",
+            "Your info may appear in their system by mid-month—schedule your first visit after that for smooth verification.",
+            "Then, register at <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> to access your benefits."
+        ],
+        youllNeedTitle: "You'll Need:",
+        youllNeedList: [
+            "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
+            "Address, email, phone number",
+            "⚠️ Bank Account only (Routing & Account #)",
+            "❌ Debit or Credit Cards not accepted",
+            "🦷 Delta Dental PPO: Card mailed + available at deltadentalct.com",
+            "💙 MetLife: No cards issued — use SSN as Member ID"
+        ],
+        
+        // Payment & Billing
+        paymentTitle: "💳 Payment & Billing Details",
+        paymentDetails: [
+            "Your bank account will be charged automatically around the 28th of each month by NuEra",
+            "Payments continue monthly until you cancel through your broker",
+            "If a card is used, the system won’t locate your account and a $30 processing fee will be charged"
+        ],
+        
+        // After Enrollment
+        afterEnrollmentTitle: "YOU ENROLLED, NOW WHAT?",
+        //   afterEnrollmentDetails: [
+            //       "Once you've enrolled into your dental plan through Corenroll, you'll be able to create a personal account at corenroll.com or by using the Corenroll mobile app. From there, you can:",
+            //       "Access plan documents",
+            //       "Explore and enroll in additional benefits offered through the platform",
+            //       "In order to track your dental benefits and access communications the insurance company (EOB- explanation of benefits) sends you - you will need to create personal account with Metlife or Delta Dental . You will be able to do it in the early to middle part of the month for which you enrolled.",
+            //       "For MetLife:",
+            //       "Your Dental Coverage begins on the 1st of the month (if you enrolled by the 20th of the previous month).",
+            //       "However, due to system setup timelines, your information may not be available for verification until approximately the 10th–15th of that month. We recommend to schedule your first dental visit with insurance closer to that time so that your insurance could be verified by your dentist.",
+            //       "Once your enrollment is fully processed, you can register for your personal metlife.com account by following these steps:"
+            //   ],
+            trackBenefitsTitle: "Track & Manage Your Benefits:",
+            trackBenefitsList: [
+                "🔹 <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> (you will be able to access it by mid-month after the start of your plan)",
+                "🔹 <a href='https://deltadentalct.com' target='_blank' rel='noopener noreferrer'>deltadentalct.com</a>",
+                "🔹 <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or via the Corenroll app"
+            ],
+            
+            additionalBenefits: "Explore additional benefits through *Elevate Wellness Association ($5/month membership fee is included in the above premium estimates):",
+            ewaDescription: "*Elevate Wellness Association (EWA) is a national membership organization founded in 1993 that empowers small and mid-sized companies, self-employed individuals, individuals and families across the U.S. to access group-level health and wellness benefits typically reserved for larger employers. You can chose among the following important benefits:",
+            ewaBenefits: [
+                "Vision, Medical, Life, Accident",
+                "Hospital Indemnity & Critical Illness",
+                "Telemedicine & Wellness programs"
+            ],
+            browseOptions: "Browse your options following the same <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> link. Pick the ones you need!",
+            
+            // CTA Button
+            // cta: "READY TO VIEW AND ENROLL? CLICK HERE.",
+            cta: "Get this plan",
+            cta2: "READY TO VIEW AND ENROLL? CLICK HERE.",
+            ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br><br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
+            
+            // Testimonials
+            testimonialsTitle: "Grateful Clients Reviews",
+            
+            // Educational Resources
+            educationalResourcesTitle: "📚 Dental educational resources",
+            educationalResourcesBookGromov: "Educational book. THE SMILE YOU DESERVE: A PRACTICAL GUIDE TO YOUR DREAM SMILE. By Dr. Konstantin Gromov.",
+            
+            // Contact
+            contactTitle: "📇 Contact Julia Barinova, MBA",
+            contactIntro: "📢 I invite you to connect with me and schedule a free consultation to discuss your insurance planning - including protecting yourselves and your loved ones with life insurance with living benefits, disability coverage, long-term care, and any other questions you may have. Having lived and worked in the U.S. for nearly 30 years, I'm happy to support new immigrants with valuable information and resources to help them build a better life.",
+            thankYou: "Thank you for your interest and your business.",
+            contactInfo: {
+                name: "Julia Barinova, MBA",
+                title: "Licensed Insurance Broker",
+                license: "NYS Insurance License LA-937924",
+                phone: "347-922-8037",
+                website: "www.juliabarinova.com",
+                email: "julia@juliabarinova.com",
+                calendar: "calendly.com/jbarinova",
+                reviewsText: "Check our Google reviews, including dental:",
+                reviewsLink: "All reviews",
+                saveContact: "Save contact"
+            },
+            dentalProfessionalsAtention: `
+            <h2 class="partners-title">🦷 Attention Dental Professionals! Let's Bring More Smiles Together</h2>
+            <p>Are you looking for ways to help your patients move forward with treatment faster — and with less financial hesitation?</p>
+            <p class="dental-professionals-link">
+            <a href="#" id="dental-professionals-link" class="learn-more-link">Click here for more information</a>
+            </p>
+            `,
+            dentalProfessionalsFullContent: `
+            <h2 class="partners-title">🦷 Attention Dental Professionals! Let's Bring More Smiles Together</h2>
+            <p>Are you looking for ways to help your patients move forward with treatment faster — and with less financial hesitation?</p>
+            <p>We're inviting dentists like you to partner with us in offering two exciting group-access PPO dental plans: MetLife PPO and Delta Dental PPO 1500. These plans have no waiting periods, no missing tooth exclusions, and cover major procedures like implants, crowns, and root canals — right from day one.</p>
+            <ul>
+            <li>✅ Patients benefit from faster approvals, lower out-of-pocket costs, and greater motivation to follow through with necessary dental work.</li>
+            <li>✅ Dentists benefit from fewer cancellations, quicker treatment turnaround, and happier, more loyal patients.</li>
+            </ul>
+            <p>Let's work together to make quality dental care more accessible and streamlined.</p>
+            <p>📩 Get in touch today — we'll gladly send plan materials, educate your team, and even refer patients who are actively looking for in-network providers in your area.</p>
+            <p>Together, we can make more smiles happen — with speed, savings, and satisfaction!</p>
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Please get in touch with us.</a></p>
+            // Disclaimer
+            newDisclaimer: `<div class="rights-reserved">
+            <h3>⚖️ All Rights Reserved</h3>
+            <p>©️ 2025 Julia Barinova, Inc.</p>
+            <p>All content on this website — including text, graphics, logos, images, and downloadable materials — is the property of Julia Barinova, Inc. and protected by U.S. and international copyright laws.</p>
+            <p>Unauthorized reproduction, distribution, or use of any part of this website is strictly prohibited without prior written consent.</p>
+            <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Privacy Notes</a></p>
+            </div>`,
+            
+            // Privacy Policy Modal Content
+            privacyPolicyContent: `<div class="privacy-notice">
+            THIS SUMMARY HAS BEEN PREPARED SOLELY FOR INFORMATIONAL PURPOSES BY YOUR INSURANCE BROKER TO ASSIST YOU IN THE PLAN SELECTION PROCESS. PATIENTS ARE STRONGLY ENCOURAGED TO REVIEW THE DETAILED PLAN DOCUMENTS FOR COMPREHENSIVE INFORMATION ON COVERAGE, LIMITATIONS, AND EXCLUSIONS. ALL DISCUSSIONS REGARDING TREATMENT PLANS, COVERAGE APPROVALS, AND PAYMENT RESPONSIBILITIES SHOULD BE HANDLED DIRECTLY BETWEEN YOU, YOUR DENTAL PROVIDER, AND THE INSURANCE COMPANY.<br><br>
+            <h3>🛡️ Privacy Notice</h3>
+            <p><strong>Effective Date:</strong> 2025</p>
+            <p>Julia Barinova, Inc. ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Notice explains how we collect, use, and safeguard your data when you visit our website, submit forms, or communicate with us.</p>
+            <h4>What We Collect:</h4>
+            <p>We may collect personal details you provide, including your name, contact information, and insurance preferences. We also collect non-personal data like browser type, IP address, and site activity for analytics purposes.</p>
+            <h4>How We Use Your Information:</h4>
+            <ul>
+            <li>To respond to your inquiries</li>
+            <li>To provide insurance quotes or enrollment assistance</li>
+            <li>To send important updates and helpful information (you can unsubscribe at any time)</li>
+            <li>To improve our website and user experience</li>
+            </ul>
+            <h4>We DO NOT:</h4>
+            <ul>
+            <li>Sell or rent your personal information</li>
+            <li>Share your data with third parties without your consent, except where required by law or to fulfill your insurance requests</li>
+            </ul>
+            <p><strong>Data Security:</strong> We implement industry-standard measures to protect your information. However, no internet transmission is 100% secure.</p>
+            <p><strong>Cookies:</strong> Our website may use cookies for a smoother browsing experience and basic analytics.</p>
+            <p><strong>Your Consent:</strong> By using our site, you consent to this Privacy Notice.</p>
+            <p><strong>Contact Us:</strong> If you have questions about this policy, please contact Julia Barinova at <a href="tel:+13479228037">📞 347-922-8037</a> or <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+            </div>`,
+            
+            // Partners section
+            partnersTitle: "Our trusted strategic dental partners",
+            partnersTitle2: "Dental Photo Gallery",
+            phoneLabel: "Phone:",
+            websiteLabel: "Website:",
+            emailLabel: "Email:",
+            calendarLabel: "Book a Call:",
+            saveContact: "Save contact"
+        },
+        ru: {
+            // Hero section
+            // heroTitle: '🦷 СЧАСТЛИВАЯ УЛЫБКА СЕГОДНЯ: Стоматологическая страховка - всё покрыто с первого дня!',
+            // heroTitle: '🦷 Экономия с первой улыбки: уникальное покрытие без ожиданий!',
+            // heroTitle: '🦷 Стоматологическое покрытие «Все включено - улыбайся и экономь с первого дня!',
+            baner1: "ИМПЛАНТЫ, КОРОНКИ, КАНАЛЫ ПОКРЫТЫ с 1 дня",
+            baner2: "БЕЗ ПЕРИОДА ОЖИДАНИЯ. ОТСУТСТВУЮЩИЙ ЗУБ-ОК",
+            baner3: "от $55/мес",
+            go1: "👇 ДЛЯ РЕГИСТРАЦИИ ПЕРЕХОДИ",
+            go2: "👆 ПЕРЕХОДИ",
+            // heroTitle: '🦷 Улыбайся и экономь с первого дня: стоматологическое покрытие «Всё включено»!',
+            // heroTitle: '🦷 Стоматологическое покрытие «Всё включено»: Улыбайся и экономь с первого дня!',
+            heroTitle: '🦷 Красивая улыбка начинается с “умной”😉 страховки',
+            advisorName: "Предлагает Юлия Баринова, MBA – Лицензированный страховой консультант и брокер",
+            // meetJulia: "💬 «Моя страсть - это защита».",
+            // juliaIntro: "Я помогаю людям избегать разрушительных финансовых рисков - от серьёзных заболеваний до потери дохода, от необходимости долгосрочного ухода до утраты близкого человека - создавая умные, персонализированные страховые стратегии.",
+            meetJulia: "👋 Давайте познакомимся",
+            juliaIntro: "Привет, меня зовут Юлия Баринова, я независимый страховой консультант и брокер из Нью-Йорка с более чем 20-летним опытом в финансовых услугах - от инвестиционного консалтинга и маркетинга хедж-фондов до персонализированного страхового планирования.",
+            juliaPassion: "Моя профессиональная миссия - помогать людям защитить себя, свои семьи и бизнес от разрушительных финансовых рисков - будь то серьёзная болезнь, потеря дохода, потребность в долгосрочном уходе или утрата близкого человека - обучая их и создавая умные, индивидуальные страховые стратегии. Мне также нравится находить инновационные решения, которые закрывают критические пробелы и помогают реально экономить на жизненно важных услугах, таких как стоматологическая помощь.",
+            clientStats: `👉 Стоматологическое обслуживание в США - одно из самых дорогих в мире. Слишком часто люди откладывают осмотры или лечение из-за стоимости - и в итоге сталкиваются с более серьёзными, болезненными и гораздо более дорогостоящими проблемами позже. Большинство частных (не от работодателя) стоматологических планов не особо помогают: низкие годовые лимиты, долгие периоды ожидания для коронок или лечения каналов, отсутствие покрытия имплантов - или хитрые оговорки об "отсутствующих зубах".
+            <br><br>
+            Несколько лет назад, когда я искала доступный имплант для себя, я наткнулась на что-то редкое: групповые планы MetLife и Delta Dental PPO БЕЗ ПЕРИОДОВ ОЖИДАНИЯ и БЕЗ исключений по отсутствующим зубам. Коронки, лечение каналов, импланты - покрываются с первого дня, по тарифам, которые действительно выгодны для частных лиц и семей. Я была настолько впечатлена (и сэкономила почти $2,000 на своём импланте), что получила лицензию для представления этих планов и делюсь ими с другими. С тех пор я помогла почти 1,500 людям по всей стране сэкономить тысячи, получить лечение быстрее и наконец обрести здоровую, уверенную улыбку, которую они заслуживают.
+            <br><br>
+            Сегодня даже ведущие стоматологи в Нью-Йорке, Чикаго, Майами, Филадельфии и Сан-Франциско направляют к нам пациентов - потому что они видели, насколько эти планы помогают. Мы с гордостью делаем эту возможность доступной и для вас - потому что каждый заслуживает здоровую, красивую улыбку. 💙`,
+            // Plans section
+            planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
+            plansTitle: "🌟 Два плана, которые мы рекомендуем",
+            plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
+            sharedAdvantages: "🔹 Общие преимущества обоих планов",
+            sharedList: [
+                "✔️ Принимаются большинством стоматологов по всей стране",
+                "✔️ НЕТ ПЕРИОДА ОЖИДАНИЯ - даже на импланты и коронки",
+                "✔️ Покрытие уже отсутствующих зубов (без исключения)",
+                "✔️ Начало действия - с 1 числа следующего месяца (если зарегистрироваться до 20 числа текущего)",
+                "✔️ Лимит обновляется 1 января (можно удвоить выгоду, если правильно спланировать)",
+                "✔️ Минимум сюрпризов - можно заранее запросить оценку покрытия"
+            ],
+            
+            // MetLife section
+            metlifeWarning: "⚠️ ВНИМАНИЕ: С 1 января план MetLife PPO 3000 (Platinum) вводит 12-месячный период ожидания для крупных процедур! Зарегистрируйтесь до 20 ноября, чтобы начать с 1 декабря и сохранить покрытие без периода ожидания на 2025 и 2026 годы! 👉 Нажмите здесь!",
+            metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
+            metlifeNotAvailable: "🚫 Недоступен в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
+            whyClientsLove: "Почему клиенты выбирают этот план:",
+            metlifeFeatures: [
+                "Максимальное покрытие: $3,000 в год",
+                "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
+                "Без периода ожидания, даже для имплантов и коронок",
+                "Покрытие отсутствующих зубов",
+                "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
+                "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
+            ],
+            coverage: "Покрытие:",
+            metlifeCoverage: [
+                "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
+                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение дёсен)",
+                "✅ 50% – Крупные процедуры (импланты, коронки, каналы, мосты, протезы, хирургия)"
+            ],
+            monthlyPremiumsMetlife: "💰 Примерные ежемесячные стоимости, в зависимости от ZIP-кода (включая $5 членский взнос):",
+            monthlyPremiumsDelta: "💰 Примерные ежемесячные стоимости(включая $5 членский взнос):",
+            metlifePricing: [
+                "$96 – Пенсильвания, Огайо",
+                "$110 – Нью-Джерси, Стейтен-Айленд",
+                "$123 – Нью-Йорк, Чикаго, Майами",
+                "$133 – Сан-Франциско"
+            ],
+            juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
+            
+            // Delta Dental section
+            deltaTitle: "🦷 Delta Dental PPO 1500",
+            deltaFeatures: [
+                "Годовой лимит: $1,500",
+                "Перенос неиспользованного лимита на следующий год",
+                "Без периода ожидания",
+                "Покрытие отсутствующих зубов",
+                "Крупнейшая сеть по всей стране (во всех 50 штатах - <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>найдите своего специалиста</a>)"
+            ],
+            deltaCoverage: [
+                "✅ 100% – Профилактика",
+                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение каналов)",
+                "✅ 50% – Крупные процедуры (Импланты, коронки, мосты, хирургия, протезы)"
+            ],
+            deltaPricing: [
+                "$59.50 – Индивидуально",
+                "$100.75 – Взрослый + дети",
+                "$108.25 – Взрослый + супруг(а)",
+                "$161.25 – Полная семья"
+            ],
+            juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
+            
+            // How coverage works
+            coverageWorksTitle: "💡 Как работают проценты покрытия",
+            coverageExplanation: [
+                "📌 100%, 80%, 50% рассчитываются от фиксированных тарифов in-network",
+                "👩‍⚕️ Стоматологи обязаны следовать предварительно согласованным расценкам",
+                "❗ Вне сети - возможно, придётся доплатить больше, но это всё равно дешевле, чем платить наличными",
+                "👉 Всегда проверяйте, входит ли ваш врач в сеть"
+            ],
+            
+            // Enrollment
+            enrollmentTitle: "📝 Как зарегистрироваться",
+            enrollmentSteps: [
+                "Перейдите на <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong> до 20-го числа месяца, чтобы стать участником с 1-го числа следующего месяца",
+                "Введите ZIP-код и дату рождения",
+                "Выберите тип участия: индивидуально / взрослый + дети / пара / семья",
+                "Выберите план: MetLife PPO Platinum или Delta Dental PPO 1500",
+                "Добавьте членство EWA ($5/мес)",
+                "Нажмите Enroll - получите мгновенное подтверждение"
+            ],
+            
+            // After Enrollment
+            afterEnrollmentTitle: "ВЫ ЗАРЕГИСТРИРОВАЛИСЬ, ЧТО ДАЛЬШЕ?",
+            afterEnrollmentContent: [
+                "После регистрации в стоматологическом плане через Corenroll вы сможете создать личный аккаунт на corenroll.com или через мобильное приложение Corenroll. Там вы сможете:",
+                "Получить доступ к документам плана",
+                "Изучить и зарегистрироваться в дополнительных льготах через платформу",
+                "Общаться с вашим представителем по вопросам и т.д.",
+                "Для отслеживания ваших стоматологических льгот и доступа к коммуникациям страховой компании (EOB - объяснение льгот), которые она вам присылает - вам нужно создать личный аккаунт с MetLife или Delta Dental. Вы сможете сделать это в начале-середине месяца, на который вы зарегистрировались.",
+                "Для MetLife:",
+                "Ваше стоматологическое покрытие начинается с 1-го числа месяца (если вы зарегистрировались до 20-го числа предыдущего месяца).",
+                "Однако из-за сроков настройки системы ваша информация может быть недоступна для верификации примерно до 10-15 числа этого месяца. Мы рекомендуем планировать ваш первый визит к стоматологу с использованием страховки ближе к этому времени, чтобы вашу страховку мог проверить стоматолог.",
+                "После полной обработки вашей регистрации вы можете зарегистрироваться в личном аккаунте metlife.com, следуя этим шагам:"
+            ],
+            youllNeedTitle: "Понадобится:",
+            youllNeedList: [
+                "ФИО, дата рождения, номер SSN (обязательно)",
+                "Адрес, email, телефон",
+                "Данные банковского счёта (routing + account number)",
+                "❌ Кредитные/дебетовые карты не принимаются"
+            ],
+            
+            // Payment & Billing
+            paymentTitle: "💳 Оплата",
+            paymentDetails: [
+                "Списание около 28 числа каждого месяца от NuEra",
+                "Автоматически, пока не отмените через брокера",
+                "При недостатке средств - штраф $30"
+            ],
+            
+            // After Enrollment
+            afterEnrollmentTitle: "ВЫ ЗАРЕГИСТРИРОВАЛИСЬ, ЧТО ДАЛЬШЕ?",
+            afterEnrollmentDetails: [
+                "После регистрации в стоматологическом плане через Corenroll вы сможете создать личный аккаунт на corenroll.com или через мобильное приложение Corenroll. Там вы сможете:",
+                "Получить доступ к документам плана",
+                "Изучить и зарегистрироваться в дополнительных льготах через платформу",
+                "Общаться с вашим представителем по вопросам и т.д.",
+                "Для отслеживания ваших стоматологических льгот и доступа к коммуникациям страховой компании (EOB - объяснение льгот), которые она вам присылает - вам нужно создать личный аккаунт с MetLife или Delta Dental. Вы сможете сделать это в начале-середине месяца, на который вы зарегистрировались.",
+                "Для MetLife:",
+                "Ваше стоматологическое покрытие начинается с 1-го числа месяца (если вы зарегистрировались до 20-го числа предыдущего месяца).",
+                "Однако из-за сроков настройки системы ваша информация может быть недоступна для верификации примерно до 10-15 числа этого месяца. Мы рекомендуем планировать ваш первый визит к стоматологу с использованием страховки ближе к этому времени, чтобы вашу страховку мог проверить стоматолог.",
+                "После полной обработки вашей регистрации вы можете зарегистрироваться в личном аккаунте metlife.com, следуя этим шагам:"
+            ],
+            trackBenefitsTitle: "📲 Управление планом:",
+            trackBenefitsList: [
+                "🔹 metlife.com",
+                "🔹 deltadentalct.com",
+                "🔹 corenroll.com или приложение"
+            ],
+            
+            additionalBenefits: "🎁 Дополнительные выгоды через Elevate Wellness Association ($5/мес):",
+            ewaDescription: "*Elevate Wellness Association (EWA) - национальная организация, основанная в 1993 году, которая помогает малым и средним компаниям, самозайнятим особам, окремым особам та сім'ям по всій Америці отримати доступ до групових медичних та велнес-пільг, які зазвичай зарезервовані для більших роботодавців. Ви можете обрати серед наступних важливих пільг:",
+            ewaBenefits: [
+                "Зрение, медицина, страхование жизни, несчастные случаи",
+                "Критические болезни, телемедицина, wellness-программы"
+            ],
+            browseOptions: "Просмотрите опции по ссылке <strong><a href='https://go.juliabarinova.com/smile' target='_blank'>go.juliabarinova.com/smile</a></strong>. Выберите подходящую!",
+            
+            // CTA Button
+            // cta: "ГОТОВЫ ПОСМОТРЕТЬ и ЗАРЕГИСТРИРОВАТЬСЯ - НАЖМИТЕ на кнопку",
+            // cta: "Get this plan ✅",
+            cta: "Получить этот план",
+            cta2: "ГОТОВ ПОСМОТРЕТЬ И ЗАРЕГИСТРИРОВАТЬСЯ? ЖМИ ТУТ",
+            ctaPaymentNote: "🔒 Сейчас вы будете перенаправлены на защищённую страницу регистрации нашего партнёра — ваши данные надёжно защищены и остаются конфиденциальными.<br><br>⚠️ Только банковский счет (Routing и номер счета).<br>❌ Дебетовые или кредитные карты не принимаются",
+            
+            // Testimonials
+            testimonialsTitle: "Благодарные отзывы клиентов",
+            
+            // Educational Resources
+            educationalResourcesTitle: "📚 Стоматологические образовательные ресурсы",
+            educationalResourcesBookGromov: "Образовательная книга УЛЫБКА, КОТОРУЮ ВЫ ЗАСЛУЖИВАЕТЕ: ПРАКТИЧЕСКОЕ РУКОВОДСТВО К УЛЫБКЕ ВАШЕЙ МЕЧТЫ от доктора Константина Громова",
+            
+            // Contact
+            contactTitle: "📇 Контакты: Юлия Баринова, MBA",
+            contactIntro: "📢 Приглашаю вас на бесплатную консультацию для обсуждения страхового планирования: страхование жизни с живыми бенефитами, инвалидность, уход, и любые другие вопросы. Живя в США почти 30 лет, я с радостью поддержу новых иммигрантов полезной информацией и ресурсами для успешной адаптации.",
+            thankYou: "Спасибо за интерес и доверие!",
+            contactInfo: {
+                name: "Юлия Баринова, MBA",
+                title: "Лицензированный страховой брокер",
+                license: "Лицензия штата NY: LA-937924",
+                phone: "347-922-8037",
+                website: "www.juliabarinova.com",
+                email: "julia@juliabarinova.com",
+                calendar: "calendly.com/jbarinova",
+                reviewsText: "Отзывы Google:",
+                reviewsLink: "Julia Barinova – Insurance Broker",
+                saveContact: "Обменяться контактами"
+            },
+            dentalProfessionalsAtention:`
+            <h2 class="partners-title">🦷 Внимание стоматологам! Давайте вместе дарить больше улыбок</h2>
+            <p>Ищете способы помочь вашим пациентам быстрее приступить к лечению — и с меньшими финансовыми колебаниями?</p>
+            <p class="dental-professionals-link">
+            <a href="#" id="dental-professionals-link" class="learn-more-link">Нажмите здесь для получения дополнительной информации</a>
+            </p>
+            `,
+            dentalProfessionalsFullContent:`
+            <h2 class="partners-title">🦷 Внимание стоматологам! Давайте вместе дарить больше улыбок</h2>
+            <p>Ищете способы помочь вашим пациентам быстрее приступить к лечению — и с меньшими финансовыми колебаниями?</p>
+            <p>Мы приглашаем стоматологов, таких как вы, стать нашими партнерами в предложении двух захватывающих групповых планов PPO стоматологического страхования: MetLife PPO и Delta Dental PPO 1500. Эти планы не имеют периодов ожидания, исключений для отсутствующих зубов и покрывают серьезные процедуры, такие как имплантаты, коронки и лечение каналов — с первого дня.</p>
+            <ul>
+            <li>✅ Пациенты получают преимущества от более быстрых одобрений, меньших расходов из собственного кармана и большей мотивации следовать необходимому стоматологическому лечению.</li>
+            <li>✅ Стоматологи получают преимущества от меньшего количества отмен, более быстрого оборота лечения и более счастливых, лояльных пациентов.</li>
+            </ul>
+            <p>Давайте работать вместе, чтобы сделать качественную стоматологическую помощь более доступной и упорядоченной.</p>
+            <p>📩 Свяжитесь с нами сегодня — мы с радостью отправим материалы планов, обучим вашу команду и даже направим пациентов, которые активно ищут провайдеров в сети в вашем районе.</p>
+            <p>Вместе мы можем создать больше улыбок — с быстротой, экономией и удовлетворением!</p>
+            <p> <a href="https://hihello.me/p/a92d8d05-9744-485f-97db-dd154c2b085b?preview" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
+            `,
+            // <p> <a href="mailto:julia@juliabarinova.com" target="_blank" rel="noopener noreferrer">Свяжитесь с нами, чтобы узнать больше.</a></p>
+            
+            // Disclaimer
+            // disclaimer: "⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.",
+            newDisclaimer: `<div class="rights-reserved">
+            <h3>⚖️ Все права защищены</h3>
+            <p>©️ 2025 Julia Barinova, Inc.</p>
+            <p>Все содержимое этого веб-сайта, включая текст, графику, логотипы, изображения и загружаемые материалы, является собственностью Julia Barinova, Inc. и защищено законами США и международными законами об авторском праве.</p>
+            <p>Несанкционированное воспроизведение, распространение или использование любой части этого веб-сайта строго запрещено без предварительного письменного согласия.</p>
+            <p><a href="#" id="privacy-notes-link" style="color: #007bff; text-decoration: underline; cursor: pointer;">Примечания о конфиденциальности</a></p>
+            </div>`,
+            
+            // Privacy Policy Modal Content
+            privacyPolicyContent: `<div class="privacy-notice">
+            ⚠️ ДАННОЕ РЕЗЮМЕ ПОДГОТОВЛЕНО ИСКЛЮЧИТЕЛЬНО В ИНФОРМАЦИОННЫХ ЦЕЛЯХ ВАШИМ СТРАХОВЫМ БРОКЕРОМ ДЛЯ ОКАЗАНИЯ ПОМОЩИ В ПРОЦЕССЕ ВЫБОРА ПЛАНА. ПАЦИЕНТАМ НАСТОЯТЕЛЬНО РЕКОМЕНДУЕТСЯ ИЗУЧИТЬ ПОДРОБНЫЕ ДОКУМЕНТЫ ПЛАНА ДЛЯ ПОЛУЧЕНИЯ ИСЧЕРПЫВАЮЩЕЙ ИНФОРМАЦИИ О ПОКРЫТИИ, ОГРАНИЧЕНИЯХ И ИСКЛЮЧЕНИЯХ. ВСЕ ОБСУЖДЕНИЯ ПЛАНОВ ЛЕЧЕНИЯ, ОДОБРЕНИЯ ПОКРЫТИЯ И ОТВЕТСТВЕННОСТИ ЗА ОПЛАТУ ДОЛЖНЫ ПРОВОДИТЬСЯ НЕПОСРЕДСТВЕННО МЕЖДУ ВАМИ, ВАШИМ СТОМАТОЛОГОМ И СТРАХОВОЙ КОМПАНИЕЙ.<br><br>
+            
+            <h3>🛡️ Уведомление о конфиденциальности</h3>
+            <p><strong>Дата вступления в силу:</strong> 2025</p>
+            <p>Julia Barinova, Inc. («мы», «наш» или «нас») уважает вашу конфиденциальность и обязуется защищать ваши личные данные. Это Уведомление о конфиденциальности объясняет, как мы собираем, используем и защищаем ваши данные, когда вы посещаете наш веб-сайт, отправляете формы или общаетесь с нами.</p>
+            <h4>Что мы собираем:</h4>
+            <p>Мы можем собирать предоставленные вами личные данные, включая ваше имя, контактную информацию и предпочтения в страховании. Мы также собираем неличные данные, такие как тип браузера, IP-адрес и активность на сайте, в аналитических целях.</p>
+            <h4>Как мы используем вашу информацию:</h4>
+            <ul>
+            <li>Для ответа на ваши запросы</li>
+            <li>Для предоставления страховых предложений или помощи в регистрации</li>
+            <li>Для отправки важных обновлений и полезной информации (вы можете отписаться в любое время)</li>
+            <li>Для улучшения нашего веб-сайта и пользовательского опыта</li>
+            </ul>
+            <h4>Мы НЕ:</h4>
+            <ul>
+            <li>Продаем или сдаем в аренду вашу личную информацию</li>
+            <li>Передаем ваши данные третьим лицам без вашего согласия, за исключением случаев, предусмотренных законом или для выполнения ваших запросов по страхованию</li>
+            </ul>
+            <p><strong>Безопасность данных:</strong> Мы применяем стандартные отраслевые меры для защиты вашей информации. Однако ни одна передача данных через Интернет не является на 100% безопасной.</p>
+            <p><strong>Файлы cookie:</strong> Наш веб-сайт может использовать файлы cookie для более удобного просмотра и базовой аналитики.</p>
+            <p><strong>Ваше согласие:</strong> Используя наш сайт, вы соглашаетесь с настоящим Уведомлением о конфиденциальности.</p>
+            <p><strong>Свяжитесь с нами:</strong> Если у вас есть вопросы по поводу этой политики, пожалуйста, свяжитесь с Юлией Бариновой по телефону <a href="tel:+13479228037">📞 347-922-8037</a> или электронной почте <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+            </div>`,
+            // Partners section
+            partnersTitle: "Наши проверенные партнеры дантисты",
+            partnersTitle2: "Галерея фотографий партнеров",
+            phoneLabel: "Тел:",
+            websiteLabel: "Cайт:",
+            emailLabel: "Email:",
+            calendarLabel: "Записаться на звонок:",
+            saveContact: "Сохранить контакт"
+        },
+        uk: {
+            // Hero section
+            heroTitle: "🦷 ЩАСЛИВА ПОСМІШКА СЬОГОДНІ: Приєднуйтесь до революції у стоматологічному страхуванні - без очікування, без дурниць, лише захист.",
+            baner1: "ІМПЛАНТИ, КОРОНКИ, КАНАЛИ ПОКРИТІ з 1 дня",
+            baner2: "БЕЗ ПЕРІОДУ ОЧІКУВАННЯ. ВІДСУТНІЙ ЗУБ-ОК",
+            baner3: "від $55/міс",
+            go1: "👇 ДЛЯ РЕЄСТРАЦІЇ ПЕРЕХОДЬ",
+            go2: "👆 ПЕРЕХОДЬ",
+            advisorName: "Пропонує Юлія Барінова, MBA – Ліцензований страховий консультант та брокер",
+            meetJulia: "👋 Давайте познайомимося",
+            juliaIntro: "Привіт, я Юлія Барінова, незалежний страховий консультант та брокер з Нью-Йорка, з понад 20-річним досвідом у фінансових послугах - від інвестиційного консалтингу та маркетингу хедж-фондів до персоналізованого страхового планування.",
+            juliaPassion: "Я пристрасно допомагаю людям захистити себе, свої сім'ї та бізнес від руйнівних фінансових ризиків - чи то через серйозні захворювання, втрату доходу, потребу в довготривалому догляді або втрату близької людини - освічуючи їх та створюючи розумні, індивідуальні страхові стратегії. Мені також подобається знаходити інноваційні рішення, які заповнюють критичні прогалини та дозволяють реально заощаджувати на життєво важливих послугах, таких як стоматологічний догляд.",
+            clientStats: `👉 Стоматологічне обслуговування в США печально відоме своєю дорожнечею. На жаль, багато людей відкладають необхідні огляди та лікування просто тому, що не можуть собі цього дозволити - і в результаті стикаються з більш серйозними стоматологічними проблемами, які можуть коштувати цілий статок на лікування. Або просто нехтують своїм ротом взагалі, що може призвести до значних загальних проблем зі здоров'ям.
+            <br><br>
+            Більшість індивідуальних планів стоматологічного страхування - якщо вони не пропонуються через роботодавця - мають довгі періоди очікування для серйозних процедур, таких як коронки та лікування кореневих каналів, і майже ніколи не покривають імпланти.
+            <br><br>
+            Близько трьох років тому я виявила "приховану перлину": групові плани MetLife PPO та Delta Dental PPO БЕЗ періодів очікування та БЕЗ виключень по відсутніх зубах - навіть для серйозних процедур, таких як імпланти та коронки. Це спрацювало так добре для мене (я заощадила майже $2,000 на імпланті), що я стала ліцензованим представником компанії, яка їх пропонує, з радістю допомагаючи іншим отримати таку ж вигоду.
+            <br><br>
+            З того часу понад 1,000 клієнтів та їхніх сімей по всій країні скористалися цими планами, щоб заощадити тисячі доларів на чищеннях, пломбах, коронках, лікуванні кореневих каналів - і так, імплантах. Навіть місцеві стоматологи в Нью-Йорку, Філадельфії, Чикаго та Сан-Франциско, з якими ми в кінцевому підсумку розвинули теплі професійні відносини, спочатку були дещо скептично налаштовані, але пізніше стали моїми найсильнішими прихильниками - тепер вони направляють сотні пацієнтів щороку, щоб ті отримали покриття.
+            <br><br>
+            Тепер ваша черга! Я була б рада допомогти вам відновити вашу здорову, щасливу посмішку - з двома перевіреними планами, які я особисто використовую та рекомендую, та місцевими стоматологами, яких ви вже знаєте і яким довіряєте, або яких ми можемо рекомендувати, якщо необхідно.`,
+            // Plans section
+            planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
+            plansTitle: "🌟 Два плани, які я рекомендую",
+            plansIntro: "MetLife PPO (PDP Network) та Delta Dental PPO 1500 - приймаються та рекомендуються моєю надійною мережею стоматологів у: Нью-Йорку, Філадельфії, Маямі, Сан-Франциско, Чикаго та інших містах (запитайте нас про направлення у вашому районі!)",
+            sharedAdvantages: "🔹 Спільні переваги обох планів",
+            sharedList: [
+                "✔️ Приймаються більшістю стоматологів по всій країні",
+                "✔️ НЕМАЄ ПЕРІОДУ ОЧІКУВАННЯ - навіть для імплантів та коронок",
+                "✔️ НЕМАЄ застереження про відсутні зуби: покриває вже відсутні зуби",
+                "✔️ Покриття починається з 1 числа наступного місяця (якщо зареєструватися до 20 числа поточного місяця)",
+                "✔️ Річні пільги оновлюються 1 січня (ви можете подвоїти свої заощадження, якщо правильно спланувати)",
+                "✔️ Мінімальні несподівані витрати (отримайте оцінку покриття від страхової компанії перед початком серйозного стоматологічного проекту!)"
+            ],
+            
+            // MetLife section
+            metlifeWarning: "⚠️ УВАГА БУДЬ ЛАСКА: З 1 січня план MetLife PPO 3000 (Platinum) додасть 12-місячний період очікування для складних послуг! Зареєструйтеся до 20 листопада для початку з 1 грудня, щоб зберегти покриття без періоду очікування на 2025 та 2026 роки! 👉 Натисніть тут!",
+            metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
               metlifeNotAvailable: "🚫 Недоступний в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
               whyClientsLove: "Чому клієнти обирають це:",
               metlifeFeatures: [
@@ -852,6 +855,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   ],
   
   // MetLife section
+  metlifeWarning: "⚠️ გთხოვთ ყურადღება: 1 იანვრიდან, MetLife PPO 3000 (Platinum) გეგმა დაამატებს 12-თვიან ლოდინის პერიოდს მთავარი სერვისებისთვის! დარეგისტრირდით 20 ნოემბრამდე 1 დეკემბრის დასაწყებად, რათა შეინარჩუნოთ ლოდინის პერიოდის გარეშე დაფარვა 2025 და 2026 წლებისთვის! 👉 დააჭირეთ აქ!",
   metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
   metlifeNotAvailable: "🚫 მიუწვდომელია: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
   whyClientsLove: "რატომ უყვართ კლიენტებს:",
@@ -1144,6 +1148,7 @@ uz: {
   ],
   
   // MetLife section
+  metlifeWarning: "⚠️ DIQQAT: 1-yanvardan boshlab MetLife PPO 3000 (Platinum) rejasi Asosiy xizmatlar uchun 12 oylik kutish davrini qo'shadi! 2025 va 2026 yillar uchun Kutish davri yo'q qoplamini saqlab qolish uchun 1-dekabrda boshlanishi uchun 20-noyabrgacha ro'yxatdan o'ting! 👉 Bu yerga bosing!",
   metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
   metlifeNotAvailable: "🚫 Mavjud emas: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
   whyClientsLove: "Mijozlar nima uchun yaxshi ko'radi:",
@@ -1435,6 +1440,7 @@ es: {
   ],
   
   // MetLife section
+  metlifeWarning: "⚠️ ATENCIÓN POR FAVOR: A partir del 1 de enero, el plan MetLife PPO 3000 (Platinum) agregará un período de espera de 12 meses para Servicios Mayores! ¡Inscríbase antes del 20 de noviembre para un inicio el 1 de diciembre y mantener su cobertura Sin Período de Espera para 2025 y 2026! 👉 ¡Haga clic aquí!",
   metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
   metlifeNotAvailable: "🚫 No disponible en: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
   whyClientsLove: "Por qué los Clientes lo Aman:",

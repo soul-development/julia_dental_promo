@@ -2190,6 +2190,7 @@ h2[data-translate="deltaTitle"]::before {
     border-radius: 10px;
     overflow: hidden;
 }
+
 /* может лучше с 768, пока не понял */
 @media (max-width: 1024px) {
     .video-container {
@@ -2205,4 +2206,44 @@ h2[data-translate="deltaTitle"]::before {
     height: 100%;
     border: none;
     border-radius: 10px;
+}
+
+/* Warning Banner */
+.warning-banner {
+    background-color: #ff9800;
+    /* Orange */
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #e68a00;
+    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+    animation: pulse-orange 2s infinite;
+}
+
+.warning-banner a {
+    color: white !important;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.warning-banner a:hover {
+    color: #f0f0f0 !important;
+}
+
+@keyframes pulse-orange {
+    0% {
+        box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 4px 25px rgba(255, 152, 0, 0.7);
+    }
+
+    100% {
+        box-shadow: 0 4px 15px rgba(255, 152, 0, 0.4);
+    }
 }
