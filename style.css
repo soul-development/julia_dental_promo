@@ -2251,3 +2251,8 @@ h2[data-translate="deltaTitle"]::before {
         box-shadow: 0 3px 12px rgba(255, 152, 0, 0.25);
     }
 }
+
+/* Accent inside warning banner */
+.warning-banner .attention-red {
+    color: #d32f2f;
+}
