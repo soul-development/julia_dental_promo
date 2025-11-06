@@ -2255,4 +2255,6 @@ h2[data-translate="deltaTitle"]::before {
 /* Accent inside warning banner */
 .warning-banner .attention-red {
     color: #d32f2f;
+    font-weight: bold;
+    font-size: 18px;
 }
