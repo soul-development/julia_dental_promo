@@ -34,7 +34,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       ],
       
       // MetLife section
-      metlifeWarning: "⚠️ <span class=\"attention-red\">ATTENTION PLEASE</span>: Starting January 1, the MetLife PPO 3000 (Platinum) plan will add a 12-month waiting period for Major Services! Enroll by November 20 for a December 1 start to keep your No Waiting Period coverage for 2025 and 2026! 👉 Click here!",
+      metlifeWarning: "⚠️ <span class=\"attention-red\">ATTENTION PLEASE</span>: Starting January 1, the MetLife PPO 3000 (Platinum) plan will add a 12-month waiting period for Major Services!",
       metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
       metlifeNotAvailable: "🚫 Not available in: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
       whyClientsLove: "Why Clients Love It:",
@@ -299,7 +299,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             ],
             
             // MetLife section
-            metlifeWarning: "⚠️ <span class=\"attention-red\">ВНИМАНИЕ</span>: С 1 января план MetLife PPO 3000 (Platinum) вводит 12-месячный период ожидания для крупных процедур! Зарегистрируйтесь до 20 ноября, чтобы начать с 1 декабря и сохранить покрытие без периода ожидания на 2025 и 2026 годы! 👉 Нажмите здесь!",
+            metlifeWarning: "⚠️ <span class=\"attention-red\">ВНИМАНИЕ</span>: С 1 января план MetLife PPO 3000 (Platinum) вводит 12-месячный период ожидания для крупных процедур!",
             metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
             metlifeNotAvailable: "🚫 Недоступен в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
             whyClientsLove: "Почему клиенты выбирают этот план:",
@@ -559,7 +559,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             ],
             
             // MetLife section
-            metlifeWarning: "⚠️ <span class=\"attention-red\">УВАГА БУДЬ ЛАСКА</span>: З 1 січня план MetLife PPO 3000 (Platinum) додасть 12-місячний період очікування для складних послуг! Зареєструйтеся до 20 листопада для початку з 1 грудня, щоб зберегти покриття без періоду очікування на 2025 та 2026 роки! 👉 Натисніть тут!",
+            metlifeWarning: "⚠️ <span class=\"attention-red\">УВАГА БУДЬ ЛАСКА</span>: З 1 січня план MetLife PPO 3000 (Platinum) додасть 12-місячний період очікування для складних послуг!",
             metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
               metlifeNotAvailable: "🚫 Недоступний в: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
               whyClientsLove: "Чому клієнти обирають це:",
@@ -855,7 +855,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   ],
   
   // MetLife section
-  metlifeWarning: "⚠️ <span class=\"attention-red\">გთხოვთ ყურადღება</span>: 1 იანვრიდან, MetLife PPO 3000 (Platinum) გეგმა დაამატებს 12-თვიან ლოდინის პერიოდს მთავარი სერვისებისთვის! დარეგისტრირდით 20 ნოემბრამდე 1 დეკემბრის დასაწყებად, რათა შეინარჩუნოთ ლოდინის პერიოდის გარეშე დაფარვა 2025 და 2026 წლებისთვის! 👉 დააჭირეთ აქ!",
+  metlifeWarning: "⚠️ <span class=\"attention-red\">გთხოვთ ყურადღება</span>: 1 იანვრიდან, MetLife PPO 3000 (Platinum) გეგმა დაამატებს 12-თვიან ლოდინის პერიოდს მთავარი სერვისებისთვის!",
   metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
   metlifeNotAvailable: "🚫 მიუწვდომელია: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
   whyClientsLove: "რატომ უყვართ კლიენტებს:",
@@ -1148,7 +1148,7 @@ uz: {
   ],
   
   // MetLife section
-  metlifeWarning: "⚠️ <span class=\"attention-red\">DIQQAT</span>: 1-yanvardan boshlab MetLife PPO 3000 (Platinum) rejasi Asosiy xizmatlar uchun 12 oylik kutish davrini qo'shadi! 2025 va 2026 yillar uchun Kutish davri yo'q qoplamini saqlab qolish uchun 1-dekabrda boshlanishi uchun 20-noyabrgacha ro'yxatdan o'ting! 👉 Bu yerga bosing!",
+  metlifeWarning: "⚠️ <span class=\"attention-red\">DIQQAT</span>: 1-yanvardan boshlab MetLife PPO 3000 (Platinum) rejasi Asosiy xizmatlar uchun 12 oylik kutish davrini qo'shadi!",
   metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
   metlifeNotAvailable: "🚫 Mavjud emas: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
   whyClientsLove: "Mijozlar nima uchun yaxshi ko'radi:",
@@ -1440,7 +1440,7 @@ es: {
   ],
   
   // MetLife section
-  metlifeWarning: "⚠️ <span class=\"attention-red\">ATENCIÓN POR FAVOR</span>: A partir del 1 de enero, el plan MetLife PPO 3000 (Platinum) agregará un período de espera de 12 meses para Servicios Mayores! ¡Inscríbase antes del 20 de noviembre para un inicio el 1 de diciembre y mantener su cobertura Sin Período de Espera para 2025 y 2026! 👉 ¡Haga clic aquí!",
+  metlifeWarning: "⚠️ <span class=\"attention-red\">ATENCIÓN POR FAVOR</span>: A partir del 1 de enero, el plan MetLife PPO 3000 (Platinum) agregará un período de espera de 12 meses para Servicios Mayores!",
   metlifeTitle: "🦷 MetLife PPO Platinum (PDP Network)",
   metlifeNotAvailable: "🚫 No disponible en: AK, ID, LA, ME, MD, MT, NH, NM, OR, SD, WA",
   whyClientsLove: "Por qué los Clientes lo Aman:",
