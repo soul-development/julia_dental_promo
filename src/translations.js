@@ -41,7 +41,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       metlifeFeatures: [
           "Generous Annual Maximum Benefit: $3,000/year",
           "Low Annual deductible: $25/person, $75 family based on ZIP code",
-          "NO Waiting Period, even on implants or crowns",
+          "12 months Waiting Period on implants and crowns",
           "NO Missing Teeth Clause",
           "Widely accepted (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>search MetLife PPO Dental Providers – PDP Network</a>)",
           "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
@@ -306,7 +306,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             metlifeFeatures: [
                 "Максимальное покрытие: $3,000 в год",
                 "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
-                "Без периода ожидания, даже для имплантов и коронок",
+                "Периода ожидания 12 месяцев для имплантов и коронок",
                 "Покрытие отсутствующих зубов",
                 "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
                 "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
@@ -566,7 +566,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               metlifeFeatures: [
                   "Щедра річна максимальна пільга: $3,000/рік",
                   "Низька річна франшиза: $25/особа, $75 сім'я в залежності від ZIP-коду",
-                  "НЕМАЄ періоду очікування, навіть для імплантів чи коронок",
+                  "12 місяців період очікування на імпланти та коронки",
                   "НЕМАЄ застереження про відсутні зуби",
                   "Широко приймається (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>пошук MetLife PPO Dental Providers – PDP Network</a>)",
                   "Дитяча ортодонтія включена (до $2,000 за життя, до 19 років на батьківському плані)"
@@ -862,7 +862,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   metlifeFeatures: [
       "ზედმეტი წლიური მაქსიმალური სარგებელი: $3,000/წელიწადში",
       "დაბალი წლიური დედუქცია: $25/პირზე, $75 ოჯახისთვის ZIP კოდის მიხედვით",
-      "ლოდინის პერიოდის გარეშე, იმპლანტებისა და კრონებისთვისაც კი",
+      "12 თვიანი ლოდინის პერიოდი იმპლანტებისა და კრონებისთვის",
       "დაკარგული კბილების დებულების გარეშე",
       "ფართოდ მიღებული (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>მოძებნე MetLife PPO სტომატოლოგ მომწოდებლები – PDP Network</a>)",
       "ბავშვის ორთოდონტია შედის (ცხოვრების განმავლობაში $2,000-მდე, 19 წლამდე ასაკში მშობლის გეგმაზე)"
@@ -1155,7 +1155,7 @@ uz: {
   metlifeFeatures: [
       "Saxovatli yillik maksimal imtiyoz: yiliga $3,000",
       "Past yillik ajratma: kishi uchun $25, ZIP kodiga asosan oila uchun $75",
-      "Kutish davri YO'Q, hatto implantlar yoki tojlar uchun ham",
+      "Implantlar va tojlar uchun 12 oylik kutish davri",
       "Yo'qolgan tishlar bandi yo'q",
       "Keng qabul qilingan (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO tish davolash provayderlarini qidiring – PDP Network</a>)",
       "Bolalar ortodontiyasi qo'shilgan (umr bo'yi $2,000 gacha, ota-onaning rejasida 19 yoshgacha)"
@@ -1447,7 +1447,7 @@ es: {
   metlifeFeatures: [
       "Beneficio Anual Máximo Generoso: $3,000/año",
       "Deducible Anual Bajo: $25/persona, $75 familia basado en código ZIP",
-      "SIN Período de Espera, incluso en implantes o coronas",
+      "Período de Espera de 12 meses en implantes y coronas",
       "SIN Cláusula de Dientes Faltantes",
       "Ampliamente aceptado (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>buscar Proveedores Dentales MetLife PPO – PDP Network</a>)",
       "Ortodoncia infantil incluida (hasta $2,000 de por vida, menores de 19 años en el plan de los padres)"
