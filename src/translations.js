@@ -60,7 +60,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             "$123 – New York, Chicago, Miami",
             "$133 – San Francisco"
         ],
-        juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
+        juliaRecommendationMetlife: 'JULIA\'S RECOMMENDATION: Best for those needing major dental work (implants, crowns, extensive treatments) or whose provider is in-network with MetLife only (will save you more money). Please note - 12 month waiting period. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description 📄</a>',
         
         // Delta Dental section
         deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -122,6 +122,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
         ],
         youllNeedTitle: "You'll Need:",
         youllNeedList: [
+            "Eligibility Requirements: US Citizen or Valid US Green Card Holder",
             "Full name, date of birth, SOCIAL SECURITY NUMBER (required)",
             "Address, email, phone number",
             "⚠️ Bank Account only (Routing & Account #)",
@@ -325,7 +326,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
                 "$123 – Нью-Йорк, Чикаго, Майами",
                 "$133 – Сан-Франциско"
             ],
-            juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
+            juliaRecommendationMetlife: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Подходит тем, кому нужно серьёзное стоматологическое лечение или у кого врач работает только с сетью MetLife. Обратите внимание - период ожидания 12 месяцев. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
             
             // Delta Dental section
             deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -384,6 +385,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             ],
             youllNeedTitle: "Понадобится:",
             youllNeedList: [
+                "Требования к участию: гражданин США или обладатель действующей грин-карты",
                 "ФИО, дата рождения, номер SSN (обязательно)",
                 "Адрес, email, телефон",
                 "Данные банковского счёта (routing + account number)",
@@ -585,7 +587,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
                   "$123 – Нью-Йорк, Чикаго, Маямі",
                   "$133 – Сан-Франциско"
               ],
-              juliaRecommendationMetlife: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Найкраще для тих, хто потребує серйозної стоматологічної роботи (імпланти, коронки, обширне лікування) або чий лікар працює в мережі лише з MetLife (заощадить вам більше грошей). <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">MetLife план детально 📄</a>',
+              juliaRecommendationMetlife: 'РЕКОМЕНДАЦІЯ ЮЛІЇ: Найкраще для тих, хто потребує серйозної стоматологічної роботи (імпланти, коронки, обширне лікування) або чий лікар працює в мережі лише з MetLife (заощадить вам більше грошей). Будь ласка, зверніть увагу - 12-місячний період очікування. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">MetLife план детально 📄</a>',
               
               // Delta Dental section
               deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -644,6 +646,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               ],
               youllNeedTitle: "Вам знадобиться:",
               youllNeedList: [
+                  "Вимоги до участі: громадянин США або власник дійсної грін-карти США",
                   "Повне ім'я, дата народження, НОМЕР СОЦІАЛЬНОГО СТРАХУВАННЯ (обов'язково)",
                   "Адреса, електронна пошта, номер телефону",
                   "Інформація про банківський рахунок (routing + номер рахунку)",
@@ -881,7 +884,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       "$123 – ნიუ-იორკი, ჩიკაგო, მიამი",
       "$133 – სან-ფრანცისკო"
   ],
-  juliaRecommendationMetlife: 'იულიას რეკომენდაცია: საუკეთესოა მათთვის, ვისაც სჭირდება მთავარი სტომატოლოგიური სამუშაო (იმპლანტები, კრონები, ექსტენსიური მკურნალობა) ან ვისი მომწოდებელიც მხოლოდ MetLife-თან არის ქსელში (გაზოგავს მეტ ფულს) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა 📄</a>',
+  juliaRecommendationMetlife: 'იულიას რეკომენდაცია: საუკეთესოა მათთვის, ვისაც სჭირდება მთავარი სტომატოლოგიური სამუშაო (იმპლანტები, კრონები, ექსტენსიური მკურნალობა) ან ვისი მომწოდებელიც მხოლოდ MetLife-თან არის ქსელში (გაზოგავს მეტ ფულს). Please note - 12 month waiting period. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">სრული გეგმის აღწერა 📄</a>',
   
   // Delta Dental section
   deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -943,7 +946,8 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       "სრული სახელი, დაბადების თარიღი, სოციალური დაცვის ნომერი (სავალდებულო)",
       "მისამართი, ელ-ფოსტა, ტელეფონის ნომერი",
       "საბანკო ანგარიშის ინფორმაცია (მარშრუტიზაცია + ანგარიშის ნომერი)",
-      "❌ საკრედიტო/სადებეტო ბარათები არ მიიღება"
+      "❌ საკრედიტო/სადებეტო ბარათები არ მიიღება",
+      "უფლებამოსილების მოთხოვნები: აშშ-ის მოქალაქე ან მოქმედი აშშ-ის მწვანე ბარათის მფლობელი"
   ],
   
   // Payment & Billing
@@ -1174,7 +1178,7 @@ uz: {
       "$123 – Nyu-York, Chikago, Mayami",
       "$133 – San-Fransisko"
   ],
-  juliaRecommendationMetlife: 'YULIYANING TAVSIYASI: Asosiy tish ishi kerak bo\'lganlarga (implantlar, tojlar, keng davolash) yoki provayderini faqat MetLife bilan tarmoqda bo\'lganlarga eng yaxshisi (sizga ko\'proq pul tejaydi) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
+  juliaRecommendationMetlife: 'YULIYANING TAVSIYASI: Asosiy tish ishi kerak bo\'lganlarga (implantlar, tojlar, keng davolash) yoki provayderini faqat MetLife bilan tarmoqda bo\'lganlarga eng yaxshisi (sizga ko\'proq pul tejaydi). Iltimos, e\'tibor bering - 12 oylik kutish davri. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
   
   // Delta Dental section
   deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -1233,6 +1237,7 @@ uz: {
   ],
   youllNeedTitle: "Sizga kerak bo'ladi:",
   youllNeedList: [
+      "Muvofiqlik talablari: AQSh fuqarosi yoki haqiqiy AQSh yashil kartasi egasi",
       "To'liq ism, tug'ilgan sana, IJTIMOIY HIMOYA RAQAMI (majburiy)",
       "Manzil, email, telefon raqami",
       "Bank hisobvarag'i ma'lumotlari (yo'naltirish + hisob raqami)",
@@ -1466,7 +1471,7 @@ es: {
       "$123 – Nueva York, Chicago, Miami",
       "$133 – San Francisco"
   ],
-  juliaRecommendationMetlife: 'RECOMENDACIÓN DE JULIA: Mejor para aquellos que necesitan trabajo dental mayor (implantes, coronas, tratamientos extensivos) o cuyo proveedor está en la red solo con MetLife (te ahorrará más dinero) <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan 📄</a>',
+  juliaRecommendationMetlife: 'RECOMENDACIÓN DE JULIA: Mejor para aquellos que necesitan trabajo dental mayor (implantes, coronas, tratamientos extensivos) o cuyo proveedor está en la red solo con MetLife (te ahorrará más dinero). Por favor nota - período de espera de 12 meses. <a href="MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Descripción Completa del Plan 📄</a>',
   
   // Delta Dental section
   deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -1525,6 +1530,7 @@ es: {
   ],
   youllNeedTitle: "Necesitarás:",
   youllNeedList: [
+      "Requisitos de Elegibilidad: Ciudadano de EE.UU. o Titular de Tarjeta Verde Válida de EE.UU.",
       "Nombre completo, fecha de nacimiento, NÚMERO DE SEGURO SOCIAL (requerido)",
       "Dirección, email, número de teléfono",
       "Información de cuenta bancaria (routing + número de cuenta)",
