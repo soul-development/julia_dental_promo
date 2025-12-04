@@ -179,7 +179,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // Educational Resources
             educationalResourcesTitle: "📚 Dental educational resources",
             educationalResourcesBookGromov: "Educational book. THE SMILE YOU DESERVE: A PRACTICAL GUIDE TO YOUR DREAM SMILE. By Dr. Konstantin Gromov.",
-            educationalResourcesBookGromov_ru: "Educational book. THE SMILE YOU DESERVE: A PRACTICAL GUIDE TO YOUR DREAM SMILE. By Dr. Konstantin Gromov. (ru)",
+            educationalResourcesBookGromov_ru: "Educational book. THE SMILE YOU DESERVE (ru) By Dr. Konstantin Gromov.",
             
             // Contact
             contactTitle: "📇 Contact Julia Barinova, MBA",
@@ -442,7 +442,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // Educational Resources
             educationalResourcesTitle: "📚 Стоматологические образовательные ресурсы",
             educationalResourcesBookGromov: "Образовательная книга УЛЫБКА, КОТОРУЮ ВЫ ЗАСЛУЖИВАЕТЕ: ПРАКТИЧЕСКОЕ РУКОВОДСТВО К УЛЫБКЕ ВАШЕЙ МЕЧТЫ от доктора Константина Громова",
-            educationalResourcesBookGromov_ru: "Образовательная книга УЛЫБКА, КОТОРУЮ ВЫ ЗАСЛУЖИВАЕТЕ: ПРАКТИЧЕСКОЕ РУКОВОДСТВО К УЛЫБКЕ ВАШЕЙ МЕЧТЫ от доктора Константина Громова (русская версия)",
+            educationalResourcesBookGromov_ru: "Образовательная книга УЛЫБКА, КОТОРОЙ ВЫ ДОСТОЙНЫ(русская версия) от доктора Константина Громова ",
 
             
             // Contact
@@ -704,7 +704,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               // Educational Resources
               educationalResourcesTitle: "📚 Стоматологічні освітні ресурси",
               educationalResourcesBookGromov: "Освітня книга ПОСМІШКА, ЯКУ ВИ ЗАСЛУГОВУЄТЕ: ПРАКТИЧНИЙ ПОСІБНИК ДО ПОСМІШКИ ВАШОЇ МРІЇ від доктора Костянтина Громова",
-              educationalResourcesBookGromov_ru: "Освітня книга ПОСМІШКА, ЯКУ ВИ ЗАСЛУГОВУЄТЕ: ПРАКТИЧНИЙ ПОСІБНИК ДО ПОСМІШКИ ВАШОЇ МРІЇ від доктора Костянтина Громова (ru)",
+              educationalResourcesBookGromov_ru: "Освітня книга ПОСМІШКА, ЯКУ ВИ ЗАСЛУГОВУЄТЕ (ru) від доктора Костянтина Громова ",
               
               // Contact
               contactTitle: "📇 Контакти: Юлія Барінова, MBA",
@@ -1002,7 +1002,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   // Educational Resources
   educationalResourcesTitle: "📚 კბილების განათლების რესურსები",
   educationalResourcesBookGromov: "საგანმანათლებლო წიგნი ღიმილი, რომელსაც იმსახურებთ: პრაქტიკული სახელმძღვანელო თქვენი ოცნების ღიმილისთვის დოქტორ კონსტანტინე გრომოვისგან",
-  educationalResourcesBookGromov_ru: "საგანმანათლებლო წიგნი ღიმილი, რომელსაც იმსახურებთ: პრაქტიკული სახელმძღვანელო თქვენი ოცნების ღიმილისთვის დოქტორ კონსტანტინე გრომოვისგან(ru)",
+  educationalResourcesBookGromov_ru: "საგანმანათლებლო წიგნი ღიმილი, რომელსაც იმსახურებთ (ru) ღიმილისთვის დოქტორ კონსტანტინე გრომოვისგან",
   
   // Contact
   contactTitle: "📇 დაუკავშირდი იულია ბარინოვას, MBA",
@@ -1297,7 +1297,7 @@ uz: {
   // Educational Resources
   educationalResourcesTitle: "📚 Stomatologik ta'lim resurslari",
   educationalResourcesBookGromov: "Ta'lim kitobi SIZ LOYIQ BO'LGAN TABASSUM: ORZULARINGIZ TABASSUMIGA AMALIY YO'RIQNOMA doktor Konstantin Gromovdan",
-  educationalResourcesBookGromov_ru: "Ta'lim kitobi SIZ LOYIQ BO'LGAN TABASSUM: ORZULARINGIZ TABASSUMIGA AMALIY YO'RIQNOMA doktor Konstantin Gromovdan(ru)",
+  educationalResourcesBookGromov_ru: "Ta'lim kitobi SIZ LOYIQ BO'LGAN TABASSUM (ru) doktor Konstantin Gromovdan(ru)",
   
   // Contact
   contactTitle: "📇 Yuliya Barinova, MBA bilan bog'laning",
@@ -1591,7 +1591,7 @@ es: {
   // Educational Resources
   educationalResourcesTitle: "📚 Recursos educativos dentales",
   educationalResourcesBookGromov: "Libro educativo LA SONRISA QUE MERECES: UNA GUÍA PRÁCTICA PARA LA SONRISA DE TUS SUEÑOS por el Dr. Konstantin Gromov",
-  educationalResourcesBookGromov_ru: "Libro educativo LA SONRISA QUE MERECES: UNA GUÍA PRÁCTICA PARA LA SONRISA DE TUS SUEÑOS por el Dr. Konstantin Gromov. (ru)",
+  educationalResourcesBookGromov_ru: "Libro educativo LA SONRISA QUE MERECES: (ru) por el Dr. Konstantin Gromov",
   
   // Contact
   contactTitle: "📇 Contacta a Julia Barinova, MBA",
