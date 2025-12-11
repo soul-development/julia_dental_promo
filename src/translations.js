@@ -172,7 +172,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // cta: "READY TO VIEW AND ENROLL? CLICK HERE.",
             cta: "Get this plan",
             cta2: "READY TO VIEW AND ENROLL? CLICK HERE.",
-            ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br>Starting December 1, the MetLife PPO 3000 (Platinum) plan added a 12-month waiting period for Major Services!<br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
+            ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br><br>⚠️ Starting December 1, the MetLife PPO 3000 (Platinum) plan added a 12-month waiting period for Major Services!<br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
             
             // Testimonials
             testimonialsTitle: "Grateful Clients Reviews",
