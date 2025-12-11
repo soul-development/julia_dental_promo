@@ -22,7 +22,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       // Plans section
       planDiscussionTitle: "💬 Your trusted local dentists and surgeons discuss why they love our Smart Dental Insurance Plans",
       plansTitle: "🌟 The Two Plans We Recommend",
-      plansIntro: "MetLife PPO (PDP Network) and Delta Dental PPO 1500 - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
+      plansIntro: "Delta Dental PPO 1500 and MetLife PPO (PDP Network) - accepted and recommended by my trusted network of dentists in: New York, Philadelphia, Miami, San Francisco, Chicago, and more (ask us for a referral in your area!)",
       sharedAdvantages: "🔹 Shared Advantages of Both Plans",
       sharedList: [
           "✔️ Accepted by most dentists nationwide",
@@ -41,11 +41,12 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
       metlifeFeatures: [
           "Generous Annual Maximum Benefit: $3,000/year",
           "Low Annual deductible: $25/person, $75 family based on ZIP code",
-          "12 months Waiting Period on implants and crowns",
+        //   "12 months Waiting Period applies on implants crowns root canals and other major procedures",
           "NO Missing Teeth Clause",
           "Widely accepted (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>search MetLife PPO Dental Providers – PDP Network</a>)",
           "Child Orthodontia included (up to $2,000 lifetime, under age 19 on parent's plan)"
         ],
+        metlifeWaitingPeriod: "12 months Waiting Period applies on implants crowns root canals and other major procedures",
         coverage: "Coverage:",
         metlifeCoverage: [
             "✅ 100% – Preventive (cleanings, X-rays, exams, fluoride)",
@@ -116,7 +117,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             "Explore additional benefits",
             "Contact your representative",
             "To track claims and EOBs, create an account with MetLife or Delta Dental once your enrollment is active (usually by the 10th–15th of the month).",
-            "MetLife: Coverage starts on the 1st (if enrolled by the 20th of the prior month).",
+            "Coverage starts on the 1st (if enrolled by the 20th of the prior month).",
             "Your info may appear in their system by mid-month—schedule your first visit after that for smooth verification.",
             "Then, register at <a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a> to access your benefits."
         ],
@@ -171,7 +172,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // cta: "READY TO VIEW AND ENROLL? CLICK HERE.",
             cta: "Get this plan",
             cta2: "READY TO VIEW AND ENROLL? CLICK HERE.",
-            ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br><br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
+            ctaPaymentNote: "🔒 You’re now being redirected to our secure partner registration page — your information is safe, private, and fully protected.<br>Starting December 1, the MetLife PPO 3000 (Platinum) plan added a 12-month waiting period for Major Services!<br>⚠️ Bank Account only (Routing & Account #).<br>❌ Debit or Credit Cards not accepted",
             
             // Testimonials
             testimonialsTitle: "Grateful Clients Reviews",
@@ -289,7 +290,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // Plans section
             planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
             plansTitle: "🌟 Два плана, которые мы рекомендуем",
-            plansIntro: "MetLife PPO (PDP Network) и Delta Dental PPO 1500 - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
+            plansIntro: "Delta Dental PPO 1500 и MetLife PPO (PDP Network) - принимаются и рекомендованы моей проверенной сетью стоматологов в Нью-Йорке, Филадельфии, Майами, Сан-Франциско, Чикаго и других городах. (Спросите меня о враче в вашем регионе!)",
             sharedAdvantages: "🔹 Общие преимущества обоих планов",
             sharedList: [
                 "✔️ Принимаются большинством стоматологов по всей стране",
@@ -308,11 +309,12 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             metlifeFeatures: [
                 "Максимальное покрытие: $3,000 в год",
                 "Низкий ежегодный дедактибл: $25 на человека, $75 на семью",
-                "Периода ожидания 12 месяцев для имплантов и коронок",
+                // "Периода ожидания 12 месяцев для имплантов и коронок",
                 "Покрытие отсутствующих зубов",
                 "Принимается широкой сетью (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO Dental – PDP Network</a>)",
                 "Детская ортодонтия до $2,000 lifetime (до 19 лет)"
             ],
+            metlifeWaitingPeriod: "Период ожидания 12 месяцев применяется к имплантам, коронкам, лечению каналов и другим крупным процедурам",
             coverage: "Покрытие:",
             metlifeCoverage: [
                 "✅ 100% – Профилактика (чистка, рентген, осмотр, фтор)",
@@ -434,7 +436,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // cta: "Get this plan ✅",
             cta: "Получить этот план",
             cta2: "ГОТОВ ПОСМОТРЕТЬ И ЗАРЕГИСТРИРОВАТЬСЯ? ЖМИ ТУТ",
-            ctaPaymentNote: "🔒 Сейчас вы будете перенаправлены на защищённую страницу регистрации нашего партнёра — ваши данные надёжно защищены и остаются конфиденциальными.<br><br>⚠️ Только банковский счет (Routing и номер счета).<br>❌ Дебетовые или кредитные карты не принимаются",
+            ctaPaymentNote: "🔒 Сейчас вы будете перенаправлены на защищённую страницу регистрации нашего партнёра — ваши данные надёжно защищены и остаются конфиденциальными.<br>Начиная с 1 декабря, план MetLife PPO 3000 (Platinum) добавил 12-месячный период ожидания для крупных услуг!<br>⚠️ Только банковский счет (Routing и номер счета).<br>❌ Дебетовые или кредитные карты не принимаются",
             
             // Testimonials
             testimonialsTitle: "Благодарные отзывы клиентов",
@@ -552,7 +554,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
             // Plans section
             planDiscussionTitle: "💬 Ваші перевірені стоматологи та хірурги розповідають, чому вони люблять наші розумні плани стоматологічного страхування",
             plansTitle: "🌟 Два плани, які я рекомендую",
-            plansIntro: "MetLife PPO (PDP Network) та Delta Dental PPO 1500 - приймаються та рекомендуються моєю надійною мережею стоматологів у: Нью-Йорку, Філадельфії, Маямі, Сан-Франциско, Чикаго та інших містах (запитайте нас про направлення у вашому районі!)",
+            plansIntro: "Delta Dental PPO 1500 та MetLife PPO (PDP Network) - приймаються та рекомендуються моєю надійною мережею стоматологів у: Нью-Йорку, Філадельфії, Маямі, Сан-Франциско, Чикаго та інших містах (запитайте нас про направлення у вашому районі!)",
             sharedAdvantages: "🔹 Спільні переваги обох планів",
             sharedList: [
                 "✔️ Приймаються більшістю стоматологів по всій країні",
@@ -571,11 +573,12 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
               metlifeFeatures: [
                   "Щедра річна максимальна пільга: $3,000/рік",
                   "Низька річна франшиза: $25/особа, $75 сім'я в залежності від ZIP-коду",
-                  "12 місяців період очікування на імпланти та коронки",
+                //   "12 місяців період очікування на імпланти та коронки",
                   "НЕМАЄ застереження про відсутні зуби",
                   "Широко приймається (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>пошук MetLife PPO Dental Providers – PDP Network</a>)",
                   "Дитяча ортодонтія включена (до $2,000 за життя, до 19 років на батьківському плані)"
               ],
+              metlifeWaitingPeriod: "Період очікування 12 місяців застосовується до імплантів, коронок, лікування каналів та інших складних процедур",
               coverage: "Покриття:",
               metlifeCoverage: [
                   "✅ 100% – Профілактика (чищення, рентген, огляди, фтор)",
@@ -850,7 +853,7 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   // Plans section
   planDiscussionTitle: "💬 თქვენი სანდო სტომატოლოგები და ქირურგები განიხილავენ, რატომ უყვართ ჩვენი ჭკვიანი სტომატოლოგიური სადაზღვევო გეგმები",
   plansTitle: "🌟 ორი გეგმა, რომელსაც ვურჩევ",
-  plansIntro: "MetLife PPO (PDP Network) და Delta Dental PPO 1500 - მიღებული და რეკომენდებული ჩემი სანდო სტომატოლოგების ქსელის მიერ: ნიუ-იორკში, ფილადელფიაში, მიამიში, სან-ფრანცისკოში, ჩიკაგოსა და სხვა ქალაქებში (იკითხეთ რეკომენდაცია თქვენს რაიონში!)",
+  plansIntro: "Delta Dental PPO 1500 და MetLife PPO (PDP Network) - მიღებული და რეკომენდებული ჩემი სანდო სტომატოლოგების ქსელის მიერ: ნიუ-იორკში, ფილადელფიაში, მიამიში, სან-ფრანცისკოში, ჩიკაგოსა და სხვა ქალაქებში (იკითხეთ რეკომენდაცია თქვენს რაიონში!)",
   sharedAdvantages: "🔹 ორივე გეგმის საერთო უპირატესობები",
   sharedList: [
       "✔️ მიღებული მის უმეტეს სტომატოლოგთა მიერ ქვეყნის მასშტაბით",
@@ -869,11 +872,12 @@ Today, even top dentists in NYC, Chicago, Miami, Philadelphia, and San Francisco
   metlifeFeatures: [
       "ზედმეტი წლიური მაქსიმალური სარგებელი: $3,000/წელიწადში",
       "დაბალი წლიური დედუქცია: $25/პირზე, $75 ოჯახისთვის ZIP კოდის მიხედვით",
-      "12 თვიანი ლოდინის პერიოდი იმპლანტებისა და კრონებისთვის",
+    //   "12 თვიანი ლოდინის პერიოდი იმპლანტებისა და კრონებისთვის",
       "დაკარგული კბილების დებულების გარეშე",
       "ფართოდ მიღებული (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>მოძებნე MetLife PPO სტომატოლოგ მომწოდებლები – PDP Network</a>)",
       "ბავშვის ორთოდონტია შედის (ცხოვრების განმავლობაში $2,000-მდე, 19 წლამდე ასაკში მშობლის გეგმაზე)"
   ],
+  metlifeWaitingPeriod: "12 თვიანი ლოდინის პერიოდი ვრცელდება იმპლანტებზე, კრონებზე, ფესვის არხებსა და სხვა მთავარ პროცედურებზე",
   coverage: "დაფარვა:",
   metlifeCoverage: [
       "✅ 100% – პრევენციული (გაწმენდა, რენტგენი, გამოკვლევები, ფტორი)",
@@ -1145,7 +1149,7 @@ uz: {
   // Plans section
   planDiscussionTitle: "💬 Sizning ishonchli stomatologlaringiz va jarrohlari bizning aqlli stomatologik sug'urta rejalarimizni nima uchun yoqtirishlarini muhokama qilishadi",
   plansTitle: "🌟 Men tavsiya qilgan ikkita reja",
-  plansIntro: "MetLife PPO (PDP Network) va Delta Dental PPO 1500 - mening ishonchli stomatologlar tarmog'im tomonidan qabul qilingan va tavsiya qilingan: Nyu-York, Filadelfiya, Mayami, San-Fransisko, Chikago va boshqa joylar (hududingizdagi yo'naltirish uchun bizdan so'rang!)",
+  plansIntro: "Delta Dental PPO 1500 va MetLife PPO (PDP Network) - mening ishonchli stomatologlar tarmog'im tomonidan qabul qilingan va tavsiya qilingan: Nyu-York, Filadelfiya, Mayami, San-Fransisko, Chikago va boshqa joylar (hududingizdagi yo'naltirish uchun bizdan so'rang!)",
   sharedAdvantages: "🔹 Ikkala rejaning umumiy afzalliklari",
   sharedList: [
       "✔️ Butun mamlakat bo'ylab ko'pchilik stomatologlar tomonidan qabul qilinadi",
@@ -1164,11 +1168,12 @@ uz: {
   metlifeFeatures: [
       "Saxovatli yillik maksimal imtiyoz: yiliga $3,000",
       "Past yillik ajratma: kishi uchun $25, ZIP kodiga asosan oila uchun $75",
-      "Implantlar va tojlar uchun 12 oylik kutish davri",
+    //   "Implantlar va tojlar uchun 12 oylik kutish davri",
       "Yo'qolgan tishlar bandi yo'q",
       "Keng qabul qilingan (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>MetLife PPO tish davolash provayderlarini qidiring – PDP Network</a>)",
       "Bolalar ortodontiyasi qo'shilgan (umr bo'yi $2,000 gacha, ota-onaning rejasida 19 yoshgacha)"
   ],
+  metlifeWaitingPeriod: "Implantlar, tojlar, ildiz kanallari va boshqa asosiy protseduralar uchun 12 oylik kutish davri qo'llaniladi",
   coverage: "Qoplash:",
   metlifeCoverage: [
       "✅ 100% – Profilaktika (tozalash, rentgen, tekshiruvlar, ftorid)",
@@ -1439,7 +1444,7 @@ es: {
   // Plans section
   planDiscussionTitle: "💬 Sus dentistas y cirujanos de confianza discuten por qué aman nuestros Planes Inteligentes de Seguro Dental",
   plansTitle: "🌟 Los Dos Planes que Recomiendo",
-  plansIntro: "MetLife PPO (PDP Network) y Delta Dental PPO 1500 - aceptados y recomendados por mi red confiable de dentistas en: Nueva York, Filadelfia, Miami, San Francisco, Chicago, y más (¡pídenos una referencia en tu área!)",
+  plansIntro: "Delta Dental PPO 1500 y MetLife PPO (PDP Network) - aceptados y recomendados por mi red confiable de dentistas en: Nueva York, Filadelfia, Miami, San Francisco, Chicago, y más (¡pídenos una referencia en tu área!)",
   sharedAdvantages: "🔹 Ventajas Compartidas de Ambos Planes",
   sharedList: [
       "✔️ Aceptado por la mayoría de dentistas a nivel nacional",
@@ -1458,11 +1463,12 @@ es: {
   metlifeFeatures: [
       "Beneficio Anual Máximo Generoso: $3,000/año",
       "Deducible Anual Bajo: $25/persona, $75 familia basado en código ZIP",
-      "Período de Espera de 12 meses en implantes y coronas",
+    //   "Período de Espera de 12 meses en implantes y coronas",
       "SIN Cláusula de Dientes Faltantes",
       "Ampliamente aceptado (<a href='https://providers.online.metlife.com/findDentist?searchType=findDentistMetLife' target='_blank' rel='noopener noreferrer'>buscar Proveedores Dentales MetLife PPO – PDP Network</a>)",
       "Ortodoncia infantil incluida (hasta $2,000 de por vida, menores de 19 años en el plan de los padres)"
   ],
+  metlifeWaitingPeriod: "Período de espera de 12 meses aplica para implantes, coronas, endodoncias y otros procedimientos mayores",
   coverage: "Cobertura:",
   metlifeCoverage: [
       "✅ 100% – Preventiva (limpiezas, rayos X, exámenes, flúor)",
