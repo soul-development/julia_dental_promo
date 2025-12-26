@@ -197,6 +197,9 @@ import { translations } from './translations';
             "Maryland": [
                 { name: "Dr. Nina Aks", city: "Germantown", link: "https://share.google/pxdFsSTyM0tsfPM0N" },
                 { name: "Dr. Anna Grinitsyna, Cosmetic Dentist Injector", city: "Gaithersburg", link: "https://gaithersburgdentalbeauty.com/" }
+            ],
+            "Massachusetts": [
+                { name: "Dr. Mikhail Shulkin, Moody Street Dental on Elm", city: "Waltham", link: "https://moodystreetdental.com/" }
             ]
         };
 
