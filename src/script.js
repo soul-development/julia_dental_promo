@@ -1,467 +1,635 @@
-import { translations } from './translations';
-        // Current language
-        let currentLanguage = 'en';
+import { DEFAULT_LANGUAGE, translations } from './translations';
+import { partnersData } from './partners-data';
 
-        // Replace all tooth emojis with SVG icon markup
-        // FIXME: зачем вызывать каждый раз эту функцию, если можно сразу в translations засунуть это все?
-        // вынести иконку как переменную или функцию, чтобы поддерживать динамические размеры и в translations уже вставлять через `${icon(...args)}`
-        function replaceToothEmoji(text, iconHeight) {
-            const style = iconHeight ? `style="height: ${iconHeight}px;"` : '';
-            if (typeof text !== 'string') return text;
-            const icon = `<img src="/cropped_tooth.svg" alt="" class="tooth-icon" ${style}>`;
-            return text.replace(/🦷/g, icon);
-        }
+const STORAGE_KEY = 'preferredLanguage';
+const SOURCE1_ELIGIBILITY_KEY = 'source1Eligibility';
+const SOURCE2_ELIGIBILITY_KEY = 'source2Eligibility';
+const TOOTH_EMOJI = '🦷';
 
-        // Translation function
-        function translate(key) {
-            const keys = key.split('.');
-            let value = translations[currentLanguage];
-            
-            for (const k of keys) {
-                if (value && typeof value === 'object' && k in value) {
-                    value = value[k];
-                } else {
-                    console.warn(`Translation key not found: ${key}`);
-                    return key;
-                }
-            }
-            
-            return value;
-        }
+let currentLanguage = DEFAULT_LANGUAGE;
 
-        // Apply translations to the page
-        function applyTranslations() {
-            // Update all elements with data-translate attribute
-            document.querySelectorAll('[data-translate]').forEach(element => {
-                const key = element.getAttribute('data-translate');
-                const iconHeight = element.getAttribute('data-icon-height');
-                const translation = translate(key);
-                
-                if (Array.isArray(translation)) {
-                    // Handle lists
-                    if (element.tagName === 'UL' || element.tagName === 'OL') {
-                        element.innerHTML = translation.map(item => `<li>${replaceToothEmoji(item, iconHeight)}</li>`).join('');
-                    }
-                } else if (key === 'clientStats' || key === 'juliaRecommendationMetlife' || key === 'juliaRecommendationDelta' || key === 'dentalProfessionalsAtention' || key === 'metlifeWarning') {
-                    element.innerHTML = replaceToothEmoji(translation, iconHeight);
-                } else {
-                    // If value contains the tooth emoji, inject HTML with SVG icon
-                    const asString = typeof translation === 'string' ? translation : '';
-                    if (asString.includes('🦷')) {
-                        element.innerHTML = replaceToothEmoji(asString, iconHeight);
-                    } else {
-                        element.textContent = translation;
-                    }
-                }
-            });
+function hasOwn(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key);
+}
 
-            // Handle special coverage explanation
-            const coverageDiv = document.getElementById('coverageExplanation');
-            if (coverageDiv) {
-                const explanations = translate('coverageExplanation');
-                if (Array.isArray(explanations)) {
-                    coverageDiv.innerHTML = explanations.map(text => `<p>${replaceToothEmoji(text)}</p>`).join('');
-                }
-            }
+function getNestedTranslation(language, keyPath) {
+  if (!language || !keyPath) return undefined;
 
+  const parts = String(keyPath).split('.');
+  let value = translations[language];
 
-            // Handle contact information
-            const contactDiv = document.getElementById('contactInfo');
-            if (contactDiv) {
-                const info = translate('contactInfo');
-                const phoneLabel = translate('phoneLabel');
-                const websiteLabel = translate('websiteLabel');
-                const emailLabel = translate('emailLabel');
-                const calendarLabel = translate('calendarLabel');
-                const saveContact = translate('saveContact');
-                
-                contactDiv.innerHTML = `
-                    <p><strong>${info.name}<br>
-                    ${info.title}<br>
-                    ${info.license}</strong></p>
-                    
-                    <p><strong>📞 ${phoneLabel}</strong> <a href="tel:+13479228037">${info.phone}</a><br>
-                    <strong>🌐 ${websiteLabel}</strong> <a href="https://www.juliabarinova.com" target="_blank">${info.website}</a><br>
-                    <strong>📧 ${emailLabel}</strong> <a href="mailto:julia@juliabarinova.com">${info.email}</a><br>
-                    <strong>📅 ${calendarLabel}</strong> <a href="https://calendly.com/jbarinova" target="_blank">${info.calendar}</a><br>
-                    <strong>👤 ${saveContact}</strong> <a href="https://hihello.com/hi/jbarinova" target="_blank">${info.saveContact}</a></p>
-                    
-                    <p><strong>${info.reviewsText}</strong><br>
-                    <a href="https://share.google/gyCCk8gsCUzwaWodn" target="_blank">${info.reviewsLink}</a></p>
-                `;
-            }
+  for (const part of parts) {
+    if (value && typeof value === 'object' && hasOwn(value, part)) {
+      value = value[part];
+    } else {
+      return undefined;
+    }
+  }
 
-            // Handle partial translations for enrollment steps
-            document.querySelectorAll('[data-translate-partial]').forEach(element => {
-                const key = element.getAttribute('data-translate-partial');
-                const translation = translate(key);
-                
-                if (element.tagName === 'SPAN') {
-                    element.textContent = translation;
-                } else {
-                    element.textContent = translation;
-                }
-            });
+  return value;
+}
 
-            // Update elements with data-translate-html for HTML content
-            document.querySelectorAll('[data-translate-html]').forEach(element => {
-                const key = element.getAttribute('data-translate-html');
-                const translation = translate(key);
-                element.innerHTML = replaceToothEmoji(translation);
-            });
-        }
+function t(keyPath, { lang = currentLanguage, fallbackLang = DEFAULT_LANGUAGE } = {}) {
+  const primary = getNestedTranslation(lang, keyPath);
+  if (primary !== undefined) return primary;
 
-        function switchLanguage(lang) {
-            // Update button states
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            event.target.classList.add('active');
+  const fallback = getNestedTranslation(fallbackLang, keyPath);
+  if (fallback !== undefined) return fallback;
 
-            // Update current language
-            currentLanguage = lang;
-            
-            // Update document language attribute for privacy modal
-            document.documentElement.lang = lang;
+  console.warn(`Missing translation: ${keyPath} (${lang})`);
+  return keyPath;
+}
 
-            // Apply translations
-            applyTranslations();
+function replaceToothEmoji(text, iconHeight) {
+  if (typeof text !== 'string') return text;
+  if (!text.includes(TOOTH_EMOJI)) return text;
 
-            // Store language preference
-            localStorage.setItem('preferredLanguage', lang);
-        }
+  const height = Number(iconHeight);
+  const style =
+    Number.isFinite(height) && height > 0 ? ` style="height: ${height}px;"` : '';
+  const icon = `<img src="/cropped_tooth.svg" alt="" class="tooth-icon"${style}>`;
+  return text.replaceAll(TOOTH_EMOJI, icon);
+}
 
-        window.switchLanguage = switchLanguage;
+function setElementText(element, value, iconHeight) {
+  const asString = typeof value === 'string' ? value : String(value ?? '');
+  if (asString.includes(TOOTH_EMOJI)) {
+    element.innerHTML = replaceToothEmoji(asString, iconHeight);
+    return;
+  }
+  element.textContent = asString;
+}
 
-        // Load saved language preference
-        document.addEventListener('DOMContentLoaded', function() {
-            const savedLang = localStorage.getItem('preferredLanguage') || 'en';
-            currentLanguage = savedLang;
-            
-            // Set document language attribute
-            document.documentElement.lang = savedLang;
-            
-            // Update button state
-            document.querySelectorAll('.lang-btn').forEach(btn => {
-                btn.classList.remove('active');
-            });
-            document.querySelector(`[onclick="switchLanguage('${savedLang}')"]`).classList.add('active');
-            
-            // Apply initial translations
-            applyTranslations();
-        });
+function setElementHtml(element, value, iconHeight) {
+  const asString = typeof value === 'string' ? value : String(value ?? '');
+  element.innerHTML = replaceToothEmoji(asString, iconHeight);
+}
 
-        // Partners Section Logic
-        const partnersData = {
-            "New York": [
-                { name: "Dr. Boris Zats, Dr Dmitry Tokar, Sheepsheadbay Oral Surgery, Forest Hills Oral Surgery, Brooklyn",city: "New York City", link: "https://share.google/O7ZBgf7rdE5hY2oX2"},
-                { name: "Sheepshead Bay Oral Surgery PLLC - MY ORAL SURGEON",city: "New York City", link: "https://share.google/AXFZCzTV6frl7MzW8"},
-                { name: "Royzman & Poznyansky, DDS (DENTAL CENTER OF BROOKLYN)",city: "New York City", link: "https://share.google/2260Jitf3tj7fnNFL"},
-                { name: "Family Smile Dental",city: "New York City", link: "https://share.google/MyapQ9y2glGcX7Afs"},
-                { name: "Dr. Mikhail Ruvinsky",city: "New York City", link: "https://share.google/z4oXraxYRLC7EVgNM"},
-                {name: "Dr. David Poiman, DDS,  Yekaterina (Katya) Ryumina, Dental Hygienist ☺️",city: "New York City", link: "https://share.google/aAwz0Rxr7adJ15nzJ"},
-                { name: "Alfa Dental", city: "New York City", link: "https://share.google/DgDz1bGgVqfbZbtjV" },
-                { name: "Leona Kotlyar, DDS - Pristine Pediatric Dentistry", city: "New York City", link: "https://share.google/b86pT6BGa773OLruL" },
-                { name: "Vadim Firdman Luxury Dental, PC", city: "New York City", link: "https://share.google/MAOOt0VPal0MGjnOi" },
-                { name: "Leona Kotlyar, Pediatric Dentist, Brooklyn, NY", city: "New York City", link: "https://g.co/kgs/nxLiScr" },
-                { name: "Garry Shnayder, Oral Surgeon, Brooklyn, NY", city: "New York City", link: "https://www.pristineoralsurgery.com/meet-us/dr-garry-shnayder/" },
-            ],
-            "Pennsylvania": [
-                { name: "Dental Beauty", city: "Philadelphia", link: "https://share.google/v3iJsA63ipHEAvqKa" },
-                { name: "Dr Maxim Babiner, Babiner Dental", city: "Philadelphia", link: "https://share.google/Qx537wYznsP6Lfgbr" },
-                { name: "Boris Babiner, DDS. Implantology", city: "Philadelphia", link: "https://share.google/KLL3G0Ic3PqLHBzT6" },
-                { name: "Alexandr Volchonok DDS PC", city: "Philadelphia", link: "https://share.google/tHfHkbpojsODJxLLh" },
-                { name: "Advanced Dental Solutions", city: "Pittsburgh", link: "https://share.google/iAtwPef4Lcrc7BhJ0" },
-                { name: "Dr David Agia Southampton Aesthetic Dentistry", city: "Southampton", link: "https://share.google/KixNABUGX5SqFz0qk" },
-                { name: "Pennsylvania Center for Advanced Dentistry - Dr. Olga Shvarts", city: "Southampton", link: "https://g.co/kgs/29UABT9" },
-                // { name: "Dr Olga Shvarts", city: "", link: "https://g.co/kgs/29UABT9" }
-            ],
-            "Illinois": [
-                { name: "Dr Konstantin Gromov, Implantwide.com", city: "Schaumburg", link: "https://share.google/GDNd620yH51Yo5nRq" },
-                { name: "Dr. Gelena Roytman, DDS", city: "Chicago", link: "https://share.google/5xZD3bLT6k7JzC0OP" }
-            ],
-            "California": [
-                { name: "Kevin Kafayi, D.D.S.", city: "San Francisco", link: "https://share.google/LUCVoOBnyykzbKjIm" },
-                { name: "Alex Rabinovich, DDS, MD", city: "San Francisco", link: "https://share.google/DUJV6IjG7gWbE6iQr" },
-                { name: "Nataly Vilderman, D.D.S.", city: "San Francisco", link: "https://share.google/qy2U2UOCFgQ8QnSqo" },
-                { name: "Dr. Valentina Yasinsky", city: "San Francisco", link: "https://share.google/SVEi55QNBqT5JCQFU" },
-                { name: "San Francisco Reconstructive Periodontics - Greg Meyers, DDS, MSD", city: "San Francisco", link: "https://share.google/UgB58zct5TaQ6Nld5" }
-            ],
-            "Florida": [
-                { name: "Dr. Alexander Levin, DDS.", city: "Palm Coast", link: "https://share.google/SOq6Cyz0djjC6Hy1L" }
-            ],
-            "New Jersey": [
-                { name: "Magic Dental Lawrenceville", city: "Lawrenceville", link: "https://share.google/z8spbjg2oenGxaPw1" },
-                { name: "Dr. Yuliya Khodak DMD", city: "New Jersey", link: "https://share.google/9Kqz6eXCGqSMQ3k07" }
-            ],
-            "Maryland": [
-                { name: "Dr. Nina Aks", city: "Germantown", link: "https://share.google/pxdFsSTyM0tsfPM0N" },
-                { name: "Dr. Anna Grinitsyna, Cosmetic Dentist Injector", city: "Gaithersburg", link: "https://gaithersburgdentalbeauty.com/" }
-            ],
-            "Massachusetts": [
-                { name: "Dr. Mikhail Shulkin, Moody Street Dental on Elm", city: "Waltham", link: "https://moodystreetdental.com/" }
-            ]
-        };
+function renderList(element, items, iconHeight) {
+  element.innerHTML = items
+    .map((item) => {
+      if (item && typeof item === 'object' && !Array.isArray(item) && item.text) {
+        const mainText = replaceToothEmoji(String(item.text ?? ''), iconHeight);
+        const subItems = Array.isArray(item.sub) ? item.sub : [];
+        const subHtml = subItems.length
+          ? `<ul class="sub-list">${subItems.map((s) => `<li>${replaceToothEmoji(String(s ?? ''), iconHeight)}</li>`).join('')}</ul>`
+          : '';
+        return `<li>${mainText}${subHtml}</li>`;
+      }
+      return `<li>${replaceToothEmoji(String(item ?? ''), iconHeight)}</li>`;
+    })
+    .join('');
+}
 
-        const partnerImages = [
-            "partners/Alexandr Volchonok DDS PC 2.jpeg",
-            "partners/Alexandr Volchonok DDS PC 3.jpeg",
-            "partners/Alexandr Volchonok DDS PC.jpeg",
-            "partners/Babiner Dental.jpeg",
-            "partners/Dr Boris Zats 2.jpeg",
-            "partners/Dr Boris Zats.jpeg",
-            "partners/Dr Maxim Babiner, Babiner Dental 2.jpeg",
-            "partners/Dr Maxim Babiner, Babiner Dental.jpeg",
-            "partners/Dr. Kontantin Gromov, Periodontist,  Implantwide.jpeg",
-            "partners/Team of Dental Beauty, Dr Andrey Kurudim.jpeg",
-            "partners/Yekaterina(Katya) Ryumina, Amazing Dental Hygieni.jpeg"
-        ];
-        
-        let currentImageIndex = 0;
+function renderParagraphs(element, items, iconHeight) {
+  element.innerHTML = items
+    .map((item) => `<p>${replaceToothEmoji(String(item ?? ''), iconHeight)}</p>`)
+    .join('');
+}
 
-        function updateModalImage(index) {
-            const modalImg = document.getElementById("modalImage");
-            const captionText = document.getElementById("caption");
-            const imageUrl = partnerImages[index];
-            const rawName = imageUrl.split('/').pop().split('.').slice(0, -1).join('.');
-            const name = rawName.replace(/ \d+$/, '').trim();
+function applyTranslations() {
+  // Plain translations (text / lists)
+  document.querySelectorAll('[data-translate]').forEach((element) => {
+    const keyPath = element.getAttribute('data-translate');
+    if (!keyPath) return;
 
-            modalImg.src = imageUrl;
-            captionText.innerHTML = name;
-            currentImageIndex = index;
-        }
+    const iconHeight = element.getAttribute('data-icon-height');
+    const value = t(keyPath);
 
-        function createPartnerGallery() {
-            const galleryContainer = document.getElementById('partners-gallery-container');
-            if (!galleryContainer) return;
-            galleryContainer.innerHTML = ''; // Clear previous content to prevent duplicates
+    if (Array.isArray(value)) {
+      if (element.tagName === 'UL' || element.tagName === 'OL') {
+        renderList(element, value, iconHeight);
+      } else {
+        renderParagraphs(element, value, iconHeight);
+      }
+      return;
+    }
 
-            const scrollContainer = document.createElement('div');
-            scrollContainer.className = 'partners-gallery-scroll';
+    setElementText(element, value, iconHeight);
+  });
 
-            partnerImages.forEach((imageUrl, index) => {
-                const galleryItem = document.createElement('div');
-                galleryItem.className = 'partner-gallery-item';
+  // Explicit HTML translations
+  document.querySelectorAll('[data-translate-html]').forEach((element) => {
+    const keyPath = element.getAttribute('data-translate-html');
+    if (!keyPath) return;
 
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                
-                img.onclick = function() {
-                    const modal = document.getElementById("imageModal");
-                    modal.style.display = "block";
-                    updateModalImage(index);
-                }
+    const iconHeight = element.getAttribute('data-icon-height');
+    const value = t(keyPath);
 
-                const rawName = imageUrl.split('/').pop().split('.').slice(0, -1).join('.');
-                const name = rawName.replace(/ \d+$/, '').trim();
-                const nameElement = document.createElement('p');
-                nameElement.textContent = name;
+    if (Array.isArray(value)) {
+      if (element.tagName === 'UL' || element.tagName === 'OL') {
+        renderList(element, value, iconHeight);
+      } else {
+        renderParagraphs(element, value, iconHeight);
+      }
+      return;
+    }
 
-                galleryItem.appendChild(img);
-                galleryItem.appendChild(nameElement);
-                scrollContainer.appendChild(galleryItem);
-            });
+    setElementHtml(element, value, iconHeight);
+  });
 
-            galleryContainer.appendChild(scrollContainer);
+  // Array-as-paragraphs helper
+  document.querySelectorAll('[data-translate-paragraphs]').forEach((element) => {
+    const keyPath = element.getAttribute('data-translate-paragraphs');
+    if (!keyPath) return;
 
-            if (partnerImages.length > 3) {
-                const leftButton = document.createElement('button');
-                leftButton.textContent = '‹';
-                leftButton.className = 'scroll-btn left';
-                leftButton.onclick = () => {
-                    scrollContainer.scrollBy({ left: -320, behavior: 'smooth' });
-                };
+    const iconHeight = element.getAttribute('data-icon-height');
+    const value = t(keyPath);
+    const paragraphs = Array.isArray(value) ? value : [value];
+    renderParagraphs(element, paragraphs, iconHeight);
+  });
 
-                const rightButton = document.createElement('button');
-                rightButton.textContent = '›';
-                rightButton.className = 'scroll-btn right';
-                rightButton.onclick = () => {
-                    scrollContainer.scrollBy({ left: 320, behavior: 'smooth' });
-                };
+  syncTestimonialToggleLabels();
+}
 
-                galleryContainer.appendChild(leftButton);
-                galleryContainer.appendChild(rightButton);
-            }
-        }
-        const paginationContainer = document.querySelector('.partners-pagination');
-        const contentContainer = document.querySelector('.partners-content');
+function normalizeLanguage(lang) {
+  const value = String(lang || '')
+    .trim()
+    .toLowerCase();
+  return value || DEFAULT_LANGUAGE;
+}
 
-        if (paginationContainer && contentContainer) {
-            const states = Object.keys(partnersData);
+function isSupportedLanguage(lang) {
+  return hasOwn(translations, lang);
+}
 
-            states.forEach((state, index) => {
-                const button = document.createElement('button');
-                button.className = 'partner-page-btn';
-                button.textContent = state;
-                button.dataset.state = state;
-                if (index === 0) {
-                    button.classList.add('active');
-                }
-                paginationContainer.appendChild(button);
+function normalizePathname(pathname) {
+  if (!pathname) return '/';
+  const normalized = String(pathname).replace(/\/index\.html$/, '/');
+  return normalized.startsWith('/') ? normalized : `/${normalized}`;
+}
 
-                const list = document.createElement('div');
-                list.className = 'partner-list';
-                list.dataset.state = state;
-                if (index === 0) {
-                    list.classList.add('active');
-                }
+function getLanguageFromUrl() {
+  const pathname = normalizePathname(window.location.pathname);
+  const parts = pathname.split('/').filter(Boolean);
+  const maybeLang = parts[0] ? normalizeLanguage(parts[0]) : '';
+  return maybeLang && isSupportedLanguage(maybeLang) ? maybeLang : null;
+}
 
-                let partnersHtml = '';
-                partnersData[state].forEach(partner => {
-                    partnersHtml += `<div class="partner-item"><a href="${partner.link}" target="_blank" rel="noopener noreferrer" . >${partner.name} (${partner.city})</a></div>`;
-                });
+function getPathForLanguage(lang) {
+  const normalized = normalizeLanguage(lang);
+  return normalized === DEFAULT_LANGUAGE ? '/' : `/${normalized}/`;
+}
 
-                list.innerHTML = partnersHtml;
-                contentContainer.appendChild(list);
-            });
+function updateUrlForLanguage(lang, { replace = false } = {}) {
+  const pathname = normalizePathname(window.location.pathname);
+  const targetPath = getPathForLanguage(lang);
+  if (pathname === targetPath) return;
 
-            paginationContainer.addEventListener('click', function(e) {
-                if (e.target.classList.contains('partner-page-btn')) {
-                    const targetState = e.target.dataset.state;
+  const nextUrl = `${targetPath}${window.location.search}${window.location.hash}`;
+  const method = replace ? 'replaceState' : 'pushState';
+  window.history[method]({ lang }, '', nextUrl);
+}
 
-                    document.querySelectorAll('.partner-page-btn').forEach(btn => btn.classList.remove('active'));
-                    e.target.classList.add('active');
+function getButtonLanguage(button) {
+  if (button.dataset && button.dataset.lang) return button.dataset.lang;
 
-                    document.querySelectorAll('.partner-list').forEach(list => {
-                        list.classList.remove('active');
-                        if (list.dataset.state === targetState) {
-                            list.classList.add('active');
-                        }
-                    });
-                }
-            });
-        }
+  const onClick = button.getAttribute('onclick') || '';
+  const match = onClick.match(/switchLanguage\('([^']+)'\)/);
+  return match?.[1] ?? '';
+}
 
-        document.querySelectorAll('.testimonial-more a').forEach(link => {
-            link.addEventListener('click', function(e) {
-                const card = this.closest('.testimonial-card');
-                const text = card.querySelector('.testimonial-text');
-                
-                if (this.textContent === 'More' || this.textContent === 'Подробнее' || this.textContent === 'Детальніше') {
-                    e.preventDefault();
-                    text.style.webkitLineClamp = 'unset';
-                    if (document.documentElement.lang === 'ru') this.textContent = 'Свернуть';
-                    else if (document.documentElement.lang === 'uk') this.textContent = 'Згорнути';
-                    else this.textContent = 'Less';
-                } else {
-                    e.preventDefault();
-                    text.style.webkitLineClamp = '3';
-                    if (document.documentElement.lang === 'ru') this.textContent = 'Подробнее';
-                    else if (document.documentElement.lang === 'uk') this.textContent = 'Детальніше';
-                    else this.textContent = 'More';
-                }
-            });
-        });
+function setActiveLanguageButton(lang) {
+  document.querySelectorAll('.lang-btn').forEach((btn) => {
+    const btnLang = getButtonLanguage(btn);
+    btn.classList.toggle('active', btnLang === lang);
+  });
+}
 
-        // Privacy Policy Modal functionality
-        function initPrivacyModal() {
-            const privacyModal = document.getElementById('privacyModal');
-            const privacyModalBody = document.getElementById('privacyModalBody');
-            const privacyClose = document.querySelector('.privacy-close');
-            
-            // Function to open privacy modal
-            function openPrivacyModal() {
-                const currentLang = document.documentElement.lang || 'en';
-                const content = translations[currentLang].privacyPolicyContent;
-                privacyModalBody.innerHTML = content;
-                privacyModal.style.display = 'block';
-                document.body.style.overflow = 'hidden'; // Prevent background scrolling
-            }
-            
-            // Function to close privacy modal
-            function closePrivacyModal() {
-                privacyModal.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Restore scrolling
-            }
-            
-            // Event listener for privacy notes link (using event delegation)
-            document.addEventListener('click', function(e) {
-                if (e.target && e.target.id === 'privacy-notes-link') {
-                    e.preventDefault();
-                    openPrivacyModal();
-                }
-            });
-            
-            // Event listener for close button
-            if (privacyClose) {
-                privacyClose.addEventListener('click', closePrivacyModal);
-            }
-            
-            // Event listener for clicking outside modal content
-            privacyModal.addEventListener('click', function(e) {
-                if (e.target === privacyModal) {
-                    closePrivacyModal();
-                }
-            });
-            
-            // Event listener for ESC key
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape' && privacyModal.style.display === 'block') {
-                    closePrivacyModal();
-                }
-            });
-        }
-        
-        // Initialize privacy modal when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initPrivacyModal);
-        } else {
-            initPrivacyModal();
-        }
+function setLanguage(lang, { persist = true } = {}) {
+  const normalized = normalizeLanguage(lang);
+  const nextLang = isSupportedLanguage(normalized) ? normalized : DEFAULT_LANGUAGE;
 
-        // Dental Professionals Modal functionality
-        function initDentalProfessionalsModal() {
-            const dentalModal = document.getElementById('dentalProfessionalsModal');
-            const dentalModalBody = document.getElementById('dentalProfessionalsModalBody');
-            const dentalClose = document.querySelector('.dental-close');
-            
-            // Function to open dental professionals modal
-            function openDentalModal() {
-                const currentLang = document.documentElement.lang || 'en';
-                const content = replaceToothEmoji(translations[currentLang].dentalProfessionalsFullContent, 30);
-                dentalModalBody.innerHTML = content;
-                dentalModal.style.display = 'block';
-                document.body.style.overflow = 'hidden'; // Prevent background scrolling
-            }
-            
-            // Function to close dental professionals modal
-            function closeDentalModal() {
-                dentalModal.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Restore scrolling
-            }
-            
-            // Event listener for dental professionals link (using event delegation)
-            document.addEventListener('click', function(e) {
-                if (e.target && e.target.id === 'dental-professionals-link') {
-                    e.preventDefault();
-                    openDentalModal();
-                }
-            });
-            
-            // Event listener for close button
-            if (dentalClose) {
-                dentalClose.addEventListener('click', closeDentalModal);
-            }
-            
-            // Event listener for clicking outside modal content
-            dentalModal.addEventListener('click', function(e) {
-                if (e.target === dentalModal) {
-                    closeDentalModal();
-                }
-            });
-            
-            // Event listener for ESC key
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape' && dentalModal.style.display === 'block') {
-                    closeDentalModal();
-                }
-            });
-        }
+  currentLanguage = nextLang;
+  document.documentElement.lang = nextLang;
 
-        // Initialize dental professionals modal when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initDentalProfessionalsModal);
-        } else {
-            initDentalProfessionalsModal();
-        }
-    {/* </script> */}
+  setActiveLanguageButton(nextLang);
+  applyTranslations();
+
+  if (persist) {
+    localStorage.setItem(STORAGE_KEY, nextLang);
+  }
+
+  return nextLang;
+}
+
+function initLanguageSwitcher() {
+  const container = document.querySelector('.language-switcher');
+  if (!container) return;
+
+  container.addEventListener('click', (e) => {
+    const button = e.target instanceof Element ? e.target.closest('.lang-btn') : null;
+    if (!button) return;
+
+    const lang = getButtonLanguage(button);
+    if (!lang) return;
+
+    const appliedLang = setLanguage(lang);
+    updateUrlForLanguage(appliedLang);
+  });
+}
+
+function restoreLanguage() {
+  const fromUrl = getLanguageFromUrl();
+  if (fromUrl) return fromUrl;
+
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved) {
+    const normalized = normalizeLanguage(saved);
+    if (isSupportedLanguage(normalized)) return normalized;
+  }
+
+  const fromDocument = document.documentElement.lang;
+  if (fromDocument) {
+    const normalized = normalizeLanguage(fromDocument);
+    if (isSupportedLanguage(normalized)) return normalized;
+  }
+
+  return DEFAULT_LANGUAGE;
+}
+
+// Partners Section Logic
+
+function initPartnersSection() {
+  const paginationContainer = document.querySelector('.partners-pagination');
+  const contentContainer = document.querySelector('.partners-content');
+  if (!paginationContainer || !contentContainer) return;
+
+  paginationContainer.textContent = '';
+  contentContainer.textContent = '';
+
+  const states = Object.keys(partnersData);
+
+  states.forEach((state, index) => {
+    const button = document.createElement('button');
+    button.className = 'partner-page-btn';
+    button.textContent = state;
+    button.dataset.state = state;
+    button.classList.toggle('active', index === 0);
+    paginationContainer.appendChild(button);
+
+    const list = document.createElement('div');
+    list.className = 'partner-list';
+    list.dataset.state = state;
+    list.classList.toggle('active', index === 0);
+
+    const partnersHtml = partnersData[state]
+      .map(
+        (partner) =>
+          `<div class="partner-item"><a href="${partner.link}" target="_blank" rel="noopener noreferrer">${partner.name} (${partner.city})</a></div>`
+      )
+      .join('');
+
+    list.innerHTML = partnersHtml;
+    contentContainer.appendChild(list);
+  });
+
+  paginationContainer.addEventListener('click', (e) => {
+    const button = e.target instanceof Element ? e.target.closest('.partner-page-btn') : null;
+    if (!button) return;
+
+    const targetState = button.dataset.state;
+    if (!targetState) return;
+
+    paginationContainer
+      .querySelectorAll('.partner-page-btn')
+      .forEach((btn) => btn.classList.toggle('active', btn === button));
+
+    contentContainer.querySelectorAll('.partner-list').forEach((list) => {
+      list.classList.toggle('active', list.dataset.state === targetState);
+    });
+  });
+}
+
+function initTestimonialToggles() {
+  document.addEventListener('click', (e) => {
+    const link = e.target instanceof Element ? e.target.closest('.testimonial-more a') : null;
+    if (!link) return;
+
+    e.preventDefault();
+
+    const card = link.closest('.testimonial-card');
+    const text = card?.querySelector('.testimonial-text');
+    if (!text) return;
+
+    const isExpanded = link.getAttribute('data-expanded') === 'true';
+    link.setAttribute('data-expanded', (!isExpanded).toString());
+    text.style.webkitLineClamp = isExpanded ? '3' : 'unset';
+
+    syncTestimonialToggleLabels();
+  });
+}
+
+function syncTestimonialToggleLabels() {
+  const moreLabel = t('testimonialMore');
+  const lessLabel = t('testimonialLess');
+
+  document.querySelectorAll('.testimonial-more a').forEach((link) => {
+    const isExpanded = link.getAttribute('data-expanded') === 'true';
+    link.textContent = isExpanded ? String(lessLabel) : String(moreLabel);
+  });
+}
+
+function initModal({ modalId, bodyId, closeSelector, triggerId, getContent }) {
+  const modal = document.getElementById(modalId);
+  const body = document.getElementById(bodyId);
+  if (!modal || !body) return;
+
+  const closeButton = modal.querySelector(closeSelector);
+
+  function open() {
+    body.innerHTML = String(getContent());
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto';
+  }
+
+  document.addEventListener('click', (e) => {
+    if (e.target instanceof Element && e.target.id === triggerId) {
+      e.preventDefault();
+      open();
+    }
+  });
+
+  closeButton?.addEventListener('click', close);
+
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) close();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.style.display === 'block') close();
+  });
+}
+
+function initModals() {
+  initModal({
+    modalId: 'privacyModal',
+    bodyId: 'privacyModalBody',
+    closeSelector: '.privacy-close',
+    triggerId: 'privacy-notes-link',
+    getContent: () => replaceToothEmoji(String(t('privacyPolicyContent')), 30)
+  });
+
+  initModal({
+    modalId: 'dentalProfessionalsModal',
+    bodyId: 'dentalProfessionalsModalBody',
+    closeSelector: '.dental-close',
+    triggerId: 'dental-professionals-link',
+    getContent: () => replaceToothEmoji(String(t('dentalProfessionalsFullContent')), 30)
+  });
+}
+
+function normalizeEligibility(value) {
+  const normalized = String(value || '')
+    .trim()
+    .toLowerCase();
+  if (normalized === 'yes' || normalized === 'no') return normalized;
+  return 'unknown';
+}
+
+function scrollToElement(element) {
+  if (!element) return;
+  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function initSource1EligibilityGate() {
+  const gate = document.getElementById('source1EligibilityGate');
+  const details = document.getElementById('source1Details');
+  const summary = details?.querySelector('summary');
+  const source2Gate = document.getElementById('source2EligibilityGate');
+  const navSource1 = document.querySelector('.section-nav [data-nav-item="source1"]');
+
+  if (!gate || !(details instanceof HTMLDetailsElement)) return;
+
+  function applyEligibility(value, { persist = true, scroll = false } = {}) {
+    const normalized = normalizeEligibility(value);
+
+    if (persist) {
+      if (normalized === 'yes' || normalized === 'no') {
+        sessionStorage.setItem(SOURCE1_ELIGIBILITY_KEY, normalized);
+      } else {
+        sessionStorage.removeItem(SOURCE1_ELIGIBILITY_KEY);
+      }
+    }
+
+    details.dataset.eligibility = normalized;
+
+    if (normalized === 'yes') {
+      details.classList.remove('is-locked', 'is-ineligible');
+      details.open = true;
+      if (navSource1) navSource1.hidden = false;
+      if (scroll) scrollToElement(details);
+      return;
+    }
+
+    details.open = false;
+    details.classList.add('is-locked');
+
+    if (normalized === 'no') {
+      details.classList.add('is-ineligible');
+      if (navSource1) navSource1.hidden = true;
+      if (scroll) scrollToElement(source2Gate);
+      return;
+    }
+
+    details.classList.remove('is-ineligible');
+    if (navSource1) navSource1.hidden = false;
+  }
+
+  gate.addEventListener('click', (e) => {
+    const button = e.target instanceof Element ? e.target.closest('button[data-eligibility]') : null;
+    if (!button) return;
+
+    const value = normalizeEligibility(button.getAttribute('data-eligibility'));
+    applyEligibility(value, { scroll: true });
+  });
+
+  summary?.addEventListener('click', (e) => {
+    if (!details.classList.contains('is-locked')) return;
+    e.preventDefault();
+    scrollToElement(gate);
+  });
+
+  const saved = normalizeEligibility(sessionStorage.getItem(SOURCE1_ELIGIBILITY_KEY));
+  applyEligibility(saved, { persist: false, scroll: false });
+}
+
+function initSource2EligibilityGate() {
+  const gate = document.getElementById('source2EligibilityGate');
+  const details = document.getElementById('source2Details');
+  const summary = details?.querySelector('summary');
+  const source3 = document.getElementById('source3');
+  const navSource2 = document.querySelector('.section-nav [data-nav-item="source2"]');
+
+  if (!gate || !(details instanceof HTMLDetailsElement)) return;
+
+  function applyEligibility(value, { persist = true, scroll = false } = {}) {
+    const normalized = normalizeEligibility(value);
+
+    if (persist) {
+      if (normalized === 'yes' || normalized === 'no') {
+        sessionStorage.setItem(SOURCE2_ELIGIBILITY_KEY, normalized);
+      } else {
+        sessionStorage.removeItem(SOURCE2_ELIGIBILITY_KEY);
+      }
+    }
+
+    details.dataset.eligibility = normalized;
+
+    if (normalized === 'yes') {
+      details.classList.remove('is-locked', 'is-ineligible');
+      details.open = true;
+      if (navSource2) navSource2.hidden = false;
+      if (scroll) scrollToElement(details);
+      return;
+    }
+
+    details.open = false;
+    details.classList.add('is-locked');
+
+    if (normalized === 'no') {
+      details.classList.add('is-ineligible');
+      if (navSource2) navSource2.hidden = true;
+      if (scroll) scrollToElement(source3);
+      return;
+    }
+
+    details.classList.remove('is-ineligible');
+    if (navSource2) navSource2.hidden = false;
+  }
+
+  gate.addEventListener('click', (e) => {
+    const button = e.target instanceof Element ? e.target.closest('button[data-eligibility]') : null;
+    if (!button) return;
+
+    const value = normalizeEligibility(button.getAttribute('data-eligibility'));
+    applyEligibility(value, { scroll: true });
+  });
+
+  summary?.addEventListener('click', (e) => {
+    if (!details.classList.contains('is-locked')) return;
+    e.preventDefault();
+    scrollToElement(gate);
+  });
+
+  const saved = normalizeEligibility(sessionStorage.getItem(SOURCE2_ELIGIBILITY_KEY));
+  applyEligibility(saved, { persist: false, scroll: false });
+}
+
+function initSectionNav() {
+  const nav = document.querySelector('.section-nav');
+  if (!nav) return;
+
+  const links = Array.from(nav.querySelectorAll('a.section-nav-link[href^="#"]'));
+  let activeId = '';
+  const getLinkById = (id) => links.find((link) => link.getAttribute('href') === `#${id}`) ?? null;
+
+  const items = links
+    .map((link) => {
+      const href = link.getAttribute('href') || '';
+      const id = href.startsWith('#') ? href.slice(1) : '';
+      const target = id ? document.getElementById(id) : null;
+      return target ? { link, target, id } : null;
+    })
+    .filter(Boolean);
+
+  if (items.length === 0) return;
+
+  function isMobileNav() {
+    return window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+  }
+
+  function ensureNavLinkVisible(link) {
+    if (!link || !(link instanceof HTMLElement)) return;
+    if (!isMobileNav()) return;
+    if (nav.scrollWidth <= nav.clientWidth) return;
+    if (link.hidden) return;
+
+    const navRect = nav.getBoundingClientRect();
+    const linkRect = link.getBoundingClientRect();
+    const padding = 10;
+
+    const isFullyVisible =
+      linkRect.left >= navRect.left + padding && linkRect.right <= navRect.right - padding;
+    if (isFullyVisible) return;
+
+    link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  }
+
+  function setActive(id, { scrollNav = true } = {}) {
+    if (!id) return;
+    if (activeId === id) {
+      if (scrollNav) {
+        ensureNavLinkVisible(getLinkById(id));
+      }
+      return;
+    }
+
+    activeId = id;
+    links.forEach((link) => {
+      link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+    });
+
+    if (scrollNav) {
+      ensureNavLinkVisible(getLinkById(id));
+    }
+  }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting && entry.target instanceof HTMLElement)
+        .sort((a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0));
+
+      if (visible.length === 0) return;
+      const best = visible[0];
+      const id = best.target.id;
+      if (id) setActive(id);
+    },
+    {
+      root: null,
+      threshold: [0.15, 0.25, 0.35, 0.45, 0.55],
+      rootMargin: '-20% 0px -65% 0px'
+    }
+  );
+
+  items.forEach(({ target }) => observer.observe(target));
+
+  nav.addEventListener('click', (e) => {
+    const link = e.target instanceof Element ? e.target.closest('a.section-nav-link[href^="#"]') : null;
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    if (!href.startsWith('#')) return;
+    setActive(href.slice(1), { scrollNav: true });
+  });
+}
+
+function init() {
+  initLanguageSwitcher();
+  initPartnersSection();
+  initTestimonialToggles();
+  initModals();
+
+  window.addEventListener('popstate', () => {
+    setLanguage(restoreLanguage(), { persist: false });
+  });
+
+  const initialLang = restoreLanguage();
+  setLanguage(initialLang, { persist: false });
+  updateUrlForLanguage(initialLang, { replace: true });
+
+  initSource1EligibilityGate();
+  initSource2EligibilityGate();
+  initSectionNav();
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
